@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Deployed Application](#deployed-application)
 * [Usage](#usage)
 * [License](#license)
-* [Available-Scripts] (#available-scripts)
+* [Available-Scripts](#available-scripts)
 * [Learn-More](#learn-more)
 * [Contributing](#contributing)
 * [Questions](#questions)
