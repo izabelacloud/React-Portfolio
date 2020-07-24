@@ -17,10 +17,7 @@ function Portfolio() {
       case 'About': 
       return (<About></About>)
 
-      // case 'Project': 
-      // return (<Projects></Projects>)
-
-      case 'Project': 
+      case 'Portfolio': 
       return (<Projects></Projects>)
 
       case 'Contact': 

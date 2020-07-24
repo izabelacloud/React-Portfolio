@@ -4,16 +4,20 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer"
 
 const App = () => {
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
+    <>
     <div>
-        <>
-         <Header></Header> 
-         <Projects></Projects>
-         <Footer></Footer>
-        </>
+        <Header>contactSelected={contactSelected}</Header> 
+    {/* </div>
+        <Projects></Projects>
+    <div> */}
+        <Footer></Footer>
     </div>
 
+
+    </>
 
   )
 
