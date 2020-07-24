@@ -1,4 +1,36 @@
+# React Portfolio - Izabela Petrovicova
+
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+
+## Description
+
+The React Portfolio is an application showcasing the portfolio of Izabela Petrovicova. This application is leveraging React. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Table of Contents
+
+* [Deployed Application](#deployed-application)
+* [Usage](#usage)
+* [License](#license)
+* [Available-Scripts] (#available-scripts)
+* [Learn-More](#learn-more)
+* [Contributing](#contributing)
+* [Questions](#questions)
+
+
+## Deployed Application 
+
+[React Portfolio](TBD)<br />
+
+
+## Usage
+
+This application allows to view the existing portfolio and the projects of Izabela Petrovicova. 
+
+## License
+
+This project is licensed under the MIT.
 
 ## Available Scripts
 
@@ -66,3 +98,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Contributing
+
+Izabela Petrovicova
+
+
+## Questions
+
+If you have any questions about the repository, contact me directly at i.petrovicova@gmail.com. You can find more of my work at https://github.com/izabelacloud.
