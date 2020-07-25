@@ -22,6 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deployed Application 
 
 [React Portfolio](https://react-portfolio-izabelapetrovicova.netlify.app/)<br />
+![Image](https://github.com/izabelacloud/React-Portfolio/blob/master/src/assets/cover/mainpage.png?raw=true)<br />
 
 
 ## Usage
