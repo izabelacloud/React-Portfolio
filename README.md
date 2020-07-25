@@ -21,7 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployed Application 
 
-[React Portfolio](TBD)<br />
+[React Portfolio](https://react-portfolio-izabelapetrovicova.netlify.app/)<br />
 
 
 ## Usage
