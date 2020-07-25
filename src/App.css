@@ -9,6 +9,7 @@
   --darker: #111111;
 
 
+
 }
 
 * {
@@ -78,6 +79,7 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  font-size: 25px;
 }
 
 a:hover {
