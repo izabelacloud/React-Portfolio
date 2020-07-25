@@ -1,5 +1,6 @@
 import React, { useState} from "react";
 import projects from '../projects.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -37,13 +38,6 @@ function Projects() {
 
   const [projectsList, setProjectsList] = useState(projects);
 
-
-  const removeProject = (projectId) => {
-    const projectsListNewArr = projectsList.filter((project) => project.id !== projectId);
-    setProjectsList(projectsListNewArr)
-  }
-
-
   
  const renderProject = (project) => {
    return (
@@ -52,7 +46,7 @@ function Projects() {
      image={project.image} 
      id={project.id} 
      url={project.url} 
-     removeProject={removeProject}
+     key={project.id}
      />
    )
  }

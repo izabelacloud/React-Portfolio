@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail} from '../../utils/helpers';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
 

@@ -3,7 +3,8 @@ import Navigation from './Navigation';
 import About from './pages/About';
 import Projects from './Projects';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume'
+import Resume from './pages/Resume';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
   const [currentPage, handlePageChange] = useState('About');
@@ -12,7 +13,6 @@ function Portfolio() {
 
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
-    // YOUR CODE HERE
     switch(currentPage) {
       case 'About': 
       return (<About></About>)
@@ -29,7 +29,7 @@ function Portfolio() {
       default: 
       return(<About></About>)
     }
-    //
+
   };
 
   return (
@@ -38,9 +38,7 @@ function Portfolio() {
       <div>
         {
           // Render the component returned by 'renderPage()'
-          // YOUR CODE HERE
           renderPage()
-          //
         }
       </div>
     </div>

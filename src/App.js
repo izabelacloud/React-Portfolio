@@ -1,24 +1,19 @@
-import React, {useState} from "react";
+import React from "react";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
-  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <>
     <div>
-        <Header>contactSelected={contactSelected}</Header> 
-    {/* </div>
-        <Projects></Projects>
-    <div> */}
+        <Header></Header> 
+    </div>
+    <div>
         <Footer></Footer>
     </div>
-
-
     </>
-
   )
 
 }
