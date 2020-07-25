@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function Navigation(props) {
   const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav navActive">
       {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
+        <li className="" key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}

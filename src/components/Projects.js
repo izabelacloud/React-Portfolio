@@ -9,22 +9,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProjectCard(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-            <img alt={props.name} src={props.image} />
-            <a href={props.github} target="_blank" rel="noopener noreferrer">Github</a>
-        <div>
-            <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">Deployed Application</a>  
-        </div>
-
-      </div>
+    <div className="card-container col-12">
+        <div className="card">
+        <img alt={props.name} src={props.image} className="card-img" />
+              <a href={props.github} target="_blank" rel="noopener noreferrer">Github</a>
+          <div>
+              <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">Deployed Application</a>  
+          </div>
+      </div>  
     </div>
   );
 }
 
 
 function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
+  return <div className="">{props.children}</div>;
 }
 
 
@@ -50,7 +49,7 @@ function Projects() {
 
   return (
     <Wrapper>
-      <h1 className="title">Project List</h1>
+      <h1 className="project-list">Project List</h1>
 
         {projectsList.map((project) => (
         renderProject(project)
