@@ -11,8 +11,9 @@ function ProjectCard(props) {
   return (
     <div className="card-container col-12">
         <div className="card">
-        <img alt={props.name} src={props.image} className="card-img" />
-              <a href={props.github} target="_blank" rel="noopener noreferrer">Github</a>
+          <img alt={props.name} src={props.image} className="card-img" />
+          <h3>{props.name}</h3>
+          <a href={props.github} target="_blank" rel="noopener noreferrer">Github</a>
           <div>
               <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">Deployed Application</a>  
           </div>
