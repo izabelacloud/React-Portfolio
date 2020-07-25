@@ -3,35 +3,48 @@
       "id": 1,
       "name": "Recipe Parade",
       "image": "https://raw.githubusercontent.com/izabelacloud/Recipe-Parade/master/assets/Hero-Image.png",
-      "url": "https://github.com/izabelacloud/Recipe-Parade",
+      "github": "https://github.com/izabelacloud/Recipe-Parade",
+      "deployedapp": "https://recipe-parade.herokuapp.com/",
       "description": "Recipe Parade"
     },
     {
       "id": 2,
       "name": "Travel Planner",
       "image": "https://raw.githubusercontent.com/izabelacloud/Travel-Planner/master/assets/images/App1.png",
-      "url": "https://izabelacloud.github.io/Travel-Planner/",
+      "github": "https://izabelacloud.github.io/Travel-Planner/",
+      "deployedapp": "https://izabelacloud.github.io/Travel-Planner/",
       "description": "Travel Planner"
     },
     {
       "id": 3,
       "name": "Run Buddy",
       "image": "https://github.com/izabelacloud/run-buddy/blob/master/assets/images/hero-bg.jpg?raw=true",
-      "url": "https://izabelacloud.github.io/run-buddy/",
+      "github": "https://izabelacloud.github.io/run-buddy/",
+      "deployedapp": "https://lernantino.github.io/run-buddy/",
       "description": "Run Buddy"
     },
     {
       "id": 4,
       "name": "Weather Dashboard",
       "image": "https://raw.githubusercontent.com/izabelacloud/Weather-Dashboard/master/assets/images/weatherdashboardpreview.png",
-      "url": "https://github.com/izabelacloud/Weather-Dashboard",
+      "github": "https://github.com/izabelacloud/Weather-Dashboard",
+      "deployedapp": "https://izabelacloud.github.io/Weather-Dashboard/",
       "description": "Weather Dashboard"
     },
     {
       "id": 5,
       "name": "WIP",
       "image": "http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg",
-      "url": "https://lmgtfy.com/",
+      "github": "https://lmgtfy.com/",
+      "deployedapp": "https://lmgtfy.com/",
+      "description": "WIP"
+    },
+    {
+      "id": 6,
+      "name": "WIP",
+      "image": "http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg",
+      "github": "https://lmgtfy.com/",
+      "deployedapp": "https://lmgtfy.com/",
       "description": "WIP"
     }
 ]

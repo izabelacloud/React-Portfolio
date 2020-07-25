@@ -11,18 +11,13 @@ function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+            <img alt={props.name} src={props.image} />
+            <a href={props.github} target="_blank" rel="noopener noreferrer">Github</a>
+        <div>
+            <a href={props.deployedapp} target="_blank" rel="noopener noreferrer">Deployed Application</a>  
+        </div>
+
       </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>{props.name}</strong> 
-          </li>
-        </ul>
-      </div>
-      {/* <span onClick={() => props.removeFriend(props.id)} className="remove"> */}
-        {/* 𝘅
-      </span> */}
     </div>
   );
 }
@@ -45,7 +40,8 @@ function Projects() {
      name={project.name} 
      image={project.image} 
      id={project.id} 
-     url={project.url} 
+     github={project.github} 
+     deployedapp={project.deployedapp}
      key={project.id}
      />
    )
