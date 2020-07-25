@@ -62,7 +62,7 @@ function Contact() {
 
     
     return (
-        <section className="contact-form">
+        <section className="">
             <h1 className="contact-container">Contact</h1>
             <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
             {/* // name input
@@ -72,19 +72,19 @@ function Contact() {
                     <label htmlFor="name">Name:</label>
                     </div>
                 <div>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+                    <input className="form-input" type="text" name="name" defaultValue={name} onBlur={handleChange}/>
                 </div>
                 <div>
                     <label htmlFor="email">Email Address:</label>
                 </div>
                 <div>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <input className="form-input" type="email" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
                 </div>
                 <div>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    <textarea className="form-input" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                     {errorMessage && (
                 <div>
                     <p className="error-text">{errorMessage}</p>

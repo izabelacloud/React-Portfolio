@@ -11,17 +11,17 @@
       "id": 2,
       "name": "Travel Planner",
       "image": "https://raw.githubusercontent.com/izabelacloud/Travel-Planner/master/assets/images/App1.png",
-      "github": "https://izabelacloud.github.io/Travel-Planner/",
+      "github": "https://github.com/izabelacloud/Travel-Planner",
       "deployedapp": "https://izabelacloud.github.io/Travel-Planner/",
       "description": "Travel Planner"
     },
     {
-      "id": 3,
-      "name": "Run Buddy",
-      "image": "https://github.com/izabelacloud/run-buddy/blob/master/assets/images/hero-bg.jpg?raw=true",
-      "github": "https://izabelacloud.github.io/run-buddy/",
-      "deployedapp": "https://lernantino.github.io/run-buddy/",
-      "description": "Run Buddy"
+        "id": 3,
+        "name": "Budget Tracker",
+        "image": "https://github.com/izabelacloud/Budget--Tracker/blob/master/assets/budget-tracker.png?raw=true",
+        "github": "https://github.com/izabelacloud/Budget--Tracker",
+        "deployedapp": "https://floating-retreat-05984.herokuapp.com/",
+        "description": "Budget Tracker"
     },
     {
       "id": 4,
@@ -32,20 +32,20 @@
       "description": "Weather Dashboard"
     },
     {
-      "id": 5,
-      "name": "WIP",
-      "image": "http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg",
-      "github": "https://lmgtfy.com/",
-      "deployedapp": "https://lmgtfy.com/",
-      "description": "WIP"
-    },
+        "id": 5,
+        "name": "Run Buddy",
+        "image": "https://github.com/izabelacloud/run-buddy/blob/master/assets/images/hero-bg.jpg?raw=true",
+        "github": "https://izabelacloud.github.io/run-buddy/",
+        "deployedapp": "https://lernantino.github.io/run-buddy/",
+        "description": "Run Buddy"
+      },
     {
       "id": 6,
-      "name": "WIP",
-      "image": "http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg",
-      "github": "https://lmgtfy.com/",
-      "deployedapp": "https://lmgtfy.com/",
-      "description": "WIP"
+      "name": "Tech Blog",
+      "image": "https://raw.githubusercontent.com/izabelacloud/Tech-Blog/master/assets/tech-blog.png",
+      "github": "https://github.com/izabelacloud/Tech-Blog",
+      "deployedapp": "https://whispering-everglades-49226.herokuapp.com/",
+      "description": "Tech Blog"
     }
 ]
   
