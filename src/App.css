@@ -345,3 +345,31 @@ a {
   margin: 10px;
   flex-direction: column;
 }
+
+.resume-list {
+  border-bottom: 1px solid;
+}
+
+.resume-link {
+  padding: 20px;
+  margin: 20px;
+  font-size:25px;
+}
+
+.resume-link a {
+  color: var(--tertiary);
+}
+
+.resume-link a:hover {
+  color: var(--quinary);
+}
+
+.resume-main {
+  padding: 20px;
+  margin: 20px;
+}
+
+.header-space {
+  padding: 20px 10px ;
+  margin: 10px;
+}

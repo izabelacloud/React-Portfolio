@@ -3,29 +3,38 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Resume = () => (
   <div>
-    <h1>Resume</h1>
+    <h1 className="resume-list">Resume</h1>
 
-    <div>
+    <div className="resume-link">
     <a href="https://drive.google.com/file/d/1LwHVNKQVaa3L9yNnKfuTprYYG6AvWDyY/view?usp=sharing" target="blank" alt="Resume">Download my Resume</a>
     </div>
 
-    <div>
+    <div className="resume-main">
         <div>
-        <h4>Skills</h4>
-        Full Stack Web Development program focusing on Front-end and Server-side and Database Architectures development. <br />
+            <h4 className="">Skills</h4>
         </div>
 
-        <h5>Computer Science applied to JavaScript including:</h5>
-        <li>
+        <div>
+            <p>Full Stack Web Development program focusing on Front-end and Server-side and Database Architectures development.</p>
+        </div>
+
+        <div>
+            <h5 className="header-space">Computer Science applied to JavaScript including:</h5>
+        </div>
+
+        <div>
             <ul>Algorithms (Searches, Sorts)</ul>
             <ul>Efficiency</ul>
             <ul>Time Complexity</ul>
             <ul>Big O Notation</ul>
             <ul>Data Structures</ul>
-        </li>
+        </div>
 
-        <h5>Browser Based Technologies:</h5>
-        <li>
+
+        <div>
+            <h5 className="header-space">Browser Based Technologies:</h5>
+        </div>
+        <div>
             <ul>HTML/CSS</ul>
             <ul>JavaScript/jQuery</ul>
             <ul>Responsive Design</ul>
@@ -33,28 +42,37 @@ const Resume = () => (
             <ul>Handlebars</ul>
             <ul>Local Storage, Session Storage, IndexedDB</ul>
             <ul>React.js</ul>
-        </li>
+        </div>
 
-        <h5>Server Side Development:</h5>
-        <li>
+        <div>
+            <h5 className="header-space">Server Side Development:</h5> 
+        </div>
+
+        <div>
             <ul>User Authentication</ul>
             <ul>Progressive Web Applications (PWAs)</ul>
             <ul>MERN Stack (MongoDB, Express.js, React.js, Node.js)</ul>
-        </li>
+        </div>
 
-        <h5>Databases:</h5>
-        <li>
+        <div>
+            <h5 className="header-space">Databases:</h5>
+        </div>
+        <div>
             <ul>MySQL, Sequelize</ul>
-            <ul>MongoDB, Mongoose</ul>
-        </li>
+            <ul>MongoDB, Mongoose</ul>  
+        </div>
 
-        <h5>API Interaction:</h5>
-        <li>
+        <div>
+            <h5 className="header-space">API Interaction:</h5>
+        </div>
+
+        <div>
             <ul>API</ul>
             <ul>REST</ul>
             <ul>JSON</ul>
             <ul>AJAX</ul>
-        </li>
+        </div>
+
     </div>
 
 
