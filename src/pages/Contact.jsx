@@ -10,6 +10,8 @@ export default function Contact() {
   const [formState, setFormState] = useState(initialState);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState('idle');
+  const [files, setFiles] = useState([]);
+  const [isDragging, setIsDragging] = useState(false);
 
   function validate(state) {
     const nextErrors = {};
@@ -28,6 +30,34 @@ export default function Contact() {
     setFormState((prev) => ({ ...prev, [name]: value }));
   }
 
+  function addFiles(newFiles) {
+    setFiles((prev) => [...prev, ...Array.from(newFiles)]);
+  }
+
+  function removeFile(index) {
+    setFiles((prev) => prev.filter((_, i) => i !== index));
+  }
+
+  function handleFileInputChange(e) {
+    if (e.target.files.length) addFiles(e.target.files);
+    e.target.value = '';
+  }
+
+  function handleDragOver(e) {
+    e.preventDefault();
+    setIsDragging(true);
+  }
+
+  function handleDragLeave() {
+    setIsDragging(false);
+  }
+
+  function handleDrop(e) {
+    e.preventDefault();
+    setIsDragging(false);
+    if (e.dataTransfer.files.length) addFiles(e.dataTransfer.files);
+  }
+
   async function handleSubmit(e) {
     e.preventDefault();
     const nextErrors = validate(formState);
@@ -36,19 +66,24 @@ export default function Contact() {
 
     setStatus('sending');
     try {
+      const data = new FormData();
+      data.append('access_key', WEB3FORMS_ACCESS_KEY);
+      data.append('subject', `Portfolio contact from ${formState.name}`);
+      data.append('name', formState.name);
+      data.append('email', formState.email);
+      data.append('message', formState.message);
+      files.forEach((file) => data.append('attachment', file));
+
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: WEB3FORMS_ACCESS_KEY,
-          subject: `Portfolio contact from ${formState.name}`,
-          ...formState,
-        }),
+        headers: { Accept: 'application/json' },
+        body: data,
       });
       const result = await response.json();
       if (result.success) {
         setStatus('success');
         setFormState(initialState);
+        setFiles([]);
       } else {
         setStatus('error');
       }
@@ -108,6 +143,45 @@ export default function Contact() {
             <p id="message-error" className="mt-1 text-sm text-red-500">
               {errors.message}
             </p>
+          )}
+        </div>
+
+        <div>
+          <label className="mb-1.5 block text-sm font-semibold">Attachments</label>
+          <label
+            onDragOver={handleDragOver}
+            onDragLeave={handleDragLeave}
+            onDrop={handleDrop}
+            className={`flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed px-4 py-8 text-center transition-colors ${
+              isDragging
+                ? 'border-primary bg-primary/5'
+                : 'border-black/10 dark:border-white/10'
+            }`}
+          >
+            <input type="file" multiple onChange={handleFileInputChange} className="hidden" />
+            <p className="text-sm text-ink/60 dark:text-slate-400">
+              Drag and drop files here, or click to browse
+            </p>
+          </label>
+
+          {files.length > 0 && (
+            <ul className="mt-3 space-y-2">
+              {files.map((file, index) => (
+                <li
+                  key={`${file.name}-${index}`}
+                  className="flex items-center justify-between rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/10 dark:bg-white/5"
+                >
+                  <span className="truncate">{file.name}</span>
+                  <button
+                    type="button"
+                    onClick={() => removeFile(index)}
+                    className="ml-3 shrink-0 font-semibold text-red-500 hover:text-red-600"
+                  >
+                    Remove
+                  </button>
+                </li>
+              ))}
+            </ul>
           )}
         </div>
 
