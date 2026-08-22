@@ -1,26 +1,37 @@
 {
   "name": "react-portfolio",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "homepage": "https://izabelacloud.github.io/ip-react",
-  "dependencies": {
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.5.0",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.3.0",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
+  "type": "module",
+  "homepage": "https://izabelacloud.github.io/React-Portfolio",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "framer-motion": "^13.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "eslint": "^9.20.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.14.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.1"
   },
   "browserslist": {
     "production": [
@@ -33,10 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "gh-pages": "^3.1.0"
   }
 }

@@ -1,1 +1,36 @@
-/* App.css is used instead - keeping as it is referenced in other files */
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #809bce;
+  --color-primary-dark: #5f7cae;
+  --color-secondary: #95b8d1;
+  --color-tertiary: #b8e0d2;
+  --color-quaternary: #d6eadf;
+  --color-quinary: #eac4d5;
+  --color-ink: #16181d;
+  --color-surface: #fafafa;
+  --color-surface-dark: #0f1115;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface text-ink font-sans antialiased dark:bg-surface-dark dark:text-slate-100;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-quinary)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
