@@ -127,7 +127,7 @@ export default function Contact() {
               exit={{ opacity: 0 }}
               className="text-sm font-semibold text-tertiary"
             >
-              Thanks for reaching out! I&apos;ll get back to you soon.
+              Your email was sent! I&apos;ll get back to you soon.
             </motion.p>
           )}
           {status === 'error' && (
