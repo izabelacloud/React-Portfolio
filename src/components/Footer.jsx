@@ -1,0 +1,51 @@
+const socials = [
+  {
+    name: 'GitHub',
+    href: 'https://github.com/izabelacloud',
+    icon: (
+      <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z" />
+    ),
+  },
+  {
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/izabela-petrovicova-320b1620/',
+    icon: (
+      <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.44-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM3.56 20.45h3.56V9H3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z" />
+    ),
+  },
+  {
+    name: 'Twitter',
+    href: 'https://twitter.com/IPetrovicova',
+    icon: (
+      <path d="M23 4.92a8.4 8.4 0 0 1-2.36.98 4.2 4.2 0 0 0-7.24 3.66c-3.44-.17-6.5-1.9-8.55-4.53a4.02 4.02 0 0 0 1.3 5.6A4.2 4.2 0 0 1 4 10c0 .03 0 .05 0 .08a4.19 4.19 0 0 0 3.36 4.14 4.24 4.24 0 0 1-1.89.07 4.2 4.2 0 0 0 3.92 2.93A8.42 8.42 0 0 1 1 18.75a11.9 11.9 0 0 0 6.44 1.9c7.73 0 11.96-6.5 11.96-12.14 0-.19 0-.37-.01-.55A8.6 8.6 0 0 0 23 4.92Z" />
+    ),
+  },
+];
+
+export default function Footer() {
+  return (
+    <footer className="mt-24 border-t border-black/5 py-10 dark:border-white/10">
+      <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-6 text-center">
+        <div className="flex items-center gap-5">
+          {socials.map((s) => (
+            <a
+              key={s.name}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.name}
+              className="rounded-full p-2 text-ink/60 transition-colors hover:bg-primary/10 hover:text-primary dark:text-slate-400 dark:hover:text-quinary"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                {s.icon}
+              </svg>
+            </a>
+          ))}
+        </div>
+        <p className="text-sm text-ink/50 dark:text-slate-500">
+          &copy; {new Date().getFullYear()} Izabela Petrovicova. Built with React, Vite &amp; Tailwind CSS.
+        </p>
+      </div>
+    </footer>
+  );
+}
