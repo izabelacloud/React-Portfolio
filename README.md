@@ -11,6 +11,7 @@ Personal portfolio for Izabela Petrovicova, showcasing background, projects, res
 - [Deployed Application](#deployed-application)
 - [Tech Stack](#tech-stack)
 - [Usage](#usage)
+- [Contact Form Setup](#contact-form-setup)
 - [Available Scripts](#available-scripts)
 - [Deployment](#deployment)
 - [License](#license)
@@ -34,6 +35,15 @@ Personal portfolio for Izabela Petrovicova, showcasing background, projects, res
 ## Usage
 
 The site has four sections, reachable from the top navigation: About, Projects, Resume and Contact. It supports light and dark mode (toggle in the nav bar) and is fully responsive.
+
+## Contact Form Setup
+
+The Contact page sends messages via [Web3Forms](https://web3forms.com/), a backend-less form-to-email service, so no server is required. To run the form locally or in your own deployment:
+
+1. Get a free access key at [web3forms.com](https://web3forms.com/) (enter your email, the key arrives instantly).
+2. Copy `.env.example` to `.env` and set `VITE_WEB3FORMS_ACCESS_KEY` to your key.
+
+The key is safe to expose in the client bundle; Web3Forms is designed for static sites and validates submissions server-side.
 
 ## Available Scripts
 
