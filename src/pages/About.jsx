@@ -10,14 +10,14 @@ export default function About() {
         <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent dark:from-surface-dark dark:via-surface-dark/30" />
       </div>
 
-      <div className="flex flex-col items-center text-center">
+      <div className="relative z-10 flex flex-col items-center text-center">
         <motion.img
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           src={userImage}
           alt="Izabela Petrovicova"
-          className="-mt-16 h-32 w-32 flex-none rounded-full border-4 border-white object-cover shadow-lg sm:-mt-20 sm:h-40 sm:w-40 dark:border-white/10"
+          className="mt-8 h-32 w-32 flex-none rounded-full border-4 border-white object-cover shadow-lg sm:h-40 sm:w-40 dark:border-white/10"
         />
 
         <motion.div
@@ -90,7 +90,7 @@ export default function About() {
         className="mx-auto mt-12 max-w-3xl"
       >
         <h2 className="text-xl font-bold">What I Bring</h2>
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap items-start gap-2">
           {[
             'Enterprise & Solution Architecture',
             'Salesforce Technical Leadership',
@@ -107,7 +107,7 @@ export default function About() {
           ].map((tag) => (
             <span
               key={tag}
-              className="rounded-full bg-primary/10 px-3 py-1 text-sm font-semibold text-primary dark:bg-primary/20"
+              className="flex-none rounded-full bg-primary/10 px-3 py-1 text-sm font-semibold text-primary dark:bg-primary/20"
             >
               {tag}
             </span>
