@@ -5,25 +5,26 @@ import userImage from '../assets/ip2.jpg';
 export default function About() {
   return (
     <section>
-      <div className="relative -mx-6 mb-12 h-56 overflow-hidden sm:h-72 md:mx-0 md:rounded-3xl">
+      <div className="relative -mx-6 h-48 overflow-hidden sm:h-64 md:mx-0 md:rounded-3xl">
         <img src={coverImage} alt="" className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent dark:from-surface-dark dark:via-surface-dark/30" />
       </div>
 
-      <div className="grid gap-10 sm:grid-cols-[220px_1fr] sm:items-start">
+      <div className="flex flex-col items-center text-center">
         <motion.img
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           src={userImage}
           alt="Izabela Petrovicova"
-          className="mx-auto h-48 w-48 rounded-full border-4 border-white object-cover shadow-lg sm:mx-0 sm:h-56 sm:w-56 dark:border-white/10"
+          className="-mt-16 h-32 w-32 flex-none rounded-full border-4 border-white object-cover shadow-lg sm:-mt-20 sm:h-40 sm:w-40 dark:border-white/10"
         />
 
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
+          className="mt-5"
         >
           <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
             Hi, I&rsquo;m{' '}
@@ -32,56 +33,61 @@ export default function About() {
           <p className="mt-2 text-lg font-semibold text-primary">
             Executive Technology Leader. Enterprise Architect. Builder.
           </p>
-
-          <div className="mt-4 max-w-2xl space-y-4 text-ink/70 dark:text-slate-300">
-            <p>
-              For more than a decade, I have been helping global organisations
-              solve complex business challenges through technology. My career
-              has been built at the intersection of enterprise architecture,
-              strategic consulting, and hands-on engineering, transforming
-              ambitious business objectives into scalable, practical solutions
-              that deliver measurable value.
-            </p>
-            <p>
-              As a <strong>Technical Architecture Director and Senior
-              Salesforce Enterprise Architect</strong>, I partner with
-              executives, business leaders, and delivery teams to design
-              enterprise-scale digital transformation programs. My expertise
-              spans Salesforce architecture, Quote-to-Cash, Revenue Lifecycle
-              Management, CRM strategy, system integration, cloud platforms,
-              and enterprise solution design across industries including
-              Financial Services, Telecommunications, Manufacturing, SaaS,
-              Analytics, and Professional Services.
-            </p>
-            <p>
-              I believe great architecture is never just about technology.
-              It&rsquo;s about understanding people, aligning stakeholders,
-              simplifying complexity, and creating systems that remain
-              adaptable for years to come. Whether leading multi-million-dollar
-              transformation initiatives, advising C-level executives, or
-              mentoring architecture teams, I focus on balancing strategic
-              vision with practical execution.
-            </p>
-            <p>
-              While enterprise architecture has been the foundation of my
-              career, I have never stopped building. Alongside leading
-              large-scale transformation programs, I actively develop modern
-              web applications using React, JavaScript, TypeScript, and
-              contemporary frontend technologies. This combination of
-              executive architecture experience and hands-on software
-              development allows me to bridge strategy with implementation,
-              connecting boardroom decisions with engineering reality.
-            </p>
-          </div>
         </motion.div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
+        className="mx-auto mt-10 max-w-3xl space-y-4 text-ink/70 dark:text-slate-300"
+      >
+        <p>
+          For more than a decade, I have been helping global organisations
+          solve complex business challenges through technology. My career has
+          been built at the intersection of enterprise architecture,
+          strategic consulting, and hands-on engineering, transforming
+          ambitious business objectives into scalable, practical solutions
+          that deliver measurable value.
+        </p>
+        <p>
+          As a <strong>Technical Architecture Director and Senior Salesforce
+          Enterprise Architect</strong>, I partner with executives, business
+          leaders, and delivery teams to design enterprise-scale digital
+          transformation programs. My expertise spans Salesforce
+          architecture, Quote-to-Cash, Revenue Lifecycle Management, CRM
+          strategy, system integration, cloud platforms, and enterprise
+          solution design across industries including Financial Services,
+          Telecommunications, Manufacturing, SaaS, Analytics, and
+          Professional Services.
+        </p>
+        <p>
+          I believe great architecture is never just about technology.
+          It&rsquo;s about understanding people, aligning stakeholders,
+          simplifying complexity, and creating systems that remain adaptable
+          for years to come. Whether leading multi-million-dollar
+          transformation initiatives, advising C-level executives, or
+          mentoring architecture teams, I focus on balancing strategic vision
+          with practical execution.
+        </p>
+        <p>
+          While enterprise architecture has been the foundation of my career,
+          I have never stopped building. Alongside leading large-scale
+          transformation programs, I actively develop modern web applications
+          using React, JavaScript, TypeScript, and contemporary frontend
+          technologies. This combination of executive architecture experience
+          and hands-on software development allows me to bridge strategy with
+          implementation, connecting boardroom decisions with engineering
+          reality.
+        </p>
+      </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-40px' }}
         transition={{ duration: 0.4 }}
-        className="mt-12"
+        className="mx-auto mt-12 max-w-3xl"
       >
         <h2 className="text-xl font-bold">What I Bring</h2>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -114,7 +120,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-40px' }}
         transition={{ duration: 0.4 }}
-        className="mt-12 max-w-2xl border-t border-black/5 pt-10 dark:border-white/10"
+        className="mx-auto mt-12 max-w-3xl border-t border-black/5 pt-10 dark:border-white/10"
       >
         <h2 className="text-xl font-bold">Beyond Technology</h2>
         <div className="mt-4 space-y-4 text-ink/70 dark:text-slate-300">
@@ -162,7 +168,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-40px' }}
         transition={{ duration: 0.4 }}
-        className="mt-12 max-w-2xl space-y-4 text-ink/70 dark:text-slate-300"
+        className="mx-auto mt-12 max-w-3xl space-y-4 text-ink/70 dark:text-slate-300"
       >
         <p>
           Technology evolves constantly. Strong leadership, thoughtful
