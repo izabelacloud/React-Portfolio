@@ -20,7 +20,7 @@ Personal portfolio site for Izabela Petrovicova — Technical Architecture Direc
 
 ## Live Site
 
-[izabelacloud.github.io/izabela-petrovicova](https://izabelacloud.github.io/izabela-petrovicova/)
+[izabela-petrovicova.com](https://izabela-petrovicova.com)
 
 ![Preview](https://github.com/izabelacloud/izabela-petrovicova/blob/develop/src/assets/cover/mainpage.png?raw=true)
 
