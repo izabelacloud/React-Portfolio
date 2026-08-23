@@ -1,27 +1,37 @@
-# React Portfolio - Izabela Petrovicova
+# Izabela Petrovicova — Portfolio
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-Personal portfolio for Izabela Petrovicova, showcasing background, projects, resume and contact information. Built with React 19, Vite, Tailwind CSS and React Router.
+Personal portfolio site for Izabela Petrovicova — Technical Architecture Director and Senior Salesforce Enterprise Architect. Showcases background, project work, resume and a contact form. Built with React 19, Vite, Tailwind CSS 4, React Router and Framer Motion.
 
 ## Table of Contents
 
-- [Deployed Application](#deployed-application)
+- [Live Site](#live-site)
+- [Pages](#pages)
 - [Tech Stack](#tech-stack)
-- [Usage](#usage)
+- [Local Development](#local-development)
 - [Contact Form Setup](#contact-form-setup)
 - [Available Scripts](#available-scripts)
 - [Deployment](#deployment)
 - [License](#license)
 - [Questions](#questions)
 
-## Deployed Application
+## Live Site
 
-[React Portfolio](https://izabelacloud.github.io/izabela-petrovicova/)
+[izabelacloud.github.io/izabela-petrovicova](https://izabelacloud.github.io/izabela-petrovicova/)
 
 ![Preview](https://github.com/izabelacloud/izabela-petrovicova/blob/develop/src/assets/cover/mainpage.png?raw=true)
+
+## Pages
+
+- **About** — bio, focus areas and background
+- **Projects** — a selection of shipped applications, each linking to its repo and live demo
+- **Resume** — experience, skills and education
+- **Contact** — a message form (no backend required, see [Contact Form Setup](#contact-form-setup))
+
+The nav bar includes a light/dark mode toggle, and the layout is fully responsive.
 
 ## Tech Stack
 
@@ -32,9 +42,16 @@ Personal portfolio for Izabela Petrovicova, showcasing background, projects, res
 - [Framer Motion](https://motion.dev/) - animations
 - [ESLint](https://eslint.org/) - linting
 
-## Usage
+## Local Development
 
-The site has four sections, reachable from the top navigation: About, Projects, Resume and Contact. It supports light and dark mode (toggle in the nav bar) and is fully responsive.
+```sh
+git clone https://github.com/izabelacloud/izabela-petrovicova.git
+cd izabela-petrovicova
+npm install
+npm run dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173).
 
 ## Contact Form Setup
 
@@ -46,8 +63,6 @@ The Contact page sends messages via [Web3Forms](https://web3forms.com/), a backe
 The key is safe to expose in the client bundle; Web3Forms is designed for static sites and validates submissions server-side.
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm run dev`
 
@@ -65,15 +80,17 @@ Serves the production build locally to sanity-check it before deploying.
 
 Runs ESLint across the project.
 
+### `npm run deploy`
+
+Builds the app and publishes the `dist` folder to the `gh-pages` branch.
+
 ## Deployment
 
 Deployed to GitHub Pages via [gh-pages](https://www.npmjs.com/package/gh-pages):
 
-```
+```sh
 npm run deploy
 ```
-
-This builds the app and pushes the `dist` folder to the `gh-pages` branch.
 
 ## License
 
@@ -81,4 +98,4 @@ This project is licensed under the MIT license.
 
 ## Questions
 
-If you have any questions about the repository, contact me directly at i.petrovicova@gmail.com. You can find more of my work at https://github.com/izabelacloud.
+If you have any questions about the repository, contact me directly at [i.petrovicova@gmail.com](mailto:i.petrovicova@gmail.com). You can find more of my work at [github.com/izabelacloud](https://github.com/izabelacloud).
