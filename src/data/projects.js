@@ -1,18 +1,23 @@
+import recipeParade from '../assets/projects/recipe-parade.png';
+import travelPlanner from '../assets/projects/travel-planner.png';
+import budgetTracker from '../assets/projects/budget-tracker.png';
+import weatherDashboard from '../assets/projects/weather-dashboard.png';
+import runBuddy from '../assets/projects/run-buddy.png';
+import techBlog from '../assets/projects/tech-blog.png';
+
 const projects = [
   {
     id: 1,
     name: 'Recipe Parade',
-    image:
-      'https://raw.githubusercontent.com/izabelacloud/Recipe-Parade/master/assets/Hero-Image.png',
+    image: recipeParade,
     github: 'https://github.com/izabelacloud/Recipe-Parade',
-    deployedApp: 'https://recipe-parade.herokuapp.com/',
-    description: 'A recipe discovery app for browsing and saving favorite dishes.',
+    deployedApp: null,
+    description: 'A recipe discovery app for browsing, rating and saving favorite dishes. Not currently deployed; run locally to try it.',
   },
   {
     id: 2,
     name: 'Travel Planner',
-    image:
-      'https://raw.githubusercontent.com/izabelacloud/Travel-Planner/master/assets/images/App1.png',
+    image: travelPlanner,
     github: 'https://github.com/izabelacloud/Travel-Planner',
     deployedApp: 'https://izabelacloud.github.io/Travel-Planner/',
     description: 'Plan trips and organize itineraries with a clean travel dashboard.',
@@ -20,17 +25,15 @@ const projects = [
   {
     id: 3,
     name: 'Budget Tracker',
-    image:
-      'https://github.com/izabelacloud/Budget--Tracker/blob/master/assets/budget-tracker.png?raw=true',
-    github: 'https://github.com/izabelacloud/Budget--Tracker',
-    deployedApp: 'https://floating-retreat-05984.herokuapp.com/',
+    image: budgetTracker,
+    github: 'https://github.com/izabelacloud/Budget-Tracker',
+    deployedApp: 'https://budget-tracker-web-production.up.railway.app',
     description: 'A PWA for tracking income and expenses, works offline.',
   },
   {
     id: 4,
     name: 'Weather Dashboard',
-    image:
-      'https://raw.githubusercontent.com/izabelacloud/Weather-Dashboard/master/assets/images/weatherdashboardpreview.png',
+    image: weatherDashboard,
     github: 'https://github.com/izabelacloud/Weather-Dashboard',
     deployedApp: 'https://izabelacloud.github.io/Weather-Dashboard/',
     description: 'A 5-day weather forecast dashboard with search history.',
@@ -38,19 +41,17 @@ const projects = [
   {
     id: 5,
     name: 'Run Buddy',
-    image:
-      'https://github.com/izabelacloud/run-buddy/blob/master/assets/images/hero-bg.jpg?raw=true',
+    image: runBuddy,
     github: 'https://github.com/izabelacloud/run-buddy',
-    deployedApp: 'https://lernantino.github.io/run-buddy/',
+    deployedApp: 'https://izabelacloud.github.io/run-buddy/',
     description: 'A marketing landing page for a personal training service.',
   },
   {
     id: 6,
     name: 'Tech Blog',
-    image:
-      'https://raw.githubusercontent.com/izabelacloud/Tech-Blog/master/assets/tech-blog.png',
+    image: techBlog,
     github: 'https://github.com/izabelacloud/Tech-Blog',
-    deployedApp: 'https://whispering-everglades-49226.herokuapp.com/',
+    deployedApp: 'https://tech-blog-web-production.up.railway.app',
     description: 'A full-stack blog platform with posts and comments.',
   },
 ];

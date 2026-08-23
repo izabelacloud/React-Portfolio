@@ -29,14 +29,16 @@ export default function ProjectCard({ project, index }) {
           >
             Code
           </a>
-          <a
-            href={project.deployedApp}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full bg-tertiary/30 px-3 py-1.5 text-ink/80 transition-colors hover:bg-tertiary hover:text-ink dark:text-slate-200"
-          >
-            Live Demo
-          </a>
+          {project.deployedApp && (
+            <a
+              href={project.deployedApp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-tertiary/30 px-3 py-1.5 text-ink/80 transition-colors hover:bg-tertiary hover:text-ink dark:text-slate-200"
+            >
+              Live Demo
+            </a>
+          )}
         </div>
       </div>
     </motion.article>
