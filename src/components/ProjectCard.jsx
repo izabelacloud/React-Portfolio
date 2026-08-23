@@ -18,14 +18,14 @@ export default function ProjectCard({ project, index }) {
         />
       </div>
       <div className="p-5">
-        <h3 className="text-lg font-bold">{project.name}</h3>
-        <p className="mt-1 text-sm text-ink/60 dark:text-slate-400">{project.description}</p>
+        <h3 className="font-display text-lg font-medium">{project.name}</h3>
+        <p className="mt-1 text-sm text-ink/60 dark:text-stone">{project.description}</p>
         <div className="mt-4 flex gap-3 text-sm font-semibold">
           <a
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-primary/10 px-3 py-1.5 text-primary transition-colors hover:bg-primary hover:text-white"
+            className="rounded-full bg-accent/10 px-3 py-1.5 text-accent transition-colors hover:bg-accent hover:text-warm"
           >
             Code
           </a>
@@ -34,7 +34,7 @@ export default function ProjectCard({ project, index }) {
               href={project.deployedApp}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-tertiary/30 px-3 py-1.5 text-ink/80 transition-colors hover:bg-tertiary hover:text-ink dark:text-slate-200"
+              className="rounded-full bg-stone/30 px-3 py-1.5 text-ink/80 transition-colors hover:bg-stone hover:text-ink dark:text-stone"
             >
               Live Demo
             </a>

@@ -1,10 +1,10 @@
-# Izabela Petrovicova — Portfolio
+# Izabela Petrovicova
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-Personal portfolio site for Izabela Petrovicova — Technical Architecture Director and Senior Salesforce Enterprise Architect. Showcases background, project work, resume and a contact form. Built with React 19, Vite, Tailwind CSS 4, React Router and Framer Motion.
+Personal brand site for Izabela Petrovicova — Technical Architecture Director and Senior Salesforce Enterprise Architect, PADI Divemaster and mountaineer. Architect by profession, adventurer by instinct: the site treats her professional and adventure identities as two expressions of the same mindset rather than two separate personas. Built with React 19, Vite, Tailwind CSS 4, React Router and Framer Motion.
 
 ## Table of Contents
 
@@ -22,14 +22,21 @@ Personal portfolio site for Izabela Petrovicova — Technical Architecture Direc
 
 [izabela-petrovicova.com](https://izabela-petrovicova.com)
 
-![Preview](https://github.com/izabelacloud/izabela-petrovicova/blob/develop/src/assets/cover/mainpage.png?raw=true)
+<!-- TODO: replace with a fresh screenshot once the new design is deployed; the previous preview image reflects the old layout. -->
 
 ## Pages
 
+- **Home** — hero positioning, adventure stats, and entry points into Work and Adventures
+- **Work** — case studies, experience timeline and certifications
+- **Leadership** — leadership philosophy and team scope
+- **Adventures** — hub with subpages for Mountains, Diving, Skiing and Travel, each listing individual expedition stories
 - **About** — bio, focus areas and background
-- **Projects** — a selection of shipped applications, each linking to its repo and live demo
-- **Resume** — experience, skills and education
+- **Now** — a lightweight "currently" page, linked from the footer
+- **Field Notes** — short-form journal posts
+- **Projects** — a selection of shipped side applications, each linking to its repo and live demo (linked from Work)
 - **Contact** — a message form (no backend required, see [Contact Form Setup](#contact-form-setup))
+
+Content models for experience, case studies, expeditions, journal posts and certifications live in `src/data/`. Fields not yet confirmed are marked `[VERIFY ...]` rather than filled with invented details — replace them with real content before publishing.
 
 The nav bar includes a light/dark mode toggle, and the layout is fully responsive.
 

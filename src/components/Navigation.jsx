@@ -3,9 +3,12 @@ import { NavLink } from 'react-router-dom';
 import useDarkMode from '../hooks/useDarkMode';
 
 const links = [
-  { to: '/', label: 'About' },
-  { to: '/projects', label: 'Projects' },
-  { to: '/resume', label: 'Resume' },
+  { to: '/', label: 'Home' },
+  { to: '/work', label: 'Work' },
+  { to: '/leadership', label: 'Leadership' },
+  { to: '/adventures', label: 'Adventures' },
+  { to: '/about', label: 'About' },
+  { to: '/field-notes', label: 'Field Notes' },
   { to: '/contact', label: 'Contact' },
 ];
 
@@ -39,12 +42,12 @@ export default function Navigation() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-surface/80 backdrop-blur-md dark:border-white/10 dark:bg-surface-dark/80">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <NavLink to="/" className="text-lg font-bold tracking-tight">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <NavLink to="/" className="font-display text-lg font-medium tracking-tight">
           <span className="gradient-text">Izabela Petrovicova</span>
         </NavLink>
 
-        <ul className="hidden items-center gap-1 sm:flex">
+        <ul className="hidden items-center gap-1 lg:flex">
           {links.map((link) => (
             <li key={link.to}>
               <NavLink
@@ -52,8 +55,8 @@ export default function Navigation() {
                 className={({ isActive }) =>
                   `rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
                     isActive
-                      ? 'bg-primary text-white'
-                      : 'text-ink/70 hover:bg-primary/10 hover:text-ink dark:text-slate-300 dark:hover:text-white'
+                      ? 'bg-accent text-warm'
+                      : 'text-ink/70 hover:bg-accent/10 hover:text-ink dark:text-stone dark:hover:text-warm'
                   }`
                 }
               >
@@ -66,19 +69,19 @@ export default function Navigation() {
               type="button"
               aria-label="Toggle dark mode"
               onClick={() => setIsDark((d) => !d)}
-              className="ml-2 rounded-full p-2 text-ink/70 transition-colors hover:bg-primary/10 hover:text-ink dark:text-slate-300 dark:hover:text-white"
+              className="ml-2 rounded-full p-2 text-ink/70 transition-colors hover:bg-accent/10 hover:text-ink dark:text-stone dark:hover:text-warm"
             >
               {isDark ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
             </button>
           </li>
         </ul>
 
-        <div className="flex items-center gap-2 sm:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
           <button
             type="button"
             aria-label="Toggle dark mode"
             onClick={() => setIsDark((d) => !d)}
-            className="rounded-full p-2 text-ink/70 dark:text-slate-300"
+            className="rounded-full p-2 text-ink/70 dark:text-stone"
           >
             {isDark ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
           </button>
@@ -87,7 +90,7 @@ export default function Navigation() {
             aria-label="Toggle menu"
             aria-expanded={open}
             onClick={() => setOpen((o) => !o)}
-            className="rounded-full p-2 text-ink/70 dark:text-slate-300"
+            className="rounded-full p-2 text-ink/70 dark:text-stone"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-6 w-6">
               {open ? (
@@ -101,7 +104,7 @@ export default function Navigation() {
       </nav>
 
       {open && (
-        <ul className="flex flex-col gap-1 border-t border-black/5 px-6 py-3 sm:hidden dark:border-white/10">
+        <ul className="flex flex-col gap-1 border-t border-black/5 px-6 py-3 lg:hidden dark:border-white/10">
           {links.map((link) => (
             <li key={link.to}>
               <NavLink
@@ -109,9 +112,7 @@ export default function Navigation() {
                 onClick={() => setOpen(false)}
                 className={({ isActive }) =>
                   `block rounded-lg px-3 py-2 text-sm font-semibold ${
-                    isActive
-                      ? 'bg-primary text-white'
-                      : 'text-ink/70 dark:text-slate-300'
+                    isActive ? 'bg-accent text-warm' : 'text-ink/70 dark:text-stone'
                   }`
                 }
               >

@@ -115,7 +115,7 @@ export default function Contact() {
               onChange={handleChange}
               aria-invalid={Boolean(errors[field.name])}
               aria-describedby={errors[field.name] ? `${field.name}-error` : undefined}
-              className="w-full rounded-xl border border-black/10 bg-white px-4 py-2.5 outline-none transition-shadow focus:border-primary focus:ring-2 focus:ring-primary/30 dark:border-white/10 dark:bg-white/5"
+              className="w-full rounded-xl border border-black/10 bg-white px-4 py-2.5 outline-none transition-shadow focus:border-accent focus:ring-2 focus:ring-accent/30 dark:border-white/10 dark:bg-white/5"
             />
             {errors[field.name] && (
               <p id={`${field.name}-error`} className="mt-1 text-sm text-red-500">
@@ -154,7 +154,7 @@ export default function Contact() {
             onDrop={handleDrop}
             className={`flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed px-4 py-8 text-center transition-colors ${
               isDragging
-                ? 'border-primary bg-primary/5'
+                ? 'border-accent bg-accent/5'
                 : 'border-black/10 dark:border-white/10'
             }`}
           >
@@ -188,7 +188,7 @@ export default function Contact() {
         <button
           type="submit"
           disabled={status === 'sending'}
-          className="rounded-full bg-primary px-6 py-2.5 font-bold text-white shadow-sm transition-colors hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-60"
+          className="rounded-full bg-accent px-6 py-2.5 font-bold text-warm shadow-sm transition-colors hover:bg-accent-dark disabled:cursor-not-allowed disabled:opacity-60"
         >
           {status === 'sending' ? 'Sending...' : 'Send Message'}
         </button>
@@ -199,7 +199,7 @@ export default function Contact() {
               initial={{ opacity: 0, y: -8 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="text-sm font-semibold text-tertiary"
+              className="text-sm font-semibold text-accent"
             >
               Your email was sent! I&apos;ll get back to you soon.
             </motion.p>
