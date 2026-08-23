@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio",
+  "name": "izabela-petrovicova",
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://izabelacloud.github.io/React-Portfolio",
+  "homepage": "https://izabelacloud.github.io/izabela-petrovicova",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

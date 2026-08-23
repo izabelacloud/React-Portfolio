@@ -19,9 +19,9 @@ Personal portfolio for Izabela Petrovicova, showcasing background, projects, res
 
 ## Deployed Application
 
-[React Portfolio](https://izabelacloud.github.io/React-Portfolio/)
+[React Portfolio](https://izabelacloud.github.io/izabela-petrovicova/)
 
-![Preview](https://github.com/izabelacloud/React-Portfolio/blob/develop/src/assets/cover/mainpage.png?raw=true)
+![Preview](https://github.com/izabelacloud/izabela-petrovicova/blob/develop/src/assets/cover/mainpage.png?raw=true)
 
 ## Tech Stack
 
