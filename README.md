@@ -21,7 +21,7 @@ Personal portfolio for Izabela Petrovicova, showcasing background, projects, res
 
 [React Portfolio](https://izabelacloud.github.io/React-Portfolio/)
 
-![Preview](https://github.com/izabelacloud/React-Portfolio/blob/master/src/assets/cover/mainpage.png?raw=true)
+![Preview](https://github.com/izabelacloud/React-Portfolio/blob/develop/src/assets/cover/mainpage.png?raw=true)
 
 ## Tech Stack
 
