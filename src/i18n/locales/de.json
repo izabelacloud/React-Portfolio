@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Startseite",
-    "work": "Arbeit",
+    "work": "Erfahrung",
     "leadership": "Führung",
     "adventures": "Abenteuer",
     "worldMap": "Weltkarte",
@@ -14,15 +14,12 @@
     "exploreArrow": "Entdecken →",
     "readMoreArrow": "Weiterlesen →",
     "readStoryArrow": "Die Geschichte lesen →",
-    "readCaseStudyArrow": "Fallstudie lesen →",
     "seeWork": "Zur Arbeit",
     "seeAdventures": "Zu den Abenteuern",
     "seeAdventuresArrow": "Abenteuer entdecken →",
-    "seeProjectsArrow": "Projekte ansehen →",
     "exploreWorkArrow": "Arbeit entdecken →",
     "exploreAdventuresArrow": "Abenteuer entdecken →",
     "backToHome": "Zurück zur Startseite",
-    "backToWork": "← Zurück zur Arbeit",
     "backToAdventures": "← Zurück zu den Abenteuern",
     "backToFieldNotes": "← Zurück zu den Feldnotizen",
     "backToMap": "← Zurück zur Karte",
@@ -30,8 +27,8 @@
     "categoryNotFound": "Kategorie nicht gefunden.",
     "destinationNotFound": "Reiseziel nicht gefunden.",
     "expeditionNotFound": "Expedition nicht gefunden.",
-    "caseStudyNotFound": "Fallstudie nicht gefunden.",
-    "postNotFound": "Beitrag nicht gefunden."
+    "postNotFound": "Beitrag nicht gefunden.",
+    "fullName": "Izabela Petrovicova"
   },
   "stats": {
     "countriesVisited": "Besuchte Länder",
@@ -49,21 +46,21 @@
     "professionalTitle": "Unternehmensarchitektur, im großen Maßstab aufgebaut",
     "professionalSubtitle": "Direktorin für technische Unternehmensarchitektur, mit Fokus auf End-to-End-Unternehmensarchitektur für globale Organisationen.",
     "personalEyebrow": "Persönlich",
-    "personalSubtitle": "PADI Divemaster, Bergsteigerin, Skifahrerin und Reisende — 58 von 195 Ländern und es werden mehr.",
-    "quote": "Die Umgebungen ändern sich. Die Einstellung nicht."
+    "personalSubtitle": "PADI Divemaster, Bergsteigerin, Skifahrerin und Reisende, 58 von 195 Ländern und es werden mehr.",
+    "quote": "Jeder Schritt davor hat mich hierher geführt. Ich hätte mir nie vorstellen können, wie viel Glück ich haben würde, all das zu erleben und so viele interessante Menschen auf dem Weg zu treffen. Jeder Schritt, jeder Atemzug, jede Erfahrung hat mich geprägt und mich größer denken lassen als je zuvor, immer auf der Suche nach dem, was diese wunderschöne Welt zu bieten hat."
   },
   "about": {
     "greeting": "Hallo, ich bin",
     "accentLine": "Architektin von Beruf. Abenteurerin aus Instinkt.",
-    "locationLine": "Seit August 2025 in Melbourne, Australien, ansässig. Ursprünglich aus einem kleinen Dorf in der Slowakei.",
+    "locationLine": "Seit August 2025 in Melbourne, Australien, ansässig. Ursprünglich aus der Slowakei.",
     "p1": "Seit mehr als einem Jahrzehnt helfe ich globalen Organisationen, komplexe geschäftliche Herausforderungen durch Technologie zu lösen. Meine Karriere wurde an der Schnittstelle von Unternehmensarchitektur, strategischer Beratung und praktischer Entwicklung aufgebaut, um ambitionierte Geschäftsziele in skalierbare, praktische Lösungen mit messbarem Mehrwert zu verwandeln.",
     "p2": "Als <1>Direktorin für technische Unternehmensarchitektur</1> arbeite ich mit Führungskräften, Geschäftsleitern und Delivery-Teams zusammen, um digitale Transformationsprogramme im Enterprise-Maßstab zu gestalten, mit Fokus auf End-to-End-Unternehmensarchitektur. Meine Expertise umfasst Salesforce-Architektur, Quote-to-Cash, Revenue Lifecycle Management, CRM-Strategie, Systemintegration, Cloud-Plattformen und Enterprise-Lösungsdesign in Branchen wie Finanzdienstleistungen, Telekommunikation, Fertigung, SaaS, Analytik und professionelle Dienstleistungen.",
     "p3": "Ich glaube, dass gute Architektur nie nur Technologie ist. Es geht darum, Menschen zu verstehen, Stakeholder aufeinander abzustimmen, Komplexität zu vereinfachen und Systeme zu schaffen, die über Jahre hinweg anpassungsfähig bleiben.",
-    "journey": "Ich betrachte mich als Weltbürgerin. Ich bin in einem kleinen Dorf in der Slowakei aufgewachsen und habe anschließend im Silicon Valley in Kalifornien, in London, in Zürich in der Schweiz und in San Francisco in Kalifornien gelebt und gearbeitet, bevor ich mich in Melbourne, Australien, niedergelassen habe. Der wiederholte Wechsel zwischen so unterschiedlichen Kulturen, Geschäftsumgebungen und Führungsstilen hat mich sehr anpassungsfähig und widerstandsfähig gemacht und mir eine natürliche Leichtigkeit gegeben, mit Menschen jeglicher Herkunft in Kontakt zu treten.",
+    "journey": "Ich betrachte mich als Weltbürgerin. Ich bin in der Slowakei aufgewachsen und habe anschließend im Silicon Valley in Kalifornien, in London im Vereinigten Königreich, in Zürich in der Schweiz und in San Francisco in Kalifornien gelebt und gearbeitet, und ich habe auch in Melbourne, Australien, gelebt. Jeder Umzug bedeutete, in einem neuen Land noch einmal ganz von vorne anzufangen, was mich sehr anpassungsfähig und widerstandsfähig gemacht und mir eine natürliche Leichtigkeit gegeben hat, mit Menschen jeglicher Herkunft in Kontakt zu treten.",
     "leadIntro": "Die Art, wie ich führe, wurde ebenso außerhalb des Büros geprägt wie innerhalb.",
-    "divemaster": "Als <1>PADI Divemaster</1> habe ich gelernt, dass Vorbereitung, ruhige Entscheidungsfindung und Vertrauen unerlässlich sind, wenn man Menschen in herausfordernden Umgebungen führt.",
-    "mountaineer": "Als <1>Bergsteigerin</1> habe ich erfahren, dass bedeutende Erfolge Schritt für Schritt entstehen. Erfolg kommt aus Widerstandsfähigkeit, Planung und der Fähigkeit, sich anzupassen, wenn sich die Bedingungen unweigerlich ändern.",
-    "marathon": "Als <1>Marathonläuferin</1> habe ich gelernt, dass Beständigkeit Intensität übertrifft. Langfristige Ergebnisse entstehen durch Disziplin, Ausdauer und kontinuierliche Verbesserung statt schneller Erfolge.",
+    "divemaster": "Als <1>PADI Divemaster</1> habe ich gelernt, dass Vorbereitung, ruhige Entscheidungsfindung und Vertrauen unerlässlich sind, wenn man Menschen in herausfordernden Umgebungen führt. Angst zu überwinden beginnt im Kopf, und man gibt einfach niemals auf.",
+    "mountaineer": "Als <1>Bergsteigerin</1> habe ich erfahren, dass bedeutende Erfolge Schritt für Schritt entstehen. Erfolg kommt aus Widerstandsfähigkeit, Planung und der Fähigkeit, sich anzupassen, wenn sich die Bedingungen unweigerlich ändern, denn alles spielt sich im Kopf ab: Man stellt sich seinen Ängsten und gibt niemals auf.",
+    "marathon": "Als <1>Marathonläuferin</1> habe ich gelernt, dass Beständigkeit Intensität übertrifft. Langfristige Ergebnisse entstehen durch Disziplin, Ausdauer und kontinuierliche Verbesserung statt schneller Erfolge. Es ist der Beweis, dass alles im Kopf ist: die Angst überwinden und niemals aufgeben.",
     "continents": "Da ich <1>auf drei Kontinenten gelebt und gearbeitet habe</1>, habe ich eine globale Perspektive entwickelt, die es mir ermöglicht, effektiv mit verschiedenen Teams zusammenzuarbeiten, unterschiedliche Geschäftskulturen zu verstehen und starke Beziehungen über Organisationen hinweg aufzubauen.",
     "closing": "Denn die besten Lösungen lösen nicht einfach die Probleme von heute. Sie schaffen Chancen für morgen."
   },
@@ -85,7 +82,8 @@
     "divingSubtitle": "PADI Divemaster. 6 von 7 Kontinenten getaucht.",
     "skiingSubtitle": "4 von 7 Kontinenten Ski gefahren.",
     "travelSubtitle": "58 von 195 Ländern besucht.",
-    "empty": "[VERIFY — add expeditions for this category]"
+    "empty": "[VERIFY: add expeditions for this category]",
+    "divingCertsHeading": "Zertifizierungen"
   },
   "worldMapPage": {
     "eyebrow": "Abenteuer",
@@ -96,7 +94,7 @@
   "destinationDetail": {
     "eyebrow": "Reiseziel",
     "citiesVisited": "Besuchte Städte: {{cities}}",
-    "empty": "[VERIFY — add photos and stories from {{country}}]"
+    "empty": "[VERIFY: add photos and stories from {{country}}]"
   },
   "map": {
     "zoomIn": "Hineinzoomen",
@@ -114,14 +112,6 @@
     "moment": "Der Moment",
     "lesson": "Lektion"
   },
-  "caseStudyDetail": {
-    "challenge": "Herausforderung",
-    "complexity": "Komplexität",
-    "solution": "Lösung",
-    "role": "Rolle",
-    "outcome": "Ergebnis",
-    "lessons": "Lektionen"
-  },
   "leadership": {
     "eyebrow": "Führung",
     "title": "Ruhige Entscheidungen unter echtem Druck",
@@ -138,31 +128,15 @@
     "eyebrow": "Arbeit",
     "title": "Unternehmensarchitektur und Führung",
     "subtitle": "Eine Auswahl der Probleme, mit deren Lösung man mir vertraut hat. Kunden- und Umsetzungsdetails sind anonymisiert oder verallgemeinert, um die Vertraulichkeit zu respektieren.",
-    "caseStudiesHeading": "Fallstudien",
     "clientsHeading": "Kunden, mit denen ich zusammengearbeitet habe",
+    "executiveSummaryHeading": "Zusammenfassung",
     "experienceHeading": "Erfahrung",
-    "certificationsHeading": "Zertifizierungen",
-    "personalProjectsHeading": "Persönliche Projekte",
-    "personalProjectsText": "Neben der Unternehmensarchitektur baue und veröffentliche ich kleine Webanwendungen zur Übung."
-  },
-  "projects": {
-    "title": "Projekte",
-    "subtitle": "Eine Auswahl der Anwendungen, die ich entwickelt und veröffentlicht habe.",
-    "code": "Code",
-    "liveDemo": "Live-Demo",
-    "items": {
-      "recipeParade": "Eine Rezept-Entdeckungs-App zum Durchsuchen, Bewerten und Speichern von Lieblingsgerichten. Derzeit nicht bereitgestellt; lokal ausführen, um sie auszuprobieren.",
-      "travelPlanner": "Reisen planen und Reiserouten mit einem übersichtlichen Reise-Dashboard organisieren.",
-      "budgetTracker": "Eine PWA zur Verfolgung von Einnahmen und Ausgaben, funktioniert offline.",
-      "weatherDashboard": "Ein 5-Tage-Wettervorhersage-Dashboard mit Suchverlauf.",
-      "runBuddy": "Eine Marketing-Landingpage für einen persönlichen Trainingsdienst.",
-      "techBlog": "Eine Full-Stack-Blog-Plattform mit Beiträgen und Kommentaren."
-    }
+    "certificationsHeading": "Zertifizierungen"
   },
   "fieldNotes": {
     "eyebrow": "Feldnotizen",
     "title": "Notizen aus dem Feld und aus dem Büro",
-    "subtitle": "Kurze Texte über Architektur, Führung und Abenteuer — die sich mehr überschneiden, als man denkt."
+    "subtitle": "Kurze Texte über Architektur, Führung und Abenteuer, die sich mehr überschneiden, als man denkt."
   },
   "now": {
     "eyebrow": "Jetzt",
@@ -174,6 +148,7 @@
     "subtitle": "Hast du eine Frage oder möchtest du zusammenarbeiten? Melde dich.",
     "nameLabel": "Name",
     "emailLabel": "E-Mail-Adresse",
+    "subjectLabel": "Betreff",
     "messageLabel": "Nachricht",
     "attachmentsLabel": "Anhänge",
     "dragDropText": "Dateien hierher ziehen oder klicken, um zu durchsuchen",
@@ -185,6 +160,7 @@
     "nameRequired": "Name ist erforderlich.",
     "emailRequired": "E-Mail ist erforderlich.",
     "emailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "subjectRequired": "Betreff ist erforderlich.",
     "messageRequired": "Nachricht ist erforderlich."
   },
   "notFound": {
@@ -198,5 +174,157 @@
   "languages": {
     "heading": "Sprachen",
     "subtitle": "Diese Website ist in den folgenden Sprachen verfügbar."
+  },
+  "experience": {
+    "items": {
+      "salesforce-technical-architect-director": {
+        "role": "Technical Architect Director",
+        "scope": "Vertrauenswürdige Beraterin und strategische Consultant für Enterprise-Kunden in Australien, verantwortlich für technische und Enterprise-Architektur in Multi-Cloud-, Multi-Workstream-Salesforce-Transformationsprogrammen.",
+        "responsibilities": [
+          "Definition von Systemarchitektur-Landschaften, Identifikation von Lücken zwischen Ist- und Soll-Zustand sowie Übersetzung von Geschäftszielen in Lösungen im Salesforce-Ökosystem",
+          "Leitung von Kundenverhandlungen, SOW-Erstellung, Executive Steering Committees und Programm-Governance",
+          "Mentoring von Solution und Technical Architects sowie Delivery-Teams über mehrere Projekte hinweg"
+        ],
+        "achievements": [
+          "Erweiterte ihre Führungsrolle in der technischen Architektur auf australische Projekte, darunter Telstra Health und Safe Transport Victoria, nach ihrem Umzug nach Melbourne im Jahr 2025"
+        ]
+      },
+      "salesforce-director-solution-consulting": {
+        "role": "Director, Solution Consulting",
+        "scope": "Vertrauenswürdige Beraterin und strategische Consultant für Enterprise-Kunden, verantwortlich für die Steuerung globaler, multiregionaler Salesforce-Transformationsprogramme sowie für technische und Enterprise-Architektur in Multi-Cloud-, Multi-Workstream-Projekten.",
+        "responsibilities": [
+          "Leitung von Kundenverhandlungen, SOW-Erstellung, Executive Steering Committees und Programm-Governance",
+          "Definition von Systemarchitektur-Landschaften, Identifikation von Lücken zwischen Ist- und Soll-Zustand sowie Übersetzung von Geschäftszielen in Lösungen im Salesforce-Ökosystem",
+          "Führung eines Teams von 10 direkt unterstellten Mitarbeitern; Mentoring von Solution und Technical Architects sowie Delivery-Teams von bis zu 80 Personen"
+        ],
+        "achievements": [
+          "Leitete eine $30M Loyalty-Management-Neuplattformierungsinitiative und automatisierte Prozesse im Hinblick auf eine geplante Kostensenkung von 30%",
+          "Steuerte drei $1.5M-Workstreams und reduzierte die Deal-Bearbeitungszeit um 40% durch optimierte Entscheidungs-KPIs",
+          "Band C-Level-Stakeholder in Initiativen zu Apps & Home Page Strategy, Account 360 und Account Planning ein",
+          "Koordinierte die Priorisierung der Produkt-Roadmap über ein Vertragsportfolio von mehr als $82M",
+          "Zur Capability Stream Lead berufen, einer Position auf Director-Ebene mit Verantwortung für Capability-Teams über den gesamten Delivery-Lifecycle von der strategischen Planung bis zum Sign-off",
+          "Ausgezeichnet mit dem Agent of Change Award für die Förderung bedeutsamer, KI-gestützter Transformation",
+          "Leitete die 'Voice of the Field'-Initiative des Professional Services Employee Advisory Council (PEAC), moderierte Roundtables im gesamten ANZ-Delivery-Team und wandelte evidenzbasiertes Feedback in konkrete Schwerpunkte für die Organisation um",
+          "Leitete ehrenamtliche AI for Good Initiativen und setzte Agentforce und Data Cloud ein, um den Bildungszugang für unterversorgte Gemeinschaften zu erweitern"
+        ]
+      },
+      "salesforce-sr-manager-solution-consulting": {
+        "role": "Sr. Manager, Solution Consulting",
+        "scope": "Leitete Enterprise-Programmstrategie und Solution Consulting für globale Kunden und trieb Geschäftstransformationen im Einklang mit Salesforce Best Practices voran.",
+        "responsibilities": [
+          "Koordinierte globale, multiregionale Programme und richtete strategische Kundenziele auf technologische Fähigkeiten aus",
+          "Implementierte Change-Management-Strategien und neue Betriebsmodelle für die Geschäftstransformation",
+          "Etablierte ein unternehmensweites Framework zur Prozessstandardisierung über sämtliche Programmabläufe hinweg"
+        ],
+        "achievements": [
+          "Erzielte eine Geschäftstransformation mit verkürzten Durchlaufzeiten und einer Reduktion der Betriebskosten um 20%"
+        ]
+      },
+      "salesforce-sr-solution-architect": {
+        "role": "Sr. Solution Architect",
+        "scope": "Beriet als Expertin zu Integrationsarchitektur, Datenmigrationsstrategie und der Implementierung von Versionskontrolle in Salesforce-Projekten.",
+        "responsibilities": [
+          "Leitete Discovery-Sessions, definierte Geschäftsanforderungen und erstellte detaillierte System- und Funktionsdesigns",
+          "Dokumentierte Geschäftsprozesse und Systemdesigns mittels Prozessflussdiagrammen, UML und Sequenzdiagrammen"
+        ],
+        "achievements": []
+      },
+      "apttus-sr-solution-architect": {
+        "role": "Sr. Solution Architect (mit Aufstieg von Business Analyst / Configuration Engineer)",
+        "scope": "Leitete vollständige Apttus-Implementierungen über Configure Price Quote (CPQ), Billing Management und Contract Lifecycle Management (CLM) hinweg, mit Sitz in London, UK und San Mateo, CA.",
+        "responsibilities": [
+          "Fungierte als Enterprise Solution Architect für ein globales Rollout, das Altsysteme durch eine einheitliche Plattform für 20,000 Nutzer in mehr als 80+ Ländern ersetzte",
+          "Koordinierte die Optimierung des Angebotszyklus mit Unterstützung von 11 Integrationen, 50,000 Produkten und 80 Configurator-Instanzen",
+          "Verantwortete Kundenverhandlungen, SOW-Erstellung, Ressourcenplanung und Projektberichterstattung"
+        ],
+        "achievements": []
+      },
+      "apttus-financial-analyst": {
+        "role": "Financial Analyst / T&E Deployment Lead",
+        "scope": "Leitete die Implementierung einer Enterprise-Reisekosten- und Spesenlösung (T&E) in San Mateo, CA, einschließlich globaler Richtlinienausrollung und Systemadministration.",
+        "responsibilities": [
+          "Verantwortete Initiativen zur Umsatzrealisierung (Revenue Recognition) und quartalsweise Abschlussprozesse",
+          "Entwickelte eine Analytics-Suite für Umsatzverfolgung, Provisionsanalyse und Budgetabweichungsberichte"
+        ],
+        "achievements": []
+      },
+      "accenture-analyst-programmer": {
+        "role": "Analyst Programmer",
+        "scope": "Entwickelte und implementierte Teststrategien für ein Versicherungs-Angebotstool in Bratislava, Slowakei.",
+        "responsibilities": [
+          "Arbeitete eng mit Entwicklungsteams zusammen, um Zugänglichkeit und Klarheit der Testergebnisse sicherzustellen",
+          "Verfolgte Fehler bis zur Behebung und pflegte ein aktuelles Fehler-Repository"
+        ],
+        "achievements": []
+      },
+      "ibm-contract-review-analyst": {
+        "role": "Contract Review Analyst / Accounting Analyst / Operational Support",
+        "scope": "Führte Vertragsprüfungen durch, um eine korrekte Umsatzrealisierung bei komplexen Transaktionen sicherzustellen, in Bratislava, Slowakei.",
+        "responsibilities": [
+          "Führte Buchhaltungsanpassungen für nicht standardisierte Vertragsbedingungen gemäß Finanzvorschriften durch",
+          "Etablierte Frameworks zur Umsatz- und Kostenrealisierung und lieferte Profitabilitätsanalysen mit Erkenntnissen auf Führungsebene"
+        ],
+        "achievements": []
+      }
+    }
+  },
+  "locations": {
+    "items": {
+      "argentina": "Argentinien",
+      "australia": "Australien",
+      "austria": "Österreich",
+      "belgium": "Belgien",
+      "brazil": "Brasilien",
+      "canada": "Kanada",
+      "chile": "Chile",
+      "china": "China",
+      "colombia": "Kolumbien",
+      "costa-rica": "Costa Rica",
+      "croatia": "Kroatien",
+      "cuba": "Kuba",
+      "cyprus": "Zypern",
+      "denmark": "Dänemark",
+      "egypt": "Ägypten",
+      "fiji": "Fidschi",
+      "france": "Frankreich",
+      "french-polynesia": "Französisch-Polynesien",
+      "germany": "Deutschland",
+      "greece": "Griechenland",
+      "hungary": "Ungarn",
+      "iceland": "Island",
+      "india": "Indien",
+      "indonesia": "Indonesien",
+      "ireland": "Irland",
+      "italy": "Italien",
+      "japan": "Japan",
+      "malaysia": "Malaysia",
+      "mexico": "Mexiko",
+      "morocco": "Marokko",
+      "nepal": "Nepal",
+      "netherlands": "Niederlande",
+      "new-zealand": "Neuseeland",
+      "norway": "Norwegen",
+      "oman": "Oman",
+      "panama": "Panama",
+      "peru": "Peru",
+      "poland": "Polen",
+      "portugal": "Portugal",
+      "qatar": "Katar",
+      "russia": "Russland",
+      "slovakia": "Slowakei",
+      "spain": "Spanien",
+      "sri-lanka": "Sri Lanka",
+      "sweden": "Schweden",
+      "switzerland": "Schweiz",
+      "tanzania": "Tansania",
+      "thailand": "Thailand",
+      "turkey": "Türkei",
+      "turks-and-caicos-islands": "Turks- und Caicosinseln",
+      "united-arab-emirates": "Vereinigte Arabische Emirate",
+      "united-kingdom": "Vereinigtes Königreich",
+      "uruguay": "Uruguay",
+      "usa": "Vereinigte Staaten",
+      "vietnam": "Vietnam"
+    }
   }
 }

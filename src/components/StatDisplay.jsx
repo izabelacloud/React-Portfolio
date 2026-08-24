@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function StatDisplay({ stats }) {
   const { t } = useTranslation();
   return (
-    <div className="grid grid-cols-2 gap-6 sm:grid-cols-5">
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-5">
       {stats.map((stat, index) => (
         <motion.div
           key={stat.label}

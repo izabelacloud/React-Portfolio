@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import PageHeading from '../components/PageHeading';
 import { validateEmail } from '../utils/helpers';
 
-const initialState = { name: '', email: '', message: '' };
+const initialState = { name: '', email: '', subject: '', message: '' };
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 const SHOW_ATTACHMENTS = false;
 
@@ -24,6 +24,7 @@ export default function Contact() {
     } else if (!validateEmail(state.email)) {
       nextErrors.email = t('contact.emailInvalid');
     }
+    if (!state.subject.trim()) nextErrors.subject = t('contact.subjectRequired');
     if (!state.message.trim()) nextErrors.message = t('contact.messageRequired');
     return nextErrors;
   }
@@ -71,7 +72,7 @@ export default function Contact() {
     try {
       const data = new FormData();
       data.append('access_key', WEB3FORMS_ACCESS_KEY);
-      data.append('subject', `Portfolio contact from ${formState.name}`);
+      data.append('subject', formState.subject);
       data.append('name', formState.name);
       data.append('email', formState.email);
       data.append('message', formState.message);
@@ -98,6 +99,7 @@ export default function Contact() {
   const fields = [
     { name: 'name', labelKey: 'nameLabel', type: 'text' },
     { name: 'email', labelKey: 'emailLabel', type: 'email' },
+    { name: 'subject', labelKey: 'subjectLabel', type: 'text' },
   ];
 
   return (

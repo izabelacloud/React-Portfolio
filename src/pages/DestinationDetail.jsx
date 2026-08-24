@@ -11,6 +11,9 @@ export default function DestinationDetail() {
   const { t } = useTranslation();
   const { slug } = useParams();
   const destination = locations.find((loc) => loc.slug === slug);
+  const destinationName = destination
+    ? t(`locations.items.${destination.slug}`, { defaultValue: destination.country })
+    : null;
   const relatedExpeditions = expeditions.filter((exp) =>
     exp.location?.toLowerCase().includes(destination?.country.toLowerCase() ?? '\0'),
   );
@@ -28,7 +31,7 @@ export default function DestinationDetail() {
     <div className="space-y-10 py-10">
       <SectionHeading
         eyebrow={t('destinationDetail.eyebrow')}
-        title={destination.country}
+        title={destinationName}
         subtitle={t('destinationDetail.citiesVisited', { cities: destination.cities.join(', ') })}
       />
 
@@ -41,7 +44,7 @@ export default function DestinationDetail() {
           ))}
         </div>
       ) : (
-        <p className="text-muted">{t('destinationDetail.empty', { country: destination.country })}</p>
+        <p className="text-muted">{t('destinationDetail.empty', { country: destinationName })}</p>
       )}
 
       <ImageGallery images={destination.gallery} />

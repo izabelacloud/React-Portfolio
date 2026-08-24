@@ -12,15 +12,18 @@ export default function Filmstrip({ items }) {
   return (
     <div className="overflow-x-auto rounded-2xl bg-ink py-3 dark:bg-black/60">
       <div className="flex w-max gap-1 px-3">
-        {items.map((item) => (
-          <div
-            key={item.key}
-            className="flex h-28 w-28 flex-none flex-col items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 text-warm/50 sm:h-36 sm:w-36"
-          >
-            <CameraIcon className="h-8 w-8" />
-            <span className="text-xs font-semibold uppercase tracking-wide">{item.label}</span>
-          </div>
-        ))}
+        {items.map((item) => {
+          const Icon = item.Icon ?? CameraIcon;
+          return (
+            <div
+              key={item.key}
+              className="flex h-28 w-28 flex-none flex-col items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 text-warm/50 sm:h-36 sm:w-36"
+            >
+              <Icon className="h-8 w-8" />
+              <span className="text-xs font-semibold uppercase tracking-wide">{item.label}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

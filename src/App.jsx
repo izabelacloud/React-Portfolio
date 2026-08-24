@@ -4,14 +4,12 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Work from './pages/Work';
-import CaseStudyDetail from './pages/CaseStudyDetail';
 import Adventures from './pages/Adventures';
 import AdventureCategory from './pages/AdventureCategory';
 import ExpeditionDetail from './pages/ExpeditionDetail';
 import WorldMapPage from './pages/WorldMap';
 import DestinationDetail from './pages/DestinationDetail';
 import Now from './pages/Now';
-import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
@@ -31,14 +29,12 @@ function PageTransition({ children }) {
 const routes = [
   { path: '/', element: Home },
   { path: '/work', element: Work },
-  { path: '/work/:slug', element: CaseStudyDetail },
   { path: '/adventures', element: Adventures },
   { path: '/adventures/:category', element: AdventureCategory },
   { path: '/adventures/:category/:slug', element: ExpeditionDetail },
   { path: '/destinations', element: WorldMapPage },
   { path: '/destinations/:slug', element: DestinationDetail },
   { path: '/now', element: Now },
-  { path: '/projects', element: Projects },
   { path: '/contact', element: Contact },
 ];
 

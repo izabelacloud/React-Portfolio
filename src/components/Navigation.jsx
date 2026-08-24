@@ -45,7 +45,7 @@ export default function Navigation() {
     <header className="sticky top-0 z-50 border-b border-black/5 bg-surface/80 backdrop-blur-md dark:border-white/10 dark:bg-surface-dark/80">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <NavLink to="/" className="font-display text-xl font-semibold tracking-tight">
-          <span className="gradient-text">Izabela Petrovicova</span>
+          <span className="gradient-text">{t('common.fullName')}</span>
         </NavLink>
 
         <ul className="hidden items-center gap-1 lg:flex">

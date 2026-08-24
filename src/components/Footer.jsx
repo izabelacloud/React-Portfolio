@@ -77,7 +77,7 @@ export default function Footer() {
     <footer className="mt-24 border-t border-black/5 py-10 dark:border-white/10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center">
         <p className="font-display text-lg font-semibold tracking-tight">
-          <span className="gradient-text">Izabela Petrovicova</span>
+          <span className="gradient-text">{t('common.fullName')}</span>
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3">
@@ -128,7 +128,7 @@ export default function Footer() {
         <p className="text-sm text-ink/50 dark:text-stone">
           <Link to="/now" className="hover:text-accent">{t('nav.now')}</Link>
           {' · '}
-          &copy; {new Date().getFullYear()} Izabela Petrovicova
+          &copy; {new Date().getFullYear()} {t('common.fullName')}
         </p>
       </div>
     </footer>

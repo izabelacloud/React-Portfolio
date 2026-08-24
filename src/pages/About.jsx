@@ -4,6 +4,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import coverImage from '../assets/cover/cover-image.jpg';
 import userImage from '../assets/ip2.jpg';
 import StatDisplay from '../components/StatDisplay';
+import { DivingIcon, MountainIcon, RunningIcon } from '../components/AdventureIcons';
 import stats from '../data/stats';
 
 export default function About() {
@@ -22,7 +23,7 @@ export default function About() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           src={userImage}
-          alt="Izabela Petrovicova"
+          alt={t('common.fullName')}
           className="mt-8 h-32 w-32 flex-none rounded-full border-4 border-white object-cover shadow-lg sm:h-40 sm:w-40 dark:border-white/10"
         />
 
@@ -33,7 +34,7 @@ export default function About() {
           className="mt-5"
         >
           <h1 className="font-display text-3xl font-medium tracking-tight sm:text-4xl">
-            {t('about.greeting')} <span className="gradient-text">Izabela Petrovicova</span>
+            {t('about.greeting')} <span className="gradient-text">{t('common.fullName')}</span>
           </h1>
           <p className="mt-2 text-lg font-semibold text-accent">
             {t('about.accentLine')}
@@ -70,17 +71,20 @@ export default function About() {
         <h2 className="font-display text-xl font-medium">{t('tagline')}</h2>
         <div className="mt-4 space-y-4 text-ink/70 dark:text-stone">
           <p>{t('about.leadIntro')}</p>
-          <p>
+          <p className="flex items-start gap-3">
+            <DivingIcon className="mt-1 h-5 w-5 flex-none text-accent" />
             <Trans i18nKey="about.divemaster">
               0<strong>1</strong>2
             </Trans>
           </p>
-          <p>
+          <p className="flex items-start gap-3">
+            <MountainIcon className="mt-1 h-5 w-5 flex-none text-accent" />
             <Trans i18nKey="about.mountaineer">
               0<strong>1</strong>2
             </Trans>
           </p>
-          <p>
+          <p className="flex items-start gap-3">
+            <RunningIcon className="mt-1 h-5 w-5 flex-none text-accent" />
             <Trans i18nKey="about.marathon">
               0<strong>1</strong>2
             </Trans>

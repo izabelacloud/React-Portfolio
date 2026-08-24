@@ -1,5 +1,5 @@
 // Mountains entries are transcribed directly from Izabela's own trek/climbing log spreadsheet.
-// Diving, skiing and travel entries below are still placeholders — add one real entry per
+// Diving, skiing and travel entries below are still placeholders, add one real entry per
 // expedition before publishing; delete unused placeholder rows.
 const expeditions = [
   {
@@ -42,7 +42,7 @@ const expeditions = [
   },
   {
     slug: "root-glacier-wrangell-st-elias-national-park-and-preserve",
-    title: "Root Glacier, Wrangell – St. Elias National Park and Preserve",
+    title: "Root Glacier, Wrangell, St. Elias National Park and Preserve",
     location: "Alaska, USA",
     date: "3-Aug-2019",
     category: 'mountains',
@@ -401,7 +401,7 @@ const expeditions = [
   },
   {
     slug: '[VERIFY SLUG]',
-    title: '[VERIFY SKI DESTINATION — e.g. heli-ski Queenstown]',
+    title: '[VERIFY SKI DESTINATION, e.g. heli-ski Queenstown]',
     location: '[VERIFY LOCATION]',
     date: '[VERIFY DATE]',
     category: 'skiing',

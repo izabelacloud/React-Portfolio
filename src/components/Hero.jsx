@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero({ eyebrow, title, subtitle, description, media, children }) {
   return (
-    <section className="relative flex min-h-[75vh] flex-col justify-center gap-10 overflow-hidden py-16 sm:flex-row sm:items-center">
+    <section className="relative flex min-h-[75vh] flex-col items-center justify-center gap-10 overflow-hidden py-16 text-center sm:flex-row sm:text-left">
       <div
         aria-hidden
         className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full bg-accent/20 blur-3xl dark:bg-accent/15"
@@ -26,7 +26,7 @@ export default function Hero({ eyebrow, title, subtitle, description, media, chi
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative z-10 max-w-3xl"
+        className="relative z-10 flex max-w-3xl flex-col items-center sm:items-start"
       >
         {eyebrow && (
           <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
@@ -42,7 +42,11 @@ export default function Hero({ eyebrow, title, subtitle, description, media, chi
         {description && (
           <p className="mt-4 max-w-xl text-lg text-muted dark:text-stone">{description}</p>
         )}
-        {children && <div className="mt-8 flex flex-wrap gap-4">{children}</div>}
+        {children && (
+          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:items-stretch">
+            {children}
+          </div>
+        )}
       </motion.div>
     </section>
   );

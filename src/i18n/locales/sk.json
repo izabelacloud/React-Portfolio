@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Domov",
-    "work": "Práca",
+    "work": "Skúsenosti",
     "leadership": "Líderstvo",
     "adventures": "Dobrodružstvá",
     "worldMap": "Mapa svet",
@@ -14,15 +14,12 @@
     "exploreArrow": "Preskúmať →",
     "readMoreArrow": "Čítať viac →",
     "readStoryArrow": "Prečítať príbeh →",
-    "readCaseStudyArrow": "Prečítať prípadovú štúdiu →",
     "seeWork": "Zobraziť prácu",
     "seeAdventures": "Zobraziť dobrodružstvá",
     "seeAdventuresArrow": "Preskúmať dobrodružstvá →",
-    "seeProjectsArrow": "Zobraziť projekty →",
     "exploreWorkArrow": "Preskúmať prácu →",
     "exploreAdventuresArrow": "Preskúmať dobrodružstvá →",
     "backToHome": "Späť na domovskú stránku",
-    "backToWork": "← Späť na Práca",
     "backToAdventures": "← Späť na Dobrodružstvá",
     "backToFieldNotes": "← Späť na Poznámky",
     "backToMap": "← Späť na mapu",
@@ -30,8 +27,8 @@
     "categoryNotFound": "Kategória nebola nájdená.",
     "destinationNotFound": "Destinácia nebola nájdená.",
     "expeditionNotFound": "Expedícia nebola nájdená.",
-    "caseStudyNotFound": "Prípadová štúdia nebola nájdená.",
-    "postNotFound": "Príspevok nebol nájdený."
+    "postNotFound": "Príspevok nebol nájdený.",
+    "fullName": "Izabela Petrovičová"
   },
   "stats": {
     "countriesVisited": "Navštívené krajiny",
@@ -49,21 +46,21 @@
     "professionalTitle": "Podnikové architektúry, budované vo veľkom rozsahu",
     "professionalSubtitle": "Riaditeľka podnikovej technickej architektúry, zameriavam sa na end-to-end podnikovú architektúru pre globálne organizácie.",
     "personalEyebrow": "Osobné",
-    "personalSubtitle": "PADI Divemaster, horolezkyňa, lyžiarka a cestovateľka — 58 z 195 krajín a stále pribúdajú.",
-    "quote": "Prostredia sa menia. Myslenie nie."
+    "personalSubtitle": "PADI Divemaster, horolezkyňa, lyžiarka a cestovateľka, 58 z 195 krajín a stále pribúdajú.",
+    "quote": "Každý krok predtým ma priviedol až sem. Nikdy by som si nedokázala predstaviť, aké šťastie budem mať, že zažijem všetko toto a stretnem toľko zaujímavých ľudí na svojej ceste. Každý krok, každý dych, každá skúsenosť ma formovala a dovolila mi myslieť väčšmi než kedykoľvek predtým, vždy hľadajúc to, čo tento krásny svet môže ponúknuť."
   },
   "about": {
     "greeting": "Ahoj, som",
     "accentLine": "Architektka profesiou. Dobrodruh inštinktom.",
-    "locationLine": "Od augusta 2025 žijem v Melbourne v Austrálii. Pôvodne som z malej obce na Slovensku.",
+    "locationLine": "Od augusta 2025 žijem v Melbourne v Austrálii. Pôvodne som zo Slovenska.",
     "p1": "Viac ako desať rokov pomáham globálnym organizáciám riešiť zložité obchodné výzvy pomocou technológií. Moja kariéra sa formovala na priesečníku podnikovej architektúry, strategického poradenstva a praktického vývoja, pri premene ambicióznych obchodných cieľov na škálovateľné a praktické riešenia, ktoré prinášajú merateľnú hodnotu.",
     "p2": "Ako <1>riaditeľka podnikovej technickej architektúry</1> spolupracujem s vedením, obchodnými lídrami a dodávateľskými tímami na návrhu programov digitálnej transformácie v podnikovom rozsahu, so zameraním na end-to-end podnikovú architektúru. Moja expertíza zahŕňa architektúru Salesforce, Quote-to-Cash, Revenue Lifecycle Management, CRM strategiu, integráciu systémov, cloudové platformy a návrh podnikových riešení v odvetviach ako finančné služby, telekomunikácie, výroba, SaaS, analytika a profesionálne služby.",
     "p3": "Verím, že skvelá architektúra nie je len o technológii. Ide o pochopenie ľudí, zosúladenie zainteresovaných strán, zjednodušenie zložitosti a vytváranie systémov, ktoré zostanú adaptovateľné aj o roky.",
-    "journey": "Považujem sa za globálnu občianku. Vyrastala som v malej obci na Slovensku a potom som žila a pracovala v Silicon Valley v Kalifornii, v Londýne, v Zürichu vo Švajčiarsku a v San Franciscu v Kalifornii, než som sa usadila v Melbourne v Austrálii. Opakovaný pohyb medzi tak odlišnými kultúrami, obchodným prostredím a štýlmi vedenia zo mňa urobil veľmi adaptabilného a odolného človeka a dal mi prirodzenú schopnosť nadväzovať vzťahy s ľuďmi z akéhokoľvek prostredia.",
+    "journey": "Považujem sa za globálnu občianku. Vyrastala som na Slovensku a potom som žila a pracovala v Silicon Valley v Kalifornii, v Londýne v Spojenom kráľovstve, v Zürichu vo Švajčiarsku a v San Franciscu v Kalifornii, a žila som aj v Melbourne v Austrálii. Každý presun znamenal začať úplne nový život v novej krajine od nuly, čo zo mňa urobilo veľmi adaptabilného a odolného človeka a dalo mi prirodzenú schopnosť nadväzovať vzťahy s ľuďmi z akéhokoľvek prostredia.",
     "leadIntro": "Spôsob, akým vediem, formovalo rovnako to, čo sa deje mimo kancelárie, ako to, čo sa deje v nej.",
-    "divemaster": "Ako <1>PADI Divemaster</1> som sa naučila, že príprava, pokojné rozhodovanie a dôvera sú nevyhnutné pri vedení ľudí v náročných prostrediach.",
-    "mountaineer": "Ako <1>horolezkyňa</1> som zažila, že významné úspechy sa budujú jeden vedomý krok po druhom. Úspech pochádza z odolnosti, plánovania a schopnosti prispôsobiť sa, keď sa podmienky nevyhnutne zmenia.",
-    "marathon": "Ako <1>maratónska bežkyňa</1> som sa naučila, že konzistentnosť prevyšuje intenzitu. Dlhodobé výsledky prichádzajú z disciplíny, vytrvalosti a neustáleho zlepšovania, nie z rýchlych výhier.",
+    "divemaster": "Ako <1>PADI Divemaster</1> som sa naučila, že príprava, pokojné rozhodovanie a dôvera sú nevyhnutné pri vedení ľudí v náročných prostrediach. Prekonanie strachu sa začína v hlave, a jednoducho sa nikdy nevzdávaš.",
+    "mountaineer": "Ako <1>horolezkyňa</1> som zažila, že významné úspechy sa budujú jeden vedomý krok po druhom. Úspech pochádza z odolnosti, plánovania a schopnosti prispôsobiť sa, keď sa podmienky nevyhnutne zmenia, pretože všetko je v hlave: postavíš sa svojim strachom a nikdy sa nevzdáš.",
+    "marathon": "Ako <1>maratónska bežkyňa</1> som sa naučila, že konzistentnosť prevyšuje intenzitu. Dlhodobé výsledky prichádzajú z disciplíny, vytrvalosti a neustáleho zlepšovania, nie z rýchlych výhier. Je to dôkaz, že všetko je v hlave: prekonaj strach a nikdy sa nevzdávaj.",
     "continents": "Keďže som <1>žila a pracovala na troch kontinentoch</1>, vytvorila som si globálnu perspektívu, ktorá mi umožňuje efektívne spolupracovať s rôznorodými tímami, chápať rozdielne obchodné kultúry a budovať silné vzťahy medzi organizáciami.",
     "closing": "Pretože najlepšie riešenia jednoducho neriešia dnešné problémy. Vytvárajú príležitosti pre zajtrajšok."
   },
@@ -85,7 +82,8 @@
     "divingSubtitle": "PADI Divemaster. 6 zo 7 kontinentov potápaných.",
     "skiingSubtitle": "4 zo 7 kontinentov lyžovaných.",
     "travelSubtitle": "58 z 195 krajín navštívených.",
-    "empty": "[VERIFY — add expeditions for this category]"
+    "empty": "[VERIFY: add expeditions for this category]",
+    "divingCertsHeading": "Certifikáty"
   },
   "worldMapPage": {
     "eyebrow": "Dobrodružstvá",
@@ -96,7 +94,7 @@
   "destinationDetail": {
     "eyebrow": "Destinácia",
     "citiesVisited": "Navštívené mestá: {{cities}}",
-    "empty": "[VERIFY — add photos and stories from {{country}}]"
+    "empty": "[VERIFY: add photos and stories from {{country}}]"
   },
   "map": {
     "zoomIn": "Priblížiť",
@@ -114,14 +112,6 @@
     "moment": "Ten moment",
     "lesson": "Ponaučenie"
   },
-  "caseStudyDetail": {
-    "challenge": "Výzva",
-    "complexity": "Zložitosť",
-    "solution": "Riešenie",
-    "role": "Rola",
-    "outcome": "Výsledok",
-    "lessons": "Ponaučenia"
-  },
   "leadership": {
     "eyebrow": "Líderstvo",
     "title": "Pokojné rozhodnutia, urobené pod skutočným tlakom",
@@ -138,31 +128,15 @@
     "eyebrow": "Práca",
     "title": "Podniková architektúra a líderstvo",
     "subtitle": "Výber problémov, ktoré mi bolo dôverované riešiť. Detaily o klientoch a implementácii sú anonymizované alebo generalizované s ohľadom na dôvernosť.",
-    "caseStudiesHeading": "Prípadové štúdie",
     "clientsHeading": "Klienti, s ktorými som spolupracovala",
+    "executiveSummaryHeading": "Zhrnutie",
     "experienceHeading": "Skúsenosti",
-    "certificationsHeading": "Certifikácie",
-    "personalProjectsHeading": "Osobné projekty",
-    "personalProjectsText": "Mimo podnikovej architektúry vytváram a publikujem malé webové aplikácie pre prax."
-  },
-  "projects": {
-    "title": "Projekty",
-    "subtitle": "Výber aplikácií, ktoré som vytvorila a publikovala.",
-    "code": "Kód",
-    "liveDemo": "Živá ukážka",
-    "items": {
-      "recipeParade": "Aplikácia na objavovanie receptov na prehliadanie, hodnotenie a ukladanie obľúbených jedál. Aktuálne nenasadená; spustite lokálne a vyskúšajte.",
-      "travelPlanner": "Plánuj cesty a organizuj itineráre s prehľadným cestovným dashboardom.",
-      "budgetTracker": "PWA na sledovanie príjmov a výdavkov, funguje offline.",
-      "weatherDashboard": "5-dňový dashboard predpovede počasia s históriou vyhľadávania.",
-      "runBuddy": "Marketingová vstupná stránka pre osobnú tréningovú službu.",
-      "techBlog": "Full-stack blogová platforma s príspevkami a komentármi."
-    }
+    "certificationsHeading": "Certifikácie"
   },
   "fieldNotes": {
     "eyebrow": "Poznámky",
     "title": "Poznámky z terénu a z kancelárie",
-    "subtitle": "Krátke texty o architektúre, líderstve a dobrodružstve — prekrývajú sa viac, než by ste čakali."
+    "subtitle": "Krátke texty o architektúre, líderstve a dobrodružstve, prekrývajú sa viac, než by ste čakali."
   },
   "now": {
     "eyebrow": "Teraz",
@@ -174,6 +148,7 @@
     "subtitle": "Máte otázku alebo chcete spolupracovať? Napíšte mi.",
     "nameLabel": "Meno",
     "emailLabel": "E-mailová adresa",
+    "subjectLabel": "Predmet",
     "messageLabel": "Správa",
     "attachmentsLabel": "Prílohy",
     "dragDropText": "Presuňte súbory sem alebo kliknite na výber",
@@ -185,6 +160,7 @@
     "nameRequired": "Meno je povinné.",
     "emailRequired": "E-mail je povinný.",
     "emailInvalid": "Zadajte platnú e-mailovú adresu.",
+    "subjectRequired": "Predmet je povinný.",
     "messageRequired": "Správa je povinná."
   },
   "notFound": {
@@ -198,5 +174,157 @@
   "languages": {
     "heading": "Jazyky",
     "subtitle": "Táto stránka je dostupná v nasledujúcich jazykoch."
+  },
+  "experience": {
+    "items": {
+      "salesforce-technical-architect-director": {
+        "role": "Technical Architect Director",
+        "scope": "Dôveryhodná poradkyňa a strategická konzultantka pre veľké podniky v Austrálii, viedla technickú a podnikovú architektúru v rámci multi-cloudových, viac-pracovných programov transformácie Salesforce.",
+        "responsibilities": [
+          "Definovala architektonické mapy systémov, identifikovala rozdiely medzi súčasným a želaným stavom a prekladala obchodné cieľe do riešení v ekosystéme Salesforce",
+          "Viedla rokovania s klientmi, tvorbu SOW, výkonné riadiace výbory a governance programov",
+          "Mentorovala Solution a Technical Architects a dodávateľské tímy v rámci projektov"
+        ],
+        "achievements": [
+          "Rozšírila svoje vedenie technickej architektúry na austrálske projekty vrátane Telstra Health a Safe Transport Victoria po presťahovaní do Melbourne v roku 2025"
+        ]
+      },
+      "salesforce-director-solution-consulting": {
+        "role": "Director, Solution Consulting",
+        "scope": "Dôveryhodná poradkyňa a strategická konzultantka pre veľké podniky, koordinovala globálne, viac-regionálne programy transformácie Salesforce a viedla technickú a podnikovú architektúru v rámci multi-cloudových, viac-pracovných projektov.",
+        "responsibilities": [
+          "Viedla rokovania s klientmi, tvorbu SOW, výkonné riadiace výbory a governance programov",
+          "Definovala architektonické mapy systémov, identifikovala rozdiely medzi súčasným a želaným stavom a prekladala obchodné cieľe do riešení v ekosystéme Salesforce",
+          "Viedla tím 10 priamych podriadených; mentorovala Solution a Technical Architects a dodávateľské tímy s počtom až 80 ľudí"
+        ],
+        "achievements": [
+          "Iniciovala projekt re-platformingu Loyalty Management v hodnote $30M, automatizáciou procesov smerom k plánovanému 30% zníženiu nákladov",
+          "Viedla tri pracovné toky v hodnote $1.5M, znížila čas spracovania obchodov o 40% pomocou optimalizovaných KPI pre rozhodovanie",
+          "Spolupracovala s vedením na úrovni C-suite na strategii Apps & Home Page Strategy, Account 360 a iniciatívach Account Planning",
+          "Koordinovala prioritizáciu produktového plánu v rámci zmluvného portfólia presahujúceho $82M",
+          "Bola vymenovaná do pozície Capability Stream Lead, na úrovni Director, dohliadala na tímy schopností počas celého životného cyklu dodávky od strategického plánovania až po odsúhlasenie",
+          "Získala ocenenie Agent of Change za presadzovanie zmysluplnej transformácie vedenej AI",
+          "Viedla iniciatívu 'Voice of the Field' v rámci Professional Services Employee Advisory Council (PEAC), organizovala okrúhle stoly v rámci dodávateľského tímu ANZ a premieňala spätnú väzbu podloženú dôkazmi na konkrétne oblasti zamerania pre organizáciu",
+          "Viedla pro bono iniciatívy AI for Good, nasadzovala Agentforce a Data Cloud na rozšírenie prístupu k vzdelávaniu pre nedostatočne podporované komunity"
+        ]
+      },
+      "salesforce-sr-manager-solution-consulting": {
+        "role": "Sr. Manager, Solution Consulting",
+        "scope": "Viedla podnikovú programovú strategiu a solution consulting pre globálne účty, riadila obchodnú transformáciu v súlade s najlepšími postupmi Salesforce.",
+        "responsibilities": [
+          "Koordinovala globálne, viac-regionálne programy zosúlaďujúce strategické cieľe klientov s technologickými schopnosťami",
+          "Implementovala strategie change managementu a nové operačné modely pre obchodnú transformáciu",
+          "Zaviedla rámec štandardizácie procesov v rámci celej organizácie pre programové operácie"
+        ],
+        "achievements": [
+          "Dosiahla obchodnú transformáciu, ktorá viedla k zrýchleniu doby realizácie a 20% zníženiu operačných nákladov"
+        ]
+      },
+      "salesforce-sr-solution-architect": {
+        "role": "Sr. Solution Architect",
+        "scope": "Poskytovala odborné poradenstvo v oblasti integračnej architektúry, strategie migrácie dát a implementácie správy zdrojového kódu v rámci projektov Salesforce.",
+        "responsibilities": [
+          "Viedla objasňujúce workshopy, definovala obchodné požiadavky a vytvárala podrobné systémové a funkčné návrhy",
+          "Dokumentovala obchodné procesy a návrhy systémov pomocou diagramov procesných tokov, UML a sekvenčných diagramov"
+        ],
+        "achievements": []
+      },
+      "apttus-sr-solution-architect": {
+        "role": "Sr. Solution Architect (postup z pozície Business Analyst / Configuration Engineer)",
+        "scope": "Viedla implementácie Apttus v celom životnom cykle v oblastiach Configure Price Quote (CPQ), Billing Management a Contract Lifecycle Management (CLM), so sídlom v Londýne, Veľká Británia a San Mateo, Kalifornia.",
+        "responsibilities": [
+          "Pôsobila ako Enterprise Solution Architect pre globálne nasadenie, ktoré nahradilo staršie systémy jednotnou platformou pre 20,000 používateľov vo viac ako 80 krajinách",
+          "Koordinovala optimalizáciu životného cyklu tvorby ponúk s podporou 11 integrácií, 50,000 produktov a 80 instancií konfigurátora",
+          "Riadila rokovania s klientmi, tvorbu SOW, alokáciu zdrojov a reportovanie projektov"
+        ],
+        "achievements": []
+      },
+      "apttus-financial-analyst": {
+        "role": "Financial Analyst / T&E Deployment Lead",
+        "scope": "Viedla implementáciu podnikového riešenia pre cestovné a výdavky (T&E) v San Mateo, Kalifornia, vrátane globálneho nasadenia politík a správy systému.",
+        "responsibilities": [
+          "Viedla iniciatívy uznávania výnosov a procesy štvrťročného uzávierky",
+          "Vyvinula analytickú sadu pre sledovanie výnosov, analýzu provízií a reportovanie odchýlok rozpočtu"
+        ],
+        "achievements": []
+      },
+      "accenture-analyst-programmer": {
+        "role": "Analyst Programmer",
+        "scope": "Navrhla a implementovala testovacie postupy pre poistný nástroj na tvorbu ponúk v Bratislave, na Slovensku.",
+        "responsibilities": [
+          "Spolupracovala s vývojárskymi tímami na zabezpečení dostupnosti a zrozumiteľnosti výsledkov testovania",
+          "Sledovala chyby až po ich vyriešenie a udržiavala aktuálny repozitár chýb"
+        ],
+        "achievements": []
+      },
+      "ibm-contract-review-analyst": {
+        "role": "Contract Review Analyst / Accounting Analyst / Operational Support",
+        "scope": "Vykonávala kontrolu zmlúv na zabezpečenie presného uznávania výnosov pri zložitých transakciách, v Bratislave, na Slovensku.",
+        "responsibilities": [
+          "Vykonávala účtovné úpravy pre neštandardné podmienky v súlade s finančnými predpismi",
+          "Vytvorila rámce pre uznávanie výnosov a nákladov a poskytovala analýzy ziskovosti s poznatkami na výkonnej úrovni"
+        ],
+        "achievements": []
+      }
+    }
+  },
+  "locations": {
+    "items": {
+      "argentina": "Argentína",
+      "australia": "Austrália",
+      "austria": "Rakúsko",
+      "belgium": "Belgicko",
+      "brazil": "Brazília",
+      "canada": "Kanada",
+      "chile": "Čile",
+      "china": "Čína",
+      "colombia": "Kolumbia",
+      "costa-rica": "Kostarika",
+      "croatia": "Chorvátsko",
+      "cuba": "Kuba",
+      "cyprus": "Cyprus",
+      "denmark": "Dánsko",
+      "egypt": "Egypt",
+      "fiji": "Fidži",
+      "france": "Francúzsko",
+      "french-polynesia": "Francúzska Polynézia",
+      "germany": "Nemecko",
+      "greece": "Grécko",
+      "hungary": "Maďarsko",
+      "iceland": "Island",
+      "india": "India",
+      "indonesia": "Indonézia",
+      "ireland": "Írsko",
+      "italy": "Taliansko",
+      "japan": "Japonsko",
+      "malaysia": "Malajzia",
+      "mexico": "Mexiko",
+      "morocco": "Maroko",
+      "nepal": "Nepál",
+      "netherlands": "Holandsko",
+      "new-zealand": "Nový Zéland",
+      "norway": "Nórsko",
+      "oman": "Omán",
+      "panama": "Panama",
+      "peru": "Peru",
+      "poland": "Poľsko",
+      "portugal": "Portugalsko",
+      "qatar": "Katar",
+      "russia": "Rusko",
+      "slovakia": "Slovensko",
+      "spain": "Španielsko",
+      "sri-lanka": "Srí Lanka",
+      "sweden": "Švédsko",
+      "switzerland": "Švajčiarsko",
+      "tanzania": "Tanzánia",
+      "thailand": "Thajsko",
+      "turkey": "Turecko",
+      "turks-and-caicos-islands": "Turks a Caicos",
+      "united-arab-emirates": "Spojené arabské emiráty",
+      "united-kingdom": "Veľká Británia",
+      "uruguay": "Uruguaj",
+      "usa": "USA",
+      "vietnam": "Vietnam"
+    }
   }
 }

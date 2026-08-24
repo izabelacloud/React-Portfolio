@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Inicio",
-    "work": "Trabajo",
+    "work": "Experiencia",
     "leadership": "Liderazgo",
     "adventures": "Aventuras",
     "worldMap": "Mapa mundial",
@@ -14,15 +14,12 @@
     "exploreArrow": "Explorar →",
     "readMoreArrow": "Leer más →",
     "readStoryArrow": "Leer la historia →",
-    "readCaseStudyArrow": "Leer el caso de estudio →",
     "seeWork": "Ver el trabajo",
     "seeAdventures": "Ver las aventuras",
     "seeAdventuresArrow": "Explorar las aventuras →",
-    "seeProjectsArrow": "Ver los proyectos →",
     "exploreWorkArrow": "Explorar el trabajo →",
     "exploreAdventuresArrow": "Explorar las aventuras →",
     "backToHome": "Volver al inicio",
-    "backToWork": "← Volver a Trabajo",
     "backToAdventures": "← Volver a Aventuras",
     "backToFieldNotes": "← Volver a Notas de campo",
     "backToMap": "← Volver al mapa",
@@ -30,8 +27,8 @@
     "categoryNotFound": "Categoría no encontrada.",
     "destinationNotFound": "Destino no encontrado.",
     "expeditionNotFound": "Expedición no encontrada.",
-    "caseStudyNotFound": "Caso de estudio no encontrado.",
-    "postNotFound": "Publicación no encontrada."
+    "postNotFound": "Publicación no encontrada.",
+    "fullName": "Izabela Petrovicova"
   },
   "stats": {
     "countriesVisited": "Países visitados",
@@ -49,21 +46,21 @@
     "professionalTitle": "Arquitectura empresarial, construida a gran escala",
     "professionalSubtitle": "Directora de Arquitectura Técnica Empresarial, enfocada en arquitectura empresarial de extremo a extremo para organizaciones globales.",
     "personalEyebrow": "Personal",
-    "personalSubtitle": "PADI Divemaster, montañista, esquiadora y viajera — 58 de 195 países y sigue contando.",
-    "quote": "Los entornos cambian. La mentalidad no."
+    "personalSubtitle": "PADI Divemaster, montañista, esquiadora y viajera, 58 de 195 países y sigue contando.",
+    "quote": "Cada paso antes de este me trajo hasta aquí. Nunca podría haber imaginado la suerte que tendría de vivir todo esto y conocer a tantas personas interesantes en el camino. Cada paso, cada respiro, cada experiencia me ha formado y me ha permitido pensar más grande que nunca, buscando siempre lo que este hermoso mundo tiene para dar."
   },
   "about": {
     "greeting": "Hola, soy",
     "accentLine": "Arquitecta por profesión. Aventurera por instinto.",
-    "locationLine": "Radicada en Melbourne, Australia, desde agosto de 2025. Originalmente de un pequeño pueblo de Eslovaquia.",
+    "locationLine": "Radicada en Melbourne, Australia, desde agosto de 2025. Originalmente de Eslovaquia.",
     "p1": "Durante más de una década, he ayudado a organizaciones globales a resolver desafíos empresariales complejos a través de la tecnología. Mi carrera se ha construido en la intersección de la arquitectura empresarial, la consultoría estratégica y la ingeniería práctica, transformando objetivos empresariales ambiciosos en soluciones prácticas y escalables que generan valor medible.",
     "p2": "Como <1>Directora de Arquitectura Técnica Empresarial</1>, colaboro con ejecutivos, líderes empresariales y equipos de entrega para diseñar programas de transformación digital a escala empresarial, con foco en arquitectura empresarial de extremo a extremo. Mi experiencia abarca la arquitectura de Salesforce, Quote-to-Cash, Revenue Lifecycle Management, estrategia de CRM, integración de sistemas, plataformas en la nube y diseño de soluciones empresariales en sectores como servicios financieros, telecomunicaciones, manufactura, SaaS, análisis y servicios profesionales.",
     "p3": "Creo que la gran arquitectura nunca es solo sobre tecnología. Se trata de entender a las personas, alinear a los interesados, simplificar la complejidad y crear sistemas que sigan siendo adaptables durante años.",
-    "journey": "Me considero una ciudadana global. Crecí en un pequeño pueblo de Eslovaquia y luego viví y trabajé en Silicon Valley, California; Londres; Zúrich, Suiza; y San Francisco, California, antes de establecerme en Melbourne, Australia. Moverme repetidamente entre culturas, entornos empresariales y estilos de liderazgo tan diferentes me ha hecho muy adaptable y resiliente, y me ha dado una facilidad natural para conectar con personas de cualquier origen.",
+    "journey": "Me considero una ciudadana global. Crecí en Eslovaquia y luego viví y trabajé en Silicon Valley, California; Londres, Reino Unido; Zúrich, Suiza; y San Francisco, California, y también he vivido en Melbourne, Australia. Cada mudanza significó empezar una nueva vida desde cero en un nuevo país, lo que me ha hecho muy adaptable y resiliente, y me ha dado una facilidad natural para conectar con personas de cualquier origen.",
     "leadIntro": "La forma en que lidero se ha formado tanto fuera de la oficina como dentro de ella.",
-    "divemaster": "Como <1>PADI Divemaster</1>, he aprendido que la preparación, la toma de decisiones con calma y la confianza son esenciales al liderar personas en entornos desafiantes.",
-    "mountaineer": "Como <1>montañista</1>, he experimentado que los logros significativos se construyen un paso deliberado a la vez. El éxito proviene de la resiliencia, la planificación y la adaptación cuando las condiciones inevitablemente cambian.",
-    "marathon": "Como <1>corredora de maratón</1>, he aprendido que la constancia supera a la intensidad. Los resultados a largo plazo provienen de la disciplina, la persistencia y la mejora continua, no de victorias rápidas.",
+    "divemaster": "Como <1>PADI Divemaster</1>, he aprendido que la preparación, la toma de decisiones con calma y la confianza son esenciales al liderar personas en entornos desafiantes. Superar el miedo empieza en la cabeza, y simplemente nunca te rindes.",
+    "mountaineer": "Como <1>montañista</1>, he experimentado que los logros significativos se construyen un paso deliberado a la vez. El éxito proviene de la resiliencia, la planificación y la adaptación cuando las condiciones inevitablemente cambian, porque todo está en la cabeza: enfrentas tus miedos y nunca te rindes.",
+    "marathon": "Como <1>corredora de maratón</1>, he aprendido que la constancia supera a la intensidad. Los resultados a largo plazo provienen de la disciplina, la persistencia y la mejora continua, no de victorias rápidas. Es prueba de que todo está en la cabeza: supera el miedo y nunca te rindes.",
     "continents": "Habiendo <1>vivido y trabajado en tres continentes</1>, he desarrollado una perspectiva global que me permite colaborar eficazmente con equipos diversos, entender diferentes culturas empresariales y construir relaciones sólidas entre organizaciones.",
     "closing": "Porque las mejores soluciones no simplemente resuelven los problemas de hoy. Crean oportunidades para el futuro."
   },
@@ -85,7 +82,8 @@
     "divingSubtitle": "PADI Divemaster. 6 de 7 continentes buceados.",
     "skiingSubtitle": "4 de 7 continentes esquiados.",
     "travelSubtitle": "58 de 195 países visitados.",
-    "empty": "[VERIFY — add expeditions for this category]"
+    "empty": "[VERIFY: add expeditions for this category]",
+    "divingCertsHeading": "Certificaciones"
   },
   "worldMapPage": {
     "eyebrow": "Aventuras",
@@ -96,7 +94,7 @@
   "destinationDetail": {
     "eyebrow": "Destino",
     "citiesVisited": "Ciudades visitadas: {{cities}}",
-    "empty": "[VERIFY — add photos and stories from {{country}}]"
+    "empty": "[VERIFY: add photos and stories from {{country}}]"
   },
   "map": {
     "zoomIn": "Acercar",
@@ -114,14 +112,6 @@
     "moment": "El momento",
     "lesson": "Lección"
   },
-  "caseStudyDetail": {
-    "challenge": "Desafío",
-    "complexity": "Complejidad",
-    "solution": "Solución",
-    "role": "Rol",
-    "outcome": "Resultado",
-    "lessons": "Lecciones"
-  },
   "leadership": {
     "eyebrow": "Liderazgo",
     "title": "Decisiones con calma, tomadas bajo presión real",
@@ -138,26 +128,10 @@
     "eyebrow": "Trabajo",
     "title": "Arquitectura Empresarial y Liderazgo",
     "subtitle": "Una selección de los problemas que se me ha confiado resolver. Los detalles del cliente y la implementación están anonimizados o generalizados para respetar la confidencialidad.",
-    "caseStudiesHeading": "Casos de estudio",
     "clientsHeading": "Clientes con los que he trabajado",
+    "executiveSummaryHeading": "Resumen ejecutivo",
     "experienceHeading": "Experiencia",
-    "certificationsHeading": "Certificaciones",
-    "personalProjectsHeading": "Proyectos personales",
-    "personalProjectsText": "Fuera del trabajo de arquitectura empresarial, construyo y publico pequeñas aplicaciones web para practicar."
-  },
-  "projects": {
-    "title": "Proyectos",
-    "subtitle": "Una selección de aplicaciones que he construido y publicado.",
-    "code": "Código",
-    "liveDemo": "Demo en vivo",
-    "items": {
-      "recipeParade": "Una app de descubrimiento de recetas para explorar, calificar y guardar platos favoritos. No está desplegada actualmente; ejecútala localmente para probarla.",
-      "travelPlanner": "Planifica viajes y organiza itinerarios con un panel de viaje ordenado.",
-      "budgetTracker": "Una PWA para rastrear ingresos y gastos, funciona sin conexión.",
-      "weatherDashboard": "Un panel de pronóstico del tiempo de 5 días con historial de búsqueda.",
-      "runBuddy": "Una página de aterrizaje de marketing para un servicio de entrenamiento personal.",
-      "techBlog": "Una plataforma de blog full-stack con publicaciones y comentarios."
-    }
+    "certificationsHeading": "Certificaciones"
   },
   "fieldNotes": {
     "eyebrow": "Notas de campo",
@@ -174,6 +148,7 @@
     "subtitle": "¿Tienes una pregunta o quieres trabajar juntos? Contáctame.",
     "nameLabel": "Nombre",
     "emailLabel": "Correo electrónico",
+    "subjectLabel": "Asunto",
     "messageLabel": "Mensaje",
     "attachmentsLabel": "Archivos adjuntos",
     "dragDropText": "Arrastra y suelta archivos aquí, o haz clic para explorar",
@@ -185,6 +160,7 @@
     "nameRequired": "El nombre es obligatorio.",
     "emailRequired": "El correo electrónico es obligatorio.",
     "emailInvalid": "Introduce una dirección de correo electrónico válida.",
+    "subjectRequired": "El asunto es obligatorio.",
     "messageRequired": "El mensaje es obligatorio."
   },
   "notFound": {
@@ -198,5 +174,157 @@
   "languages": {
     "heading": "Idiomas",
     "subtitle": "Este sitio está disponible en los siguientes idiomas."
+  },
+  "experience": {
+    "items": {
+      "salesforce-technical-architect-director": {
+        "role": "Directora de Arquitectura Técnica",
+        "scope": "Asesora de confianza y consultora estratégica para clientes empresariales en Australia, liderando la arquitectura técnica y empresarial en programas de transformación de Salesforce multicloud y con múltiples frentes de trabajo.",
+        "responsibilities": [
+          "Definir los panoramas de arquitectura de sistemas, identificar las brechas entre el estado actual y el estado deseado, y traducir los objetivos de negocio en soluciones del ecosistema de Salesforce",
+          "Liderar las negociaciones con clientes, el desarrollo de SOW, los comités directivos ejecutivos y la gobernanza de programas",
+          "Mentorizar a Arquitectos de Soluciones y Técnicos, así como a los equipos de entrega, en los distintos proyectos"
+        ],
+        "achievements": [
+          "Extendió su liderazgo en arquitectura técnica a proyectos australianos, incluyendo Telstra Health y Safe Transport Victoria, tras su traslado a Melbourne en 2025"
+        ]
+      },
+      "salesforce-director-solution-consulting": {
+        "role": "Directora de Consultoría de Soluciones",
+        "scope": "Asesora de confianza y consultora estratégica para clientes empresariales, orquestando programas de transformación de Salesforce globales y multirregionales, y liderando la arquitectura técnica y empresarial en proyectos multicloud con múltiples frentes de trabajo.",
+        "responsibilities": [
+          "Liderar las negociaciones con clientes, el desarrollo de SOW, los comités directivos ejecutivos y la gobernanza de programas",
+          "Definir los panoramas de arquitectura de sistemas, identificar las brechas entre el estado actual y el estado deseado, y traducir los objetivos de negocio en soluciones del ecosistema de Salesforce",
+          "Gestionar un equipo de 10 colaboradores directos; mentorizar a Arquitectos de Soluciones y Técnicos, y a equipos de entrega de hasta 80 personas"
+        ],
+        "achievements": [
+          "Encabezó una iniciativa de $30M para la migración de plataforma de Loyalty Management, automatizando procesos con el objetivo de una reducción de costos planificada del 30%",
+          "Dirigió tres frentes de trabajo de $1.5M, reduciendo el tiempo de procesamiento de acuerdos en un 40% mediante KPIs de toma de decisiones optimizados",
+          "Colaboró con ejecutivos de alto nivel (C-suite) en iniciativas de Apps & Home Page Strategy, Account 360 y Account Planning",
+          "Orquestó la priorización de la hoja de ruta de productos en una cartera de contratos que supera los $82M",
+          "Nombrada Capability Stream Lead, un puesto de nivel Director que supervisa a los equipos de capacidades durante todo el ciclo de vida de entrega, desde la planificación estratégica hasta la aprobación final",
+          "Reconocida con el premio Agent of Change por impulsar una transformación significativa liderada por IA",
+          "Lideró la iniciativa 'Voice of the Field' del Professional Services Employee Advisory Council (PEAC), organizando mesas redondas en todo el equipo de entrega de ANZ y convirtiendo comentarios basados en evidencia en áreas de enfoque concretas para la organización",
+          "Lideró iniciativas pro bono de AI for Good, implementando Agentforce y Data Cloud para ampliar el acceso educativo a comunidades con pocos recursos"
+        ]
+      },
+      "salesforce-sr-manager-solution-consulting": {
+        "role": "Gerente Sr. de Consultoría de Soluciones",
+        "scope": "Lideró la estrategia de programas empresariales y la consultoría de soluciones para cuentas globales, impulsando la transformación empresarial alineada con las mejores prácticas de Salesforce.",
+        "responsibilities": [
+          "Orquestó programas globales y multirregionales, alineando los objetivos estratégicos de los clientes con las capacidades tecnológicas",
+          "Implementó estrategias de gestión del cambio y nuevos modelos operativos para la transformación empresarial",
+          "Estableció un marco de estandarización de procesos a nivel empresarial en las operaciones de los programas"
+        ],
+        "achievements": [
+          "Logró una transformación empresarial que resultó en tiempos de respuesta acelerados y una reducción del 20% en los costos operativos"
+        ]
+      },
+      "salesforce-sr-solution-architect": {
+        "role": "Arquitecta de Soluciones Sr.",
+        "scope": "Brindó orientación experta en arquitectura de integración, estrategia de migración de datos e implementación de control de versiones en proyectos de Salesforce.",
+        "responsibilities": [
+          "Lideró sesiones de descubrimiento, definió requisitos de negocio y elaboró diseños detallados de sistemas y funcionales",
+          "Documentó procesos de negocio y diseños de sistemas mediante diagramas de flujo de procesos, UML y diagramas de secuencia"
+        ],
+        "achievements": []
+      },
+      "apttus-sr-solution-architect": {
+        "role": "Arquitecta de Soluciones Sr. (con progresión desde Analista de Negocio / Ingeniera de Configuración)",
+        "scope": "Dirigió implementaciones de Apttus de ciclo completo en Configure Price Quote (CPQ), Billing Management y Contract Lifecycle Management (CLM), con base en Londres, Reino Unido, y San Mateo, California.",
+        "responsibilities": [
+          "Se desempeñó como Arquitecta de Soluciones Empresariales para una implementación global que reemplazó sistemas heredados con una plataforma unificada para 20,000 usuarios en más de 80 países",
+          "Orquestó la optimización del ciclo de vida de cotizaciones, dando soporte a 11 integraciones, 50,000 productos y 80 instancias del configurador",
+          "Gestionó las negociaciones con clientes, el desarrollo de SOW, la asignación de recursos y la elaboración de informes de proyecto"
+        ],
+        "achievements": []
+      },
+      "apttus-financial-analyst": {
+        "role": "Analista Financiera / Líder de Implementación de T&E",
+        "scope": "Lideró la implementación de una solución empresarial de viajes y gastos (T&E) en San Mateo, California, incluyendo el despliegue de políticas globales y la administración del sistema.",
+        "responsibilities": [
+          "Dirigió iniciativas de reconocimiento de ingresos y procesos de cierre trimestral",
+          "Desarrolló un conjunto de herramientas analíticas para el seguimiento de ingresos, el análisis de comisiones y la elaboración de informes de variación presupuestaria"
+        ],
+        "achievements": []
+      },
+      "accenture-analyst-programmer": {
+        "role": "Analista Programadora",
+        "scope": "Diseñó e implementó procedimientos de prueba para una herramienta de cotización de seguros en Bratislava, Eslovaquia.",
+        "responsibilities": [
+          "Colaboró con los equipos de desarrollo para garantizar la accesibilidad y claridad de los resultados de las pruebas",
+          "Dio seguimiento a los defectos hasta su resolución y mantuvo actualizado un repositorio de defectos"
+        ],
+        "achievements": []
+      },
+      "ibm-contract-review-analyst": {
+        "role": "Analista de Revisión de Contratos / Analista Contable / Soporte Operativo",
+        "scope": "Realizó revisiones de contratos para garantizar el reconocimiento preciso de ingresos en transacciones complejas, en Bratislava, Eslovaquia.",
+        "responsibilities": [
+          "Ejecutó ajustes contables para términos no estándar conforme a la normativa financiera",
+          "Estableció marcos de reconocimiento de ingresos y costos, entregando análisis de rentabilidad con perspectivas de nivel ejecutivo"
+        ],
+        "achievements": []
+      }
+    }
+  },
+  "locations": {
+    "items": {
+      "argentina": "Argentina",
+      "australia": "Australia",
+      "austria": "Austria",
+      "belgium": "Bélgica",
+      "brazil": "Brasil",
+      "canada": "Canadá",
+      "chile": "Chile",
+      "china": "China",
+      "colombia": "Colombia",
+      "costa-rica": "Costa Rica",
+      "croatia": "Croacia",
+      "cuba": "Cuba",
+      "cyprus": "Chipre",
+      "denmark": "Dinamarca",
+      "egypt": "Egipto",
+      "fiji": "Fiyi",
+      "france": "Francia",
+      "french-polynesia": "Polinesia Francesa",
+      "germany": "Alemania",
+      "greece": "Grecia",
+      "hungary": "Hungría",
+      "iceland": "Islandia",
+      "india": "India",
+      "indonesia": "Indonesia",
+      "ireland": "Irlanda",
+      "italy": "Italia",
+      "japan": "Japón",
+      "malaysia": "Malasia",
+      "mexico": "México",
+      "morocco": "Marruecos",
+      "nepal": "Nepal",
+      "netherlands": "Países Bajos",
+      "new-zealand": "Nueva Zelanda",
+      "norway": "Noruega",
+      "oman": "Omán",
+      "panama": "Panamá",
+      "peru": "Perú",
+      "poland": "Polonia",
+      "portugal": "Portugal",
+      "qatar": "Catar",
+      "russia": "Rusia",
+      "slovakia": "Eslovaquia",
+      "spain": "España",
+      "sri-lanka": "Sri Lanka",
+      "sweden": "Suecia",
+      "switzerland": "Suiza",
+      "tanzania": "Tanzania",
+      "thailand": "Tailandia",
+      "turkey": "Turquía",
+      "turks-and-caicos-islands": "Islas Turcas y Caicos",
+      "united-arab-emirates": "Emiratos Árabes Unidos",
+      "united-kingdom": "Reino Unido",
+      "uruguay": "Uruguay",
+      "usa": "Estados Unidos",
+      "vietnam": "Vietnam"
+    }
   }
 }

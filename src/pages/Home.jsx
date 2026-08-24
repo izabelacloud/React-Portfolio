@@ -7,6 +7,7 @@ import StatDisplay from '../components/StatDisplay';
 import ContourDivider from '../components/ContourDivider';
 import Quote from '../components/Quote';
 import ProfilePhotoPlaceholder from '../components/ProfilePhotoPlaceholder';
+import { DivingIcon, MountainIcon, RunningIcon } from '../components/AdventureIcons';
 import stats from '../data/stats';
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
     <div>
       <Hero
         eyebrow={t('home.heroEyebrow')}
-        title="Izabela Petrovicova"
+        title={t('common.fullName')}
         subtitle={t('home.heroTitle')}
         description={t('home.heroSubtitle')}
         media={<ProfilePhotoPlaceholder />}
@@ -57,17 +58,20 @@ export default function Home() {
         <h2 className="font-display text-xl font-medium">{t('tagline')}</h2>
         <div className="mt-4 space-y-4 text-ink/70 dark:text-stone">
           <p>{t('about.leadIntro')}</p>
-          <p>
+          <p className="flex items-start gap-3">
+            <DivingIcon className="mt-1 h-5 w-5 flex-none text-accent" />
             <Trans i18nKey="about.divemaster">
               0<strong>1</strong>2
             </Trans>
           </p>
-          <p>
+          <p className="flex items-start gap-3">
+            <MountainIcon className="mt-1 h-5 w-5 flex-none text-accent" />
             <Trans i18nKey="about.mountaineer">
               0<strong>1</strong>2
             </Trans>
           </p>
-          <p>
+          <p className="flex items-start gap-3">
+            <RunningIcon className="mt-1 h-5 w-5 flex-none text-accent" />
             <Trans i18nKey="about.marathon">
               0<strong>1</strong>2
             </Trans>

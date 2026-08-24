@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Kezdőlap",
-    "work": "Munka",
+    "work": "Tapasztalat",
     "leadership": "Vezetés",
     "adventures": "Kalandok",
     "worldMap": "Világtérkép",
@@ -14,15 +14,12 @@
     "exploreArrow": "Felfedezés →",
     "readMoreArrow": "Tovább olvasom →",
     "readStoryArrow": "A történet elolvasása →",
-    "readCaseStudyArrow": "Esettanulmány elolvasása →",
     "seeWork": "Munkáim megtekintése",
     "seeAdventures": "Kalandok megtekintése",
     "seeAdventuresArrow": "Kalandok felfedezése →",
-    "seeProjectsArrow": "Projektek megtekintése →",
     "exploreWorkArrow": "Munka felfedezése →",
     "exploreAdventuresArrow": "Kalandok felfedezése →",
     "backToHome": "Vissza a kezdőlapra",
-    "backToWork": "← Vissza a Munkához",
     "backToAdventures": "← Vissza a Kalandokhoz",
     "backToFieldNotes": "← Vissza a Jegyzetekhez",
     "backToMap": "← Vissza a térképhez",
@@ -30,8 +27,8 @@
     "categoryNotFound": "A kategória nem található.",
     "destinationNotFound": "Az úticél nem található.",
     "expeditionNotFound": "Az expedíció nem található.",
-    "caseStudyNotFound": "Az esettanulmány nem található.",
-    "postNotFound": "A bejegyzés nem található."
+    "postNotFound": "A bejegyzés nem található.",
+    "fullName": "Izabela Petrovicova"
   },
   "stats": {
     "countriesVisited": "Meglátogatott országok",
@@ -49,21 +46,21 @@
     "professionalTitle": "Vállalati architektúra, nagy léptékben megépítve",
     "professionalSubtitle": "Vállalati technikai architektúra igazgatója, a végponttól végpontig tartó vállalati architektúrára fókuszálva globális szervezetek számára.",
     "personalEyebrow": "Személyes",
-    "personalSubtitle": "PADI Divemaster, hegymászó, síelő és utazó — 58 a 195 országból, és folytatódik.",
-    "quote": "A körülmények változnak. A gondolkodás nem."
+    "personalSubtitle": "PADI Divemaster, hegymászó, síelő és utazó, 58 a 195 országból, és folytatódik.",
+    "quote": "Minden korábbi lépésem idáig vezetett. Soha nem gondoltam volna, hogy ilyen szerencsés leszek, hogy mindezt megtapasztalhatom, és útközben ennyi érdekes emberrel találkozhatom. Minden lépés, minden lélegzet, minden tapasztalat formált engem, és lehetővé tette, hogy nagyobb léptékben gondolkodjam, mint korábban bármikor, mindig keresve azt, amit ez a gyönyörű világ nyújtani tud."
   },
   "about": {
     "greeting": "Szia, én vagyok",
     "accentLine": "Építész hivatásból. Kalandor ösztönből.",
-    "locationLine": "2025 augusztusa óta Melbourne-ben, Ausztráliában élek. Eredetileg egy kis szlovákiai faluból származom.",
+    "locationLine": "2025 augusztusa óta Melbourne-ben, Ausztráliában élek. Eredetileg Szlovákiából származom.",
     "p1": "Több mint egy évtizede segítek globális szervezeteknek összetett üzleti kihívások megoldásában a technológia segítségével. Karrierem a vállalati architektúra, a stratégiai tanácsadás és a gyakorlati mérnöki munka metszéspontjában épült fel, ambiciózus üzleti célokat skálázható, praktikus megoldásokká alakítva, amelyek mérhető értéket teremtenek.",
     "p2": "<1>Vállalati technikai architektúra igazgatójaként</1> vezetőkkel, üzleti döntéshozókkal és delivery csapatokkal együttműködve tervezek vállalati méretű digitális transzformációs programokat, a végponttól végpontig tartó vállalati architektúrára fókuszálva. Szakértelmem kiterjed a Salesforce architektúrára, a Quote-to-Cash és Revenue Lifecycle Management folyamatokra, a CRM stratégiára, a rendszerintegrációra, a felhőplatformokra és a vállalati megoldástervezésre olyan iparágakban, mint a pénzügyi szolgáltatások, a távközlés, a gyártás, a SaaS, az analitika és a professzionális szolgáltatások.",
     "p3": "Hiszem, hogy a kiváló architektúra sosem csak a technológiáról szól. Az emberek megértéséről, az érdekelt felek összehangolásáról, a bonyolultság egyszerűsítéséről és olyan rendszerek létrehozásáról, amelyek évekig alkalmazkodóképesek maradnak.",
-    "journey": "Globális állampolgárnak tartom magam. Egy kis szlovákiai faluban nőttem fel, majd Kalifornia Silicon Valley-jében, Londonban, a svájci Zürichben és a kaliforniai San Franciscóban éltem és dolgoztam, mielőtt Melbourne-ben, Ausztráliában telepedtem le. Az, hogy újra és újra ilyen eltérő kultúrák, üzleti környezetek és vezetési stílusok között mozogtam, nagyon alkalmazkodóvá és ellenállóvá tett, és természetes könnyedséget adott ahhoz, hogy bármilyen háttérrel rendelkező emberekkel kapcsolatot építsek.",
+    "journey": "Globális állampolgárnak tartom magam. Szlovákiában nőttem fel, majd Kalifornia Silicon Valley-jében, a brit Londonban, a svájci Zürichben és a kaliforniai San Franciscóban éltem és dolgoztam, és Melbourne-ben, Ausztráliában is éltem. Minden egyes váltás azt jelentette, hogy egy új országban kellett nulláról újrakezdenem az életemet, ami nagyon alkalmazkodóvá és ellenállóvá tett, és természetes könnyedséget adott ahhoz, hogy bármilyen háttérrel rendelkező emberekkel kapcsolatot építsek.",
     "leadIntro": "A vezetési stílusomat ugyanannyira formálta az, ami az irodán kívül történt, mint az, ami belül.",
-    "divemaster": "<1>PADI Divemasterként</1> megtanultam, hogy a felkészülés, a nyugodt döntéshozás és a bizalom elengedhetetlen, amikor embereket vezetünk kihívást jelentő környezetekben.",
-    "mountaineer": "<1>Hegymászóként</1> megtapasztaltam, hogy a jelentős eredmények egy tudatos lépésről a másikra épülnek fel. A siker az ellenálló képességből, a tervezésből és az elkerülhetetlenül változó körülményekhez való alkalmazkodásból ered.",
-    "marathon": "<1>Maratonfutóként</1> megtanultam, hogy a következetesség felülmúlja az intenzitást. A hosszú távú eredmények a fegyelemből, a kitartásból és a folyamatos fejlődésből származnak, nem a gyors győzelmekből.",
+    "divemaster": "<1>PADI Divemasterként</1> megtanultam, hogy a felkészülés, a nyugodt döntéshozás és a bizalom elengedhetetlen, amikor embereket vezetünk kihívást jelentő környezetekben. A félelem leküzdése a fejedben kezdődik, és egyszerűen sosem adod fel.",
+    "mountaineer": "<1>Hegymászóként</1> megtapasztaltam, hogy a jelentős eredmények egy tudatos lépésről a másikra épülnek fel. A siker az ellenálló képességből, a tervezésből és az elkerülhetetlenül változó körülményekhez való alkalmazkodásból ered, mert minden a fejedben dől el: szembenézel a félelmeiddel, és sosem adod fel.",
+    "marathon": "<1>Maratonfutóként</1> megtanultam, hogy a következetesség felülmúlja az intenzitást. A hosszú távú eredmények a fegyelemből, a kitartásból és a folyamatos fejlődésből származnak, nem a gyors győzelmekből. Ez bizonyítja, hogy minden a fejedben van: küzdd le a félelmet, és sosem add fel.",
     "continents": "Mivel <1>három kontinensen éltem és dolgoztam</1>, olyan globális perspektívát alakítottam ki, amely lehetővé teszi, hogy hatékonyan együttműködjek különböző csapatokkal, megértsem a különböző üzleti kultúrákat, és erős kapcsolatokat építsek szervezetek között.",
     "closing": "Mert a legjobb megoldások nem egyszerűen a mai problémákat oldják meg. Lehetőségeket teremtenek a jövő számára."
   },
@@ -85,7 +82,8 @@
     "divingSubtitle": "PADI Divemaster. 6 a 7 kontinensből merülve.",
     "skiingSubtitle": "4 a 7 kontinensből síelve.",
     "travelSubtitle": "58 a 195 országból meglátogatva.",
-    "empty": "[VERIFY — add expeditions for this category]"
+    "empty": "[VERIFY: add expeditions for this category]",
+    "divingCertsHeading": "Minősítések"
   },
   "worldMapPage": {
     "eyebrow": "Kalandok",
@@ -96,7 +94,7 @@
   "destinationDetail": {
     "eyebrow": "Úticél",
     "citiesVisited": "Meglátogatott városok: {{cities}}",
-    "empty": "[VERIFY — add photos and stories from {{country}}]"
+    "empty": "[VERIFY: add photos and stories from {{country}}]"
   },
   "map": {
     "zoomIn": "Nagyítás",
@@ -114,14 +112,6 @@
     "moment": "A pillanat",
     "lesson": "Tanulság"
   },
-  "caseStudyDetail": {
-    "challenge": "Kihívás",
-    "complexity": "Komplexitás",
-    "solution": "Megoldás",
-    "role": "Szerepkör",
-    "outcome": "Eredmény",
-    "lessons": "Tanulságok"
-  },
   "leadership": {
     "eyebrow": "Vezetés",
     "title": "Nyugodt döntések valódi nyomás alatt",
@@ -138,31 +128,15 @@
     "eyebrow": "Munka",
     "title": "Vállalati architektúra és vezetés",
     "subtitle": "Válogatás azokból a problémákból, amelyek megoldásával megbíztak. Az ügyfél- és megvalósítási részleteket anonimizáltuk vagy általánosítottuk a titoktartás érdekében.",
-    "caseStudiesHeading": "Esettanulmányok",
     "clientsHeading": "Ügyfelek, akikkel dolgoztam",
+    "executiveSummaryHeading": "Vezetői összefoglaló",
     "experienceHeading": "Tapasztalat",
-    "certificationsHeading": "Minősítések",
-    "personalProjectsHeading": "Személyes projektek",
-    "personalProjectsText": "A vállalati architektúrai munkán kívül kis webalkalmazásokat építek és publikálok gyakorlásképp."
-  },
-  "projects": {
-    "title": "Projektek",
-    "subtitle": "Válogatás az alkalmazásokból, amelyeket megépítettem és publikáltam.",
-    "code": "Kód",
-    "liveDemo": "Élő demó",
-    "items": {
-      "recipeParade": "Receptfelfedező alkalmazás kedvenc ételek böngészésére, értékelésére és mentésére. Jelenleg nincs publikálva; futtasd lokálisan a kipróbáláshoz.",
-      "travelPlanner": "Tervezz utazásokat és rendszerezd az útiterveket egy áttekinthető utazási irányítópulttal.",
-      "budgetTracker": "PWA a bevételek és kiadások követésére, offline is működik.",
-      "weatherDashboard": "5 napos időjárás-előrejelzési irányítópult keresési előzményekkel.",
-      "runBuddy": "Marketing landing page egy személyi edzői szolgáltatáshoz.",
-      "techBlog": "Full-stack blogplatform bejegyzésekkel és kommentekkel."
-    }
+    "certificationsHeading": "Minősítések"
   },
   "fieldNotes": {
     "eyebrow": "Jegyzetek",
     "title": "Jegyzetek a terepről és az irodából",
-    "subtitle": "Rövid írások architektúráról, vezetésről és kalandról — jobban átfedik egymást, mint gondolnád."
+    "subtitle": "Rövid írások architektúráról, vezetésről és kalandról, jobban átfedik egymást, mint gondolnád."
   },
   "now": {
     "eyebrow": "Most",
@@ -174,6 +148,7 @@
     "subtitle": "Van kérdésed, vagy szeretnél együtt dolgozni? Írj nekem.",
     "nameLabel": "Név",
     "emailLabel": "E-mail cím",
+    "subjectLabel": "Tárgy",
     "messageLabel": "Üzenet",
     "attachmentsLabel": "Mellékletek",
     "dragDropText": "Húzd ide a fájlokat, vagy kattints a tallózáshoz",
@@ -185,6 +160,7 @@
     "nameRequired": "A név megadása kötelező.",
     "emailRequired": "Az e-mail megadása kötelező.",
     "emailInvalid": "Adj meg egy érvényes e-mail címet.",
+    "subjectRequired": "A tárgy megadása kötelező.",
     "messageRequired": "Az üzenet megadása kötelező."
   },
   "notFound": {
@@ -198,5 +174,157 @@
   "languages": {
     "heading": "Nyelvek",
     "subtitle": "Ez a weboldal a következő nyelveken érhető el."
+  },
+  "experience": {
+    "items": {
+      "salesforce-technical-architect-director": {
+        "role": "Technical Architect Director",
+        "scope": "Megbízható tanácsadó és stratégiai konzultáns ausztráliai nagyvállalati ügyfelek számára, aki technikai és vállalati architektúrát vezet multi-cloud, több munkafolyamból álló Salesforce transzformációs programokban.",
+        "responsibilities": [
+          "Meghatározza a rendszerarchitektúra környezetét, feltárja a jelenlegi és a kívánt végállapot közötti eltéréseket, és az üzleti célokat Salesforce ökoszisztéma megoldásokra fordítja le",
+          "Vezeti az ügyféltárgyalásokat, az SOW kidolgozását, a vezetői irányító bizottságokat és a program governance-t",
+          "Mentorálja a Solution és Technical Architecteket, valamint a projekteken dolgozó delivery csapatokat"
+        ],
+        "achievements": [
+          "2025-ös melbourne-i áttelepülése után kiterjesztette technikai architektúra vezetői szerepét ausztráliai projektekre, köztük a Telstra Health és a Safe Transport Victoria megbízásokra"
+        ]
+      },
+      "salesforce-director-solution-consulting": {
+        "role": "Director, Solution Consulting",
+        "scope": "Megbízható tanácsadó és stratégiai konzultáns nagyvállalati ügyfelek számára, aki globális, több régiót érintő Salesforce transzformációs programokat koordinál, és technikai, illetve vállalati architektúrát vezet multi-cloud, több munkafolyamból álló projektekben.",
+        "responsibilities": [
+          "Vezeti az ügyféltárgyalásokat, az SOW kidolgozását, a vezetői irányító bizottságokat és a program governance-t",
+          "Meghatározza a rendszerarchitektúra környezetét, feltárja a jelenlegi és a kívánt végállapot közötti eltéréseket, és az üzleti célokat Salesforce ökoszisztéma megoldásokra fordítja le",
+          "10 közvetlen beosztottból álló csapatot vezet, mentorálja a Solution és Technical Architecteket, valamint akár 80 fős delivery csapatokat"
+        ],
+        "achievements": [
+          "Vezető szerepet vállalt egy $30M értékű Loyalty Management átplatformosítási kezdeményezésben, amely folyamatok automatizálásával 30%-os tervezett költségcsökkentést eredményezett",
+          "Három, egyenként $1.5M értékű munkafolyamot irányított, amelyek optimalizált döntéshozási KPI-k révén 40%-kal csökkentették a szerződéskezelési átfutási időt",
+          "C-szintű érintettekkel dolgozott együtt az Apps & Home Page Strategy, az Account 360 és az Account Planning kezdeményezéseken",
+          "Koordinálta a termékfejlesztési útiterv priorizálását egy $82M-ot meghaladó szerződésportfólión",
+          "Capability Stream Lead pozícióba nevezték ki, ami director szintű szerep, és a capability csapatok teljes delivery életciklusát felügyeli a stratégiai tervezéstől az átadásig",
+          "Agent of Change díjjal ismerték el, az érdemi, AI-vezérelt transzformáció előmozdításáért",
+          "Vezette a Professional Services Employee Advisory Council (PEAC) 'Voice of the Field' programját, kerekasztal-beszélgetéseket tartott az ANZ delivery csapaton belül, és a bizonyítékokon alapuló visszajelzéseket konkrét fókuszterületekké alakította a szervezet számára",
+          "Pro bono AI for Good kezdeményezéseket vezetett, Agentforce és Data Cloud alkalmazásával bővítve az alulfinanszírozott közösségek oktatási hozzáférését"
+        ]
+      },
+      "salesforce-sr-manager-solution-consulting": {
+        "role": "Sr. Manager, Solution Consulting",
+        "scope": "Vállalati programstratégiát és solution consulting tevékenységet vezetett globális ügyfelek számára, a Salesforce legjobb gyakorlataihoz illeszkedő üzleti transzformációt ösztönözve.",
+        "responsibilities": [
+          "Globális, több régiót érintő programokat koordinált, összhangba hozva a stratégiai ügyféligényeket a technológiai lehetőségekkel",
+          "Change management stratégiákat és új működési modelleket vezetett be az üzleti transzformáció támogatására",
+          "Vállalati szintű folyamat-szabványosítási keretrendszert alakított ki a programműködésben"
+        ],
+        "achievements": [
+          "Olyan üzleti transzformációt vitt véghez, amely felgyorsított átfutási időket és 20%-os működési költségcsökkenést eredményezett"
+        ]
+      },
+      "salesforce-sr-solution-architect": {
+        "role": "Sr. Solution Architect",
+        "scope": "Szakértői iránymutatást nyújtott integrációs architektúra, adatmigrációs stratégia és forráskód-kezelési (source control) implementáció terén Salesforce projektekben.",
+        "responsibilities": [
+          "Feltáró (discovery) workshopokat vezetett, üzleti követelményeket határozott meg, és részletes rendszer- és funkcionális terveket készített",
+          "Üzleti folyamatokat és rendszerterveket dokumentált folyamatábrák, UML és szekvenciadiagramok segítségével"
+        ],
+        "achievements": []
+      },
+      "apttus-sr-solution-architect": {
+        "role": "Sr. Solution Architect (Business Analyst / Configuration Engineer pozícióból előrelépve)",
+        "scope": "Teljes életciklusú Apttus implementációkat vezetett Configure Price Quote (CPQ), Billing Management és Contract Lifecycle Management (CLM) területeken, londoni (Egyesült Királyság) és San Mateo-i (Kalifornia) székhellyel.",
+        "responsibilities": [
+          "Enterprise Solution Architectként dolgozott egy globális bevezetésen, amely legacy rendszereket váltott fel egy egységes platformmal 20,000 felhasználó és 80+ ország számára",
+          "Koordinálta az árajánlatkészítési folyamat optimalizálását, amely 11 integrációt, 50,000 terméket és 80 konfigurátor-példányt támogatott",
+          "Kezelte az ügyféltárgyalásokat, az SOW kidolgozását, az erőforrás-allokációt és a projektjelentéseket"
+        ],
+        "achievements": []
+      },
+      "apttus-financial-analyst": {
+        "role": "Financial Analyst / T&E Deployment Lead",
+        "scope": "Vállalati utazási és költségkezelési megoldás bevezetését vezette San Mateo-ban (Kalifornia), beleértve a globális irányelvek bevezetését és a rendszeradminisztrációt.",
+        "responsibilities": [
+          "Vezette a bevételelismerési kezdeményezéseket és a negyedéves zárási folyamatokat",
+          "Analitikai eszközkészletet fejlesztett bevételkövetéshez, jutalékelemzéshez és költségvetés-eltérési jelentésekhez"
+        ],
+        "achievements": []
+      },
+      "accenture-analyst-programmer": {
+        "role": "Analyst Programmer",
+        "scope": "Tesztelési eljárásokat dolgozott ki és vezetett be egy biztosítási ajánlatadó eszközhöz Pozsonyban, Szlovákiában.",
+        "responsibilities": [
+          "Együttműködött a fejlesztői csapatokkal a tesztelési eredmények hozzáférhetőségének és érthetőségének biztosítása érdekében",
+          "Nyomon követte a hibák megoldásáig tartó folyamatot, és naprakészen tartotta a hibanyilvántartást"
+        ],
+        "achievements": []
+      },
+      "ibm-contract-review-analyst": {
+        "role": "Contract Review Analyst / Accounting Analyst / Operational Support",
+        "scope": "Szerződés-felülvizsgálatokat végzett, biztosítva a pontos bevételelszámolást összetett ügyletek esetén, Pozsonyban, Szlovákiában.",
+        "responsibilities": [
+          "Számviteli korrekciókat végzett nem szabványos feltételek esetén, a pénzügyi előírásoknak megfelelően",
+          "Bevétel- és költségelszámolási kereteket alakított ki, vezetői szintű betekintést nyújtó jövedelmezőségi elemzéseket készítve"
+        ],
+        "achievements": []
+      }
+    }
+  },
+  "locations": {
+    "items": {
+      "argentina": "Argentína",
+      "australia": "Ausztrália",
+      "austria": "Ausztria",
+      "belgium": "Belgium",
+      "brazil": "Brazília",
+      "canada": "Kanada",
+      "chile": "Chile",
+      "china": "Kína",
+      "colombia": "Kolumbia",
+      "costa-rica": "Costa Rica",
+      "croatia": "Horvátország",
+      "cuba": "Kuba",
+      "cyprus": "Ciprus",
+      "denmark": "Dánia",
+      "egypt": "Egyiptom",
+      "fiji": "Fidzsi",
+      "france": "Franciaország",
+      "french-polynesia": "Francia Polinézia",
+      "germany": "Németország",
+      "greece": "Görögország",
+      "hungary": "Magyarország",
+      "iceland": "Izland",
+      "india": "India",
+      "indonesia": "Indonézia",
+      "ireland": "Írország",
+      "italy": "Olaszország",
+      "japan": "Japán",
+      "malaysia": "Malajzia",
+      "mexico": "Mexikó",
+      "morocco": "Marokkó",
+      "nepal": "Nepál",
+      "netherlands": "Hollandia",
+      "new-zealand": "Új-Zéland",
+      "norway": "Norvégia",
+      "oman": "Omán",
+      "panama": "Panama",
+      "peru": "Peru",
+      "poland": "Lengyelország",
+      "portugal": "Portugália",
+      "qatar": "Katar",
+      "russia": "Oroszország",
+      "slovakia": "Szlovákia",
+      "spain": "Spanyolország",
+      "sri-lanka": "Srí Lanka",
+      "sweden": "Svédország",
+      "switzerland": "Svájc",
+      "tanzania": "Tanzánia",
+      "thailand": "Thaiföld",
+      "turkey": "Törökország",
+      "turks-and-caicos-islands": "Turks- és Caicos-szigetek",
+      "united-arab-emirates": "Egyesült Arab Emírségek",
+      "united-kingdom": "Egyesült Királyság",
+      "uruguay": "Uruguay",
+      "usa": "Egyesült Államok",
+      "vietnam": "Vietnam"
+    }
   }
 }

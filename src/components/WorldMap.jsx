@@ -201,7 +201,9 @@ export default function WorldMap() {
       </svg>
       {hovered && (
         <div className="pointer-events-none absolute bottom-4 left-4 rounded-xl bg-warm/95 px-4 py-3 text-ink shadow-lg">
-          <p className="font-display text-sm font-medium">{hovered.country}</p>
+          <p className="font-display text-sm font-medium">
+            {t(`locations.items.${hovered.slug}`, { defaultValue: hovered.country })}
+          </p>
           <p className="text-xs text-charcoal">
             {hovered.cities.slice(0, 3).join(', ')}
             {hovered.cities.length > 3 ? ` +${hovered.cities.length - 3} more` : ''}
