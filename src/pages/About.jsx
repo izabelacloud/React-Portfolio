@@ -1,11 +1,14 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Trans, useTranslation } from 'react-i18next';
 import coverImage from '../assets/cover/cover-image.jpg';
 import userImage from '../assets/ip2.jpg';
 import StatDisplay from '../components/StatDisplay';
-import stats, { tagline } from '../data/stats';
+import stats from '../data/stats';
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <section>
       <div className="relative -mx-6 h-48 overflow-hidden sm:h-64 md:mx-0 md:rounded-3xl">
@@ -30,10 +33,10 @@ export default function About() {
           className="mt-5"
         >
           <h1 className="font-display text-3xl font-medium tracking-tight sm:text-4xl">
-            Hi, I&rsquo;m <span className="gradient-text">Izabela Petrovicova</span>
+            {t('about.greeting')} <span className="gradient-text">Izabela Petrovicova</span>
           </h1>
           <p className="mt-2 text-lg font-semibold text-accent">
-            Architect by profession. Adventurer by instinct.
+            {t('about.accentLine')}
           </p>
         </motion.div>
       </div>
@@ -44,27 +47,13 @@ export default function About() {
         transition={{ duration: 0.5, delay: 0.1 }}
         className="mx-auto mt-10 max-w-3xl space-y-4 text-ink/70 dark:text-stone"
       >
+        <p>{t('about.p1')}</p>
         <p>
-          For more than a decade, I have been helping global organisations solve complex
-          business challenges through technology. My career has been built at the
-          intersection of enterprise architecture, strategic consulting, and hands-on
-          engineering, transforming ambitious business objectives into scalable, practical
-          solutions that deliver measurable value.
+          <Trans i18nKey="about.p2">
+            0<strong>1</strong>2
+          </Trans>
         </p>
-        <p>
-          As a <strong>Technical Architecture Director and Senior Salesforce Enterprise
-          Architect</strong>, I partner with executives, business leaders, and delivery
-          teams to design enterprise-scale digital transformation programs. My expertise
-          spans Salesforce architecture, Quote-to-Cash, Revenue Lifecycle Management, CRM
-          strategy, system integration, cloud platforms, and enterprise solution design
-          across industries including Financial Services, Telecommunications,
-          Manufacturing, SaaS, Analytics, and Professional Services.
-        </p>
-        <p>
-          I believe great architecture is never just about technology. It&rsquo;s about
-          understanding people, aligning stakeholders, simplifying complexity, and creating
-          systems that remain adaptable for years to come.
-        </p>
+        <p>{t('about.p3')}</p>
       </motion.div>
 
       <motion.div
@@ -74,29 +63,28 @@ export default function About() {
         transition={{ duration: 0.4 }}
         className="mx-auto mt-12 max-w-3xl border-t border-stone/40 pt-10 dark:border-charcoal"
       >
-        <h2 className="font-display text-xl font-medium">{tagline}</h2>
+        <h2 className="font-display text-xl font-medium">{t('tagline')}</h2>
         <div className="mt-4 space-y-4 text-ink/70 dark:text-stone">
-          <p>The way I lead has been shaped just as much outside the office as inside it.</p>
+          <p>{t('about.leadIntro')}</p>
           <p>
-            As a <strong>PADI Divemaster</strong>, I&rsquo;ve learned that preparation, calm
-            decision-making, and trust are essential when leading people in challenging
-            environments.
+            <Trans i18nKey="about.divemaster">
+              0<strong>1</strong>2
+            </Trans>
           </p>
           <p>
-            As a <strong>mountaineer</strong>, I&rsquo;ve experienced that meaningful
-            achievements are built one deliberate step at a time. Success comes from
-            resilience, planning, and adapting when conditions inevitably change.
+            <Trans i18nKey="about.mountaineer">
+              0<strong>1</strong>2
+            </Trans>
           </p>
           <p>
-            As a <strong>marathon runner</strong>, I&rsquo;ve learned that consistency
-            outperforms intensity. Long-term results come from discipline, persistence, and
-            continuous improvement rather than quick wins.
+            <Trans i18nKey="about.marathon">
+              0<strong>1</strong>2
+            </Trans>
           </p>
           <p>
-            Having <strong>lived and worked across three continents</strong>, I&rsquo;ve
-            developed a global perspective that allows me to collaborate effectively with
-            diverse teams, understand different business cultures, and build strong
-            relationships across organisations.
+            <Trans i18nKey="about.continents">
+              0<strong>1</strong>2
+            </Trans>
           </p>
         </div>
 
@@ -106,7 +94,7 @@ export default function About() {
 
         <p className="mt-8">
           <Link to="/adventures" className="text-sm font-semibold text-accent hover:underline">
-            See the adventures →
+            {t('common.seeAdventuresArrow')}
           </Link>
         </p>
       </motion.div>
@@ -118,10 +106,7 @@ export default function About() {
         transition={{ duration: 0.4 }}
         className="mx-auto mt-12 max-w-3xl space-y-4 text-ink/70 dark:text-stone"
       >
-        <p className="font-semibold text-ink dark:text-warm">
-          Because the best solutions don&rsquo;t simply solve today&rsquo;s problems. They
-          create opportunities for tomorrow.
-        </p>
+        <p className="font-semibold text-ink dark:text-warm">{t('about.closing')}</p>
       </motion.div>
     </section>
   );

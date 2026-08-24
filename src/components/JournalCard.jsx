@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function JournalCard({ post, index = 0 }) {
+  const { t } = useTranslation();
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
@@ -18,7 +20,7 @@ export default function JournalCard({ post, index = 0 }) {
         to={`/field-notes/${post.slug}`}
         className="mt-3 inline-block text-sm font-semibold text-accent hover:underline"
       >
-        Read more →
+        {t('common.readMoreArrow')}
       </Link>
     </motion.article>
   );

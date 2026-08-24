@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "work": "Arbeit",
+    "leadership": "Führung",
+    "adventures": "Abenteuer",
+    "worldMap": "Weltkarte",
+    "about": "Über mich",
+    "fieldNotes": "Feldnotizen",
+    "contact": "Kontakt",
+    "now": "Jetzt"
+  },
+  "common": {
+    "exploreArrow": "Entdecken →",
+    "readMoreArrow": "Weiterlesen →",
+    "readStoryArrow": "Die Geschichte lesen →",
+    "readCaseStudyArrow": "Fallstudie lesen →",
+    "seeWork": "Zur Arbeit",
+    "seeAdventures": "Zu den Abenteuern",
+    "seeAdventuresArrow": "Abenteuer entdecken →",
+    "seeProjectsArrow": "Projekte ansehen →",
+    "exploreWorkArrow": "Arbeit entdecken →",
+    "exploreAdventuresArrow": "Abenteuer entdecken →",
+    "backToHome": "Zurück zur Startseite",
+    "backToWork": "← Zurück zur Arbeit",
+    "backToAdventures": "← Zurück zu den Abenteuern",
+    "backToFieldNotes": "← Zurück zu den Feldnotizen",
+    "backToMap": "← Zurück zur Karte",
+    "back": "← Zurück",
+    "categoryNotFound": "Kategorie nicht gefunden.",
+    "destinationNotFound": "Reiseziel nicht gefunden.",
+    "expeditionNotFound": "Expedition nicht gefunden.",
+    "caseStudyNotFound": "Fallstudie nicht gefunden.",
+    "postNotFound": "Beitrag nicht gefunden."
+  },
+  "stats": {
+    "countriesVisited": "Besuchte Länder",
+    "continentsClimbed": "Bestiegene Kontinente",
+    "continentsDived": "Getauchte Kontinente",
+    "continentsSkied": "Kontinente beim Skifahren",
+    "continentsRun": "Kontinente gelaufen (Marathon)"
+  },
+  "tagline": "Wenig Luft, viel Leben.",
+  "home": {
+    "heroTitle": "Architektin von Beruf. Abenteurerin aus Instinkt.",
+    "heroSubtitle": "Ich verbringe mein Berufsleben mit dem Lösen komplexer Probleme und mein Privatleben mit der Suche nach noch schwierigeren.",
+    "professionalEyebrow": "Beruflich",
+    "professionalTitle": "Unternehmensarchitektur, im großen Maßstab aufgebaut",
+    "professionalSubtitle": "Technical Architecture Director und Senior Salesforce Enterprise Architect, Entwicklung von digitalen Transformationsprogrammen für globale Organisationen.",
+    "personalEyebrow": "Persönlich",
+    "personalSubtitle": "PADI Divemaster, Bergsteigerin, Skifahrerin und Reisende — 58 von 195 Ländern und es werden mehr.",
+    "quote": "Die Umgebungen ändern sich. Die Einstellung nicht."
+  },
+  "about": {
+    "greeting": "Hallo, ich bin",
+    "accentLine": "Architektin von Beruf. Abenteurerin aus Instinkt.",
+    "p1": "Seit mehr als einem Jahrzehnt helfe ich globalen Organisationen, komplexe geschäftliche Herausforderungen durch Technologie zu lösen. Meine Karriere wurde an der Schnittstelle von Unternehmensarchitektur, strategischer Beratung und praktischer Entwicklung aufgebaut, um ambitionierte Geschäftsziele in skalierbare, praktische Lösungen mit messbarem Mehrwert zu verwandeln.",
+    "p2": "Als <1>Technical Architecture Director und Senior Salesforce Enterprise Architect</1> arbeite ich mit Führungskräften, Geschäftsleitern und Delivery-Teams zusammen, um digitale Transformationsprogramme im Enterprise-Maßstab zu gestalten. Meine Expertise umfasst Salesforce-Architektur, Quote-to-Cash, Revenue Lifecycle Management, CRM-Strategie, Systemintegration, Cloud-Plattformen und Enterprise-Lösungsdesign in Branchen wie Finanzdienstleistungen, Telekommunikation, Fertigung, SaaS, Analytik und professionelle Dienstleistungen.",
+    "p3": "Ich glaube, dass gute Architektur nie nur Technologie ist. Es geht darum, Menschen zu verstehen, Stakeholder aufeinander abzustimmen, Komplexität zu vereinfachen und Systeme zu schaffen, die über Jahre hinweg anpassungsfähig bleiben.",
+    "leadIntro": "Die Art, wie ich führe, wurde ebenso außerhalb des Büros geprägt wie innerhalb.",
+    "divemaster": "Als <1>PADI Divemaster</1> habe ich gelernt, dass Vorbereitung, ruhige Entscheidungsfindung und Vertrauen unerlässlich sind, wenn man Menschen in herausfordernden Umgebungen führt.",
+    "mountaineer": "Als <1>Bergsteigerin</1> habe ich erfahren, dass bedeutende Erfolge Schritt für Schritt entstehen. Erfolg kommt aus Widerstandsfähigkeit, Planung und der Fähigkeit, sich anzupassen, wenn sich die Bedingungen unweigerlich ändern.",
+    "marathon": "Als <1>Marathonläuferin</1> habe ich gelernt, dass Beständigkeit Intensität übertrifft. Langfristige Ergebnisse entstehen durch Disziplin, Ausdauer und kontinuierliche Verbesserung statt schneller Erfolge.",
+    "continents": "Da ich <1>auf drei Kontinenten gelebt und gearbeitet habe</1>, habe ich eine globale Perspektive entwickelt, die es mir ermöglicht, effektiv mit verschiedenen Teams zusammenzuarbeiten, unterschiedliche Geschäftskulturen zu verstehen und starke Beziehungen über Organisationen hinweg aufzubauen.",
+    "closing": "Denn die besten Lösungen lösen nicht einfach die Probleme von heute. Sie schaffen Chancen für morgen."
+  },
+  "adventures": {
+    "eyebrow": "Abenteuer",
+    "mountainsLabel": "Berge",
+    "mountainsDesc": "Klettern und Bergsteigen, ein bewusster Schritt nach dem anderen.",
+    "divingLabel": "Tauchen",
+    "divingDesc": "PADI Divemaster. Ruhig bleiben unter Druck, in der Tiefe.",
+    "skiingLabel": "Skifahren",
+    "skiingDesc": "Gelände und Bedingungen schnell lesen und sich noch schneller anpassen.",
+    "travelLabel": "Reisen",
+    "travelDesc": "58 von 195 Ländern. Es zählt weiter.",
+    "worldMapLabel": "Weltkarte",
+    "worldMapDesc": "Zoome in jedes bisher besuchte Land, Pin für Pin."
+  },
+  "adventureCategory": {
+    "mountainsSubtitle": "6 von 7 Kontinenten bestiegen.",
+    "divingSubtitle": "PADI Divemaster. 6 von 7 Kontinenten getaucht.",
+    "skiingSubtitle": "4 von 7 Kontinenten Ski gefahren.",
+    "travelSubtitle": "58 von 195 Ländern besucht.",
+    "empty": "[VERIFY — add expeditions for this category]"
+  },
+  "worldMapPage": {
+    "eyebrow": "Abenteuer",
+    "title": "Wo ich schon war",
+    "subtitleWithCount": "{{count}} Länder bisher besucht. Zoome hinein, klicke auf einen Pin, entdecke die Geschichte.",
+    "subtitleFallback": "Zoome hinein, klicke auf einen Pin, entdecke die Geschichte."
+  },
+  "destinationDetail": {
+    "eyebrow": "Reiseziel",
+    "citiesVisited": "Besuchte Städte: {{cities}}",
+    "empty": "[VERIFY — add photos and stories from {{country}}]"
+  },
+  "map": {
+    "zoomIn": "Hineinzoomen",
+    "zoomOut": "Hinauszoomen"
+  },
+  "expeditionDetail": {
+    "why": "Warum",
+    "challenge": "Herausforderung",
+    "moment": "Der Moment",
+    "lesson": "Lektion"
+  },
+  "caseStudyDetail": {
+    "challenge": "Herausforderung",
+    "complexity": "Komplexität",
+    "solution": "Lösung",
+    "role": "Rolle",
+    "outcome": "Ergebnis",
+    "lessons": "Lektionen"
+  },
+  "leadership": {
+    "eyebrow": "Führung",
+    "title": "Ruhige Entscheidungen unter echtem Druck",
+    "subtitle": "Wie sich dieselben Instinkte, die an einer Felswand oder beim Tauchen greifen, in meiner Teamführung zeigen.",
+    "p1": "Gute Architektur ist nie nur Technologie. Es geht darum, Menschen zu verstehen, Stakeholder aufeinander abzustimmen, Komplexität zu vereinfachen und Systeme zu schaffen, die über Jahre hinweg anpassungsfähig bleiben.",
+    "quote": "Vorbereitung, ruhige Entscheidungsfindung und Vertrauen sind unerlässlich, wenn man Menschen in herausfordernden Umgebungen führt.",
+    "teamHeading": "Teamführung",
+    "programsHeading": "Programme und Initiativen"
+  },
+  "work": {
+    "eyebrow": "Arbeit",
+    "title": "Unternehmensarchitektur, umgesetzt.",
+    "subtitle": "Eine Auswahl der Probleme, mit deren Lösung man mir vertraut hat. Kunden- und Umsetzungsdetails sind anonymisiert oder verallgemeinert, um die Vertraulichkeit zu respektieren.",
+    "caseStudiesHeading": "Fallstudien",
+    "experienceHeading": "Erfahrung",
+    "certificationsHeading": "Zertifizierungen",
+    "personalProjectsHeading": "Persönliche Projekte",
+    "personalProjectsText": "Neben der Unternehmensarchitektur baue und veröffentliche ich kleine Webanwendungen zur Übung."
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Eine Auswahl der Anwendungen, die ich entwickelt und veröffentlicht habe.",
+    "code": "Code",
+    "liveDemo": "Live-Demo",
+    "items": {
+      "recipeParade": "Eine Rezept-Entdeckungs-App zum Durchsuchen, Bewerten und Speichern von Lieblingsgerichten. Derzeit nicht bereitgestellt; lokal ausführen, um sie auszuprobieren.",
+      "travelPlanner": "Reisen planen und Reiserouten mit einem übersichtlichen Reise-Dashboard organisieren.",
+      "budgetTracker": "Eine PWA zur Verfolgung von Einnahmen und Ausgaben, funktioniert offline.",
+      "weatherDashboard": "Ein 5-Tage-Wettervorhersage-Dashboard mit Suchverlauf.",
+      "runBuddy": "Eine Marketing-Landingpage für einen persönlichen Trainingsdienst.",
+      "techBlog": "Eine Full-Stack-Blog-Plattform mit Beiträgen und Kommentaren."
+    }
+  },
+  "fieldNotes": {
+    "eyebrow": "Feldnotizen",
+    "title": "Notizen aus dem Feld und aus dem Büro",
+    "subtitle": "Kurze Texte über Architektur, Führung und Abenteuer — die sich mehr überschneiden, als man denkt."
+  },
+  "now": {
+    "eyebrow": "Jetzt",
+    "title": "Was ich gerade mache",
+    "subtitle": "Wird regelmäßig aktualisiert. Keine vollständige Timeline, nur der aktuelle Stand."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Hast du eine Frage oder möchtest du zusammenarbeiten? Melde dich.",
+    "nameLabel": "Name",
+    "emailLabel": "E-Mail-Adresse",
+    "messageLabel": "Nachricht",
+    "attachmentsLabel": "Anhänge",
+    "dragDropText": "Dateien hierher ziehen oder klicken, um zu durchsuchen",
+    "sendButton": "Nachricht senden",
+    "sendingButton": "Wird gesendet...",
+    "removeButton": "Entfernen",
+    "successMessage": "Deine E-Mail wurde gesendet! Ich melde mich bald bei dir.",
+    "errorMessage": "Beim Senden deiner Nachricht ist etwas schiefgelaufen. Bitte versuche es erneut oder schreibe mir direkt.",
+    "nameRequired": "Name ist erforderlich.",
+    "emailRequired": "E-Mail ist erforderlich.",
+    "emailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "messageRequired": "Nachricht ist erforderlich."
+  },
+  "notFound": {
+    "heading": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite existiert nicht.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "footer": {
+    "languagesHeading": "Sprachen"
+  },
+  "languages": {
+    "heading": "Sprachen",
+    "subtitle": "Diese Website ist in den folgenden Sprachen verfügbar."
+  }
+}

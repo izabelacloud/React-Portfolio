@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function ExpeditionCard({ expedition, index = 0 }) {
+  const { t } = useTranslation();
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
@@ -28,7 +30,7 @@ export default function ExpeditionCard({ expedition, index = 0 }) {
           to={`/adventures/${expedition.category}/${expedition.slug}`}
           className="mt-3 inline-block text-sm font-semibold text-accent hover:underline"
         >
-          Read the story →
+          {t('common.readStoryArrow')}
         </Link>
       </div>
     </motion.article>

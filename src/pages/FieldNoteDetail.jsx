@@ -1,16 +1,18 @@
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import journalPosts from '../data/journal';
 
 export default function FieldNoteDetail() {
+  const { t } = useTranslation();
   const { slug } = useParams();
   const post = journalPosts.find((p) => p.slug === slug);
 
   if (!post) {
     return (
       <div className="py-10">
-        <p>Post not found.</p>
-        <Link to="/field-notes" className="text-accent hover:underline">Back to Field Notes</Link>
+        <p>{t('common.postNotFound')}</p>
+        <Link to="/field-notes" className="text-accent hover:underline">{t('common.backToFieldNotes')}</Link>
       </div>
     );
   }
@@ -22,7 +24,7 @@ export default function FieldNoteDetail() {
         <p>{post.body}</p>
       </div>
       <Link to="/field-notes" className="inline-block text-sm font-semibold text-accent hover:underline">
-        ← Back to Field Notes
+        {t('common.backToFieldNotes')}
       </Link>
     </div>
   );

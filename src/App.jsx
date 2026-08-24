@@ -9,6 +9,8 @@ import Leadership from './pages/Leadership';
 import Adventures from './pages/Adventures';
 import AdventureCategory from './pages/AdventureCategory';
 import ExpeditionDetail from './pages/ExpeditionDetail';
+import WorldMapPage from './pages/WorldMap';
+import DestinationDetail from './pages/DestinationDetail';
 import About from './pages/About';
 import Now from './pages/Now';
 import FieldNotes from './pages/FieldNotes';
@@ -38,6 +40,8 @@ const routes = [
   { path: '/adventures', element: Adventures },
   { path: '/adventures/:category', element: AdventureCategory },
   { path: '/adventures/:category/:slug', element: ExpeditionDetail },
+  { path: '/destinations', element: WorldMapPage },
+  { path: '/destinations/:slug', element: DestinationDetail },
   { path: '/about', element: About },
   { path: '/now', element: Now },
   { path: '/field-notes', element: FieldNotes },

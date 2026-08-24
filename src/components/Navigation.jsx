@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import useDarkMode from '../hooks/useDarkMode';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const links = [
-  { to: '/', label: 'Home' },
-  { to: '/work', label: 'Work' },
-  { to: '/leadership', label: 'Leadership' },
-  { to: '/adventures', label: 'Adventures' },
-  { to: '/about', label: 'About' },
-  { to: '/field-notes', label: 'Field Notes' },
-  { to: '/contact', label: 'Contact' },
+  { to: '/', key: 'home' },
+  { to: '/work', key: 'work' },
+  { to: '/leadership', key: 'leadership' },
+  { to: '/adventures', key: 'adventures' },
+  { to: '/destinations', key: 'worldMap' },
+  { to: '/about', key: 'about' },
+  { to: '/field-notes', key: 'fieldNotes' },
+  { to: '/contact', key: 'contact' },
 ];
 
 function SunIcon(props) {
@@ -37,6 +40,7 @@ function MoonIcon(props) {
 }
 
 export default function Navigation() {
+  const { t } = useTranslation();
   const [isDark, setIsDark] = useDarkMode();
   const [open, setOpen] = useState(false);
 
@@ -60,7 +64,7 @@ export default function Navigation() {
                   }`
                 }
               >
-                {link.label}
+                {t(`nav.${link.key}`)}
               </NavLink>
             </li>
           ))}
@@ -74,9 +78,13 @@ export default function Navigation() {
               {isDark ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
             </button>
           </li>
+          <li>
+            <LanguageSwitcher />
+          </li>
         </ul>
 
         <div className="flex items-center gap-2 lg:hidden">
+          <LanguageSwitcher />
           <button
             type="button"
             aria-label="Toggle dark mode"
@@ -116,7 +124,7 @@ export default function Navigation() {
                   }`
                 }
               >
-                {link.label}
+                {t(`nav.${link.key}`)}
               </NavLink>
             </li>
           ))}

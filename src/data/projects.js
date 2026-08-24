@@ -12,7 +12,7 @@ const projects = [
     image: recipeParade,
     github: 'https://github.com/izabelacloud/Recipe-Parade',
     deployedApp: null,
-    description: 'A recipe discovery app for browsing, rating and saving favorite dishes. Not currently deployed; run locally to try it.',
+    descriptionKey: 'recipeParade',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     image: travelPlanner,
     github: 'https://github.com/izabelacloud/Travel-Planner',
     deployedApp: 'https://izabelacloud.github.io/Travel-Planner/',
-    description: 'Plan trips and organize itineraries with a clean travel dashboard.',
+    descriptionKey: 'travelPlanner',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     image: budgetTracker,
     github: 'https://github.com/izabelacloud/Budget-Tracker',
     deployedApp: 'https://budget-tracker-web-production.up.railway.app',
-    description: 'A PWA for tracking income and expenses, works offline.',
+    descriptionKey: 'budgetTracker',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const projects = [
     image: weatherDashboard,
     github: 'https://github.com/izabelacloud/Weather-Dashboard',
     deployedApp: 'https://izabelacloud.github.io/Weather-Dashboard/',
-    description: 'A 5-day weather forecast dashboard with search history.',
+    descriptionKey: 'weatherDashboard',
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const projects = [
     image: runBuddy,
     github: 'https://github.com/izabelacloud/run-buddy',
     deployedApp: 'https://izabelacloud.github.io/run-buddy/',
-    description: 'A marketing landing page for a personal training service.',
+    descriptionKey: 'runBuddy',
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const projects = [
     image: techBlog,
     github: 'https://github.com/izabelacloud/Tech-Blog',
     deployedApp: 'https://tech-blog-web-production.up.railway.app',
-    description: 'A full-stack blog platform with posts and comments.',
+    descriptionKey: 'techBlog',
   },
 ];
 

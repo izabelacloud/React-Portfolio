@@ -1,21 +1,24 @@
+import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import CTA from '../components/CTA';
 import SectionHeading from '../components/SectionHeading';
 import StatDisplay from '../components/StatDisplay';
 import ContourDivider from '../components/ContourDivider';
 import Quote from '../components/Quote';
-import stats, { tagline } from '../data/stats';
+import stats from '../data/stats';
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Hero
         eyebrow="Izabela Petrovicova"
-        title="Architect by profession. Adventurer by instinct."
-        subtitle="I spend my professional life solving complex problems and my personal life looking for harder ones."
+        title={t('home.heroTitle')}
+        subtitle={t('home.heroSubtitle')}
       >
-        <CTA to="/work">See the work</CTA>
-        <CTA to="/adventures" variant="secondary">See the adventures</CTA>
+        <CTA to="/work">{t('common.seeWork')}</CTA>
+        <CTA to="/adventures" variant="secondary">{t('common.seeAdventures')}</CTA>
       </Hero>
 
       <ContourDivider className="text-accent" />
@@ -29,22 +32,22 @@ export default function Home() {
       <section className="grid gap-10 py-16 sm:grid-cols-2">
         <div>
           <SectionHeading
-            eyebrow="Professional"
-            title="Enterprise architecture, built at scale"
-            subtitle="Technical Architecture Director and Senior Salesforce Enterprise Architect, designing digital transformation programs for global organizations."
+            eyebrow={t('home.professionalEyebrow')}
+            title={t('home.professionalTitle')}
+            subtitle={t('home.professionalSubtitle')}
           />
           <div className="mt-6">
-            <CTA to="/work" variant="secondary">Explore the work →</CTA>
+            <CTA to="/work" variant="secondary">{t('common.exploreWorkArrow')}</CTA>
           </div>
         </div>
         <div>
           <SectionHeading
-            eyebrow="Personal"
-            title={tagline}
-            subtitle="PADI Divemaster, mountaineer, skier and traveler — 58 of 195 countries and counting."
+            eyebrow={t('home.personalEyebrow')}
+            title={t('tagline')}
+            subtitle={t('home.personalSubtitle')}
           />
           <div className="mt-6">
-            <CTA to="/adventures" variant="secondary">Explore the adventures →</CTA>
+            <CTA to="/adventures" variant="secondary">{t('common.exploreAdventuresArrow')}</CTA>
           </div>
         </div>
       </section>
@@ -52,9 +55,7 @@ export default function Home() {
       <ContourDivider className="text-accent" />
 
       <section className="py-16">
-        <Quote>
-          The environments change. The mindset does not.
-        </Quote>
+        <Quote>{t('home.quote')}</Quote>
       </section>
     </div>
   );

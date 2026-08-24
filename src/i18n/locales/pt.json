@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Início",
+    "work": "Trabalho",
+    "leadership": "Liderança",
+    "adventures": "Aventuras",
+    "worldMap": "Mapa mundial",
+    "about": "Sobre",
+    "fieldNotes": "Notas de campo",
+    "contact": "Contato",
+    "now": "Agora"
+  },
+  "common": {
+    "exploreArrow": "Explorar →",
+    "readMoreArrow": "Leia mais →",
+    "readStoryArrow": "Ler a história →",
+    "readCaseStudyArrow": "Ler o estudo de caso →",
+    "seeWork": "Ver o trabalho",
+    "seeAdventures": "Ver as aventuras",
+    "seeAdventuresArrow": "Explorar as aventuras →",
+    "seeProjectsArrow": "Ver os projetos →",
+    "exploreWorkArrow": "Explorar o trabalho →",
+    "exploreAdventuresArrow": "Explorar as aventuras →",
+    "backToHome": "Voltar ao início",
+    "backToWork": "← Voltar ao Trabalho",
+    "backToAdventures": "← Voltar às Aventuras",
+    "backToFieldNotes": "← Voltar às Notas de campo",
+    "backToMap": "← Voltar ao mapa",
+    "back": "← Voltar",
+    "categoryNotFound": "Categoria não encontrada.",
+    "destinationNotFound": "Destino não encontrado.",
+    "expeditionNotFound": "Expedição não encontrada.",
+    "caseStudyNotFound": "Estudo de caso não encontrado.",
+    "postNotFound": "Publicação não encontrada."
+  },
+  "stats": {
+    "countriesVisited": "Países visitados",
+    "continentsClimbed": "Continentes escalados",
+    "continentsDived": "Continentes com mergulho",
+    "continentsSkied": "Continentes com esqui",
+    "continentsRun": "Continentes correndo (maratona)"
+  },
+  "tagline": "Pouco ar, muita vida.",
+  "home": {
+    "heroTitle": "Arquiteta por profissão. Aventureira por instinto.",
+    "heroSubtitle": "Passo minha vida profissional resolvendo problemas complexos e minha vida pessoal procurando outros mais difíceis.",
+    "professionalEyebrow": "Profissional",
+    "professionalTitle": "Arquitetura empresarial, construída em grande escala",
+    "professionalSubtitle": "Technical Architecture Director e Senior Salesforce Enterprise Architect, projetando programas de transformação digital para organizações globais.",
+    "personalEyebrow": "Pessoal",
+    "personalSubtitle": "PADI Divemaster, montanhista, esquiadora e viajante — 58 de 195 países e contando.",
+    "quote": "Os ambientes mudam. A mentalidade não."
+  },
+  "about": {
+    "greeting": "Olá, eu sou",
+    "accentLine": "Arquiteta por profissão. Aventureira por instinto.",
+    "p1": "Por mais de uma década, tenho ajudado organizações globais a resolver desafios empresariais complexos por meio da tecnologia. Minha carreira foi construída na intersecção da arquitetura empresarial, consultoria estratégica e engenharia prática, transformando objetivos empresariais ambiciosos em soluções escaláveis e práticas que geram valor mensurável.",
+    "p2": "Como <1>Technical Architecture Director e Senior Salesforce Enterprise Architect</1>, colaboro com executivos, líderes empresariais e equipes de entrega para projetar programas de transformação digital em escala empresarial. Minha experiência abrange arquitetura Salesforce, Quote-to-Cash, Revenue Lifecycle Management, estratégia de CRM, integração de sistemas, plataformas em nuvem e design de soluções empresariais em setores como serviços financeiros, telecomunicações, manufatura, SaaS, análise e serviços profissionais.",
+    "p3": "Acredito que uma ótima arquitetura nunca é apenas sobre tecnologia. É sobre entender pessoas, alinhar partes interessadas, simplificar a complexidade e criar sistemas que permaneçam adaptáveis por anos.",
+    "leadIntro": "A forma como lidero foi moldada tanto fora do escritório quanto dentro dele.",
+    "divemaster": "Como <1>PADI Divemaster</1>, aprendi que preparação, tomada de decisão calma e confiança são essenciais ao liderar pessoas em ambientes desafiadores.",
+    "mountaineer": "Como <1>montanhista</1>, vivenciei que conquistas significativas são construídas um passo deliberado por vez. O sucesso vem da resiliência, do planejamento e da adaptação quando as condições inevitavelmente mudam.",
+    "marathon": "Como <1>corredora de maratona</1>, aprendi que a consistência supera a intensidade. Resultados de longo prazo vêm da disciplina, persistência e melhoria contínua, não de vitórias rápidas.",
+    "continents": "Tendo <1>vivido e trabalhado em três continentes</1>, desenvolvi uma perspectiva global que me permite colaborar efetivamente com equipes diversas, entender diferentes culturas empresariais e construir relacionamentos fortes entre organizações.",
+    "closing": "Porque as melhores soluções não simplesmente resolvem os problemas de hoje. Elas criam oportunidades para o futuro."
+  },
+  "adventures": {
+    "eyebrow": "Aventuras",
+    "mountainsLabel": "Montanhas",
+    "mountainsDesc": "Escalada e montanhismo, um passo deliberado por vez.",
+    "divingLabel": "Mergulho",
+    "divingDesc": "PADI Divemaster. Calma sob pressão, nas profundezas.",
+    "skiingLabel": "Esqui",
+    "skiingDesc": "Ler o terreno e as condições rapidamente, e se adaptar ainda mais rápido.",
+    "travelLabel": "Viagens",
+    "travelDesc": "58 de 195 países. Ainda contando.",
+    "worldMapLabel": "Mapa mundial",
+    "worldMapDesc": "Aproxime-se de cada país visitado até agora, marcador por marcador."
+  },
+  "adventureCategory": {
+    "mountainsSubtitle": "6 de 7 continentes escalados.",
+    "divingSubtitle": "PADI Divemaster. 6 de 7 continentes com mergulho.",
+    "skiingSubtitle": "4 de 7 continentes com esqui.",
+    "travelSubtitle": "58 de 195 países visitados.",
+    "empty": "[VERIFY — add expeditions for this category]"
+  },
+  "worldMapPage": {
+    "eyebrow": "Aventuras",
+    "title": "Onde já estive",
+    "subtitleWithCount": "{{count}} países visitados até agora. Aproxime-se, clique em um marcador, explore a história.",
+    "subtitleFallback": "Aproxime-se, clique em um marcador, explore a história."
+  },
+  "destinationDetail": {
+    "eyebrow": "Destino",
+    "citiesVisited": "Cidades visitadas: {{cities}}",
+    "empty": "[VERIFY — add photos and stories from {{country}}]"
+  },
+  "map": {
+    "zoomIn": "Aumentar zoom",
+    "zoomOut": "Diminuir zoom"
+  },
+  "expeditionDetail": {
+    "why": "Por quê",
+    "challenge": "Desafio",
+    "moment": "O momento",
+    "lesson": "Lição"
+  },
+  "caseStudyDetail": {
+    "challenge": "Desafio",
+    "complexity": "Complexidade",
+    "solution": "Solução",
+    "role": "Papel",
+    "outcome": "Resultado",
+    "lessons": "Lições"
+  },
+  "leadership": {
+    "eyebrow": "Liderança",
+    "title": "Decisões calmas, tomadas sob pressão real",
+    "subtitle": "Como os mesmos instintos que funcionam em uma parede de rocha ou em um mergulho aparecem na forma como lidero equipes.",
+    "p1": "Uma ótima arquitetura nunca é apenas sobre tecnologia. É sobre entender pessoas, alinhar partes interessadas, simplificar a complexidade e criar sistemas que permaneçam adaptáveis por anos.",
+    "quote": "Preparação, tomada de decisão calma e confiança são essenciais ao liderar pessoas em ambientes desafiadores.",
+    "teamHeading": "Liderança de equipe",
+    "programsHeading": "Programas e iniciativas"
+  },
+  "work": {
+    "eyebrow": "Trabalho",
+    "title": "Arquitetura empresarial, entregue.",
+    "subtitle": "Uma seleção dos problemas que confiaram a mim para resolver. Detalhes de clientes e implementação são anonimizados ou generalizados para respeitar a confidencialidade.",
+    "caseStudiesHeading": "Estudos de caso",
+    "experienceHeading": "Experiência",
+    "certificationsHeading": "Certificações",
+    "personalProjectsHeading": "Projetos pessoais",
+    "personalProjectsText": "Além do trabalho de arquitetura empresarial, construo e publico pequenas aplicações web para praticar."
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Uma seleção de aplicações que construí e publiquei.",
+    "code": "Código",
+    "liveDemo": "Demo em tempo real",
+    "items": {
+      "recipeParade": "Um app de descoberta de receitas para navegar, avaliar e salvar pratos favoritos. Não está publicado atualmente; execute localmente para experimentar.",
+      "travelPlanner": "Planeje viagens e organize itinerários com um painel de viagem organizado.",
+      "budgetTracker": "Um PWA para rastrear receitas e despesas, funciona offline.",
+      "weatherDashboard": "Um painel de previsão do tempo de 5 dias com histórico de busca.",
+      "runBuddy": "Uma página de destino de marketing para um serviço de treinamento pessoal.",
+      "techBlog": "Uma plataforma de blog full-stack com publicações e comentários."
+    }
+  },
+  "fieldNotes": {
+    "eyebrow": "Notas de campo",
+    "title": "Notas do campo e do escritório",
+    "subtitle": "Textos curtos sobre arquitetura, liderança e aventura, que se sobrepõem mais do que se imagina."
+  },
+  "now": {
+    "eyebrow": "Agora",
+    "title": "O que estou fazendo agora",
+    "subtitle": "Atualizado periodicamente. Não é uma linha do tempo completa, apenas o estado atual."
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Tem uma pergunta ou quer trabalhar junto? Entre em contato.",
+    "nameLabel": "Nome",
+    "emailLabel": "Endereço de e-mail",
+    "messageLabel": "Mensagem",
+    "attachmentsLabel": "Anexos",
+    "dragDropText": "Arraste e solte arquivos aqui, ou clique para navegar",
+    "sendButton": "Enviar mensagem",
+    "sendingButton": "Enviando...",
+    "removeButton": "Remover",
+    "successMessage": "Seu e-mail foi enviado! Retornarei em breve.",
+    "errorMessage": "Algo deu errado ao enviar sua mensagem. Tente novamente ou me envie um e-mail diretamente.",
+    "nameRequired": "O nome é obrigatório.",
+    "emailRequired": "O e-mail é obrigatório.",
+    "emailInvalid": "Digite um endereço de e-mail válido.",
+    "messageRequired": "A mensagem é obrigatória."
+  },
+  "notFound": {
+    "heading": "Página não encontrada",
+    "text": "A página que você procura não existe.",
+    "backHome": "Voltar ao início"
+  },
+  "footer": {
+    "languagesHeading": "Idiomas"
+  },
+  "languages": {
+    "heading": "Idiomas",
+    "subtitle": "Este site está disponível nos seguintes idiomas."
+  }
+}

@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function StatDisplay({ stats }) {
+  const { t } = useTranslation();
   return (
     <div className="grid grid-cols-2 gap-6 sm:grid-cols-5">
       {stats.map((stat, index) => (
@@ -16,7 +18,7 @@ export default function StatDisplay({ stats }) {
             {stat.value}
           </div>
           <div className="mt-1 text-xs uppercase tracking-wide text-muted dark:text-stone">
-            {stat.label}
+            {stat.key ? t(`stats.${stat.key}`) : stat.label}
           </div>
         </motion.div>
       ))}

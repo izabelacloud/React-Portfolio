@@ -1,17 +1,19 @@
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import ImageGallery from '../components/ImageGallery';
 import caseStudies from '../data/caseStudies';
 
 export default function CaseStudyDetail() {
+  const { t } = useTranslation();
   const { slug } = useParams();
   const caseStudy = caseStudies.find((cs) => cs.slug === slug);
 
   if (!caseStudy) {
     return (
       <div className="py-10">
-        <p>Case study not found.</p>
-        <Link to="/work" className="text-accent hover:underline">Back to Work</Link>
+        <p>{t('common.caseStudyNotFound')}</p>
+        <Link to="/work" className="text-accent hover:underline">{t('common.backToWork')}</Link>
       </div>
     );
   }
@@ -22,27 +24,27 @@ export default function CaseStudyDetail() {
 
       <div className="grid gap-8 sm:grid-cols-2">
         <div>
-          <h2 className="font-display text-xl font-medium">Challenge</h2>
+          <h2 className="font-display text-xl font-medium">{t('caseStudyDetail.challenge')}</h2>
           <p className="mt-2 text-ink/70 dark:text-stone">{caseStudy.challenge}</p>
         </div>
         <div>
-          <h2 className="font-display text-xl font-medium">Complexity</h2>
+          <h2 className="font-display text-xl font-medium">{t('caseStudyDetail.complexity')}</h2>
           <p className="mt-2 text-ink/70 dark:text-stone">{caseStudy.complexity}</p>
         </div>
         <div>
-          <h2 className="font-display text-xl font-medium">Solution</h2>
+          <h2 className="font-display text-xl font-medium">{t('caseStudyDetail.solution')}</h2>
           <p className="mt-2 text-ink/70 dark:text-stone">{caseStudy.solution}</p>
         </div>
         <div>
-          <h2 className="font-display text-xl font-medium">Role</h2>
+          <h2 className="font-display text-xl font-medium">{t('caseStudyDetail.role')}</h2>
           <p className="mt-2 text-ink/70 dark:text-stone">{caseStudy.role}</p>
         </div>
         <div>
-          <h2 className="font-display text-xl font-medium">Outcome</h2>
+          <h2 className="font-display text-xl font-medium">{t('caseStudyDetail.outcome')}</h2>
           <p className="mt-2 text-ink/70 dark:text-stone">{caseStudy.outcome}</p>
         </div>
         <div>
-          <h2 className="font-display text-xl font-medium">Lessons</h2>
+          <h2 className="font-display text-xl font-medium">{t('caseStudyDetail.lessons')}</h2>
           <p className="mt-2 text-ink/70 dark:text-stone">{caseStudy.lessons}</p>
         </div>
       </div>
@@ -50,7 +52,7 @@ export default function CaseStudyDetail() {
       <ImageGallery images={caseStudy.images} />
 
       <Link to="/work" className="inline-block text-sm font-semibold text-accent hover:underline">
-        ← Back to Work
+        {t('common.backToWork')}
       </Link>
     </div>
   );

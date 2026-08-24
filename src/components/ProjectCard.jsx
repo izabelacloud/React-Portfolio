@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function ProjectCard({ project, index }) {
+  const { t } = useTranslation();
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 24 }}
@@ -19,7 +22,7 @@ export default function ProjectCard({ project, index }) {
       </div>
       <div className="p-5">
         <h3 className="font-display text-lg font-medium">{project.name}</h3>
-        <p className="mt-1 text-sm text-ink/60 dark:text-stone">{project.description}</p>
+        <p className="mt-1 text-sm text-ink/60 dark:text-stone">{t(`projects.items.${project.descriptionKey}`)}</p>
         <div className="mt-4 flex gap-3 text-sm font-semibold">
           <a
             href={project.github}
@@ -27,7 +30,7 @@ export default function ProjectCard({ project, index }) {
             rel="noopener noreferrer"
             className="rounded-full bg-accent/10 px-3 py-1.5 text-accent transition-colors hover:bg-accent hover:text-warm"
           >
-            Code
+            {t('projects.code')}
           </a>
           {project.deployedApp && (
             <a
@@ -36,7 +39,7 @@ export default function ProjectCard({ project, index }) {
               rel="noopener noreferrer"
               className="rounded-full bg-stone/30 px-3 py-1.5 text-ink/80 transition-colors hover:bg-stone hover:text-ink dark:text-stone"
             >
-              Live Demo
+              {t('projects.liveDemo')}
             </a>
           )}
         </div>

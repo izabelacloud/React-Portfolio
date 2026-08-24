@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function CaseStudyCard({ caseStudy, index = 0 }) {
+  const { t } = useTranslation();
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
@@ -17,7 +19,7 @@ export default function CaseStudyCard({ caseStudy, index = 0 }) {
         to={`/work/${caseStudy.slug}`}
         className="mt-4 inline-block text-sm font-semibold text-accent hover:underline"
       >
-        Read the case study →
+        {t('common.readCaseStudyArrow')}
       </Link>
     </motion.article>
   );

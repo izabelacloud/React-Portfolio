@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Domov",
+    "work": "Práca",
+    "leadership": "Líderstvo",
+    "adventures": "Dobrodružstvá",
+    "worldMap": "Mapa svet",
+    "about": "O mne",
+    "fieldNotes": "Poznámky",
+    "contact": "Kontakt",
+    "now": "Teraz"
+  },
+  "common": {
+    "exploreArrow": "Preskúmať →",
+    "readMoreArrow": "Čítať viac →",
+    "readStoryArrow": "Prečítať príbeh →",
+    "readCaseStudyArrow": "Prečítať prípadovú štúdiu →",
+    "seeWork": "Zobraziť prácu",
+    "seeAdventures": "Zobraziť dobrodružstvá",
+    "seeAdventuresArrow": "Preskúmať dobrodružstvá →",
+    "seeProjectsArrow": "Zobraziť projekty →",
+    "exploreWorkArrow": "Preskúmať prácu →",
+    "exploreAdventuresArrow": "Preskúmať dobrodružstvá →",
+    "backToHome": "Späť na domovskú stránku",
+    "backToWork": "← Späť na Práca",
+    "backToAdventures": "← Späť na Dobrodružstvá",
+    "backToFieldNotes": "← Späť na Poznámky",
+    "backToMap": "← Späť na mapu",
+    "back": "← Späť",
+    "categoryNotFound": "Kategória nebola nájdená.",
+    "destinationNotFound": "Destinácia nebola nájdená.",
+    "expeditionNotFound": "Expedícia nebola nájdená.",
+    "caseStudyNotFound": "Prípadová štúdia nebola nájdená.",
+    "postNotFound": "Príspevok nebol nájdený."
+  },
+  "stats": {
+    "countriesVisited": "Navštívené krajiny",
+    "continentsClimbed": "Zdolané kontinenty",
+    "continentsDived": "Potápané kontinenty",
+    "continentsSkied": "Lyžované kontinenty",
+    "continentsRun": "Bežané kontinenty (maratón)"
+  },
+  "tagline": "Málo vzduchu, veľa života.",
+  "home": {
+    "heroTitle": "Architektka profesiou. Dobrodruh inštinktom.",
+    "heroSubtitle": "Profesionálny život venujem riešeniu zložitých problémov a osobný život hľadaniu ešte ťažších.",
+    "professionalEyebrow": "Profesionálne",
+    "professionalTitle": "Podnikové architektúry, budované vo veľkom rozsahu",
+    "professionalSubtitle": "Technical Architecture Director a Senior Salesforce Enterprise Architect, navrhujem programy digitálnej transformácie pre globálne organizácie.",
+    "personalEyebrow": "Osobné",
+    "personalSubtitle": "PADI Divemaster, horolezkyňa, lyžiarka a cestovateľka — 58 z 195 krajín a stále pribúdajú.",
+    "quote": "Prostredia sa menia. Myslenie nie."
+  },
+  "about": {
+    "greeting": "Ahoj, som",
+    "accentLine": "Architektka profesiou. Dobrodruh inštinktom.",
+    "p1": "Viac ako desať rokov pomáham globálnym organizáciám riešiť zložité obchodné výzvy pomocou technológií. Moja kariéra sa formovala na priesečníku podnikovej architektúry, strategického poradenstva a praktického vývoja, pri premene ambicióznych obchodných cieľov na škálovateľné a praktické riešenia, ktoré prinášajú merateľnú hodnotu.",
+    "p2": "Ako <1>Technical Architecture Director a Senior Salesforce Enterprise Architect</1> spolupracujem s vedením, obchodnými lídrami a dodávateľskými tímami na návrhu programov digitálnej transformácie v podnikovom rozsahu. Moja expertíza zahŕňa architektúru Salesforce, Quote-to-Cash, Revenue Lifecycle Management, CRM strategiu, integráciu systémov, cloudové platformy a návrh podnikových riešení v odvetviach ako finančné služby, telekomunikácie, výroba, SaaS, analytika a profesionálne služby.",
+    "p3": "Verím, že skvelá architektúra nie je len o technológii. Ide o pochopenie ľudí, zosúladenie zainteresovaných strán, zjednodušenie zložitosti a vytváranie systémov, ktoré zostanú adaptovateľné aj o roky.",
+    "leadIntro": "Spôsob, akým vediem, formovalo rovnako to, čo sa deje mimo kancelárie, ako to, čo sa deje v nej.",
+    "divemaster": "Ako <1>PADI Divemaster</1> som sa naučila, že príprava, pokojné rozhodovanie a dôvera sú nevyhnutné pri vedení ľudí v náročných prostrediach.",
+    "mountaineer": "Ako <1>horolezkyňa</1> som zažila, že významné úspechy sa budujú jeden vedomý krok po druhom. Úspech pochádza z odolnosti, plánovania a schopnosti prispôsobiť sa, keď sa podmienky nevyhnutne zmenia.",
+    "marathon": "Ako <1>maratónska bežkyňa</1> som sa naučila, že konzistentnosť prevyšuje intenzitu. Dlhodobé výsledky prichádzajú z disciplíny, vytrvalosti a neustáleho zlepšovania, nie z rýchlych výhier.",
+    "continents": "Keďže som <1>žila a pracovala na troch kontinentoch</1>, vytvorila som si globálnu perspektívu, ktorá mi umožňuje efektívne spolupracovať s rôznorodými tímami, chápať rozdielne obchodné kultúry a budovať silné vzťahy medzi organizáciami.",
+    "closing": "Pretože najlepšie riešenia jednoducho neriešia dnešné problémy. Vytvárajú príležitosti pre zajtrajšok."
+  },
+  "adventures": {
+    "eyebrow": "Dobrodružstvá",
+    "mountainsLabel": "Hory",
+    "mountainsDesc": "Lezenie a horolezectvo, jeden vedomý krok za druhým.",
+    "divingLabel": "Potápanie",
+    "divingDesc": "PADI Divemaster. Pokoj pod tlakom, v hlbinách.",
+    "skiingLabel": "Lyžovanie",
+    "skiingDesc": "Rýchle čítanie terénu a podmienok a ešte rýchlejšie prispôsobenie.",
+    "travelLabel": "Cestovanie",
+    "travelDesc": "58 z 195 krajín. Stále pribúdajú.",
+    "worldMapLabel": "Mapa svet",
+    "worldMapDesc": "Priblíž si každú doteraz navštívenú krajinu, pin po pine."
+  },
+  "adventureCategory": {
+    "mountainsSubtitle": "6 zo 7 kontinentov zdolaných.",
+    "divingSubtitle": "PADI Divemaster. 6 zo 7 kontinentov potápaných.",
+    "skiingSubtitle": "4 zo 7 kontinentov lyžovaných.",
+    "travelSubtitle": "58 z 195 krajín navštívených.",
+    "empty": "[VERIFY — add expeditions for this category]"
+  },
+  "worldMapPage": {
+    "eyebrow": "Dobrodružstvá",
+    "title": "Kde som už bola",
+    "subtitleWithCount": "{{count}} navštívených krajín doteraz. Priblíž, klikni na pin, objav príbeh.",
+    "subtitleFallback": "Priblíž, klikni na pin, objav príbeh."
+  },
+  "destinationDetail": {
+    "eyebrow": "Destinácia",
+    "citiesVisited": "Navštívené mestá: {{cities}}",
+    "empty": "[VERIFY — add photos and stories from {{country}}]"
+  },
+  "map": {
+    "zoomIn": "Priblížiť",
+    "zoomOut": "Odsadiť"
+  },
+  "expeditionDetail": {
+    "why": "Prečo",
+    "challenge": "Výzva",
+    "moment": "Ten moment",
+    "lesson": "Ponaučenie"
+  },
+  "caseStudyDetail": {
+    "challenge": "Výzva",
+    "complexity": "Zložitosť",
+    "solution": "Riešenie",
+    "role": "Rola",
+    "outcome": "Výsledok",
+    "lessons": "Ponaučenia"
+  },
+  "leadership": {
+    "eyebrow": "Líderstvo",
+    "title": "Pokojné rozhodnutia, urobené pod skutočným tlakom",
+    "subtitle": "Ako sa tie isté instinkty, ktoré platia na skalnej stene alebo pri potápaní, prejavujú v tom, ako vedem tímy.",
+    "p1": "Skvelá architektúra nie je len o technológii. Ide o pochopenie ľudí, zosúladenie zainteresovaných strán, zjednodušenie zložitosti a vytváranie systémov, ktoré zostanú adaptovateľné aj o roky.",
+    "quote": "Príprava, pokojné rozhodovanie a dôvera sú nevyhnutné pri vedení ľudí v náročných prostrediach.",
+    "teamHeading": "Vedenie tímu",
+    "programsHeading": "Programy a iniciatívy"
+  },
+  "work": {
+    "eyebrow": "Práca",
+    "title": "Podniková architektúra, dodaná.",
+    "subtitle": "Výber problémov, ktoré mi bolo dôverované riešiť. Detaily o klientoch a implementácii sú anonymizované alebo generalizované s ohľadom na dôvernosť.",
+    "caseStudiesHeading": "Prípadové štúdie",
+    "experienceHeading": "Skúsenosti",
+    "certificationsHeading": "Certifikácie",
+    "personalProjectsHeading": "Osobné projekty",
+    "personalProjectsText": "Mimo podnikovej architektúry vytváram a publikujem malé webové aplikácie pre prax."
+  },
+  "projects": {
+    "title": "Projekty",
+    "subtitle": "Výber aplikácií, ktoré som vytvorila a publikovala.",
+    "code": "Kód",
+    "liveDemo": "Živá ukážka",
+    "items": {
+      "recipeParade": "Aplikácia na objavovanie receptov na prehliadanie, hodnotenie a ukladanie obľúbených jedál. Aktuálne nenasadená; spustite lokálne a vyskúšajte.",
+      "travelPlanner": "Plánuj cesty a organizuj itineráre s prehľadným cestovným dashboardom.",
+      "budgetTracker": "PWA na sledovanie príjmov a výdavkov, funguje offline.",
+      "weatherDashboard": "5-dňový dashboard predpovede počasia s históriou vyhľadávania.",
+      "runBuddy": "Marketingová vstupná stránka pre osobnú tréningovú službu.",
+      "techBlog": "Full-stack blogová platforma s príspevkami a komentármi."
+    }
+  },
+  "fieldNotes": {
+    "eyebrow": "Poznámky",
+    "title": "Poznámky z terénu a z kancelárie",
+    "subtitle": "Krátke texty o architektúre, líderstve a dobrodružstve — prekrývajú sa viac, než by ste čakali."
+  },
+  "now": {
+    "eyebrow": "Teraz",
+    "title": "Čo robím právne teraz",
+    "subtitle": "Aktualizované periodicky. Nie úplná časová osa, len aktuálny stav."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Máte otázku alebo chcete spolupracovať? Napíšte mi.",
+    "nameLabel": "Meno",
+    "emailLabel": "E-mailová adresa",
+    "messageLabel": "Správa",
+    "attachmentsLabel": "Prílohy",
+    "dragDropText": "Presuňte súbory sem alebo kliknite na výber",
+    "sendButton": "Odoslať správu",
+    "sendingButton": "Odosiela sa...",
+    "removeButton": "Odstrániť",
+    "successMessage": "Váš e-mail bol odoslaný! Ozvem sa vám čoskoro.",
+    "errorMessage": "Pri odosielaní správy sa niečo pokazilo. Skúste to znova alebo mi napíšte priamo.",
+    "nameRequired": "Meno je povinné.",
+    "emailRequired": "E-mail je povinný.",
+    "emailInvalid": "Zadajte platnú e-mailovú adresu.",
+    "messageRequired": "Správa je povinná."
+  },
+  "notFound": {
+    "heading": "Stránka nenájdená",
+    "text": "Stránka, ktorú hľadáte, neexistuje.",
+    "backHome": "Späť na domovskú stránku"
+  },
+  "footer": {
+    "languagesHeading": "Jazyky"
+  },
+  "languages": {
+    "heading": "Jazyky",
+    "subtitle": "Táto stránka je dostupná v nasledujúcich jazykoch."
+  }
+}

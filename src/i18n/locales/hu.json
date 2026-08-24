@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Kezdőlap",
+    "work": "Munka",
+    "leadership": "Vezetés",
+    "adventures": "Kalandok",
+    "worldMap": "Világtérkép",
+    "about": "Rólam",
+    "fieldNotes": "Jegyzetek",
+    "contact": "Kapcsolat",
+    "now": "Most"
+  },
+  "common": {
+    "exploreArrow": "Felfedezés →",
+    "readMoreArrow": "Tovább olvasom →",
+    "readStoryArrow": "A történet elolvasása →",
+    "readCaseStudyArrow": "Esettanulmány elolvasása →",
+    "seeWork": "Munkáim megtekintése",
+    "seeAdventures": "Kalandok megtekintése",
+    "seeAdventuresArrow": "Kalandok felfedezése →",
+    "seeProjectsArrow": "Projektek megtekintése →",
+    "exploreWorkArrow": "Munka felfedezése →",
+    "exploreAdventuresArrow": "Kalandok felfedezése →",
+    "backToHome": "Vissza a kezdőlapra",
+    "backToWork": "← Vissza a Munkához",
+    "backToAdventures": "← Vissza a Kalandokhoz",
+    "backToFieldNotes": "← Vissza a Jegyzetekhez",
+    "backToMap": "← Vissza a térképhez",
+    "back": "← Vissza",
+    "categoryNotFound": "A kategória nem található.",
+    "destinationNotFound": "Az úticél nem található.",
+    "expeditionNotFound": "Az expedíció nem található.",
+    "caseStudyNotFound": "Az esettanulmány nem található.",
+    "postNotFound": "A bejegyzés nem található."
+  },
+  "stats": {
+    "countriesVisited": "Meglátogatott országok",
+    "continentsClimbed": "Megmászott kontinensek",
+    "continentsDived": "Merülésekkel érintett kontinensek",
+    "continentsSkied": "Sízéssel érintett kontinensek",
+    "continentsRun": "Futott kontinensek (maraton)"
+  },
+  "tagline": "Kevés levegő, sok élet.",
+  "home": {
+    "heroTitle": "Építész hivatásból. Kalandor ösztönből.",
+    "heroSubtitle": "A szakmai életemet komplex problémák megoldásával töltöm, a magánéletemet még nehezebbek keresésével.",
+    "professionalEyebrow": "Szakmai",
+    "professionalTitle": "Vállalati architektúra, nagy léptékben megépítve",
+    "professionalSubtitle": "Technical Architecture Director és Senior Salesforce Enterprise Architect, digitális transzformációs programok tervezése globális szervezetek számára.",
+    "personalEyebrow": "Személyes",
+    "personalSubtitle": "PADI Divemaster, hegymászó, síelő és utazó — 58 a 195 országból, és folytatódik.",
+    "quote": "A körülmények változnak. A gondolkodás nem."
+  },
+  "about": {
+    "greeting": "Szia, én vagyok",
+    "accentLine": "Építész hivatásból. Kalandor ösztönből.",
+    "p1": "Több mint egy évtizede segítek globális szervezeteknek összetett üzleti kihívások megoldásában a technológia segítségével. Karrierem a vállalati architektúra, a stratégiai tanácsadás és a gyakorlati mérnöki munka metszéspontjában épült fel, ambiciózus üzleti célokat skálázható, praktikus megoldásokká alakítva, amelyek mérhető értéket teremtenek.",
+    "p2": "<1>Technical Architecture Directorként és Senior Salesforce Enterprise Architectként</1> vezetőkkel, üzleti döntéshozókkal és delivery csapatokkal együttműködve tervezek vállalati méretű digitális transzformációs programokat. Szakértelmem kiterjed a Salesforce architektúrára, a Quote-to-Cash és Revenue Lifecycle Management folyamatokra, a CRM stratégiára, a rendszerintegrációra, a felhőplatformokra és a vállalati megoldástervezésre olyan iparágakban, mint a pénzügyi szolgáltatások, a távközlés, a gyártás, a SaaS, az analitika és a professzionális szolgáltatások.",
+    "p3": "Hiszem, hogy a kiváló architektúra sosem csak a technológiáról szól. Az emberek megértéséről, az érdekelt felek összehangolásáról, a bonyolultság egyszerűsítéséről és olyan rendszerek létrehozásáról, amelyek évekig alkalmazkodóképesek maradnak.",
+    "leadIntro": "A vezetési stílusomat ugyanannyira formálta az, ami az irodán kívül történt, mint az, ami belül.",
+    "divemaster": "<1>PADI Divemasterként</1> megtanultam, hogy a felkészülés, a nyugodt döntéshozás és a bizalom elengedhetetlen, amikor embereket vezetünk kihívást jelentő környezetekben.",
+    "mountaineer": "<1>Hegymászóként</1> megtapasztaltam, hogy a jelentős eredmények egy tudatos lépésről a másikra épülnek fel. A siker az ellenálló képességből, a tervezésből és az elkerülhetetlenül változó körülményekhez való alkalmazkodásból ered.",
+    "marathon": "<1>Maratonfutóként</1> megtanultam, hogy a következetesség felülmúlja az intenzitást. A hosszú távú eredmények a fegyelemből, a kitartásból és a folyamatos fejlődésből származnak, nem a gyors győzelmekből.",
+    "continents": "Mivel <1>három kontinensen éltem és dolgoztam</1>, olyan globális perspektívát alakítottam ki, amely lehetővé teszi, hogy hatékonyan együttműködjek különböző csapatokkal, megértsem a különböző üzleti kultúrákat, és erős kapcsolatokat építsek szervezetek között.",
+    "closing": "Mert a legjobb megoldások nem egyszerűen a mai problémákat oldják meg. Lehetőségeket teremtenek a jövő számára."
+  },
+  "adventures": {
+    "eyebrow": "Kalandok",
+    "mountainsLabel": "Hegyek",
+    "mountainsDesc": "Mászás és hegymászás, egy tudatos lépés egyszerre.",
+    "divingLabel": "Merülés",
+    "divingDesc": "PADI Divemaster. Nyugalom nyomás alatt, a mélyben.",
+    "skiingLabel": "Síelés",
+    "skiingDesc": "Terep és körülmények gyors leolvasása, és még gyorsabb alkalmazkodás.",
+    "travelLabel": "Utazás",
+    "travelDesc": "58 a 195 országból. Még mindig számolom.",
+    "worldMapLabel": "Világtérkép",
+    "worldMapDesc": "Közelíts rá minden eddig meglátogatott országra, pin után pin."
+  },
+  "adventureCategory": {
+    "mountainsSubtitle": "6 a 7 kontinensből megmászva.",
+    "divingSubtitle": "PADI Divemaster. 6 a 7 kontinensből merülve.",
+    "skiingSubtitle": "4 a 7 kontinensből síelve.",
+    "travelSubtitle": "58 a 195 országból meglátogatva.",
+    "empty": "[VERIFY — add expeditions for this category]"
+  },
+  "worldMapPage": {
+    "eyebrow": "Kalandok",
+    "title": "Ahol már voltam",
+    "subtitleWithCount": "{{count}} meglátogatott ország eddig. Közelíts rá, kattints egy pinre, fedezd fel a történetet.",
+    "subtitleFallback": "Közelíts rá, kattints egy pinre, fedezd fel a történetet."
+  },
+  "destinationDetail": {
+    "eyebrow": "Úticél",
+    "citiesVisited": "Meglátogatott városok: {{cities}}",
+    "empty": "[VERIFY — add photos and stories from {{country}}]"
+  },
+  "map": {
+    "zoomIn": "Nagyítás",
+    "zoomOut": "Kicsinyítés"
+  },
+  "expeditionDetail": {
+    "why": "Miért",
+    "challenge": "Kihívás",
+    "moment": "A pillanat",
+    "lesson": "Tanulság"
+  },
+  "caseStudyDetail": {
+    "challenge": "Kihívás",
+    "complexity": "Komplexitás",
+    "solution": "Megoldás",
+    "role": "Szerepkör",
+    "outcome": "Eredmény",
+    "lessons": "Tanulságok"
+  },
+  "leadership": {
+    "eyebrow": "Vezetés",
+    "title": "Nyugodt döntések valódi nyomás alatt",
+    "subtitle": "Hogyan jelennek meg a csapatvezetésemben ugyanazok az ösztönök, amelyek egy sziklafalon vagy merülés közben is működnek.",
+    "p1": "A kiváló architektúra sosem csak a technológiáról szól. Az emberek megértéséről, az érdekelt felek összehangolásáról, a bonyolultság egyszerűsítéséről és olyan rendszerek létrehozásáról szól, amelyek évekig alkalmazkodóképesek maradnak.",
+    "quote": "A felkészülés, a nyugodt döntéshozás és a bizalom elengedhetetlen, amikor embereket vezetünk kihívást jelentő környezetekben.",
+    "teamHeading": "Csapatvezetés",
+    "programsHeading": "Programok és kezdeményezések"
+  },
+  "work": {
+    "eyebrow": "Munka",
+    "title": "Vállalati architektúra, megvalósítva.",
+    "subtitle": "Válogatás azokból a problémákból, amelyek megoldásával megbíztak. Az ügyfél- és megvalósítási részleteket anonimizáltuk vagy általánosítottuk a titoktartás érdekében.",
+    "caseStudiesHeading": "Esettanulmányok",
+    "experienceHeading": "Tapasztalat",
+    "certificationsHeading": "Minősítések",
+    "personalProjectsHeading": "Személyes projektek",
+    "personalProjectsText": "A vállalati architektúrai munkán kívül kis webalkalmazásokat építek és publikálok gyakorlásképp."
+  },
+  "projects": {
+    "title": "Projektek",
+    "subtitle": "Válogatás az alkalmazásokból, amelyeket megépítettem és publikáltam.",
+    "code": "Kód",
+    "liveDemo": "Élő demó",
+    "items": {
+      "recipeParade": "Receptfelfedező alkalmazás kedvenc ételek böngészésére, értékelésére és mentésére. Jelenleg nincs publikálva; futtasd lokálisan a kipróbáláshoz.",
+      "travelPlanner": "Tervezz utazásokat és rendszerezd az útiterveket egy áttekinthető utazási irányítópulttal.",
+      "budgetTracker": "PWA a bevételek és kiadások követésére, offline is működik.",
+      "weatherDashboard": "5 napos időjárás-előrejelzési irányítópult keresési előzményekkel.",
+      "runBuddy": "Marketing landing page egy személyi edzői szolgáltatáshoz.",
+      "techBlog": "Full-stack blogplatform bejegyzésekkel és kommentekkel."
+    }
+  },
+  "fieldNotes": {
+    "eyebrow": "Jegyzetek",
+    "title": "Jegyzetek a terepről és az irodából",
+    "subtitle": "Rövid írások architektúráról, vezetésről és kalandról — jobban átfedik egymást, mint gondolnád."
+  },
+  "now": {
+    "eyebrow": "Most",
+    "title": "Mit csinálok éppen most",
+    "subtitle": "Rendszeresen frissítve. Nem egy teljes idővonal, csak a jelenlegi állapot."
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Van kérdésed, vagy szeretnél együtt dolgozni? Írj nekem.",
+    "nameLabel": "Név",
+    "emailLabel": "E-mail cím",
+    "messageLabel": "Üzenet",
+    "attachmentsLabel": "Mellékletek",
+    "dragDropText": "Húzd ide a fájlokat, vagy kattints a tallózáshoz",
+    "sendButton": "Üzenet küldése",
+    "sendingButton": "Küldés...",
+    "removeButton": "Eltávolítás",
+    "successMessage": "Az e-mail elküldve! Hamarosan válaszolok.",
+    "errorMessage": "Hiba történt az üzenet küldésekor. Próbáld újra, vagy írj közvetlenül.",
+    "nameRequired": "A név megadása kötelező.",
+    "emailRequired": "Az e-mail megadása kötelező.",
+    "emailInvalid": "Adj meg egy érvényes e-mail címet.",
+    "messageRequired": "Az üzenet megadása kötelező."
+  },
+  "notFound": {
+    "heading": "Az oldal nem található",
+    "text": "A keresett oldal nem létezik.",
+    "backHome": "Vissza a kezdőlapra"
+  },
+  "footer": {
+    "languagesHeading": "Nyelvek"
+  },
+  "languages": {
+    "heading": "Nyelvek",
+    "subtitle": "Ez a weboldal a következő nyelveken érhető el."
+  }
+}

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import PageHeading from '../components/PageHeading';
 import { validateEmail } from '../utils/helpers';
 
@@ -7,6 +8,7 @@ const initialState = { name: '', email: '', message: '' };
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
 export default function Contact() {
+  const { t } = useTranslation();
   const [formState, setFormState] = useState(initialState);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState('idle');
@@ -15,13 +17,13 @@ export default function Contact() {
 
   function validate(state) {
     const nextErrors = {};
-    if (!state.name.trim()) nextErrors.name = 'Name is required.';
+    if (!state.name.trim()) nextErrors.name = t('contact.nameRequired');
     if (!state.email.trim()) {
-      nextErrors.email = 'Email is required.';
+      nextErrors.email = t('contact.emailRequired');
     } else if (!validateEmail(state.email)) {
-      nextErrors.email = 'Please enter a valid email address.';
+      nextErrors.email = t('contact.emailInvalid');
     }
-    if (!state.message.trim()) nextErrors.message = 'Message is required.';
+    if (!state.message.trim()) nextErrors.message = t('contact.messageRequired');
     return nextErrors;
   }
 
@@ -93,19 +95,19 @@ export default function Contact() {
   }
 
   const fields = [
-    { name: 'name', label: 'Name', type: 'text' },
-    { name: 'email', label: 'Email Address', type: 'email' },
+    { name: 'name', labelKey: 'nameLabel', type: 'text' },
+    { name: 'email', labelKey: 'emailLabel', type: 'email' },
   ];
 
   return (
     <section>
-      <PageHeading title="Contact" subtitle="Have a question or want to work together? Reach out." />
+      <PageHeading title={t('contact.title')} subtitle={t('contact.subtitle')} />
 
       <form onSubmit={handleSubmit} noValidate className="max-w-lg space-y-5">
         {fields.map((field) => (
           <div key={field.name}>
             <label htmlFor={field.name} className="mb-1.5 block text-sm font-semibold">
-              {field.label}
+              {t(`contact.${field.labelKey}`)}
             </label>
             <input
               id={field.name}
@@ -127,7 +129,7 @@ export default function Contact() {
 
         <div>
           <label htmlFor="message" className="mb-1.5 block text-sm font-semibold">
-            Message
+            {t('contact.messageLabel')}
           </label>
           <textarea
             id="message"
@@ -147,7 +149,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <label className="mb-1.5 block text-sm font-semibold">Attachments</label>
+          <label className="mb-1.5 block text-sm font-semibold">{t('contact.attachmentsLabel')}</label>
           <label
             onDragOver={handleDragOver}
             onDragLeave={handleDragLeave}
@@ -160,7 +162,7 @@ export default function Contact() {
           >
             <input type="file" multiple onChange={handleFileInputChange} className="hidden" />
             <p className="text-sm text-ink/60 dark:text-slate-400">
-              Drag and drop files here, or click to browse
+              {t('contact.dragDropText')}
             </p>
           </label>
 
@@ -177,7 +179,7 @@ export default function Contact() {
                     onClick={() => removeFile(index)}
                     className="ml-3 shrink-0 font-semibold text-red-500 hover:text-red-600"
                   >
-                    Remove
+                    {t('contact.removeButton')}
                   </button>
                 </li>
               ))}
@@ -190,7 +192,7 @@ export default function Contact() {
           disabled={status === 'sending'}
           className="rounded-full bg-accent px-6 py-2.5 font-bold text-warm shadow-sm transition-colors hover:bg-accent-dark disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {status === 'sending' ? 'Sending...' : 'Send Message'}
+          {status === 'sending' ? t('contact.sendingButton') : t('contact.sendButton')}
         </button>
 
         <AnimatePresence>
@@ -201,7 +203,7 @@ export default function Contact() {
               exit={{ opacity: 0 }}
               className="text-sm font-semibold text-accent"
             >
-              Your email was sent! I&apos;ll get back to you soon.
+              {t('contact.successMessage')}
             </motion.p>
           )}
           {status === 'error' && (
@@ -211,7 +213,7 @@ export default function Contact() {
               exit={{ opacity: 0 }}
               className="text-sm font-semibold text-red-500"
             >
-              Something went wrong sending your message. Please try again or email me directly.
+              {t('contact.errorMessage')}
             </motion.p>
           )}
         </AnimatePresence>

@@ -1,10 +1,13 @@
+import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import nowItems from '../data/now';
 
 export default function Now() {
+  const { t } = useTranslation();
+
   return (
     <div className="space-y-10 py-10">
-      <SectionHeading eyebrow="Now" title="What I'm doing right now" subtitle="Updated periodically. Not a full timeline, just the current state." />
+      <SectionHeading eyebrow={t('now.eyebrow')} title={t('now.title')} subtitle={t('now.subtitle')} />
 
       <ul className="space-y-6">
         {nowItems.map((item) => (

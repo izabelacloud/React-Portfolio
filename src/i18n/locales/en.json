@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "leadership": "Leadership",
+    "adventures": "Adventures",
+    "worldMap": "World Map",
+    "about": "About",
+    "fieldNotes": "Field Notes",
+    "contact": "Contact",
+    "now": "Now"
+  },
+  "common": {
+    "exploreArrow": "Explore →",
+    "readMoreArrow": "Read more →",
+    "readStoryArrow": "Read the story →",
+    "readCaseStudyArrow": "Read the case study →",
+    "seeWork": "See the work",
+    "seeAdventures": "See the adventures",
+    "seeAdventuresArrow": "See the adventures →",
+    "seeProjectsArrow": "See the projects →",
+    "exploreWorkArrow": "Explore the work →",
+    "exploreAdventuresArrow": "Explore the adventures →",
+    "backToHome": "Back to home",
+    "backToWork": "← Back to Work",
+    "backToAdventures": "← Back to Adventures",
+    "backToFieldNotes": "← Back to Field Notes",
+    "backToMap": "← Back to the map",
+    "back": "← Back",
+    "categoryNotFound": "Category not found.",
+    "destinationNotFound": "Destination not found.",
+    "expeditionNotFound": "Expedition not found.",
+    "caseStudyNotFound": "Case study not found.",
+    "postNotFound": "Post not found."
+  },
+  "stats": {
+    "countriesVisited": "Countries visited",
+    "continentsClimbed": "Continents climbed",
+    "continentsDived": "Continents dived",
+    "continentsSkied": "Continents skied",
+    "continentsRun": "Continents run (marathon)"
+  },
+  "tagline": "Low on air, high on life.",
+  "home": {
+    "heroTitle": "Architect by profession. Adventurer by instinct.",
+    "heroSubtitle": "I spend my professional life solving complex problems and my personal life looking for harder ones.",
+    "professionalEyebrow": "Professional",
+    "professionalTitle": "Enterprise architecture, built at scale",
+    "professionalSubtitle": "Technical Architecture Director and Senior Salesforce Enterprise Architect, designing digital transformation programs for global organizations.",
+    "personalEyebrow": "Personal",
+    "personalSubtitle": "PADI Divemaster, mountaineer, skier and traveler — 58 of 195 countries and counting.",
+    "quote": "The environments change. The mindset does not."
+  },
+  "about": {
+    "greeting": "Hi, I'm",
+    "accentLine": "Architect by profession. Adventurer by instinct.",
+    "p1": "For more than a decade, I have been helping global organisations solve complex business challenges through technology. My career has been built at the intersection of enterprise architecture, strategic consulting, and hands-on engineering, transforming ambitious business objectives into scalable, practical solutions that deliver measurable value.",
+    "p2": "As a <1>Technical Architecture Director and Senior Salesforce Enterprise Architect</1>, I partner with executives, business leaders, and delivery teams to design enterprise-scale digital transformation programs. My expertise spans Salesforce architecture, Quote-to-Cash, Revenue Lifecycle Management, CRM strategy, system integration, cloud platforms, and enterprise solution design across industries including Financial Services, Telecommunications, Manufacturing, SaaS, Analytics, and Professional Services.",
+    "p3": "I believe great architecture is never just about technology. It's about understanding people, aligning stakeholders, simplifying complexity, and creating systems that remain adaptable for years to come.",
+    "leadIntro": "The way I lead has been shaped just as much outside the office as inside it.",
+    "divemaster": "As a <1>PADI Divemaster</1>, I've learned that preparation, calm decision-making, and trust are essential when leading people in challenging environments.",
+    "mountaineer": "As a <1>mountaineer</1>, I've experienced that meaningful achievements are built one deliberate step at a time. Success comes from resilience, planning, and adapting when conditions inevitably change.",
+    "marathon": "As a <1>marathon runner</1>, I've learned that consistency outperforms intensity. Long-term results come from discipline, persistence, and continuous improvement rather than quick wins.",
+    "continents": "Having <1>lived and worked across three continents</1>, I've developed a global perspective that allows me to collaborate effectively with diverse teams, understand different business cultures, and build strong relationships across organisations.",
+    "closing": "Because the best solutions don't simply solve today's problems. They create opportunities for tomorrow."
+  },
+  "adventures": {
+    "eyebrow": "Adventures",
+    "mountainsLabel": "Mountains",
+    "mountainsDesc": "Climbing and mountaineering, one deliberate step at a time.",
+    "divingLabel": "Diving",
+    "divingDesc": "PADI Divemaster. Calm under pressure, at depth.",
+    "skiingLabel": "Skiing",
+    "skiingDesc": "Reading terrain and conditions fast, and adapting faster.",
+    "travelLabel": "Travel",
+    "travelDesc": "58 of 195 countries. Still counting.",
+    "worldMapLabel": "World Map",
+    "worldMapDesc": "Zoom into every country visited so far, pin by pin."
+  },
+  "adventureCategory": {
+    "mountainsSubtitle": "6 of 7 continents climbed.",
+    "divingSubtitle": "PADI Divemaster. 6 of 7 continents dived.",
+    "skiingSubtitle": "4 of 7 continents skied.",
+    "travelSubtitle": "58 of 195 countries visited.",
+    "empty": "[VERIFY — add expeditions for this category]"
+  },
+  "worldMapPage": {
+    "eyebrow": "Adventures",
+    "title": "Where I've been",
+    "subtitleWithCount": "{{count}} countries visited so far. Zoom in, click a pin, explore the story.",
+    "subtitleFallback": "Zoom in, click a pin, explore the story."
+  },
+  "destinationDetail": {
+    "eyebrow": "Destination",
+    "citiesVisited": "Cities visited: {{cities}}",
+    "empty": "[VERIFY — add photos and stories from {{country}}]"
+  },
+  "map": {
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out"
+  },
+  "expeditionDetail": {
+    "why": "Why",
+    "challenge": "Challenge",
+    "moment": "The moment",
+    "lesson": "Lesson"
+  },
+  "caseStudyDetail": {
+    "challenge": "Challenge",
+    "complexity": "Complexity",
+    "solution": "Solution",
+    "role": "Role",
+    "outcome": "Outcome",
+    "lessons": "Lessons"
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "title": "Calm decisions, made under real pressure",
+    "subtitle": "How the same instincts that hold up on a rock face or a dive show up in how I lead teams.",
+    "p1": "Great architecture is never just about technology. It's about understanding people, aligning stakeholders, simplifying complexity, and creating systems that remain adaptable for years to come.",
+    "quote": "Preparation, calm decision-making, and trust are essential when leading people in challenging environments.",
+    "teamHeading": "Team leadership",
+    "programsHeading": "Programs and initiatives"
+  },
+  "work": {
+    "eyebrow": "Work",
+    "title": "Enterprise architecture, delivered.",
+    "subtitle": "A selection of the problems I've been trusted to solve. Client and implementation details are anonymized or generalized to respect confidentiality.",
+    "caseStudiesHeading": "Case studies",
+    "experienceHeading": "Experience",
+    "certificationsHeading": "Certifications",
+    "personalProjectsHeading": "Personal projects",
+    "personalProjectsText": "Outside of enterprise architecture work, I build and ship small web applications for practice."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of applications I've built and shipped.",
+    "code": "Code",
+    "liveDemo": "Live Demo",
+    "items": {
+      "recipeParade": "A recipe discovery app for browsing, rating and saving favorite dishes. Not currently deployed; run locally to try it.",
+      "travelPlanner": "Plan trips and organize itineraries with a clean travel dashboard.",
+      "budgetTracker": "A PWA for tracking income and expenses, works offline.",
+      "weatherDashboard": "A 5-day weather forecast dashboard with search history.",
+      "runBuddy": "A marketing landing page for a personal training service.",
+      "techBlog": "A full-stack blog platform with posts and comments."
+    }
+  },
+  "fieldNotes": {
+    "eyebrow": "Field Notes",
+    "title": "Notes from the field and the office",
+    "subtitle": "Short writing on architecture, leadership and adventure — where they overlap more than you'd think."
+  },
+  "now": {
+    "eyebrow": "Now",
+    "title": "What I'm doing right now",
+    "subtitle": "Updated periodically. Not a full timeline, just the current state."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a question or want to work together? Reach out.",
+    "nameLabel": "Name",
+    "emailLabel": "Email Address",
+    "messageLabel": "Message",
+    "attachmentsLabel": "Attachments",
+    "dragDropText": "Drag and drop files here, or click to browse",
+    "sendButton": "Send Message",
+    "sendingButton": "Sending...",
+    "removeButton": "Remove",
+    "successMessage": "Your email was sent! I'll get back to you soon.",
+    "errorMessage": "Something went wrong sending your message. Please try again or email me directly.",
+    "nameRequired": "Name is required.",
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Please enter a valid email address.",
+    "messageRequired": "Message is required."
+  },
+  "notFound": {
+    "heading": "Page not found",
+    "text": "The page you're looking for doesn't exist.",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "languagesHeading": "Languages"
+  },
+  "languages": {
+    "heading": "Languages",
+    "subtitle": "This site is available in the following languages."
+  }
+}

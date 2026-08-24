@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import social from '../data/social';
+import languages from '../i18n/languages';
 
 const socials = [
   {
@@ -54,9 +56,11 @@ const socials = [
 ];
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
+
   return (
     <footer className="mt-24 border-t border-black/5 py-10 dark:border-white/10">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center">
         <div className="flex items-center gap-5">
           {socials.map((s) => (
             <a
@@ -73,8 +77,33 @@ export default function Footer() {
             </a>
           ))}
         </div>
+
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-ink/40 dark:text-stone/60">
+            {t('languages.heading')}
+          </p>
+          <ul className="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5">
+            {languages.map((lang) => (
+              <li key={lang.code}>
+                <button
+                  type="button"
+                  onClick={() => i18n.changeLanguage(lang.code)}
+                  aria-current={i18n.language === lang.code ? 'true' : undefined}
+                  className={`text-sm transition-colors hover:text-accent ${
+                    i18n.language === lang.code
+                      ? 'font-semibold text-accent'
+                      : 'text-ink/50 dark:text-stone'
+                  }`}
+                >
+                  {lang.nativeName}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <p className="text-sm text-ink/50 dark:text-stone">
-          <Link to="/now" className="hover:text-accent">Now</Link>
+          <Link to="/now" className="hover:text-accent">{t('nav.now')}</Link>
           {' · '}
           &copy; {new Date().getFullYear()} Izabela Petrovicova
         </p>
