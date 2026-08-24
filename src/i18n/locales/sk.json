@@ -99,6 +99,12 @@
     "zoomIn": "Priblížiť",
     "zoomOut": "Odsadiť"
   },
+  "localTime": {
+    "label": "Miestny čas",
+    "ahead": "{{diff}} napred oproti vášmu času",
+    "behind": "{{diff}} za vaším časom",
+    "same": "Rovnaký čas ako u vás"
+  },
   "expeditionDetail": {
     "why": "Prečo",
     "challenge": "Výzva",

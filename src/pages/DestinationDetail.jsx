@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import ExpeditionCard from '../components/ExpeditionCard';
 import ImageGallery from '../components/ImageGallery';
+import DestinationClock from '../components/DestinationClock';
 import locations from '../data/locations';
 import expeditions from '../data/expeditions';
 
@@ -30,6 +31,8 @@ export default function DestinationDetail() {
         title={destination.country}
         subtitle={t('destinationDetail.citiesVisited', { cities: destination.cities.join(', ') })}
       />
+
+      <DestinationClock timezone={destination.timezone} />
 
       {relatedExpeditions.length > 0 ? (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

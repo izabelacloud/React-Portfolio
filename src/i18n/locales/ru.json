@@ -99,6 +99,12 @@
     "zoomIn": "Приблизить",
     "zoomOut": "Отдалить"
   },
+  "localTime": {
+    "label": "Местное время",
+    "ahead": "{{diff}} впереди вас",
+    "behind": "{{diff}} позади вас",
+    "same": "То же время, что и у вас"
+  },
   "expeditionDetail": {
     "why": "Почему",
     "challenge": "Вызов",

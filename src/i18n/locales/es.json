@@ -99,6 +99,12 @@
     "zoomIn": "Acercar",
     "zoomOut": "Alejar"
   },
+  "localTime": {
+    "label": "Hora local",
+    "ahead": "{{diff}} por delante de ti",
+    "behind": "{{diff}} por detrás de ti",
+    "same": "Misma hora que la tuya"
+  },
   "expeditionDetail": {
     "why": "Por qué",
     "challenge": "Desafío",
