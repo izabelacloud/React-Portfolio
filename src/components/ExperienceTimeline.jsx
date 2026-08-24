@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import CompanyLogoBadge from './CompanyLogoBadge';
 
 export default function ExperienceTimeline({ items }) {
   return (
@@ -15,7 +16,10 @@ export default function ExperienceTimeline({ items }) {
           <span className="absolute -left-[calc(2rem+4.5px)] top-1.5 h-2 w-2 rounded-full bg-accent" />
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">{item.period}</p>
           <h3 className="mt-1 font-display text-xl font-medium">{item.role}</h3>
-          <p className="text-sm font-semibold text-accent">{item.company}</p>
+          <div className="mt-1 flex items-center gap-2.5">
+            <CompanyLogoBadge company={item.company} />
+            <p className="text-sm font-semibold text-accent">{item.company}</p>
+          </div>
           <p className="mt-3 text-sm text-ink/70 dark:text-stone">{item.scope}</p>
           {item.responsibilities?.length > 0 && (
             <ul className="mt-3 list-inside list-disc space-y-1 text-sm text-ink/70 dark:text-stone">

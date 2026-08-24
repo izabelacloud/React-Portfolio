@@ -140,7 +140,7 @@ export default function Contact() {
             onChange={handleChange}
             aria-invalid={Boolean(errors.message)}
             aria-describedby={errors.message ? 'message-error' : undefined}
-            className="w-full rounded-xl border border-black/10 bg-white px-4 py-2.5 outline-none transition-shadow focus:border-primary focus:ring-2 focus:ring-primary/30 dark:border-white/10 dark:bg-white/5"
+            className="w-full rounded-xl border border-black/10 bg-white px-4 py-2.5 outline-none transition-shadow focus:border-accent focus:ring-2 focus:ring-accent/30 dark:border-white/10 dark:bg-white/5"
           />
           {errors.message && (
             <p id="message-error" className="mt-1 text-sm text-red-500">
@@ -163,7 +163,7 @@ export default function Contact() {
               }`}
             >
               <input type="file" multiple onChange={handleFileInputChange} className="hidden" />
-              <p className="text-sm text-ink/60 dark:text-slate-400">
+              <p className="text-sm text-ink/60 dark:text-stone">
                 {t('contact.dragDropText')}
               </p>
             </label>

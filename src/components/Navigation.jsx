@@ -7,11 +7,8 @@ import LanguageSwitcher from './LanguageSwitcher';
 const links = [
   { to: '/', key: 'home' },
   { to: '/work', key: 'work' },
-  { to: '/leadership', key: 'leadership' },
   { to: '/adventures', key: 'adventures' },
   { to: '/destinations', key: 'worldMap' },
-  { to: '/about', key: 'about' },
-  { to: '/field-notes', key: 'fieldNotes' },
   { to: '/contact', key: 'contact' },
 ];
 

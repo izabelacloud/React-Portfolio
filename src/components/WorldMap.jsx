@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { geoOrthographic, geoPath, geoGraticule10, geoDistance } from 'd3-geo';
+import { geoOrthographic, geoPath, geoGraticule10, geoDistance, geoCircle } from 'd3-geo';
 import { feature } from 'topojson-client';
 import locations from '../data/locations';
 import worldTopology from 'world-atlas/countries-110m.json';
@@ -10,8 +10,41 @@ const WIDTH = 600;
 const HEIGHT = 520;
 const BASE_SCALE = 235;
 const AUTO_ROTATE_DEG_PER_SEC = 4;
+const SOLAR_UPDATE_INTERVAL_MS = 60_000;
+const STAR_COUNT = 140;
 
 const countries = feature(worldTopology, worldTopology.objects.countries).features;
+
+function wrapDegrees(deg) {
+  let d = deg % 360;
+  if (d > 180) d -= 360;
+  if (d < -180) d += 360;
+  return d;
+}
+
+// NOAA-style low-precision solar position, accurate to within a fraction of a degree.
+function getSubsolarPoint(date) {
+  const rad = Math.PI / 180;
+  const daysSinceJ2000 = (date.getTime() - Date.UTC(2000, 0, 1, 12, 0, 0)) / 86_400_000;
+  const meanLongitude = (280.46 + 0.9856474 * daysSinceJ2000) % 360;
+  const meanAnomaly = ((357.528 + 0.9856003 * daysSinceJ2000) % 360) * rad;
+  const eclipticLongitude =
+    meanLongitude + 1.915 * Math.sin(meanAnomaly) + 0.02 * Math.sin(2 * meanAnomaly);
+  const obliquity = 23.439 - 0.0000004 * daysSinceJ2000;
+
+  const rightAscension =
+    Math.atan2(
+      Math.cos(obliquity * rad) * Math.sin(eclipticLongitude * rad),
+      Math.cos(eclipticLongitude * rad)
+    ) / rad;
+  const declination = Math.asin(Math.sin(obliquity * rad) * Math.sin(eclipticLongitude * rad)) / rad;
+
+  const equationOfTimeDeg = wrapDegrees(meanLongitude - rightAscension);
+  const utcHours = date.getUTCHours() + date.getUTCMinutes() / 60 + date.getUTCSeconds() / 3600;
+  const subsolarLon = wrapDegrees(-15 * (utcHours - 12) - equationOfTimeDeg);
+
+  return [subsolarLon, declination];
+}
 
 export default function WorldMap() {
   const { t } = useTranslation();
@@ -19,18 +52,24 @@ export default function WorldMap() {
   const [hovered, setHovered] = useState(null);
   const [zoom, setZoom] = useState(1);
   const [rotation, setRotation] = useState([0, -20, 0]);
+  const [now, setNow] = useState(() => new Date());
   const spinning = useRef(true);
   const dragRef = useRef(null);
   const rotationRef = useRef(rotation);
   rotationRef.current = rotation;
 
   useEffect(() => {
+    const id = setInterval(() => setNow(new Date()), SOLAR_UPDATE_INTERVAL_MS);
+    return () => clearInterval(id);
+  }, []);
+
+  useEffect(() => {
     let frame;
     let last = null;
-    const step = (now) => {
-      if (last === null) last = now;
-      const dt = (now - last) / 1000;
-      last = now;
+    const step = (nowMs) => {
+      if (last === null) last = nowMs;
+      const dt = (nowMs - last) / 1000;
+      last = nowMs;
       if (spinning.current) {
         const [lambda, phi, gamma] = rotationRef.current;
         setRotation([lambda + AUTO_ROTATE_DEG_PER_SEC * dt, phi, gamma]);
@@ -54,6 +93,23 @@ export default function WorldMap() {
   const path = useMemo(() => geoPath(projection), [projection]);
   const graticule = useMemo(() => geoGraticule10(), []);
   const center = [-rotation[0], -rotation[1]];
+
+  const nightGeometry = useMemo(() => {
+    const [subsolarLon, subsolarLat] = getSubsolarPoint(now);
+    const antisolarPoint = [wrapDegrees(subsolarLon + 180), -subsolarLat];
+    return geoCircle().center(antisolarPoint).radius(90)();
+  }, [now]);
+
+  const stars = useMemo(
+    () =>
+      Array.from({ length: STAR_COUNT }, () => ({
+        x: Math.random() * WIDTH,
+        y: Math.random() * HEIGHT,
+        r: Math.random() * 1.1 + 0.2,
+        o: Math.random() * 0.6 + 0.15,
+      })),
+    []
+  );
 
   const visibleMarkers = locations
     .map((loc) => ({
@@ -83,7 +139,7 @@ export default function WorldMap() {
   }
 
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-stone/40 bg-white/40 dark:border-charcoal dark:bg-white/5">
+    <div className="relative overflow-hidden rounded-2xl border border-charcoal bg-ink">
       <svg
         viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
         className="h-[420px] w-full cursor-grab touch-none select-none active:cursor-grabbing sm:h-[520px]"
@@ -92,25 +148,51 @@ export default function WorldMap() {
         onPointerUp={handlePointerUp}
         onPointerCancel={handlePointerUp}
       >
-        <path d={path({ type: 'Sphere' })} className="fill-white/60 dark:fill-white/5" />
-        <path d={path(graticule)} className="fill-none stroke-stone/30 dark:stroke-charcoal" strokeWidth={0.5} />
-        {countries.map((c) => (
-          <path
-            key={c.id}
-            d={path(c)}
-            className="fill-stone/60 stroke-warm outline-none dark:fill-charcoal dark:stroke-ink"
-            strokeWidth={0.5}
-          />
+        <defs>
+          <filter id="globeGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+          <radialGradient id="globeOcean" cx="35%" cy="30%" r="75%">
+            <stop offset="0%" stopColor="#1b2a52" />
+            <stop offset="100%" stopColor="#060a16" />
+          </radialGradient>
+        </defs>
+
+        {stars.map((s, i) => (
+          <circle key={i} cx={s.x} cy={s.y} r={s.r} fill="#f5efe2" opacity={s.o} />
         ))}
-        <path d={path({ type: 'Sphere' })} className="fill-none stroke-stone/50 dark:stroke-charcoal" strokeWidth={1} />
+
+        <path d={path({ type: 'Sphere' })} fill="url(#globeOcean)" />
+        <path d={path(graticule)} className="fill-none stroke-accent/10" strokeWidth={0.5} />
+
+        <g filter="url(#globeGlow)">
+          {countries.map((c) => (
+            <path
+              key={c.id}
+              d={path(c)}
+              className="fill-charcoal/70 stroke-accent/70 outline-none"
+              strokeWidth={0.6}
+            />
+          ))}
+        </g>
+
+        <path d={path(nightGeometry)} fill="#060a16" opacity={0.55} />
+
+        <path d={path({ type: 'Sphere' })} className="fill-none stroke-accent/40" strokeWidth={1} />
+
         {visibleMarkers.map(({ loc, point }) => (
           <circle
             key={loc.slug}
             cx={point[0]}
             cy={point[1]}
             r={5}
-            className="cursor-pointer fill-accent stroke-warm transition-transform hover:scale-125 dark:stroke-ink"
+            className="cursor-pointer fill-accent stroke-ink transition-transform hover:scale-125"
             strokeWidth={1.5}
+            filter="url(#globeGlow)"
             onMouseEnter={() => setHovered(loc)}
             onMouseLeave={() => setHovered((h) => (h?.slug === loc.slug ? null : h))}
             onClick={() => navigate(`/destinations/${loc.slug}`)}
@@ -118,9 +200,9 @@ export default function WorldMap() {
         ))}
       </svg>
       {hovered && (
-        <div className="pointer-events-none absolute bottom-4 left-4 rounded-xl bg-ink/90 px-4 py-3 text-warm shadow-lg dark:bg-warm/95 dark:text-ink">
+        <div className="pointer-events-none absolute bottom-4 left-4 rounded-xl bg-warm/95 px-4 py-3 text-ink shadow-lg">
           <p className="font-display text-sm font-medium">{hovered.country}</p>
-          <p className="text-xs text-stone dark:text-charcoal">
+          <p className="text-xs text-charcoal">
             {hovered.cities.slice(0, 3).join(', ')}
             {hovered.cities.length > 3 ? ` +${hovered.cities.length - 3} more` : ''}
           </p>
@@ -131,7 +213,7 @@ export default function WorldMap() {
           type="button"
           aria-label={t('map.zoomIn')}
           onClick={() => setZoom((z) => Math.min(z * 1.3, 3))}
-          className="rounded-full bg-warm/90 px-3 py-1 text-sm font-semibold text-ink shadow hover:bg-warm dark:bg-ink/90 dark:text-warm"
+          className="rounded-full bg-warm/90 px-3 py-1 text-sm font-semibold text-ink shadow hover:bg-warm"
         >
           +
         </button>
@@ -139,7 +221,7 @@ export default function WorldMap() {
           type="button"
           aria-label={t('map.zoomOut')}
           onClick={() => setZoom((z) => Math.max(z / 1.3, 0.6))}
-          className="rounded-full bg-warm/90 px-3 py-1 text-sm font-semibold text-ink shadow hover:bg-warm dark:bg-ink/90 dark:text-warm"
+          className="rounded-full bg-warm/90 px-3 py-1 text-sm font-semibold text-ink shadow hover:bg-warm"
         >
           −
         </button>

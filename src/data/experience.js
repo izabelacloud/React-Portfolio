@@ -2,8 +2,25 @@
 const experience = [
   {
     company: 'Salesforce.com, Inc.',
+    role: 'Technical Architect Director',
+    period: 'Aug 2025 – Present',
+    scope:
+      'Trusted advisor and strategic consultant for enterprise clients in Australia, leading technical and enterprise architecture across multi-cloud, multi-workstream Salesforce transformation programs.',
+    responsibilities: [
+      'Define system architecture landscapes, identify gaps between current and desired end-states, and translate business goals into Salesforce ecosystem solutions',
+      'Lead client negotiations, SOW development, executive steering committees, and program governance',
+      'Mentor Solution and Technical Architects and delivery teams across engagements',
+    ],
+    achievements: [
+      'Extended technical architecture leadership to Australian engagements including Telstra Health and Safe Transport Victoria following her 2025 relocation to Melbourne',
+    ],
+    technologies: ['Salesforce', 'Agentforce', 'Data Cloud', 'Sales Cloud', 'Service Cloud', 'Revenue Cloud', 'CRM Analytics'],
+    images: [],
+  },
+  {
+    company: 'Salesforce.com, Inc.',
     role: 'Director, Solution Consulting',
-    period: 'Feb 2024 – Present',
+    period: 'Feb 2024 – Aug 2025',
     scope:
       'Trusted advisor and strategic consultant for enterprise clients, orchestrating global, multi-regional Salesforce transformation programs and leading technical and enterprise architecture across multi-cloud, multi-workstream engagements.',
     responsibilities: [
@@ -20,7 +37,6 @@ const experience = [
       'Recognized with an Agent of Change award for driving meaningful, AI-led transformation',
       "Led the Professional Services Employee Advisory Council (PEAC) 'Voice of the Field' effort, running roundtables across the ANZ delivery team and turning evidence-based feedback into concrete focus areas for the organization",
       'Led pro bono AI for Good initiatives, deploying Agentforce and Data Cloud to expand educational access for underinvested communities',
-      'Following her 2025 relocation to Melbourne, extended technical architecture leadership to Australian engagements including Telstra Health and Safe Transport Victoria',
     ],
     technologies: ['Salesforce', 'Agentforce', 'Data Cloud', 'Sales Cloud', 'Service Cloud', 'Revenue Cloud', 'CRM Analytics'],
     images: [],

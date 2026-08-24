@@ -18,6 +18,12 @@ const certifications = [
   { name: 'Salesforce Certified Agentforce Specialist', organization: 'Salesforce' },
   { name: 'Certified SAFe® Scrum Master (SSM)', organization: 'Scaled Agile' },
   { name: 'Full Stack Web Development', organization: 'UC Berkeley Extension' },
+  { name: 'Apttus CPQ', organization: 'Apttus' },
+  { name: 'Apttus CLM', organization: 'Apttus' },
+  { name: 'Apttus Billing Management', organization: 'Apttus' },
+  { name: 'Apttus X-Author for Excel', organization: 'Apttus' },
+  { name: 'English (IELTS General Training)', organization: 'IELTS' },
+  { name: 'German (Goethe-Zertifikat B2)', organization: 'Goethe-Institut' },
 ];
 
 export default certifications;

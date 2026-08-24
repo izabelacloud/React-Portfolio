@@ -5,11 +5,11 @@ export default function Hero({ eyebrow, title, subtitle, description, media, chi
     <section className="relative flex min-h-[75vh] flex-col justify-center gap-10 overflow-hidden py-16 sm:flex-row sm:items-center">
       <div
         aria-hidden
-        className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full bg-accent/20 blur-3xl dark:bg-accent/10"
+        className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full bg-accent/20 blur-3xl dark:bg-accent/15"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-stone/40 blur-3xl dark:bg-charcoal/60"
+        className="pointer-events-none absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-stone/40 blur-3xl dark:bg-glow/20"
       />
 
       {media && (

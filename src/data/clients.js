@@ -1,6 +1,7 @@
 // Sourced from Izabela's own professional profile card.
 const clients = [
-  'Telstra',
+  'Telstra Health',
+  'Safe Transport Victoria',
   'Apple',
   'Marriott',
   'CrowdStrike',
@@ -8,10 +9,12 @@ const clients = [
   'ServiceSource',
   'College Possible',
   'Toast',
-  'Spark',
+  'Spark Digital',
   "Moody's",
   'ABB',
   'GE HealthCare',
+  'Cognizant',
+  'Seagate',
 ];
 
 export default clients;

@@ -3,13 +3,14 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-ink: #14161a;
-  --color-charcoal: #2b2e33;
-  --color-warm: #f7f5f1;
-  --color-stone: #c9c2b8;
-  --color-muted: #8b8d91;
-  --color-accent: #3a6b7a;
-  --color-accent-dark: #2a4e5a;
+  --color-ink: #060a16;
+  --color-charcoal: #121a30;
+  --color-warm: #f5efe2;
+  --color-stone: #a9a08a;
+  --color-muted: #7c85a0;
+  --color-accent: #e0a63e;
+  --color-accent-dark: #b3801f;
+  --color-glow: #4d6fae;
 
   --color-surface: var(--color-warm);
   --color-surface-dark: var(--color-ink);
@@ -24,6 +25,13 @@ html {
 
 body {
   @apply bg-surface text-ink font-sans antialiased dark:bg-surface-dark dark:text-warm;
+}
+
+.dark body {
+  background-image:
+    radial-gradient(ellipse 60% 40% at 20% 0%, rgba(224, 166, 62, 0.08), transparent),
+    radial-gradient(ellipse 50% 50% at 90% 20%, rgba(90, 130, 200, 0.1), transparent);
+  background-attachment: fixed;
 }
 
 h1,

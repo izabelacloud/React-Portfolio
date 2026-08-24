@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import CaseStudyCard from '../components/CaseStudyCard';
 import ExperienceTimeline from '../components/ExperienceTimeline';
+import Quote from '../components/Quote';
 import certifications from '../data/certifications';
 import caseStudies from '../data/caseStudies';
 import experience from '../data/experience';
@@ -61,6 +62,29 @@ export default function Work() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="border-t border-stone/40 pt-16 dark:border-charcoal">
+        <SectionHeading
+          eyebrow={t('leadership.eyebrow')}
+          title={t('leadership.title')}
+          subtitle={t('leadership.subtitle')}
+        />
+        <div className="mt-6 max-w-3xl space-y-4 text-ink/70 dark:text-stone">
+          <p>{t('leadership.p1')}</p>
+          <p>{t('leadership.p2')}</p>
+        </div>
+        <div className="mt-8">
+          <Quote>{t('leadership.quote')}</Quote>
+        </div>
+        <div className="mt-10 max-w-3xl">
+          <h3 className="font-display text-xl font-medium">{t('leadership.teamHeading')}</h3>
+          <p className="mt-3 text-ink/70 dark:text-stone">{t('leadership.teamText')}</p>
+        </div>
+        <div className="mt-8 max-w-3xl">
+          <h3 className="font-display text-xl font-medium">{t('leadership.programsHeading')}</h3>
+          <p className="mt-3 text-ink/70 dark:text-stone">{t('leadership.programsText')}</p>
+        </div>
       </section>
 
       <section>
