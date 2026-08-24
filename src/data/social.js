@@ -6,6 +6,7 @@ const social = {
   strava: 'https://www.strava.com/athletes/54313501',
   spotify: 'https://open.spotify.com/user/12128747842',
   youtube: 'https://www.youtube.com/@izabelapetrovicova436',
+  trailblazer: 'https://trailblazer.me/id/ipetrovicova',
   email: 'i.petrovicova@gmail.com',
 };
 

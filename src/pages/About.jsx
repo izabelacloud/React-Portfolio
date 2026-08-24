@@ -38,6 +38,9 @@ export default function About() {
           <p className="mt-2 text-lg font-semibold text-accent">
             {t('about.accentLine')}
           </p>
+          <p className="mt-2 text-sm text-muted dark:text-stone">
+            {t('about.locationLine')}
+          </p>
         </motion.div>
       </div>
 
@@ -54,6 +57,7 @@ export default function About() {
           </Trans>
         </p>
         <p>{t('about.p3')}</p>
+        <p>{t('about.journey')}</p>
       </motion.div>
 
       <motion.div

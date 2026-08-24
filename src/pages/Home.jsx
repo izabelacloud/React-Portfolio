@@ -5,6 +5,7 @@ import SectionHeading from '../components/SectionHeading';
 import StatDisplay from '../components/StatDisplay';
 import ContourDivider from '../components/ContourDivider';
 import Quote from '../components/Quote';
+import ProfilePhotoPlaceholder from '../components/ProfilePhotoPlaceholder';
 import stats from '../data/stats';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         title="Izabela Petrovicova"
         subtitle={t('home.heroTitle')}
         description={t('home.heroSubtitle')}
+        media={<ProfilePhotoPlaceholder />}
       >
         <CTA to="/work">{t('common.seeWork')}</CTA>
         <CTA to="/adventures" variant="secondary">{t('common.seeAdventures')}</CTA>

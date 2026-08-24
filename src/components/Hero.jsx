@@ -1,8 +1,18 @@
 import { motion } from 'framer-motion';
 
-export default function Hero({ eyebrow, title, subtitle, description, children }) {
+export default function Hero({ eyebrow, title, subtitle, description, media, children }) {
   return (
-    <section className="flex min-h-[70vh] flex-col justify-center py-16">
+    <section className="flex min-h-[70vh] flex-col justify-center gap-8 py-16 sm:flex-row sm:items-center">
+      {media && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex-none"
+        >
+          {media}
+        </motion.div>
+      )}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

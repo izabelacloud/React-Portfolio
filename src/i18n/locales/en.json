@@ -47,7 +47,7 @@
     "heroSubtitle": "I spend my professional life solving complex problems and my personal life looking for harder ones.",
     "professionalEyebrow": "Professional",
     "professionalTitle": "Enterprise architecture, built at scale",
-    "professionalSubtitle": "Technical Architecture Director and Senior Salesforce Enterprise Architect, designing digital transformation programs for global organizations.",
+    "professionalSubtitle": "Enterprise Technical Architecture Director, focused on end-to-end enterprise architecture for global organizations.",
     "personalEyebrow": "Personal",
     "personalSubtitle": "PADI Divemaster, mountaineer, skier and traveler — 58 of 195 countries and counting.",
     "quote": "The environments change. The mindset does not."
@@ -55,9 +55,11 @@
   "about": {
     "greeting": "Hi, I'm",
     "accentLine": "Architect by profession. Adventurer by instinct.",
+    "locationLine": "Based in Melbourne, Australia since August 2025. Originally from a small village in Slovakia.",
     "p1": "For more than a decade, I have been helping global organisations solve complex business challenges through technology. My career has been built at the intersection of enterprise architecture, strategic consulting, and hands-on engineering, transforming ambitious business objectives into scalable, practical solutions that deliver measurable value.",
-    "p2": "As a <1>Technical Architecture Director and Senior Salesforce Enterprise Architect</1>, I partner with executives, business leaders, and delivery teams to design enterprise-scale digital transformation programs. My expertise spans Salesforce architecture, Quote-to-Cash, Revenue Lifecycle Management, CRM strategy, system integration, cloud platforms, and enterprise solution design across industries including Financial Services, Telecommunications, Manufacturing, SaaS, Analytics, and Professional Services.",
+    "p2": "As an <1>Enterprise Technical Architecture Director</1>, I partner with executives, business leaders, and delivery teams to design enterprise-scale digital transformation programs, with a focus on end-to-end enterprise architecture. My expertise spans Salesforce architecture, Quote-to-Cash, Revenue Lifecycle Management, CRM strategy, system integration, cloud platforms, and enterprise solution design across industries including Financial Services, Telecommunications, Manufacturing, SaaS, Analytics, and Professional Services.",
     "p3": "I believe great architecture is never just about technology. It's about understanding people, aligning stakeholders, simplifying complexity, and creating systems that remain adaptable for years to come.",
+    "journey": "I consider myself a global citizen. I grew up in a small village in Slovakia, then went on to live and work in Silicon Valley, California; London; Zurich, Switzerland; and San Francisco, California, before settling in Melbourne, Australia. Moving through such different cultures, business environments, and leadership styles, again and again, has made me highly adaptable and resilient, and given me a natural ease connecting with people from any background.",
     "leadIntro": "The way I lead has been shaped just as much outside the office as inside it.",
     "divemaster": "As a <1>PADI Divemaster</1>, I've learned that preparation, calm decision-making, and trust are essential when leading people in challenging environments.",
     "mountaineer": "As a <1>mountaineer</1>, I've experienced that meaningful achievements are built one deliberate step at a time. Success comes from resilience, planning, and adapting when conditions inevitably change.",
@@ -125,15 +127,19 @@
     "title": "Calm decisions, made under real pressure",
     "subtitle": "How the same instincts that hold up on a rock face or a dive show up in how I lead teams.",
     "p1": "Great architecture is never just about technology. It's about understanding people, aligning stakeholders, simplifying complexity, and creating systems that remain adaptable for years to come.",
+    "p2": "In my current role, I lead critical program components end to end: client negotiations, SOW development, executive steering committees, and project governance, while orchestrating global, multi-regional programs across both waterfall and agile delivery.",
     "quote": "Preparation, calm decision-making, and trust are essential when leading people in challenging environments.",
     "teamHeading": "Team leadership",
-    "programsHeading": "Programs and initiatives"
+    "teamText": "I manage a team of 10 direct reports, and mentor Solution and Technical Architects as well as delivery teams of up to 80 people, building consulting capability and technical depth across the organization.",
+    "programsHeading": "Programs and initiatives",
+    "programsText": "I've led multiple pro bono AI for Good initiatives, deploying Agentforce and Data Cloud solutions to expand educational access for students from underinvested communities."
   },
   "work": {
     "eyebrow": "Work",
     "title": "Enterprise architecture, delivered.",
     "subtitle": "A selection of the problems I've been trusted to solve. Client and implementation details are anonymized or generalized to respect confidentiality.",
     "caseStudiesHeading": "Case studies",
+    "clientsHeading": "Clients I've worked with",
     "experienceHeading": "Experience",
     "certificationsHeading": "Certifications",
     "personalProjectsHeading": "Personal projects",

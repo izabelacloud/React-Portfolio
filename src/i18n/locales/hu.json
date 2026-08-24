@@ -47,7 +47,7 @@
     "heroSubtitle": "A szakmai életemet komplex problémák megoldásával töltöm, a magánéletemet még nehezebbek keresésével.",
     "professionalEyebrow": "Szakmai",
     "professionalTitle": "Vállalati architektúra, nagy léptékben megépítve",
-    "professionalSubtitle": "Technical Architecture Director és Senior Salesforce Enterprise Architect, digitális transzformációs programok tervezése globális szervezetek számára.",
+    "professionalSubtitle": "Vállalati technikai architektúra igazgatója, a végponttól végpontig tartó vállalati architektúrára fókuszálva globális szervezetek számára.",
     "personalEyebrow": "Személyes",
     "personalSubtitle": "PADI Divemaster, hegymászó, síelő és utazó — 58 a 195 országból, és folytatódik.",
     "quote": "A körülmények változnak. A gondolkodás nem."
@@ -55,9 +55,11 @@
   "about": {
     "greeting": "Szia, én vagyok",
     "accentLine": "Építész hivatásból. Kalandor ösztönből.",
+    "locationLine": "2025 augusztusa óta Melbourne-ben, Ausztráliában élek. Eredetileg egy kis szlovákiai faluból származom.",
     "p1": "Több mint egy évtizede segítek globális szervezeteknek összetett üzleti kihívások megoldásában a technológia segítségével. Karrierem a vállalati architektúra, a stratégiai tanácsadás és a gyakorlati mérnöki munka metszéspontjában épült fel, ambiciózus üzleti célokat skálázható, praktikus megoldásokká alakítva, amelyek mérhető értéket teremtenek.",
-    "p2": "<1>Technical Architecture Directorként és Senior Salesforce Enterprise Architectként</1> vezetőkkel, üzleti döntéshozókkal és delivery csapatokkal együttműködve tervezek vállalati méretű digitális transzformációs programokat. Szakértelmem kiterjed a Salesforce architektúrára, a Quote-to-Cash és Revenue Lifecycle Management folyamatokra, a CRM stratégiára, a rendszerintegrációra, a felhőplatformokra és a vállalati megoldástervezésre olyan iparágakban, mint a pénzügyi szolgáltatások, a távközlés, a gyártás, a SaaS, az analitika és a professzionális szolgáltatások.",
+    "p2": "<1>Vállalati technikai architektúra igazgatójaként</1> vezetőkkel, üzleti döntéshozókkal és delivery csapatokkal együttműködve tervezek vállalati méretű digitális transzformációs programokat, a végponttól végpontig tartó vállalati architektúrára fókuszálva. Szakértelmem kiterjed a Salesforce architektúrára, a Quote-to-Cash és Revenue Lifecycle Management folyamatokra, a CRM stratégiára, a rendszerintegrációra, a felhőplatformokra és a vállalati megoldástervezésre olyan iparágakban, mint a pénzügyi szolgáltatások, a távközlés, a gyártás, a SaaS, az analitika és a professzionális szolgáltatások.",
     "p3": "Hiszem, hogy a kiváló architektúra sosem csak a technológiáról szól. Az emberek megértéséről, az érdekelt felek összehangolásáról, a bonyolultság egyszerűsítéséről és olyan rendszerek létrehozásáról, amelyek évekig alkalmazkodóképesek maradnak.",
+    "journey": "Globális állampolgárnak tartom magam. Egy kis szlovákiai faluban nőttem fel, majd Kalifornia Silicon Valley-jében, Londonban, a svájci Zürichben és a kaliforniai San Franciscóban éltem és dolgoztam, mielőtt Melbourne-ben, Ausztráliában telepedtem le. Az, hogy újra és újra ilyen eltérő kultúrák, üzleti környezetek és vezetési stílusok között mozogtam, nagyon alkalmazkodóvá és ellenállóvá tett, és természetes könnyedséget adott ahhoz, hogy bármilyen háttérrel rendelkező emberekkel kapcsolatot építsek.",
     "leadIntro": "A vezetési stílusomat ugyanannyira formálta az, ami az irodán kívül történt, mint az, ami belül.",
     "divemaster": "<1>PADI Divemasterként</1> megtanultam, hogy a felkészülés, a nyugodt döntéshozás és a bizalom elengedhetetlen, amikor embereket vezetünk kihívást jelentő környezetekben.",
     "mountaineer": "<1>Hegymászóként</1> megtapasztaltam, hogy a jelentős eredmények egy tudatos lépésről a másikra épülnek fel. A siker az ellenálló képességből, a tervezésből és az elkerülhetetlenül változó körülményekhez való alkalmazkodásból ered.",
@@ -125,15 +127,19 @@
     "title": "Nyugodt döntések valódi nyomás alatt",
     "subtitle": "Hogyan jelennek meg a csapatvezetésemben ugyanazok az ösztönök, amelyek egy sziklafalon vagy merülés közben is működnek.",
     "p1": "A kiváló architektúra sosem csak a technológiáról szól. Az emberek megértéséről, az érdekelt felek összehangolásáról, a bonyolultság egyszerűsítéséről és olyan rendszerek létrehozásáról szól, amelyek évekig alkalmazkodóképesek maradnak.",
+    "p2": "Jelenlegi szerepemben végponttól végpontig vezetem a programok kritikus elemeit: ügyfél-tárgyalásokat, SOW-fejlesztést, vezetői irányító bizottságokat és projektirányítást, miközben globális, több régiót átfogó programokat koordinálok waterfall és agilis megközelítéssel is.",
     "quote": "A felkészülés, a nyugodt döntéshozás és a bizalom elengedhetetlen, amikor embereket vezetünk kihívást jelentő környezetekben.",
     "teamHeading": "Csapatvezetés",
-    "programsHeading": "Programok és kezdeményezések"
+    "teamText": "10 közvetlen beosztott csapatát vezetem, és mentorálom a Solution és Technical Architecteket, valamint akár 80 fős delivery csapatokat, erősítve a szervezet tanácsadói képességeit és technikai mélységét.",
+    "programsHeading": "Programok és kezdeményezések",
+    "programsText": "Több pro bono AI for Good kezdeményezést vezettem, Agentforce és Data Cloud megoldásokat bevezetve, hogy bővítsem az oktatási hozzáférést az alulfinanszírozott közösségekből érkező diákok számára."
   },
   "work": {
     "eyebrow": "Munka",
     "title": "Vállalati architektúra, megvalósítva.",
     "subtitle": "Válogatás azokból a problémákból, amelyek megoldásával megbíztak. Az ügyfél- és megvalósítási részleteket anonimizáltuk vagy általánosítottuk a titoktartás érdekében.",
     "caseStudiesHeading": "Esettanulmányok",
+    "clientsHeading": "Ügyfelek, akikkel dolgoztam",
     "experienceHeading": "Tapasztalat",
     "certificationsHeading": "Minősítések",
     "personalProjectsHeading": "Személyes projektek",

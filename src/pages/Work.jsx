@@ -6,6 +6,7 @@ import ExperienceTimeline from '../components/ExperienceTimeline';
 import certifications from '../data/certifications';
 import caseStudies from '../data/caseStudies';
 import experience from '../data/experience';
+import clients from '../data/clients';
 
 export default function Work() {
   const { t } = useTranslation();
@@ -25,6 +26,20 @@ export default function Work() {
             <CaseStudyCard key={cs.slug} caseStudy={cs} index={index} />
           ))}
         </div>
+      </section>
+
+      <section>
+        <h2 className="font-display text-2xl font-medium">{t('work.clientsHeading')}</h2>
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {clients.map((client) => (
+            <li
+              key={client}
+              className="rounded-full border border-stone/40 px-4 py-2 text-sm font-semibold dark:border-charcoal"
+            >
+              {client}
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section>

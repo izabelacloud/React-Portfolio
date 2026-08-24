@@ -47,7 +47,7 @@
     "heroSubtitle": "Paso mi vida profesional resolviendo problemas complejos y mi vida personal buscando otros más difíciles.",
     "professionalEyebrow": "Profesional",
     "professionalTitle": "Arquitectura empresarial, construida a gran escala",
-    "professionalSubtitle": "Technical Architecture Director y Senior Salesforce Enterprise Architect, diseñando programas de transformación digital para organizaciones globales.",
+    "professionalSubtitle": "Directora de Arquitectura Técnica Empresarial, enfocada en arquitectura empresarial de extremo a extremo para organizaciones globales.",
     "personalEyebrow": "Personal",
     "personalSubtitle": "PADI Divemaster, montañista, esquiadora y viajera — 58 de 195 países y sigue contando.",
     "quote": "Los entornos cambian. La mentalidad no."
@@ -55,9 +55,11 @@
   "about": {
     "greeting": "Hola, soy",
     "accentLine": "Arquitecta por profesión. Aventurera por instinto.",
+    "locationLine": "Radicada en Melbourne, Australia, desde agosto de 2025. Originalmente de un pequeño pueblo de Eslovaquia.",
     "p1": "Durante más de una década, he ayudado a organizaciones globales a resolver desafíos empresariales complejos a través de la tecnología. Mi carrera se ha construido en la intersección de la arquitectura empresarial, la consultoría estratégica y la ingeniería práctica, transformando objetivos empresariales ambiciosos en soluciones prácticas y escalables que generan valor medible.",
-    "p2": "Como <1>Technical Architecture Director y Senior Salesforce Enterprise Architect</1>, colaboro con ejecutivos, líderes empresariales y equipos de entrega para diseñar programas de transformación digital a escala empresarial. Mi experiencia abarca la arquitectura de Salesforce, Quote-to-Cash, Revenue Lifecycle Management, estrategia de CRM, integración de sistemas, plataformas en la nube y diseño de soluciones empresariales en sectores como servicios financieros, telecomunicaciones, manufactura, SaaS, análisis y servicios profesionales.",
+    "p2": "Como <1>Directora de Arquitectura Técnica Empresarial</1>, colaboro con ejecutivos, líderes empresariales y equipos de entrega para diseñar programas de transformación digital a escala empresarial, con foco en arquitectura empresarial de extremo a extremo. Mi experiencia abarca la arquitectura de Salesforce, Quote-to-Cash, Revenue Lifecycle Management, estrategia de CRM, integración de sistemas, plataformas en la nube y diseño de soluciones empresariales en sectores como servicios financieros, telecomunicaciones, manufactura, SaaS, análisis y servicios profesionales.",
     "p3": "Creo que la gran arquitectura nunca es solo sobre tecnología. Se trata de entender a las personas, alinear a los interesados, simplificar la complejidad y crear sistemas que sigan siendo adaptables durante años.",
+    "journey": "Me considero una ciudadana global. Crecí en un pequeño pueblo de Eslovaquia y luego viví y trabajé en Silicon Valley, California; Londres; Zúrich, Suiza; y San Francisco, California, antes de establecerme en Melbourne, Australia. Moverme repetidamente entre culturas, entornos empresariales y estilos de liderazgo tan diferentes me ha hecho muy adaptable y resiliente, y me ha dado una facilidad natural para conectar con personas de cualquier origen.",
     "leadIntro": "La forma en que lidero se ha formado tanto fuera de la oficina como dentro de ella.",
     "divemaster": "Como <1>PADI Divemaster</1>, he aprendido que la preparación, la toma de decisiones con calma y la confianza son esenciales al liderar personas en entornos desafiantes.",
     "mountaineer": "Como <1>montañista</1>, he experimentado que los logros significativos se construyen un paso deliberado a la vez. El éxito proviene de la resiliencia, la planificación y la adaptación cuando las condiciones inevitablemente cambian.",
@@ -125,15 +127,19 @@
     "title": "Decisiones con calma, tomadas bajo presión real",
     "subtitle": "Cómo los mismos instintos que funcionan en una pared de roca o en una inmersión se manifiestan en cómo lidero equipos.",
     "p1": "La gran arquitectura nunca es solo sobre tecnología. Se trata de entender a las personas, alinear a los interesados, simplificar la complejidad y crear sistemas que sigan siendo adaptables durante años.",
+    "p2": "En mi rol actual, lidero componentes críticos de programas de extremo a extremo: negociaciones con clientes, desarrollo de SOW, comités de dirección ejecutiva y gobernanza de proyectos, orquestando programas globales y multirregionales con metodologías waterfall y ágiles.",
     "quote": "La preparación, la toma de decisiones con calma y la confianza son esenciales al liderar personas en entornos desafiantes.",
     "teamHeading": "Liderazgo de equipo",
-    "programsHeading": "Programas e iniciativas"
+    "teamText": "Dirijo un equipo de 10 reportes directos y mentorizo a Solution y Technical Architects, así como a equipos de entrega de hasta 80 personas, fortaleciendo la capacidad de consultoría y la profundidad técnica en toda la organización.",
+    "programsHeading": "Programas e iniciativas",
+    "programsText": "He liderado múltiples iniciativas pro bono de AI for Good, implementando soluciones de Agentforce y Data Cloud para ampliar el acceso educativo de estudiantes de comunidades con pocos recursos."
   },
   "work": {
     "eyebrow": "Trabajo",
     "title": "Arquitectura empresarial, entregada.",
     "subtitle": "Una selección de los problemas que se me ha confiado resolver. Los detalles del cliente y la implementación están anonimizados o generalizados para respetar la confidencialidad.",
     "caseStudiesHeading": "Casos de estudio",
+    "clientsHeading": "Clientes con los que he trabajado",
     "experienceHeading": "Experiencia",
     "certificationsHeading": "Certificaciones",
     "personalProjectsHeading": "Proyectos personales",

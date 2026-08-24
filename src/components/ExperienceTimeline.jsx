@@ -24,6 +24,25 @@ export default function ExperienceTimeline({ items }) {
               ))}
             </ul>
           )}
+          {item.achievements?.length > 0 && (
+            <ul className="mt-3 list-inside list-disc space-y-1 text-sm font-medium text-ink dark:text-warm">
+              {item.achievements.map((a) => (
+                <li key={a}>{a}</li>
+              ))}
+            </ul>
+          )}
+          {item.technologies?.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-2">
+              {item.technologies.map((tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full bg-stone/30 px-3 py-1 text-xs font-semibold text-ink/80 dark:bg-white/10 dark:text-stone"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          )}
         </motion.div>
       ))}
     </div>

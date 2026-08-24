@@ -5,6 +5,13 @@ import languages from '../i18n/languages';
 
 const socials = [
   {
+    name: 'Trailblazer',
+    href: social.trailblazer,
+    icon: (
+      <path d="M12 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-3.5 9.79L5 21l7-4 7 4-3.5-9.21A6.98 6.98 0 0 1 12 14a6.98 6.98 0 0 1-3.5-2.21Z" />
+    ),
+  },
+  {
     name: 'GitHub',
     href: social.github,
     icon: (

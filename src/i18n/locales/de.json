@@ -47,7 +47,7 @@
     "heroSubtitle": "Ich verbringe mein Berufsleben mit dem Lösen komplexer Probleme und mein Privatleben mit der Suche nach noch schwierigeren.",
     "professionalEyebrow": "Beruflich",
     "professionalTitle": "Unternehmensarchitektur, im großen Maßstab aufgebaut",
-    "professionalSubtitle": "Technical Architecture Director und Senior Salesforce Enterprise Architect, Entwicklung von digitalen Transformationsprogrammen für globale Organisationen.",
+    "professionalSubtitle": "Direktorin für technische Unternehmensarchitektur, mit Fokus auf End-to-End-Unternehmensarchitektur für globale Organisationen.",
     "personalEyebrow": "Persönlich",
     "personalSubtitle": "PADI Divemaster, Bergsteigerin, Skifahrerin und Reisende — 58 von 195 Ländern und es werden mehr.",
     "quote": "Die Umgebungen ändern sich. Die Einstellung nicht."
@@ -55,9 +55,11 @@
   "about": {
     "greeting": "Hallo, ich bin",
     "accentLine": "Architektin von Beruf. Abenteurerin aus Instinkt.",
+    "locationLine": "Seit August 2025 in Melbourne, Australien, ansässig. Ursprünglich aus einem kleinen Dorf in der Slowakei.",
     "p1": "Seit mehr als einem Jahrzehnt helfe ich globalen Organisationen, komplexe geschäftliche Herausforderungen durch Technologie zu lösen. Meine Karriere wurde an der Schnittstelle von Unternehmensarchitektur, strategischer Beratung und praktischer Entwicklung aufgebaut, um ambitionierte Geschäftsziele in skalierbare, praktische Lösungen mit messbarem Mehrwert zu verwandeln.",
-    "p2": "Als <1>Technical Architecture Director und Senior Salesforce Enterprise Architect</1> arbeite ich mit Führungskräften, Geschäftsleitern und Delivery-Teams zusammen, um digitale Transformationsprogramme im Enterprise-Maßstab zu gestalten. Meine Expertise umfasst Salesforce-Architektur, Quote-to-Cash, Revenue Lifecycle Management, CRM-Strategie, Systemintegration, Cloud-Plattformen und Enterprise-Lösungsdesign in Branchen wie Finanzdienstleistungen, Telekommunikation, Fertigung, SaaS, Analytik und professionelle Dienstleistungen.",
+    "p2": "Als <1>Direktorin für technische Unternehmensarchitektur</1> arbeite ich mit Führungskräften, Geschäftsleitern und Delivery-Teams zusammen, um digitale Transformationsprogramme im Enterprise-Maßstab zu gestalten, mit Fokus auf End-to-End-Unternehmensarchitektur. Meine Expertise umfasst Salesforce-Architektur, Quote-to-Cash, Revenue Lifecycle Management, CRM-Strategie, Systemintegration, Cloud-Plattformen und Enterprise-Lösungsdesign in Branchen wie Finanzdienstleistungen, Telekommunikation, Fertigung, SaaS, Analytik und professionelle Dienstleistungen.",
     "p3": "Ich glaube, dass gute Architektur nie nur Technologie ist. Es geht darum, Menschen zu verstehen, Stakeholder aufeinander abzustimmen, Komplexität zu vereinfachen und Systeme zu schaffen, die über Jahre hinweg anpassungsfähig bleiben.",
+    "journey": "Ich betrachte mich als Weltbürgerin. Ich bin in einem kleinen Dorf in der Slowakei aufgewachsen und habe anschließend im Silicon Valley in Kalifornien, in London, in Zürich in der Schweiz und in San Francisco in Kalifornien gelebt und gearbeitet, bevor ich mich in Melbourne, Australien, niedergelassen habe. Der wiederholte Wechsel zwischen so unterschiedlichen Kulturen, Geschäftsumgebungen und Führungsstilen hat mich sehr anpassungsfähig und widerstandsfähig gemacht und mir eine natürliche Leichtigkeit gegeben, mit Menschen jeglicher Herkunft in Kontakt zu treten.",
     "leadIntro": "Die Art, wie ich führe, wurde ebenso außerhalb des Büros geprägt wie innerhalb.",
     "divemaster": "Als <1>PADI Divemaster</1> habe ich gelernt, dass Vorbereitung, ruhige Entscheidungsfindung und Vertrauen unerlässlich sind, wenn man Menschen in herausfordernden Umgebungen führt.",
     "mountaineer": "Als <1>Bergsteigerin</1> habe ich erfahren, dass bedeutende Erfolge Schritt für Schritt entstehen. Erfolg kommt aus Widerstandsfähigkeit, Planung und der Fähigkeit, sich anzupassen, wenn sich die Bedingungen unweigerlich ändern.",
@@ -125,15 +127,19 @@
     "title": "Ruhige Entscheidungen unter echtem Druck",
     "subtitle": "Wie sich dieselben Instinkte, die an einer Felswand oder beim Tauchen greifen, in meiner Teamführung zeigen.",
     "p1": "Gute Architektur ist nie nur Technologie. Es geht darum, Menschen zu verstehen, Stakeholder aufeinander abzustimmen, Komplexität zu vereinfachen und Systeme zu schaffen, die über Jahre hinweg anpassungsfähig bleiben.",
+    "p2": "In meiner aktuellen Rolle leite ich kritische Programmbestandteile end-to-end: Kundenverhandlungen, SOW-Entwicklung, Steuerungsausschüsse auf Führungsebene und Projektgovernance, während ich globale, multiregionale Programme sowohl mit Wasserfall- als auch mit agilen Methoden orchestriere.",
     "quote": "Vorbereitung, ruhige Entscheidungsfindung und Vertrauen sind unerlässlich, wenn man Menschen in herausfordernden Umgebungen führt.",
     "teamHeading": "Teamführung",
-    "programsHeading": "Programme und Initiativen"
+    "teamText": "Ich leite ein Team von 10 direkt unterstellten Mitarbeitenden und coache Solution und Technical Architects sowie Delivery-Teams mit bis zu 80 Personen, um Beratungskompetenz und technische Tiefe im gesamten Unternehmen aufzubauen.",
+    "programsHeading": "Programme und Initiativen",
+    "programsText": "Ich habe mehrere Pro-Bono-AI-for-Good-Initiativen geleitet und Agentforce- und Data-Cloud-Lösungen eingesetzt, um den Bildungszugang für Schüler aus unterversorgten Gemeinschaften zu erweitern."
   },
   "work": {
     "eyebrow": "Arbeit",
     "title": "Unternehmensarchitektur, umgesetzt.",
     "subtitle": "Eine Auswahl der Probleme, mit deren Lösung man mir vertraut hat. Kunden- und Umsetzungsdetails sind anonymisiert oder verallgemeinert, um die Vertraulichkeit zu respektieren.",
     "caseStudiesHeading": "Fallstudien",
+    "clientsHeading": "Kunden, mit denen ich zusammengearbeitet habe",
     "experienceHeading": "Erfahrung",
     "certificationsHeading": "Zertifizierungen",
     "personalProjectsHeading": "Persönliche Projekte",
