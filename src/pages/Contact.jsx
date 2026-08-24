@@ -6,6 +6,7 @@ import { validateEmail } from '../utils/helpers';
 
 const initialState = { name: '', email: '', message: '' };
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+const SHOW_ATTACHMENTS = false;
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -148,44 +149,46 @@ export default function Contact() {
           )}
         </div>
 
-        <div>
-          <label className="mb-1.5 block text-sm font-semibold">{t('contact.attachmentsLabel')}</label>
-          <label
-            onDragOver={handleDragOver}
-            onDragLeave={handleDragLeave}
-            onDrop={handleDrop}
-            className={`flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed px-4 py-8 text-center transition-colors ${
-              isDragging
-                ? 'border-accent bg-accent/5'
-                : 'border-black/10 dark:border-white/10'
-            }`}
-          >
-            <input type="file" multiple onChange={handleFileInputChange} className="hidden" />
-            <p className="text-sm text-ink/60 dark:text-slate-400">
-              {t('contact.dragDropText')}
-            </p>
-          </label>
+        {SHOW_ATTACHMENTS && (
+          <div>
+            <label className="mb-1.5 block text-sm font-semibold">{t('contact.attachmentsLabel')}</label>
+            <label
+              onDragOver={handleDragOver}
+              onDragLeave={handleDragLeave}
+              onDrop={handleDrop}
+              className={`flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed px-4 py-8 text-center transition-colors ${
+                isDragging
+                  ? 'border-accent bg-accent/5'
+                  : 'border-black/10 dark:border-white/10'
+              }`}
+            >
+              <input type="file" multiple onChange={handleFileInputChange} className="hidden" />
+              <p className="text-sm text-ink/60 dark:text-slate-400">
+                {t('contact.dragDropText')}
+              </p>
+            </label>
 
-          {files.length > 0 && (
-            <ul className="mt-3 space-y-2">
-              {files.map((file, index) => (
-                <li
-                  key={`${file.name}-${index}`}
-                  className="flex items-center justify-between rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/10 dark:bg-white/5"
-                >
-                  <span className="truncate">{file.name}</span>
-                  <button
-                    type="button"
-                    onClick={() => removeFile(index)}
-                    className="ml-3 shrink-0 font-semibold text-red-500 hover:text-red-600"
+            {files.length > 0 && (
+              <ul className="mt-3 space-y-2">
+                {files.map((file, index) => (
+                  <li
+                    key={`${file.name}-${index}`}
+                    className="flex items-center justify-between rounded-lg border border-black/10 bg-white px-3 py-2 text-sm dark:border-white/10 dark:bg-white/5"
                   >
-                    {t('contact.removeButton')}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
+                    <span className="truncate">{file.name}</span>
+                    <button
+                      type="button"
+                      onClick={() => removeFile(index)}
+                      className="ml-3 shrink-0 font-semibold text-red-500 hover:text-red-600"
+                    >
+                      {t('contact.removeButton')}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
 
         <button
           type="submit"

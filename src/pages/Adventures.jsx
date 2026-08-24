@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import StatDisplay from '../components/StatDisplay';
 import CTA from '../components/CTA';
+import Filmstrip from '../components/Filmstrip';
 import stats from '../data/stats';
 
 const categories = [
@@ -12,12 +13,22 @@ const categories = [
   { to: '/destinations', labelKey: 'worldMapLabel', descKey: 'worldMapDesc' },
 ];
 
+const filmstripItems = [
+  { key: 'mountains', label: 'Mountains' },
+  { key: 'diving', label: 'Diving' },
+  { key: 'skiing', label: 'Skiing' },
+  { key: 'running', label: 'Running' },
+  { key: 'travel', label: 'Travel' },
+];
+
 export default function Adventures() {
   const { t } = useTranslation();
 
   return (
     <div className="space-y-16 py-10">
       <SectionHeading eyebrow={t('adventures.eyebrow')} title={t('tagline')} />
+
+      <Filmstrip items={filmstripItems} />
 
       <StatDisplay stats={stats} />
 
