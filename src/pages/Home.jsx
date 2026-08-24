@@ -13,9 +13,10 @@ export default function Home() {
   return (
     <div>
       <Hero
-        eyebrow="Izabela Petrovicova"
-        title={t('home.heroTitle')}
-        subtitle={t('home.heroSubtitle')}
+        eyebrow={t('home.heroEyebrow')}
+        title="Izabela Petrovicova"
+        subtitle={t('home.heroTitle')}
+        description={t('home.heroSubtitle')}
       >
         <CTA to="/work">{t('common.seeWork')}</CTA>
         <CTA to="/adventures" variant="secondary">{t('common.seeAdventures')}</CTA>
