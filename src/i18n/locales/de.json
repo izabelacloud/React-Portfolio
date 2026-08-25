@@ -329,5 +329,180 @@
       "usa": "Vereinigte Staaten",
       "vietnam": "Vietnam"
     }
+  },
+  "expeditions": {
+    "items": {
+      "dead-woman-s-pass-inca-trail": {
+        "title": "Dead Woman's Pass, Inca Trail",
+        "location": "Peru",
+        "why": "Der klassische Höhepunkt des Inka-Pfads und mein erster Kontakt mit Trekking in großer Höhe zu Fuß, statt mit Auto oder Seilbahn.",
+        "challenge": "Der steile, schwüle Aufstieg forderte meine Beine und Lunge mehr als die Höhe selbst, über 1.000 Steinstufen ohne technische Kletterpassagen, die die Anstrengung unterbrochen hätten.",
+        "moment": "Die Ankunft am Pass und der Blick zurück ins Tal, wo sich der Pfad durch den Nebelwald darunter schlängelte.",
+        "lesson": "Höhenbeschwerden lassen sich mit einem gleichmäßigen Tempo bewältigen, auch ohne technische Bergsteigerfähigkeiten."
+      },
+      "the-lost-city": {
+        "title": "The Lost City",
+        "location": "Kolumbien",
+        "why": "Eine mehrtägige Dschungeltrekkingtour zu einer präkolumbischen Ruinenstätte, gewählt wegen der Mischung aus Kultur und körperlicher Herausforderung.",
+        "challenge": "Die anhaltende Hitze und Feuchtigkeit auf welligem, steilem Gelände zehrten mehr an den Kräften, als die moderate Höhenlage vermuten ließ.",
+        "moment": "Das Erklimmen der letzten Steinstufen zu den Ruinen nach tagelangem Dschungeltrekking.",
+        "lesson": "Hitze und Feuchtigkeit können ein größerer limitierender Faktor sein als Höhenlage oder technischer Schwierigkeitsgrad."
+      },
+      "root-glacier-wrangell-st-elias-national-park-and-preserve": {
+        "title": "Root Glacier, Wrangell, St. Elias National Park and Preserve",
+        "location": "Alaska, USA",
+        "why": "Meine erste echte Einführung in Gletscherbegehung und Eisklettern, in einem der größten Eisfelder Nordamerikas.",
+        "challenge": "Zu lernen, Steigeisen und Eispickel auf Gletschereis zu vertrauen, wobei Gletscherspalten jedem Schritt echte Konsequenzen verliehen.",
+        "moment": "Auf blauem Gletschereis tief im Wrangell-St.-Elias-Gebiet zu stehen, eine Landschaft anders als alles, was ich zuvor durchwandert hatte.",
+        "lesson": "Eisklettern und ein Bewusstsein für Gletscherspalten sind grundlegende Fähigkeiten, die man früh aufbauen sollte, bevor man sich an größere vergletscherte Gipfel wagt."
+      },
+      "mt-shasta-helen-lake-2022": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Kalifornien, USA",
+        "why": "Eine Trainingsbesteigung, um Fähigkeiten in Gletscherbegehung und im Umgang mit Steigeisen vor größeren Zielen aufzubauen.",
+        "challenge": "Die Bedingungen an diesem Tag zwangen uns unterhalb des Helen Lake zur Umkehr, eine Erinnerung daran, dass Gipfel optional sind, Sicherheit aber nicht.",
+        "moment": "Selbstrettungstechniken und Steigeisentechnik im Schneefeld unterhalb des Gipfels zu üben.",
+        "lesson": "Vor dem Gipfel umzukehren ist immer noch eine erfolgreiche Besteigung, wenn es das Team sicher hält."
+      },
+      "mt-whitney-2022": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornien, USA",
+        "why": "Der höchste Gipfel der zusammenhängenden USA und ein natürlicher nächster Schritt nach Shasta, um die Ausdauer in der Höhe zu testen.",
+        "challenge": "Ein langer, nicht-technischer Anstieg, bei dem Fitness und Tempo mehr zählten als jede einzelne technische Bewegung.",
+        "moment": "Die Höhe auch dann noch gut zu bewältigen, als sich der Tag lange hinzog.",
+        "lesson": "Ausdauer und Tempo tragen eine Besteigung genauso wie technisches Können."
+      },
+      "half-dome-2022": {
+        "title": "Half Dome",
+        "location": "Kalifornien, USA",
+        "why": "Eine ikonische Tageswanderung im Yosemite, die mit der exponierten Kabelroute zum Gipfel ihren Höhepunkt fand.",
+        "challenge": "Der letzte, mit Kabeln gesicherte Abschnitt über die Granitkuppel erforderte ruhige Nerven statt technischer Ausrüstung.",
+        "moment": "Der Gipfelmoment auf Half Dome mit dem Yosemite Valley, das sich darunter ausbreitete.",
+        "lesson": "Exposition, nicht Höhenlage oder technischer Schwierigkeitsgrad, ist manchmal die eigentliche Prüfung einer Besteigung."
+      },
+      "mt-kilimanjaro": {
+        "title": "Mt. Kilimanjaro",
+        "location": "Tansania",
+        "why": "Der höchste Gipfel Afrikas und meine erste mehrtägige Expeditionsbesteigung oberhalb von 5.000 Metern.",
+        "challenge": "Sechs Tage stetiger Höhengewinn, mit dem letzten steilen Anstieg zum Uhuru Peak, der die Ausdauer in der dünnen Luft auf die Probe stellte.",
+        "moment": "Den Sonnenaufgang vom Gipfel aus zu beobachten, nach einem nächtlichen Anstieg durch das steile Geröll zum Kraterrand.",
+        "lesson": "Langsame, stetige Akklimatisierung über mehrere Tage zahlt sich mehr aus als bloße Fitness allein."
+      },
+      "mt-everest-base-camp": {
+        "title": "Mt. Everest Base Camp",
+        "location": "Nepal",
+        "why": "Ein Trek zum Fuß des höchsten Bergs der Welt, durch das Khumbu-Tal und seine Sherpa-Dörfer.",
+        "challenge": "Zehn Tage kumulativer Höhengewinn und Nächte bei minus 15 Grad, mit steilen Wegabschnitten, die täglich die Ausdauer forderten.",
+        "moment": "Am Base Camp zu stehen, mit dem aufragenden Khumbu-Eisfall darüber und dem Everest selbst endlich in Sicht.",
+        "lesson": "Mehrtägige Höhentrekkings honorieren Geduld, der Körper braucht Zeit, keine Kraft, um sich anzupassen."
+      },
+      "kala-patthar": {
+        "title": "Kala Patthar",
+        "location": "Nepal",
+        "why": "Der höchste Punkt des Everest-Base-Camp-Treks, bestiegen am Tag nach der Ankunft im Base Camp für die beste Aussicht auf den Everest selbst.",
+        "challenge": "Die bis dahin größte Höhe, die ich je erreicht hatte, bei einem steilen Aufstieg vor Sonnenaufgang in der Kälte.",
+        "moment": "Zu beobachten, wie das Sonnenaufgangslicht den Gipfel des Everest vom Aussichtspunkt Kala Patthar aus trifft.",
+        "lesson": "Der zusätzliche Aufstieg über das Base Camp hinaus lohnt sich für die Perspektive, die er auf das gesamte Gebirge gibt."
+      },
+      "mt-shasta-helen-lake-2023": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Kalifornien, USA",
+        "why": "Eine Rückkehr zum Shasta, um Seilbegehung und Gletscherspaltenrettung zu trainieren, Fähigkeiten, die der frühere Versuch nicht erforderte.",
+        "challenge": "Das Wetter hielt uns wieder vom Gipfel ab, doch das technische Training war das eigentliche Ziel der Besteigung.",
+        "moment": "Lawinen- und Gletscherspaltenrettungsübungen als Seilteam direkt am Berg zu praktizieren, nicht im Klassenzimmer.",
+        "lesson": "Rettungsfähigkeiten werden erst real, wenn sie unter echten Bergbedingungen geübt werden."
+      },
+      "mt-whitney-2023": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornien, USA",
+        "why": "Ein zweiter Versuch am Whitney, dieses Mal über eine steilere, technischere Route, um auf den vorherigen Trainingsbesteigungen aufzubauen.",
+        "challenge": "Steiler Schnee und anhaltende Lawinengefahr zwangen das Team kurz vor dem Gipfel zur Umkehr.",
+        "moment": "Lawinenrettungsübungen an den Hängen des Whitney als Teil der Besteigung selbst durchzuführen.",
+        "lesson": "Nicht jede technische Besteigung muss am Gipfel enden, um es wert zu sein."
+      },
+      "mt-rainier-muir-camp-no-summit-conditions": {
+        "title": "Mt. Rainier",
+        "subtitle": "Camp Muir, keine Gipfelbedingungen",
+        "location": "Washington, USA",
+        "why": "Ein vergletscherter Vulkan, bestiegen mit einem Freund, um Seiltechnik und Knotenkunde vor größeren Zielen wie Aconcagua aufzubauen.",
+        "challenge": "Wir hielten am Camp Muir an, anstatt den Gipfel anzustreben, bei minus 10 Grad und steiler Gletscherbegehung, die das Seilteam forderten.",
+        "moment": "Kletterknoten zu binden und Selbstrettung auf dem Gletscher des Rainier zu üben, mit einem engen Freund an meiner Seite.",
+        "lesson": "Technisches Können mit dem richtigen Partner aufzubauen zählt mehr, als jedem Gipfel nachzujagen."
+      },
+      "aconcagua": {
+        "title": "Aconcagua",
+        "location": "Argentinien",
+        "why": "Der höchste Gipfel außerhalb Asiens und die bis dahin größte Prüfung all dessen, was ich durch die Trainingsbesteigungen am Shasta, Whitney und Rainier aufgebaut hatte.",
+        "challenge": "Zweieinhalb Wochen in der Höhe, minus 30 Grad am Gipfeltag, und ein Team, das bis zum Gipfel auf nur 3 von 12 zusammenschmolz.",
+        "moment": "Auf dem Gipfel des höchsten Bergs Amerikas zu stehen, als eine von nur drei Personen aus der Gruppe, die es geschafft hatten.",
+        "lesson": "An großen Bergen entscheiden der Berg und das Wetter, wer den Gipfel erreicht, nicht allein Fitness oder Entschlossenheit."
+      },
+      "mt-baker": {
+        "title": "Mt. Baker",
+        "location": "Washington, USA",
+        "why": "Ein stark vergletscherter Vulkan in den Cascades und eine Gelegenheit, die auf Aconcagua verfeinerten Seil- und Rettungsfähigkeiten voll einzusetzen.",
+        "challenge": "Die Navigation durch Gletscherspaltenfelder als Seilteam bei minus 15 Grad, mit dem vollen Werkzeugkasten aus Knoten und Rettungstechnik im Einsatz.",
+        "moment": "Den Gipfel als Teil eines gut organisierten Seilteams nach zwei Tagen technischer Gletscherbegehung zu erreichen.",
+        "lesson": "Die stetige Ansammlung technischer Fähigkeiten über kleinere Besteigungen hinweg macht größere vergletscherte Gipfel erreichbar."
+      },
+      "half-dome-2024": {
+        "title": "Half Dome",
+        "location": "Kalifornien, USA",
+        "why": "Eine Rückkehr zu einem vertrauten Pfad, dieses Mal solo, um die Selbstständigkeit auf einer Besteigung zu testen, die ich zuvor schon mit anderen unternommen hatte.",
+        "challenge": "Tempo, Navigation und Entscheidungsfindung ganz allein zu bewältigen, ohne jemanden, mit dem ich die Last teilen konnte.",
+        "moment": "Allein auf dem Gipfel zu stehen, nachdem ich jede Entscheidung am Berg selbst getroffen hatte.",
+        "lesson": "Eine bekannte Route solo zu gehen baut eine andere Art von Selbstvertrauen auf, als sie mit einer Gruppe zu gehen."
+      },
+      "mt-whitney-2024": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornien, USA",
+        "why": "Eine späte Solo-Rückkehr, um den Whitney endlich zu besteigen, nachdem zwei frühere Versuche an den Bedingungen gescheitert waren.",
+        "challenge": "Allein durch eine Nacht bei minus 25 Grad zu campieren, vor einem steilen, auf Steigeisen angewiesenen Anstieg zum Gipfel.",
+        "moment": "Endlich den Gipfel des Whitney solo zu erreichen, nachdem zwei vorherige Versuche kurz vor dem Ziel geendet hatten.",
+        "lesson": "Beharrlichkeit über mehrere Versuche hinweg und die Bereitschaft, allein zurückzukehren, ist es, was einen Gipfel letztlich gelingen lässt."
+      },
+      "mt-shasta": {
+        "title": "Mt. Shasta",
+        "location": "Kalifornien, USA",
+        "why": "Ein dritter Versuch am Shasta, dieses Mal solo, um endlich einen Gipfel zu bezwingen, der mich zuvor zweimal zur Umkehr gezwungen hatte.",
+        "challenge": "Ein anstrengender 16-stündiger Anstieg durch die Nacht bis in den Tag hinein, allein, auf sehr steilem Gelände.",
+        "moment": "Nach 16 Stunden am Berg den Gipfel des Shasta zu erreichen, der dritte Versuch war der entscheidende.",
+        "lesson": "Manche Gipfel erfordern mehrere Versuche, und der Solo-Versuch ist oft derjenige, der schließlich gelingt."
+      },
+      "breithorn": {
+        "title": "Breithorn",
+        "location": "Schweiz",
+        "why": "Ein Schweizer Viertausender, bestiegen als Aufwärm- und Akklimatisierungsschritt zwei Tage vor dem Mont Blanc.",
+        "challenge": "Seilbegehung auf dem Gletscher in einem 2x3-Team, mit steilen Abschnitten, die sorgfältige Steigeisenarbeit erforderten.",
+        "moment": "Meinen ersten alpinen Viertausender zu besteigen, mit dem Mont-Blanc-Massiv sichtbar in der Ferne.",
+        "lesson": "Eine kürzere Akklimatisierungsbesteigung direkt vor einem größeren Ziel macht den anschließenden schwereren Tag besser bewältigbar."
+      },
+      "mont-blanc-via-trois-monts": {
+        "title": "Mont Blanc via Trois Monts",
+        "location": "Frankreich",
+        "why": "Der höchste Gipfel der Alpen und der Höhepunkt jahrelangen Aufbaus von Gletscher- und Seiltechnik am Rainier, Baker und Aconcagua.",
+        "challenge": "Ein 16-stündiger Gipfeltag mit Sprüngen über Gletscherspalten, dem Erklettern einer nahezu senkrechten Wand auf allen vieren und durchgehender Seilbegehung über exponiertes Gelände.",
+        "moment": "Auf dem Dach Westeuropas zu stehen, nach dem technisch anspruchsvollsten Klettertag, den ich bis dahin erlebt hatte.",
+        "lesson": "Die schwersten Besteigungen sind jene, bei denen jede zuvor erlernte Fähigkeit, Seiltechnik, Gletscherspaltenüberquerung, Ausdauer, gleichzeitig zum Einsatz kommt."
+      },
+      "mount-kosciuszko": {
+        "title": "Mount Kosciuszko",
+        "location": "Australien",
+        "why": "Der höchste Gipfel auf dem australischen Festland und eine Gelegenheit, einen siebten Kontinental-Höhepunkt zur Liste hinzuzufügen.",
+        "challenge": "Kalter, böiger Wind auf einem sonst nicht-technischen Pfad machte die Besteigung eher kräftezehrend als schwierig.",
+        "moment": "Den Gipfel des Kosciuszko in starken Windböen zu erreichen, ein deutlicher Kontrast zu den vergletscherten Giganten, die zuvor bestiegen wurden.",
+        "lesson": "Nicht jeder Gipfel muss technisch sein, um es wert zu sein, manchmal sind Wind und Kälte die ganze Geschichte."
+      }
+    },
+    "continents": {
+      "South America": "Südamerika",
+      "North America": "Nordamerika",
+      "Africa": "Afrika",
+      "Asia": "Asien",
+      "Europe": "Europa",
+      "Australia": "Australien"
+    }
   }
 }

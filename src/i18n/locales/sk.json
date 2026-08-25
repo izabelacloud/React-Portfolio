@@ -329,5 +329,180 @@
       "usa": "USA",
       "vietnam": "Vietnam"
     }
+  },
+  "expeditions": {
+    "items": {
+      "dead-woman-s-pass-inca-trail": {
+        "title": "Dead Woman's Pass, Inca Trail",
+        "location": "Peru",
+        "why": "Klasický najvyšší bod Inkskej cesty a moja prvá skúsenosť s trekingom do výšky pešo, nie autom alebo lanovkou.",
+        "challenge": "Strmý, vlhký výstup preveril moje nohy a plúca viac než samotná výška, viac než 1 000 kamenných schodov bez akéhokoľvek technického lezenia, ktoré by monotónnosť výstupu prerušilo.",
+        "moment": "Dosiahnutie priesmyku a pohľad späť do údolia na cestu vinúcu sa cez oblačný les dolu.",
+        "lesson": "Nepohodlie spôsobené výškou sa dá zvládnuť rovnomerným tempom, aj bez akýchkoľvek technických horolezeckých zručností."
+      },
+      "the-lost-city": {
+        "title": "Stratené mesto",
+        "location": "Kolumbia",
+        "why": "Viacdňový treking džungľou k predkolumbovským ruinám, vybraný pre kombináciu kultúry a fyzickej náročnosti.",
+        "challenge": "Neúnavná horúčava a vlhkosť na zvlnenom, strmom teréne robili tento treking náročnejším, než by naznačovala skromná výška.",
+        "moment": "Výstup po posledných kamenných schodoch do ruín po dňoch trekingu džungľou.",
+        "lesson": "Horúčava a vlhkosť môžu byť väčším limitujúcim faktorom než výška alebo technická náročnosť."
+      },
+      "root-glacier-wrangell-st-elias-national-park-and-preserve": {
+        "title": "Root Glacier, Wrangell, St. Elias National Park and Preserve",
+        "location": "Aljaška, USA",
+        "why": "Moje prvé skutočné zoznámenie sa s pohybom po ľadovci a ľadovým lezením, na jednom z najväčších ľadových polí Severnej Ameriky.",
+        "challenge": "Učenie sa dôverovať mačkám a cepínu na ľadovcovom ľade, kde trhliny dávali každému kroku skutočné následky.",
+        "moment": "Stojac na modrom ľadovcovom ľade hlboko vo Wrangell-St. Elias, v krajine, akú som dosiaľ nikdy netrekovala.",
+        "lesson": "Ľadové lezenie a povedomie o trhlinách sú základné zručnosti, ktoré sa oplatí budovať skoro, ešte pred pokusmi o väčšie zaľadnené vrchy."
+      },
+      "mt-shasta-helen-lake-2022": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Kalifornia, USA",
+        "why": "Tréningový výstup na budovanie zručností v pohybe po ľadovci a v používaní mačiek pred väčšími cieľmi.",
+        "challenge": "Podmienky v ten deň nás zastavili pod Helen Lake, pripomienka, že vrchol je nepovinný, ale bezpečnosť nie.",
+        "moment": "Cvičenie samozáchrany a techniky s mačkami na snežnom poli pod vrcholom.",
+        "lesson": "Otočiť sa pred vrcholom je stále úspešný výstup, pokiaľ udrží tím v bezpečí."
+      },
+      "mt-whitney-2022": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornia, USA",
+        "why": "Najvyšší vrchol súvislého územia USA a prirodzený ďalší krok po Shaste na preverenie vytrvalosti vo výške.",
+        "challenge": "Dlhý, netechnický výstup, kde na kondícii a tempe záležalo viac než na akomkoľvek jednotlivom technickom kroku.",
+        "moment": "Zvládanie výšky s pohodou, aj keď sa deň naťahoval do dĺžky.",
+        "lesson": "Vytrvalosť a tempo nesú výstup rovnako ako technická zručnosť."
+      },
+      "half-dome-2022": {
+        "title": "Half Dome",
+        "location": "Kalifornia, USA",
+        "why": "Ikonický jednodňový výlet v Yosemite, zavŕšený exponovanou lanovou cestou na vrchol.",
+        "challenge": "Posledný úsek po granitovej kupole s pomocou lán si vyžadoval pevné nervy viac než technické vybavenie.",
+        "moment": "Vystúpenie na vrchol Half Dome s údolím Yosemite rozprestierajúcim sa dolu.",
+        "lesson": "Exponovanosť, nie výška alebo technický stupeň náročnosti, je niekedy skutočnou skúškou výstupu."
+      },
+      "mt-kilimanjaro": {
+        "title": "Mt. Kilimanjaro",
+        "location": "Tanzánia",
+        "why": "Najvyšší vrchol Afriky a môj prvý viacdňový expedičný výstup nad 5 000 metrov.",
+        "challenge": "Šesť dní stáleho stúpania do výšky, so záverečným strmým výstupom na Uhuru Peak, ktorý preveril vytrvalosť v riedkom vzduchu.",
+        "moment": "Pozeranie na východ slnka z vrcholu po nočnom výstupe strmým sutinovým svahom k okraju krátera.",
+        "lesson": "Pomalá, postupná aklimatizácia počas viacerých dní sa oplatí viac než samotná fyzická kondícia."
+      },
+      "mt-everest-base-camp": {
+        "title": "Mt. Everest Base Camp",
+        "location": "Nepál",
+        "why": "Treking k päte najvyššej hory sveta, cez údolie Khumbu a jeho šerpské osady.",
+        "challenge": "Desať dní kumulatívneho stúpania do výšky a nocí s teplotou -15 °C, so strmými úsekmi cesty, ktoré denne preverovali výdrž.",
+        "moment": "Stojac v Base Camp s ľadopádom Khumbu tyčiacim sa nad nami, s Everestom samotným napokon na dohľad.",
+        "lesson": "Viacdňové treky do výšky odmeňujú trpezlivosť, telo potrebuje na adaptáciu čas, nie silu."
+      },
+      "kala-patthar": {
+        "title": "Kala Patthar",
+        "location": "Nepál",
+        "why": "Najvyšší bod treku k Everest Base Camp, na ktorý sme vystúpili deň po dosiahnutí Base Camp pre najlepší výhľad na samotný Everest.",
+        "challenge": "Najvyššia výška, akú som do tej doby dosiahla, počas strmého výstupu v chlade ešte pred rozbreskom.",
+        "moment": "Pozeranie, ako ranné svetlo dopadá na vrchol Everestu z vyhliadky Kala Patthar.",
+        "lesson": "Extra výstup nad Base Camp sa oplatí pre perspektívu, ktorú poskytuje na celé pohorie."
+      },
+      "mt-shasta-helen-lake-2023": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Kalifornia, USA",
+        "why": "Návrat na Shastu, aby som si natrénovala pohyb v lanovom tíme a záchranu z trhlín, zručnosti, ktoré predchádzajúci pokus nevyžadoval.",
+        "challenge": "Počasie nás znova nepustilo na vrchol, ale skutočným cieľom výstupu bol technický tréning.",
+        "moment": "Cvičenie záchrany pri lavínach a z trhlín ako lanový tím priamo na hore, nie v triede.",
+        "lesson": "Záchranné zručnosti sú skutočné až vtedy, keď sa cvičia v reálnych horských podmienkach."
+      },
+      "mt-whitney-2023": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornia, USA",
+        "why": "Druhý pokus o Whitney, tentoraz strmšou, technicky náročnejšou cestou, aby som nadviazala na predchádzajúce tréningové výstupy.",
+        "challenge": "Strmý sneh a pretrvávajúce riziko lavín donútili tím otočiť sa krátko pred vrcholom.",
+        "moment": "Cvičenie záchrany pri lavínach na svahoch Whitney ako súčasť samotného výstupu.",
+        "lesson": "Nie každý technický výstup musí skončiť na vrchole, aby sa oplatil."
+      },
+      "mt-rainier-muir-camp-no-summit-conditions": {
+        "title": "Mt. Rainier",
+        "subtitle": "Camp Muir, bez podmienok na vrchol",
+        "location": "Washington, USA",
+        "why": "Zaľadnená sopka, na ktorú som vystúpila s priateľom, aby sme si zdokonalili prácu s lanom a uzlami pred väčšími cieľmi, ako je Aconcagua.",
+        "challenge": "Zastavili sme v Camp Muir namiesto tlačenia na vrchol, pri teplotách -10 °C a strmom pohybe po ľadovci, ktorý preveril lanový tím.",
+        "moment": "Viazanie horolezeckých uzlov a cvičenie samozáchrany na ľadovci Rainier po boku blízkeho priateľa.",
+        "lesson": "Budovanie technickej zručnosti so správnym partnerom je dôležitejšie než honba za každým vrcholom."
+      },
+      "aconcagua": {
+        "title": "Aconcagua",
+        "location": "Argentína",
+        "why": "Najvyšší vrchol mimo Ázie a doposiaľ najväčšia skúška všetkého, čo som si vybudovala počas tréningových výstupov na Shastu, Whitney a Rainier.",
+        "challenge": "Dva a pol týždňa vo výške, teploty -30 °C v deň výstupu na vrchol a tím, ktorý sa do vrcholu zmenšil z 12 na len 3 ľudí.",
+        "moment": "Stojac na vrchole najvyššej hory Ameriky, jedna z len troch osôb zo skupiny, ktorým sa to podarilo.",
+        "lesson": "Na veľkých horách rozhoduje o tom, kto vystúpi na vrchol, hora a počasie, nielen kondícia či odhodlanie."
+      },
+      "mt-baker": {
+        "title": "Mt. Baker",
+        "location": "Washington, USA",
+        "why": "Silne zaľadnená sopka v pohorí Cascades a príležitosť plne využiť lanové a záchranné zručnosti zdokonalené na Aconcague.",
+        "challenge": "Prechádzanie poľami trhlín ako lanový tím pri teplotách -15 °C, s plným arzenálom uzlov a záchranných techník v akcii.",
+        "moment": "Dosiahnutie vrcholu ako súčasť dobre organizovaného lanového tímu po dvoch dňoch technického pohybu po ľadovci.",
+        "lesson": "Postupné hromadenie technických zručností na menších výstupoch robí väčšie zaľadnené vrchy dosiahnuteľnými."
+      },
+      "half-dome-2024": {
+        "title": "Half Dome",
+        "location": "Kalifornia, USA",
+        "why": "Návrat na známy chodník, tentoraz sólo, aby som si preverila samostatnosť na výstupe, ktorý som už absolvovala s ostatnými.",
+        "challenge": "Riadenie tempa, navigácie a rozhodovania úplne sama, bez kohokoľvek iného, s kým by som sa mohla podeliť o záťaž.",
+        "moment": "Stojac na vrchole sama, po tom, čo som na hore urobila každé rozhodnutie sama.",
+        "lesson": "Sólový výstup po známej ceste buduje iný druh sebadôvery než výstup so skupinou."
+      },
+      "mt-whitney-2024": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornia, USA",
+        "why": "Neskorý sezónny sólový návrat, aby som konečne vystúpila na Whitney, po tom, čo predchádzajúce dva pokusy zastavili podmienky.",
+        "challenge": "Táborenie samotnej cez noc pri -25 °C pred strmým výstupom na vrchol, závislým od mačiek.",
+        "moment": "Konečné dosiahnutie vrcholu Whitney sólo, po tom, čo dva predchádzajúce pokusy skončili krátko pred cieľom.",
+        "lesson": "Vytrvalosť cez viacero pokusov a ochota vrátiť sa sama je to, čo napokon zavŕši výstup na vrchol."
+      },
+      "mt-shasta": {
+        "title": "Mt. Shasta",
+        "location": "Kalifornia, USA",
+        "why": "Tretí pokus o Shastu, tentoraz sólo, aby som napokon zdolala vrchol, ktorý ma predtým dvakrát odmietol.",
+        "challenge": "Vyčerpávajúci 16-hodinový výstup cez noc až do dňa, sama, na veľmi strmom teréne.",
+        "moment": "Vystúpenie na vrchol Shasty po 16 hodinách na hore, do tretice všetko dobré.",
+        "lesson": "Niektoré vrcholy si vyžadujú viacero pokusov a práve sólový pokus je často ten, ktorý napokon vyjde."
+      },
+      "breithorn": {
+        "title": "Breithorn",
+        "location": "Švajčiarsko",
+        "why": "Švajčiarsky štvortisícovník, ktorý som zdolala ako rozcvičku a aklimatizačný krok pred Mont Blancom dva dni neskôr.",
+        "challenge": "Pohyb po ľadovci na lane v tíme 2x3, so strmými úsekmi vyžadujúcimi opatrnú prácu s mačkami.",
+        "moment": "Zdolanie môjho prvého alpského štvortisícovníka, s masívom Mont Blanc viditeľným v diaľke.",
+        "lesson": "Kratší aklimatizačný výstup krátko pred väčším cieľom robí ťažší deň, ktorý nasleduje, zvládnuteľnejším."
+      },
+      "mont-blanc-via-trois-monts": {
+        "title": "Mont Blanc via Trois Monts",
+        "location": "Francúzsko",
+        "why": "Najvyšší vrchol Álp a vyvrcholenie rokov budovania ľadovcových a lanových zručností na Rainieri, Bakerovi a Aconcague.",
+        "challenge": "16-hodinový deň výstupu na vrchol, preskakovanie trhlín, lezenie po takmer vertikálnej stene po štyroch a pohyb na lane cez exponovaný terén celou cestou.",
+        "moment": "Stojac na streche západnej Európy po technicky najnáročnejšom dni lezenia, aký som do tej doby zažila.",
+        "lesson": "Najťažšie výstupy sú tie, kde sa naraz využije každá predtým naučená zručnosť: práca s lanom, prechod cez trhliny, vytrvalosť."
+      },
+      "mount-kosciuszko": {
+        "title": "Mount Kosciuszko",
+        "location": "Austrália",
+        "why": "Najvyšší vrchol na austrálskej pevnine a príležitosť pridať na zoznam najvyšší bod siedmeho kontinentu.",
+        "challenge": "Chladný, nárazový vietor na inak netechnickom chodníku spôsobil skôr osviežujúci než náročný výstup.",
+        "moment": "Výstup na vrchol Kosciuszko do silných nárazov vetra, výrazný kontrast k zaľadneným obrom zdolaným predtým.",
+        "lesson": "Nie každý vrchol musí byť technický, aby stál za to, niekedy je celým príbehom len vietor a chlad."
+      }
+    },
+    "continents": {
+      "South America": "Južná Amerika",
+      "North America": "Severná Amerika",
+      "Africa": "Afrika",
+      "Asia": "Ázia",
+      "Europe": "Európa",
+      "Australia": "Austrália"
+    }
   }
 }

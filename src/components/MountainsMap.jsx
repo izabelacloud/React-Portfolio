@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { geoEqualEarth, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import worldTopology from 'world-atlas/countries-110m.json';
@@ -9,6 +10,7 @@ const HEIGHT = 340;
 const countries = feature(worldTopology, worldTopology.objects.countries).features;
 
 export default function MountainsMap({ items }) {
+  const { t } = useTranslation();
   const [hovered, setHovered] = useState(null);
 
   const projection = useMemo(
@@ -48,8 +50,12 @@ export default function MountainsMap({ items }) {
       </svg>
       {hovered && (
         <div className="pointer-events-none absolute bottom-3 left-3 rounded-xl bg-warm/95 px-4 py-3 text-ink shadow-lg">
-          <p className="font-display text-sm font-medium">{hovered.title}</p>
-          <p className="text-xs text-charcoal">{hovered.location}</p>
+          <p className="font-display text-sm font-medium">
+            {t(`expeditions.items.${hovered.slug}.title`, { defaultValue: hovered.title })}
+          </p>
+          <p className="text-xs text-charcoal">
+            {t(`expeditions.items.${hovered.slug}.location`, { defaultValue: hovered.location })}
+          </p>
         </div>
       )}
     </div>

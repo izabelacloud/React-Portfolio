@@ -21,12 +21,16 @@ export default function AdventureTimeline({ items }) {
             }`}
           />
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">{item.date}</p>
-          <h3 className="mt-1 font-display text-lg font-medium">{item.title}</h3>
+          <h3 className="mt-1 font-display text-lg font-medium">
+            {t(`expeditions.items.${item.slug}.title`, { defaultValue: item.title })}
+          </h3>
           <div className="mt-0.5 flex flex-wrap items-center gap-2 text-sm">
-            <span className="font-semibold text-accent">{item.location}</span>
+            <span className="font-semibold text-accent">
+              {t(`expeditions.items.${item.slug}.location`, { defaultValue: item.location })}
+            </span>
             {item.continent && (
               <span className="rounded-full border border-stone/40 px-2 py-0.5 text-xs font-semibold text-muted dark:border-charcoal">
-                {item.continent}
+                {t(`expeditions.continents.${item.continent}`, { defaultValue: item.continent })}
               </span>
             )}
             {item.elevation && <span className="text-muted">{item.elevation}</span>}
@@ -45,7 +49,9 @@ export default function AdventureTimeline({ items }) {
             )}
           </div>
           {item.achievement && (
-            <p className="mt-1 text-sm text-ink/70 dark:text-stone">{item.achievement}</p>
+            <p className="mt-1 text-sm text-ink/70 dark:text-stone">
+              {t(`expeditions.items.${item.slug}.moment`, { defaultValue: item.achievement })}
+            </p>
           )}
         </motion.div>
       ))}

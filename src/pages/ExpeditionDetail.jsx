@@ -18,30 +18,36 @@ export default function ExpeditionDetail() {
     );
   }
 
+  const tx = (field) => t(`expeditions.items.${expedition.slug}.${field}`, { defaultValue: expedition[field] });
+
   return (
     <div className="space-y-8 py-10">
       <SectionHeading
-        eyebrow={expedition.location}
-        title={expedition.title}
-        subtitle={expedition.subtitle ? `${expedition.subtitle} · ${expedition.date}` : expedition.date}
+        eyebrow={tx('location')}
+        title={tx('title')}
+        subtitle={
+          expedition.subtitle
+            ? `${tx('subtitle')} · ${expedition.date}`
+            : expedition.date
+        }
       />
 
       <div className="grid gap-8 sm:grid-cols-2">
         <div>
           <h2 className="font-display text-xl font-medium">{t('expeditionDetail.why')}</h2>
-          <p className="mt-2 text-ink/70 dark:text-stone">{expedition.why}</p>
+          <p className="mt-2 text-ink/70 dark:text-stone">{tx('why')}</p>
         </div>
         <div>
           <h2 className="font-display text-xl font-medium">{t('expeditionDetail.challenge')}</h2>
-          <p className="mt-2 text-ink/70 dark:text-stone">{expedition.challenge}</p>
+          <p className="mt-2 text-ink/70 dark:text-stone">{tx('challenge')}</p>
         </div>
         <div>
           <h2 className="font-display text-xl font-medium">{t('expeditionDetail.moment')}</h2>
-          <p className="mt-2 text-ink/70 dark:text-stone">{expedition.moment}</p>
+          <p className="mt-2 text-ink/70 dark:text-stone">{tx('moment')}</p>
         </div>
         <div>
           <h2 className="font-display text-xl font-medium">{t('expeditionDetail.lesson')}</h2>
-          <p className="mt-2 text-ink/70 dark:text-stone">{expedition.lesson}</p>
+          <p className="mt-2 text-ink/70 dark:text-stone">{tx('lesson')}</p>
         </div>
       </div>
 

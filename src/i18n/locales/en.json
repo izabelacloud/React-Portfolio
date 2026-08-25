@@ -329,5 +329,180 @@
       "usa": "USA",
       "vietnam": "Vietnam"
     }
+  },
+  "expeditions": {
+    "items": {
+      "dead-woman-s-pass-inca-trail": {
+        "title": "Dead Woman's Pass, Inca Trail",
+        "location": "Peru",
+        "why": "The classic high point of the Inca Trail, and my first taste of trekking to altitude on foot rather than by car or cable car.",
+        "challenge": "The steep, humid ascent tested my legs and lungs more than the altitude itself, over 1,000 stone steps with no technical climbing to break up the grind.",
+        "moment": "Reaching the pass and looking back down the valley at the trail winding through the cloud forest below.",
+        "lesson": "Altitude discomfort is manageable with a steady pace, even without any technical mountaineering skills."
+      },
+      "the-lost-city": {
+        "title": "The Lost City",
+        "location": "Colombia",
+        "why": "A multi-day jungle trek to a pre-Columbian ruin, chosen for the mix of culture and physical challenge.",
+        "challenge": "The relentless heat and humidity across rolling, steep terrain made this more draining than the modest elevation would suggest.",
+        "moment": "Climbing the final stone steps into the ruins after days of jungle trekking.",
+        "lesson": "Heat and humidity can be a bigger limiting factor than elevation or technical difficulty."
+      },
+      "root-glacier-wrangell-st-elias-national-park-and-preserve": {
+        "title": "Root Glacier, Wrangell, St. Elias National Park and Preserve",
+        "location": "Alaska, USA",
+        "why": "My first real introduction to glacier travel and ice climbing, in one of the largest icefields in North America.",
+        "challenge": "Learning to trust crampons and an ice axe on glacial ice, with crevasses adding real consequence to every step.",
+        "moment": "Standing on blue glacial ice deep inside Wrangell-St. Elias, a landscape unlike anything I'd trekked before.",
+        "lesson": "Ice climbing and crevasse awareness are foundational skills worth building early, before attempting bigger glaciated peaks."
+      },
+      "mt-shasta-helen-lake-2022": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "California, USA",
+        "why": "A training climb to build glacier travel and crampon skills ahead of bigger objectives.",
+        "challenge": "Conditions on the day turned us back below Helen Lake, a reminder that summits are optional and safety isn't.",
+        "moment": "Practicing self-arrest and crampon technique on the snowfield below the summit.",
+        "lesson": "Turning around before the summit is still a successful climb if it keeps the team safe."
+      },
+      "mt-whitney-2022": {
+        "title": "Mt. Whitney",
+        "location": "California, USA",
+        "why": "The tallest peak in the contiguous US, and a natural next step after Shasta to test endurance at altitude.",
+        "challenge": "A long, non-technical push where fitness and pacing mattered more than any single technical move.",
+        "moment": "Handling the altitude comfortably even as the day stretched long.",
+        "lesson": "Endurance and pacing carry a climb just as much as technical skill does."
+      },
+      "half-dome-2022": {
+        "title": "Half Dome",
+        "location": "California, USA",
+        "why": "An iconic Yosemite day hike, capped by the exposed cable route to the summit.",
+        "challenge": "The final cable-assisted pitch up the granite dome demanded steady nerves rather than technical gear.",
+        "moment": "Topping out on Half Dome with Yosemite Valley spread out below.",
+        "lesson": "Exposure, not elevation or technical grade, is sometimes the real test of a climb."
+      },
+      "mt-kilimanjaro": {
+        "title": "Mt. Kilimanjaro",
+        "location": "Tanzania",
+        "why": "The highest peak in Africa, and my first multi-day expedition-style climb above 5,000 meters.",
+        "challenge": "Six days of steady altitude gain, with the final steep push to Uhuru Peak testing endurance in the thin air.",
+        "moment": "Watching the sunrise from the summit after a night push through the steep scree to the crater rim.",
+        "lesson": "Slow, steady acclimatization over multiple days pays off more than raw fitness alone."
+      },
+      "mt-everest-base-camp": {
+        "title": "Mt. Everest Base Camp",
+        "location": "Nepal",
+        "why": "A trek to the foot of the world's highest mountain, through the Khumbu valley and its Sherpa villages.",
+        "challenge": "Ten days of cumulative altitude gain and -15 C nights, with steep trail sections testing stamina daily.",
+        "moment": "Standing at Base Camp with the Khumbu Icefall rising above, Everest itself finally in view.",
+        "lesson": "Multi-day altitude treks reward patience; the body needs time, not force, to adapt."
+      },
+      "kala-patthar": {
+        "title": "Kala Patthar",
+        "location": "Nepal",
+        "why": "The highest point of the Everest Base Camp trek, climbed the day after reaching Base Camp for the best view of Everest itself.",
+        "challenge": "The highest altitude I'd reached to date, on a steep pre-dawn climb in the cold.",
+        "moment": "Watching sunrise light hit Everest's summit from Kala Patthar's viewpoint.",
+        "lesson": "The extra push beyond Base Camp is worth it for the perspective it gives on the whole range."
+      },
+      "mt-shasta-helen-lake-2023": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "California, USA",
+        "why": "A return to Shasta to train in rope team travel and crevasse rescue, skills the earlier attempt didn't require.",
+        "challenge": "Weather again kept us off the summit, but the technical training was the real objective of the climb.",
+        "moment": "Practicing avalanche and crevasse rescue drills as a rope team on the mountain itself, not in a classroom.",
+        "lesson": "Rescue skills are only real once they're practiced under actual mountain conditions."
+      },
+      "mt-whitney-2023": {
+        "title": "Mt. Whitney",
+        "location": "California, USA",
+        "why": "A second attempt on Whitney, this time via a steeper, more technical route to build on the previous training climbs.",
+        "challenge": "Steep snow and lingering avalanche risk turned the team back short of the summit.",
+        "moment": "Running avalanche rescue drills on Whitney's slopes as part of the climb itself.",
+        "lesson": "Not every technical climb needs to end at the summit to be worth doing."
+      },
+      "mt-rainier-muir-camp-no-summit-conditions": {
+        "title": "Mt. Rainier",
+        "subtitle": "Camp Muir, no summit conditions",
+        "location": "Washington, USA",
+        "why": "A glaciated volcano climbed with a friend to build rope work and knot skills ahead of bigger objectives like Aconcagua.",
+        "challenge": "We stopped at Camp Muir rather than pushing for the summit, with -10 C temperatures and steep glacier travel testing the rope team.",
+        "moment": "Tying climbing knots and practicing self-arrest on Rainier's glacier with a close friend by my side.",
+        "lesson": "Building technical skill with the right partner matters more than chasing every summit."
+      },
+      "aconcagua": {
+        "title": "Aconcagua",
+        "location": "Argentina",
+        "why": "The highest peak outside Asia, and the biggest test yet of everything built up through the training climbs on Shasta, Whitney, and Rainier.",
+        "challenge": "Two and a half weeks at altitude, -30 C temperatures on summit day, and a team that was whittled down to just 3 of 12 by the top.",
+        "moment": "Standing on the summit of the Americas' highest peak, one of only three from the group who made it.",
+        "lesson": "On big mountains, the mountain and the weather decide who summits, not just fitness or determination."
+      },
+      "mt-baker": {
+        "title": "Mt. Baker",
+        "location": "Washington, USA",
+        "why": "A heavily glaciated Cascades volcano, and a chance to put Aconcagua-honed rope and rescue skills to full use.",
+        "challenge": "Navigating crevasse fields as a rope team in -15 C temperatures, with the full toolkit of knots and rescue technique in play.",
+        "moment": "Reaching the summit as part of a well-organized rope team after two days of technical glacier travel.",
+        "lesson": "The steady accumulation of technical skills across smaller climbs makes bigger glaciated peaks feel achievable."
+      },
+      "half-dome-2024": {
+        "title": "Half Dome",
+        "location": "California, USA",
+        "why": "A return to a familiar trail, this time solo, to test self-reliance on a climb I'd already done with others.",
+        "challenge": "Managing pacing, navigation, and decision-making entirely on my own, with no one else to share the load.",
+        "moment": "Standing on the summit alone, having made every call on the mountain myself.",
+        "lesson": "Soloing a known route builds a different kind of confidence than doing it with a group."
+      },
+      "mt-whitney-2024": {
+        "title": "Mt. Whitney",
+        "location": "California, USA",
+        "why": "A late-season solo return to finally summit Whitney, after two earlier attempts were turned back by conditions.",
+        "challenge": "Camping alone through a -25 C night before a steep, crampon-dependent push to the top.",
+        "moment": "Finally reaching Whitney's summit solo, after two prior attempts had ended short of the top.",
+        "lesson": "Persistence across multiple attempts, and the willingness to go back alone, is what closes out a summit."
+      },
+      "mt-shasta": {
+        "title": "Mt. Shasta",
+        "location": "California, USA",
+        "why": "A third attempt on Shasta, this time solo, to finally close out a peak that had turned me back twice before.",
+        "challenge": "A grueling 16-hour push through the night and into the day, alone, on very steep terrain.",
+        "moment": "Topping out on Shasta after 16 hours on the mountain, the third time being the charm.",
+        "lesson": "Some summits take multiple attempts, and the solo attempt is often the one that finally works."
+      },
+      "breithorn": {
+        "title": "Breithorn",
+        "location": "Switzerland",
+        "why": "A Swiss 4000er climbed as a warm-up and acclimatization step ahead of Mont Blanc two days later.",
+        "challenge": "Roped glacier travel in a 2x3 team, with steep sections requiring careful crampon work.",
+        "moment": "Summiting my first Alpine 4000-meter peak, with the Mont Blanc massif visible in the distance.",
+        "lesson": "A shorter acclimatization climb right before a bigger objective makes the harder day that follows more manageable."
+      },
+      "mont-blanc-via-trois-monts": {
+        "title": "Mont Blanc via Trois Monts",
+        "location": "France",
+        "why": "The highest peak in the Alps, and the culmination of years of building glacier and rope skills on Rainier, Baker, and Aconcagua.",
+        "challenge": "A 16-hour summit day jumping crevasses, climbing a near-vertical wall on all fours, and roped travel across exposed terrain the whole way.",
+        "moment": "Standing on the roof of Western Europe after the most technically demanding day of climbing I'd done to date.",
+        "lesson": "The hardest climbs are where every previously learned skill, rope work, crevasse crossing, endurance, all get used at once."
+      },
+      "mount-kosciuszko": {
+        "title": "Mount Kosciuszko",
+        "location": "Australia",
+        "why": "The highest peak on the Australian mainland, and a chance to add a seventh continent high point to the list.",
+        "challenge": "Cold, gusty winds on an otherwise non-technical trail made for a bracing rather than a difficult climb.",
+        "moment": "Summiting Kosciuszko into strong wind gusts, a stark contrast to the glaciated giants climbed before it.",
+        "lesson": "Not every summit needs to be technical to be worth doing, sometimes the wind and cold are the whole story."
+      }
+    },
+    "continents": {
+      "South America": "South America",
+      "North America": "North America",
+      "Africa": "Africa",
+      "Asia": "Asia",
+      "Europe": "Europe",
+      "Australia": "Australia"
+    }
   }
 }

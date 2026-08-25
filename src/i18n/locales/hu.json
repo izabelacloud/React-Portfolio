@@ -329,5 +329,180 @@
       "usa": "Egyesült Államok",
       "vietnam": "Vietnam"
     }
+  },
+  "expeditions": {
+    "items": {
+      "dead-woman-s-pass-inca-trail": {
+        "title": "Dead Woman's Pass, Inca Trail",
+        "location": "Peru",
+        "why": "Az Inka-ösvény klasszikus magaslati pontja, és az első ízelítőm a magassági trekkelésből gyalogosan, autó vagy drótkötélpálya helyett.",
+        "challenge": "A meredek, párás emelkedő jobban megterhelte a lábamat és a légzésemet, mint a magasság önmagában, több mint 1000 kőlépcsőn át, technikai mászás nélkül, amely megtörte volna a monoton gyaloglást.",
+        "moment": "A hágó elérése, és visszatekintés a völgybe, ahol az ösvény a felhőerdőn át kanyarog alattam.",
+        "lesson": "A magassági kellemetlenség kezelhető egyenletes tempóval, még technikai hegymászó tudás nélkül is."
+      },
+      "the-lost-city": {
+        "title": "The Lost City",
+        "location": "Kolumbia",
+        "why": "Több napos dzsungeltrekk egy pre-kolumbiai romvárosig, a kultúra és a fizikai kihívás keveréke miatt választva.",
+        "challenge": "A könyörtelen hőség és páratartalom a hullámzó, meredek terepen fárasztóbbá tette ezt, mint amit a mérsékelt magasság alapján gondolna az ember.",
+        "moment": "Az utolsó kőlépcsők megmászása a romokba, több napos dzsungeltrekk után.",
+        "lesson": "A hőség és a páratartalom nagyobb korlátozó tényező lehet, mint a magasság vagy a technikai nehézség."
+      },
+      "root-glacier-wrangell-st-elias-national-park-and-preserve": {
+        "title": "Root Glacier, Wrangell, St. Elias National Park and Preserve",
+        "location": "Alaska, Egyesült Államok",
+        "why": "Az első valódi bevezetésem a gleccseren való közlekedésbe és a jégmászásba, Észak-Amerika egyik legnagyobb jégmezőjén.",
+        "challenge": "Megtanulni bízni a mászóvasakban és a jégcsákányban gleccserjégen, ahol a repedések valódi következményekkel jártak minden lépésnél.",
+        "moment": "Kék gleccserjégen állni Wrangell-St. Elias belsejében, egy olyan táj közepén, amilyenben még soha nem trekkeltem.",
+        "lesson": "A jégmászás és a repedésekkel kapcsolatos tudatosság alapvető készségek, amelyeket korán érdemes kiépíteni, mielőtt nagyobb gleccseres csúcsokra vállalkoznánk."
+      },
+      "mt-shasta-helen-lake-2022": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Edzőmászás a gleccseres közlekedési és mászóvas-technikai készségek fejlesztésére, nagyobb célok előtt.",
+        "challenge": "Az aznapi körülmények miatt vissza kellett fordulnunk a Helen Lake alatt, emlékeztetve arra, hogy a csúcs elérése opcionális, a biztonság nem.",
+        "moment": "Önbiztosítási technika és mászóvas-gyakorlás a hómezőn, a csúcs alatt.",
+        "lesson": "A visszafordulás a csúcs előtt még mindig sikeres mászásnak számít, ha ezzel biztonságban tartjuk a csapatot."
+      },
+      "mt-whitney-2022": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Az Egyesült Államok szárazföldi részének legmagasabb csúcsa, és természetes következő lépés a Shasta után, hogy teszteljem az állóképességemet magasban.",
+        "challenge": "Egy hosszú, nem technikai mászás, ahol a fizikai állapot és a tempó jobban számított, mint bármelyik technikai mozdulat.",
+        "moment": "A magasság kényelmes kezelése, még akkor is, amikor a nap egyre hosszabbra nyúlt.",
+        "lesson": "Az állóképesség és a tempó ugyanannyira meghatározza egy mászást, mint a technikai tudás."
+      },
+      "half-dome-2022": {
+        "title": "Half Dome",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Egy ikonikus Yosemite-i egynapos túra, amelyet a csúcsra vezető, kitett drótkötél-útvonal koronáz meg.",
+        "challenge": "Az utolsó, drótkötéllel segített szakasz a gránitkupolán inkább nyugodt idegeket követelt, mint technikai felszerelést.",
+        "moment": "A Half Dome tetején állva, alattam a Yosemite-völggyel.",
+        "lesson": "Néha nem a magasság vagy a technikai fok, hanem a kitettség a mászás valódi próbája."
+      },
+      "mt-kilimanjaro": {
+        "title": "Mt. Kilimanjaro",
+        "location": "Tanzánia",
+        "why": "Afrika legmagasabb csúcsa, és az első több napos, expedíciós stílusú mászásom 5000 méter felett.",
+        "challenge": "Hat nap egyenletes magasságnyerés, majd az utolsó meredek szakasz az Uhuru Peakig, amely a ritka levegőben tesztelte az állóképességemet.",
+        "moment": "A napfelkelte nézése a csúcsról, egy éjszakai indulás után a meredek kőomláson át a kráter szegélyéig.",
+        "lesson": "A lassú, egyenletes akklimatizáció több napon át többet ér, mint a puszta fizikai erőnlét."
+      },
+      "mt-everest-base-camp": {
+        "title": "Mt. Everest bázistábor",
+        "location": "Nepál",
+        "why": "Túra a világ legmagasabb hegyének lábához, a Khumbu-völgyön és seherpa falvain át.",
+        "challenge": "Tíz nap kumulatív magasságnyerés és -15 C-os éjszakák, meredek ösvényszakaszokkal, amelyek naponta próbára tették az állóképességet.",
+        "moment": "A bázistáborban állva, felettem a Khumbu-jégeséssel, végre látótávolságban magával az Everesttel.",
+        "lesson": "A több napos magassági túrák a türelmet díjazzák, a testnek időre van szüksége az alkalmazkodáshoz, nem erőltetésre."
+      },
+      "kala-patthar": {
+        "title": "Kala Patthar",
+        "location": "Nepál",
+        "why": "Az Everest bázistábor-túra legmagasabb pontja, amelyet a bázistábor elérése utáni napon másztunk meg, a legjobb kilátásért magára az Everestre.",
+        "challenge": "A legmagasabb pont, amit addig elértem, egy meredek, hajnal előtti mászás a hidegben.",
+        "moment": "A napfelkelte fényének nézése, amint eléri az Everest csúcsát a Kala Patthar kilátópontjáról.",
+        "lesson": "A bázistábor utáni extra erőfeszítés megéri azért a perspektíváért, amit az egész hegylánc egészéről ad."
+      },
+      "mt-shasta-helen-lake-2023": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Visszatérés a Shastára, hogy gyakoroljam a kötélcsapat-technikát és a repedésmentést, olyan készségeket, amelyekre az előző kísérlet nem igényelt.",
+        "challenge": "Az időjárás ismét megakadályozta, hogy elérjük a csúcsot, de a mászás valódi célja a technikai gyakorlás volt.",
+        "moment": "Lavina- és repedésmentési gyakorlatok végzése kötélcsapatként, magán a hegyen, nem egy tanterem falai között.",
+        "lesson": "A mentési készségek csak akkor válnak igazivá, ha valódi hegyi körülmények között gyakoroljuk őket."
+      },
+      "mt-whitney-2023": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Második kísérlet a Whitney-n, ezúttal egy meredekebb, technikásabb útvonalon, hogy építsünk a korábbi edzőmászásokra.",
+        "challenge": "A meredek hó és a fennálló lavinaveszély visszafordította a csapatot a csúcs előtt.",
+        "moment": "Lavinamentési gyakorlatok futtatása a Whitney lejtőin, magának a mászásnak részeként.",
+        "lesson": "Nem minden technikai mászásnak kell a csúcson végződnie ahhoz, hogy megérje."
+      },
+      "mt-rainier-muir-camp-no-summit-conditions": {
+        "title": "Mt. Rainier",
+        "subtitle": "Camp Muir, csúcsmászásra nem alkalmas körülmények",
+        "location": "Washington, Egyesült Államok",
+        "why": "Egy gleccseres vulkán, amelyet egy baráttal másztunk meg, hogy fejlesszük a kötéltechnikai és csomózási készségeket nagyobb célok, mint az Aconcagua előtt.",
+        "challenge": "A Camp Muirnál álltunk meg, a csúcs helyett, mivel -10 C-os hőmérséklet és meredek gleccseres terep tette próbára a kötélcsapatot.",
+        "moment": "Mászócsomók kötése és önbiztosítás gyakorlása a Rainier gleccserén, egy közeli barátom oldalán.",
+        "lesson": "A megfelelő partnerrel végzett technikai fejlődés fontosabb, mint minden csúcs üldözése."
+      },
+      "aconcagua": {
+        "title": "Aconcagua",
+        "location": "Argentína",
+        "why": "Ázsián kívüli legmagasabb csúcs, és a legnagyobb próbája mindannak, amit a Shastán, a Whitney-n és a Rainieren végzett edzőmászások során felépítettem.",
+        "challenge": "Két és fél hét magasban, -30 C-os hőmérséklet a csúcstámadás napján, és egy csapat, amely 12-ből 3 főre apadt a tetőig.",
+        "moment": "Az Amerika-kontinensek legmagasabb csúcsán állva, a csoport három tagja közül egyként, akik feljutottak.",
+        "lesson": "A nagy hegyeken a hegy és az időjárás dönti el, ki jut a csúcsra, nem csak a fizikai erőnlét vagy az akaraterő."
+      },
+      "mt-baker": {
+        "title": "Mt. Baker",
+        "location": "Washington, Egyesült Államok",
+        "why": "Egy erősen gleccseres Cascades-vulkán, és lehetőség arra, hogy teljes mértékben alkalmazzam az Aconcaguán csiszolt kötél- és mentési készségeket.",
+        "challenge": "Repedésmezőkön navigálni kötélcsapatként -15 C-os hőmérsékletben, a csomózási és mentési technikák teljes eszköztárával.",
+        "moment": "A csúcs elérése egy jól megszervezett kötélcsapat részeként, két nap technikai gleccseres közlekedés után.",
+        "lesson": "A technikai készségek fokozatos felhalmozódása kisebb mászásokon keresztül elérhetővé teszi a nagyobb gleccseres csúcsokat."
+      },
+      "half-dome-2024": {
+        "title": "Half Dome",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Visszatérés egy ismerős útvonalra, ezúttal egyedül, hogy teszteljem az önállóságomat egy olyan mászáson, amelyet korábban másokkal már megtettem.",
+        "challenge": "A tempó, a navigáció és a döntéshozás teljes egészében saját kezelése, senki mással megosztva a terhet.",
+        "moment": "Egyedül állni a csúcson, miután minden döntést magam hoztam meg a hegyen.",
+        "lesson": "Egy ismert útvonal egyedüli megtétele más fajta önbizalmat épít, mint a csoportos mászás."
+      },
+      "mt-whitney-2024": {
+        "title": "Mt. Whitney",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Egy szezon végi, egyedüli visszatérés, hogy végre megmásszam a Whitney-t, két korábbi, körülmények miatt visszafordult kísérlet után.",
+        "challenge": "Egyedül táborozni egy -25 C-os éjszakán át, majd egy meredek, mászóvas-függő mászás a csúcsig.",
+        "moment": "Végre elérni a Whitney csúcsát egyedül, két korábbi, sikertelen kísérlet után.",
+        "lesson": "A kitartás több kísérleten át, és a hajlandóság egyedül visszatérni, az, ami lezárja a csúcsot."
+      },
+      "mt-shasta": {
+        "title": "Mt. Shasta",
+        "location": "Kalifornia, Egyesült Államok",
+        "why": "Harmadik kísérlet a Shastán, ezúttal egyedül, hogy végre lezárjam egy csúcsot, amely korábban kétszer is visszafordított.",
+        "challenge": "Egy kimerítő, 16 órás küzdelem az éjszakán és a napon át, egyedül, nagyon meredek terepen.",
+        "moment": "A Shasta tetejére érve 16 óra után a hegyen, harmadszorra sikerült.",
+        "lesson": "Néhány csúcs több kísérletet igényel, és gyakran az egyedüli kísérlet az, amelyik végül működik."
+      },
+      "breithorn": {
+        "title": "Breithorn",
+        "location": "Svájc",
+        "why": "Egy svájci 4000-es, amelyet bemelegítésként és akklimatizációs lépésként másztunk meg, két nappal a Mont Blanc előtt.",
+        "challenge": "Kötélen való gleccseres közlekedés egy 2x3-as csapatban, meredek szakaszokkal, amelyek precíz mászóvas-technikát igényeltek.",
+        "moment": "Az első alpesi 4000 méteres csúcsom meghódítása, a Mont Blanc-masszívummal a távolban.",
+        "lesson": "Egy rövidebb akklimatizációs mászás közvetlenül egy nagyobb cél előtt kezelhetőbbé teszi az azt követő nehezebb napot."
+      },
+      "mont-blanc-via-trois-monts": {
+        "title": "Mont Blanc via Trois Monts",
+        "location": "Franciaország",
+        "why": "Az Alpok legmagasabb csúcsa, és éveken át tartó gleccseres és kötéltechnikai készségfejlesztés csúcspontja a Rainieren, a Bakeren és az Aconcaguán.",
+        "challenge": "Egy 16 órás csúcsnap, repedések átugrásával, egy majdnem függőleges fal négykézláb megmászásával, és kötélen történő közlekedéssel kitett terepen, az egész nap folyamán.",
+        "moment": "Nyugat-Európa tetején állva, a legtechnikásabb mászási nap után, amit addig megtettem.",
+        "lesson": "A legnehezebb mászások azok, ahol minden korábban megtanult készség, kötéltechnika, repedésátkelés, állóképesség, egyszerre kerül felhasználásra."
+      },
+      "mount-kosciuszko": {
+        "title": "Mount Kosciuszko",
+        "location": "Ausztrália",
+        "why": "Az ausztrál szárazföld legmagasabb csúcsa, és lehetőség, hogy hozzáadjam a hetedik kontinens csúcspontját a listához.",
+        "challenge": "Hideg, viharos szél egy egyébként nem technikai ösvényen inkább hűvös, mint nehéz mászást eredményezett.",
+        "moment": "A Kosciuszko megmászása erős széllökések közepette, éles ellentétben az előtte megmászott gleccseres óriásokkal.",
+        "lesson": "Nem minden csúcsnak kell technikainak lennie ahhoz, hogy megérje, néha a szél és a hideg az egész történet."
+      }
+    },
+    "continents": {
+      "South America": "Dél-Amerika",
+      "North America": "Észak-Amerika",
+      "Africa": "Afrika",
+      "Asia": "Ázsia",
+      "Europe": "Európa",
+      "Australia": "Ausztrália"
+    }
   }
 }

@@ -329,5 +329,180 @@
       "usa": "États-Unis",
       "vietnam": "Vietnam"
     }
+  },
+  "expeditions": {
+    "items": {
+      "dead-woman-s-pass-inca-trail": {
+        "title": "Dead Woman's Pass, chemin de l'Inca",
+        "location": "Pérou",
+        "why": "Le point culminant classique du chemin de l'Inca, et mon premier avant-goût du trekking en altitude à pied plutôt qu'en voiture ou en téléphérique.",
+        "challenge": "La montée raide et humide a mis mes jambes et mes poumons à l'épreuve plus que l'altitude elle-même, plus de 1 000 marches en pierre sans aucune escalade technique pour rompre la monotonie de l'effort.",
+        "moment": "Atteindre le col et regarder en arrière la vallée, avec le sentier qui sillonne la forêt de nuages en contrebas.",
+        "lesson": "L'inconfort lié à l'altitude se gère avec un rythme régulier, même sans compétences techniques d'alpinisme."
+      },
+      "the-lost-city": {
+        "title": "La Cité perdue",
+        "location": "Colombie",
+        "why": "Un trek de plusieurs jours dans la jungle jusqu'à des ruines précolombiennes, choisi pour son mélange de culture et de défi physique.",
+        "challenge": "La chaleur et l'humidité incessantes sur un terrain vallonné et escarpé ont rendu ce trek plus éprouvant que ne le suggérait son altitude modeste.",
+        "moment": "Gravir les derniers escaliers de pierre menant aux ruines après des jours de trekking dans la jungle.",
+        "lesson": "La chaleur et l'humidité peuvent être un facteur limitant plus important que l'altitude ou la difficulté technique."
+      },
+      "root-glacier-wrangell-st-elias-national-park-and-preserve": {
+        "title": "Glacier Root, parc national et réserve de Wrangell-St. Elias",
+        "location": "Alaska, États-Unis",
+        "why": "Ma première véritable initiation à la progression sur glacier et à l'escalade de glace, dans l'un des plus grands champs de glace d'Amérique du Nord.",
+        "challenge": "Apprendre à faire confiance aux crampons et au piolet sur la glace glaciaire, les crevasses donnant un vrai poids à chaque pas.",
+        "moment": "Se tenir sur la glace bleue au cœur de Wrangell-St. Elias, un paysage sans équivalent parmi tous ceux que j'avais parcourus jusque-là.",
+        "lesson": "L'escalade de glace et la vigilance face aux crevasses sont des compétences fondamentales à acquérir tôt, avant de s'attaquer à des sommets glaciaires plus imposants."
+      },
+      "mt-shasta-helen-lake-2022": {
+        "title": "Mont Shasta",
+        "subtitle": "Lac Helen",
+        "location": "Californie, États-Unis",
+        "why": "Une ascension d'entraînement pour développer des compétences en progression sur glacier et en crampons avant des objectifs plus ambitieux.",
+        "challenge": "Les conditions du jour nous ont forcés à faire demi-tour avant le lac Helen, un rappel que le sommet est optionnel, la sécurité ne l'est pas.",
+        "moment": "S'exercer à l'auto-arrêt et à la technique des crampons sur le champ de neige sous le sommet.",
+        "lesson": "Faire demi-tour avant le sommet reste une ascension réussie si cela préserve la sécurité de l'équipe."
+      },
+      "mt-whitney-2022": {
+        "title": "Mont Whitney",
+        "location": "Californie, États-Unis",
+        "why": "Le plus haut sommet des États-Unis continentaux, et une suite logique après le Shasta pour tester l'endurance en altitude.",
+        "challenge": "Une longue ascension non technique où la forme physique et la gestion du rythme comptaient plus que le moindre passage technique.",
+        "moment": "Gérer l'altitude avec aisance malgré une journée qui s'étirait en longueur.",
+        "lesson": "L'endurance et la gestion du rythme portent une ascension autant que la compétence technique."
+      },
+      "half-dome-2022": {
+        "title": "Half Dome",
+        "location": "Californie, États-Unis",
+        "why": "Une randonnée d'une journée emblématique de Yosemite, couronnée par la voie de câbles exposée menant au sommet.",
+        "challenge": "La dernière portion sur le dôme de granit, assistée par câbles, exigeait des nerfs solides plutôt que du matériel technique.",
+        "moment": "Atteindre le sommet de Half Dome avec la vallée de Yosemite déployée en contrebas.",
+        "lesson": "L'exposition, plus que l'altitude ou la cotation technique, est parfois la véritable épreuve d'une ascension."
+      },
+      "mt-kilimanjaro": {
+        "title": "Mont Kilimandjaro",
+        "location": "Tanzanie",
+        "why": "Le plus haut sommet d'Afrique, et ma première ascension de style expédition sur plusieurs jours au-dessus de 5 000 mètres.",
+        "challenge": "Six jours de gain d'altitude constant, avec la montée finale raide vers le pic Uhuru mettant l'endurance à l'épreuve dans l'air raréfié.",
+        "moment": "Regarder le lever du soleil depuis le sommet après une montée nocturne à travers les éboulis raides jusqu'au bord du cratère.",
+        "lesson": "Une acclimatation lente et régulière sur plusieurs jours paie davantage que la seule forme physique brute."
+      },
+      "mt-everest-base-camp": {
+        "title": "Camp de base de l'Everest",
+        "location": "Népal",
+        "why": "Un trek jusqu'au pied de la plus haute montagne du monde, à travers la vallée du Khumbu et ses villages sherpas.",
+        "challenge": "Dix jours de gain d'altitude cumulé et des nuits à -15 °C, avec des sections de sentier raides mettant l'endurance à l'épreuve chaque jour.",
+        "moment": "Se tenir au camp de base avec la cascade de glace du Khumbu qui s'élève au-dessus, l'Everest lui-même enfin en vue.",
+        "lesson": "Les treks en altitude sur plusieurs jours récompensent la patience : le corps a besoin de temps, pas de force, pour s'adapter."
+      },
+      "kala-patthar": {
+        "title": "Kala Patthar",
+        "location": "Népal",
+        "why": "Le point le plus élevé du trek du camp de base de l'Everest, gravi le lendemain de l'arrivée au camp de base pour la meilleure vue sur l'Everest lui-même.",
+        "challenge": "L'altitude la plus élevée que j'avais atteinte jusqu'alors, lors d'une montée raide avant l'aube dans le froid.",
+        "moment": "Voir la lumière du lever du soleil frapper le sommet de l'Everest depuis le point de vue de Kala Patthar.",
+        "lesson": "L'effort supplémentaire au-delà du camp de base en vaut la peine pour la perspective qu'il offre sur toute la chaîne."
+      },
+      "mt-shasta-helen-lake-2023": {
+        "title": "Mont Shasta",
+        "subtitle": "Lac Helen",
+        "location": "Californie, États-Unis",
+        "why": "Un retour au Shasta pour s'entraîner à la progression en cordée et au sauvetage en crevasse, des compétences que la précédente tentative n'avait pas exigées.",
+        "challenge": "La météo nous a de nouveau écartés du sommet, mais l'entraînement technique était le véritable objectif de cette ascension.",
+        "moment": "S'exercer aux manœuvres de sauvetage en avalanche et en crevasse en cordée, directement sur la montagne plutôt qu'en salle de classe.",
+        "lesson": "Les compétences de sauvetage ne deviennent réelles qu'une fois pratiquées dans de véritables conditions de montagne."
+      },
+      "mt-whitney-2023": {
+        "title": "Mont Whitney",
+        "location": "Californie, États-Unis",
+        "why": "Une deuxième tentative sur le Whitney, cette fois par une voie plus raide et plus technique, pour s'appuyer sur les ascensions d'entraînement précédentes.",
+        "challenge": "La neige raide et un risque d'avalanche persistant ont forcé l'équipe à faire demi-tour avant le sommet.",
+        "moment": "Effectuer des exercices de sauvetage en avalanche sur les pentes du Whitney, comme partie intégrante de l'ascension elle-même.",
+        "lesson": "Une ascension technique n'a pas besoin de se terminer au sommet pour en valoir la peine."
+      },
+      "mt-rainier-muir-camp-no-summit-conditions": {
+        "title": "Mont Rainier",
+        "subtitle": "Camp Muir, conditions non favorables au sommet",
+        "location": "Washington, États-Unis",
+        "why": "Un volcan glaciaire gravi avec une amie pour développer des compétences en cordée et en nœuds avant des objectifs plus ambitieux comme l'Aconcagua.",
+        "challenge": "Nous nous sommes arrêtées au camp Muir plutôt que de pousser vers le sommet, des températures de -10 °C et une progression glaciaire raide mettant la cordée à l'épreuve.",
+        "moment": "Faire des nœuds d'escalade et pratiquer l'auto-arrêt sur le glacier du Rainier, aux côtés d'une amie proche.",
+        "lesson": "Développer des compétences techniques avec le bon partenaire compte plus que de courir après chaque sommet."
+      },
+      "aconcagua": {
+        "title": "Aconcagua",
+        "location": "Argentine",
+        "why": "Le plus haut sommet en dehors de l'Asie, et la plus grande épreuve à ce jour de tout ce qui avait été construit lors des ascensions d'entraînement sur le Shasta, le Whitney et le Rainier.",
+        "challenge": "Deux semaines et demie en altitude, des températures de -30 °C le jour du sommet, et une équipe réduite à seulement 3 personnes sur 12 au sommet.",
+        "moment": "Se tenir au sommet du plus haut pic des Amériques, l'une des trois seules personnes du groupe à y être arrivées.",
+        "lesson": "Sur les grandes montagnes, c'est la montagne et la météo qui décident qui atteint le sommet, pas seulement la forme physique ou la détermination."
+      },
+      "mt-baker": {
+        "title": "Mont Baker",
+        "location": "Washington, États-Unis",
+        "why": "Un volcan des Cascades fortement englacé, et une occasion de mettre pleinement à profit les compétences en cordée et en sauvetage affinées sur l'Aconcagua.",
+        "challenge": "Naviguer dans des champs de crevasses en cordée par des températures de -15 °C, avec toute la palette de nœuds et de techniques de sauvetage mobilisée.",
+        "moment": "Atteindre le sommet au sein d'une cordée bien organisée après deux jours de progression glaciaire technique.",
+        "lesson": "L'accumulation régulière de compétences techniques au fil d'ascensions plus modestes rend les grands sommets glaciaires accessibles."
+      },
+      "half-dome-2024": {
+        "title": "Half Dome",
+        "location": "Californie, États-Unis",
+        "why": "Un retour sur un sentier familier, cette fois en solo, pour tester mon autonomie sur une ascension déjà réalisée avec d'autres.",
+        "challenge": "Gérer le rythme, la navigation et la prise de décision entièrement seule, sans personne avec qui partager la charge.",
+        "moment": "Se tenir seule au sommet, après avoir pris chaque décision sur la montagne par moi-même.",
+        "lesson": "Faire en solo une voie déjà connue construit une confiance différente de celle acquise en groupe."
+      },
+      "mt-whitney-2024": {
+        "title": "Mont Whitney",
+        "location": "Californie, États-Unis",
+        "why": "Un retour en solo en fin de saison pour enfin atteindre le sommet du Whitney, après deux tentatives précédentes stoppées par les conditions.",
+        "challenge": "Camper seule par une nuit à -25 °C avant une montée raide, dépendante des crampons, jusqu'au sommet.",
+        "moment": "Atteindre enfin le sommet du Whitney en solo, après deux tentatives précédentes restées en deçà du sommet.",
+        "lesson": "La persévérance à travers plusieurs tentatives, et la volonté d'y retourner seule, c'est ce qui permet de conclure un sommet."
+      },
+      "mt-shasta": {
+        "title": "Mont Shasta",
+        "location": "Californie, États-Unis",
+        "why": "Une troisième tentative sur le Shasta, cette fois en solo, pour enfin conclure un sommet qui m'avait repoussée deux fois auparavant.",
+        "challenge": "Une montée éprouvante de 16 heures, de nuit puis de jour, seule, sur un terrain très raide.",
+        "moment": "Atteindre le sommet du Shasta après 16 heures sur la montagne, la troisième tentative ayant enfin été la bonne.",
+        "lesson": "Certains sommets demandent plusieurs tentatives, et c'est souvent la tentative en solo qui finit par réussir."
+      },
+      "breithorn": {
+        "title": "Breithorn",
+        "location": "Suisse",
+        "why": "Un 4000 suisse gravi en guise d'échauffement et d'étape d'acclimatation avant le Mont Blanc deux jours plus tard.",
+        "challenge": "Progression glaciaire encordée en équipe de 2x3, avec des passages raides exigeant un travail minutieux aux crampons.",
+        "moment": "Atteindre mon premier sommet alpin de 4000 mètres, avec le massif du Mont Blanc visible au loin.",
+        "lesson": "Une ascension d'acclimatation plus courte juste avant un objectif plus ambitieux rend plus gérable la journée plus difficile qui suit."
+      },
+      "mont-blanc-via-trois-monts": {
+        "title": "Mont Blanc via Trois Monts",
+        "location": "France",
+        "why": "Le plus haut sommet des Alpes, et l'aboutissement d'années passées à développer des compétences en glacier et en cordée sur le Rainier, le Baker et l'Aconcagua.",
+        "challenge": "Une journée de sommet de 16 heures à sauter des crevasses, à gravir une paroi quasi verticale à quatre pattes, et à progresser encordée sur un terrain exposé de bout en bout.",
+        "moment": "Se tenir sur le toit de l'Europe occidentale après la journée d'ascension la plus exigeante techniquement que j'aie jamais vécue.",
+        "lesson": "Les ascensions les plus difficiles sont celles où toutes les compétences apprises auparavant, le travail à la corde, la traversée de crevasses, l'endurance, entrent en jeu en même temps."
+      },
+      "mount-kosciuszko": {
+        "title": "Mont Kosciuszko",
+        "location": "Australie",
+        "why": "Le plus haut sommet du continent australien, et l'occasion d'ajouter à la liste le point culminant d'un septième continent.",
+        "challenge": "Des vents froids et violents sur un sentier par ailleurs non technique ont fait de cette ascension une épreuve tonifiante plutôt que difficile.",
+        "moment": "Atteindre le sommet du Kosciuszko dans de fortes rafales de vent, un contraste frappant avec les géants glaciaires gravis auparavant.",
+        "lesson": "Un sommet n'a pas besoin d'être technique pour en valoir la peine ; parfois, le vent et le froid suffisent à raconter toute l'histoire."
+      }
+    },
+    "continents": {
+      "South America": "Amérique du Sud",
+      "North America": "Amérique du Nord",
+      "Africa": "Afrique",
+      "Asia": "Asie",
+      "Europe": "Europe",
+      "Australia": "Australie"
+    }
   }
 }

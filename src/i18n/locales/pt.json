@@ -329,5 +329,180 @@
       "usa": "Estados Unidos",
       "vietnam": "Vietname"
     }
+  },
+  "expeditions": {
+    "items": {
+      "dead-woman-s-pass-inca-trail": {
+        "title": "Dead Woman's Pass, Inca Trail",
+        "location": "Peru",
+        "why": "O ponto alto clássico da Trilha Inca, e minha primeira experiência de trekking em altitude a pé, em vez de carro ou teleférico.",
+        "challenge": "A subida íngreme e úmida testou minhas pernas e pulmões mais do que a própria altitude, mais de 1.000 degraus de pedra sem nenhuma escalada técnica para quebrar a monotonia.",
+        "moment": "Chegar ao passo e olhar para o vale, vendo a trilha serpenteando pela floresta de neblina abaixo.",
+        "lesson": "O desconforto da altitude é administrável com um ritmo constante, mesmo sem nenhuma habilidade técnica de montanhismo."
+      },
+      "the-lost-city": {
+        "title": "The Lost City",
+        "location": "Colômbia",
+        "why": "Um trekking de vários dias na selva até uma ruína pré-colombiana, escolhido pela mistura de cultura e desafio físico.",
+        "challenge": "O calor e a umidade implacáveis em um terreno ondulado e íngreme tornaram essa expedição mais desgastante do que a altitude modesta sugeriria.",
+        "moment": "Subir os últimos degraus de pedra até as ruínas após dias de trekking na selva.",
+        "lesson": "Calor e umidade podem ser um fator limitante maior do que a altitude ou a dificuldade técnica."
+      },
+      "root-glacier-wrangell-st-elias-national-park-and-preserve": {
+        "title": "Root Glacier, Wrangell, St. Elias National Park and Preserve",
+        "location": "Alasca, Estados Unidos",
+        "why": "Minha primeira introdução real ao trekking em glaciares e à escalada em gelo, em um dos maiores campos de gelo da América do Norte.",
+        "challenge": "Aprender a confiar nos grampos e no piolet sobre o gelo glacial, com fendas que davam consequência real a cada passo.",
+        "moment": "Estar sobre o gelo glacial azul no interior profundo de Wrangell-St. Elias, uma paisagem diferente de tudo que eu já tinha percorrido.",
+        "lesson": "Escalada em gelo e consciência sobre fendas glaciais são habilidades fundamentais que vale a pena desenvolver desde o início, antes de tentar picos glaciais maiores."
+      },
+      "mt-shasta-helen-lake-2022": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Uma escalada de treinamento para desenvolver habilidades de trekking em glaciares e uso de grampos antes de objetivos maiores.",
+        "challenge": "As condições do dia nos fizeram voltar antes de Helen Lake, um lembrete de que o cume é opcional, mas a segurança não é.",
+        "moment": "Praticar a técnica de autodetenção e o uso de grampos no campo de neve abaixo do cume.",
+        "lesson": "Voltar antes do cume ainda é uma escalada bem-sucedida se isso mantém a equipe em segurança."
+      },
+      "mt-whitney-2022": {
+        "title": "Mt. Whitney",
+        "location": "Califórnia, Estados Unidos",
+        "why": "O pico mais alto dos Estados Unidos contíguos, e um próximo passo natural depois do Shasta para testar a resistência em altitude.",
+        "challenge": "Uma jornada longa e não técnica, em que o condicionamento físico e o ritmo importaram mais do que qualquer movimento técnico específico.",
+        "moment": "Lidar com a altitude com tranquilidade, mesmo com o dia se estendendo por muitas horas.",
+        "lesson": "Resistência e ritmo sustentam uma escalada tanto quanto a habilidade técnica."
+      },
+      "half-dome-2022": {
+        "title": "Half Dome",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Uma caminhada icônica de um dia em Yosemite, encerrada pela rota de cabos exposta até o cume.",
+        "challenge": "O trecho final com cabos no domo de granito exigiu nervos firmes, mais do que equipamento técnico.",
+        "moment": "Chegar ao topo do Half Dome com o Vale de Yosemite estendido abaixo.",
+        "lesson": "A exposição, não a altitude ou o grau técnico, é às vezes o verdadeiro teste de uma escalada."
+      },
+      "mt-kilimanjaro": {
+        "title": "Mt. Kilimanjaro",
+        "location": "Tanzânia",
+        "why": "O pico mais alto da África, e minha primeira escalada de estilo expedição, de vários dias, acima de 5.000 metros.",
+        "challenge": "Seis dias de ganho constante de altitude, com a subida final e íngreme até o Pico Uhuru testando a resistência no ar rarefeito.",
+        "moment": "Ver o nascer do sol a partir do cume, depois de uma subida noturna pela pedreira íngreme até a borda da cratera.",
+        "lesson": "Uma aclimatação lenta e constante ao longo de vários dias compensa mais do que apenas o condicionamento físico."
+      },
+      "mt-everest-base-camp": {
+        "title": "Mt. Everest Base Camp",
+        "location": "Nepal",
+        "why": "Um trekking até a base da montanha mais alta do mundo, através do vale de Khumbu e suas vilas Sherpa.",
+        "challenge": "Dez dias de ganho de altitude acumulado e noites de -15 C, com trechos íngremes de trilha testando a resistência todos os dias.",
+        "moment": "Estar no Campo Base com a Cascata de Gelo de Khumbu se erguendo acima, o próprio Everest finalmente à vista.",
+        "lesson": "Trekkings de altitude de vários dias recompensam a paciência, o corpo precisa de tempo, não de força, para se adaptar."
+      },
+      "kala-patthar": {
+        "title": "Kala Patthar",
+        "location": "Nepal",
+        "why": "O ponto mais alto do trekking ao Campo Base do Everest, escalado no dia seguinte à chegada ao Campo Base para a melhor vista do próprio Everest.",
+        "challenge": "A maior altitude que eu já tinha alcançado até então, em uma subida íngreme antes do amanhecer, no frio.",
+        "moment": "Ver a luz do nascer do sol atingir o cume do Everest a partir do mirante de Kala Patthar.",
+        "lesson": "O esforço extra além do Campo Base vale a pena pela perspectiva que oferece de toda a cordilheira."
+      },
+      "mt-shasta-helen-lake-2023": {
+        "title": "Mt. Shasta",
+        "subtitle": "Helen Lake",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Um retorno ao Shasta para treinar deslocamento em equipe de corda e resgate em fendas, habilidades que a tentativa anterior não exigiu.",
+        "challenge": "O clima novamente nos impediu de chegar ao cume, mas o treinamento técnico era o verdadeiro objetivo da escalada.",
+        "moment": "Praticar exercícios de resgate em avalanche e fendas como equipe de corda, na própria montanha, não em uma sala de aula.",
+        "lesson": "Habilidades de resgate só se tornam reais quando praticadas em condições reais de montanha."
+      },
+      "mt-whitney-2023": {
+        "title": "Mt. Whitney",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Uma segunda tentativa no Whitney, desta vez por uma rota mais íngreme e técnica, para aproveitar as escaladas de treinamento anteriores.",
+        "challenge": "Neve íngreme e um risco persistente de avalanche fizeram a equipe recuar antes do cume.",
+        "moment": "Realizar exercícios de resgate em avalanche nas encostas do Whitney como parte da própria escalada.",
+        "lesson": "Nem toda escalada técnica precisa terminar no cume para valer a pena."
+      },
+      "mt-rainier-muir-camp-no-summit-conditions": {
+        "title": "Mt. Rainier",
+        "subtitle": "Camp Muir, sem condições para o cume",
+        "location": "Washington, Estados Unidos",
+        "why": "Um vulcão glaciado escalado com uma amiga para desenvolver habilidades de trabalho com cordas e nós antes de objetivos maiores, como o Aconcagua.",
+        "challenge": "Paramos em Camp Muir em vez de seguir para o cume, com temperaturas de -10 C e um trecho glacial íngreme testando a equipe de corda.",
+        "moment": "Amarrar nós de escalada e praticar autodetenção no glaciar do Rainier, com uma amiga próxima ao meu lado.",
+        "lesson": "Desenvolver habilidade técnica com o parceiro certo importa mais do que perseguir todos os cumes."
+      },
+      "aconcagua": {
+        "title": "Aconcagua",
+        "location": "Argentina",
+        "why": "O pico mais alto fora da Ásia, e o maior teste até então de tudo o que foi construído nas escaladas de treinamento no Shasta, no Whitney e no Rainier.",
+        "challenge": "Duas semanas e meia em altitude, temperaturas de -30 C no dia do cume, e uma equipe que foi reduzida a apenas 3 de 12 pessoas até o topo.",
+        "moment": "Estar no cume do pico mais alto das Américas, uma das apenas três pessoas do grupo que conseguiram chegar.",
+        "lesson": "Em grandes montanhas, é a montanha e o clima que decidem quem chega ao cume, não apenas o condicionamento físico ou a determinação."
+      },
+      "mt-baker": {
+        "title": "Mt. Baker",
+        "location": "Washington, Estados Unidos",
+        "why": "Um vulcão fortemente glaciado nas Cascades, e uma chance de usar plenamente as habilidades de corda e resgate aprimoradas no Aconcagua.",
+        "challenge": "Navegar por campos de fendas como equipe de corda em temperaturas de -15 C, com todo o repertório de nós e técnicas de resgate em uso.",
+        "moment": "Chegar ao cume como parte de uma equipe de corda bem organizada, depois de dois dias de trekking técnico em glaciar.",
+        "lesson": "O acúmulo constante de habilidades técnicas em escaladas menores torna picos glaciados maiores algo alcançável."
+      },
+      "half-dome-2024": {
+        "title": "Half Dome",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Um retorno a uma trilha familiar, desta vez sozinha, para testar a autossuficiência em uma escalada que eu já tinha feito acompanhada.",
+        "challenge": "Gerenciar ritmo, navegação e tomada de decisão totalmente por conta própria, sem ninguém para dividir a carga.",
+        "moment": "Estar no cume sozinha, tendo tomado cada decisão na montanha por conta própria.",
+        "lesson": "Fazer uma rota conhecida sozinha constrói um tipo diferente de confiança do que fazê-la em grupo."
+      },
+      "mt-whitney-2024": {
+        "title": "Mt. Whitney",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Um retorno solo no fim da temporada para finalmente alcançar o cume do Whitney, depois que duas tentativas anteriores foram interrompidas pelas condições.",
+        "challenge": "Acampar sozinha em uma noite de -25 C antes de uma subida íngreme ao topo, dependente de grampos.",
+        "moment": "Finalmente alcançar o cume do Whitney sozinha, depois que duas tentativas anteriores tinham terminado antes do topo.",
+        "lesson": "A persistência em várias tentativas, e a disposição de voltar sozinha, é o que fecha um cume."
+      },
+      "mt-shasta": {
+        "title": "Mt. Shasta",
+        "location": "Califórnia, Estados Unidos",
+        "why": "Uma terceira tentativa no Shasta, desta vez sozinha, para finalmente fechar um pico que já tinha me feito recuar duas vezes.",
+        "challenge": "Uma jornada exaustiva de 16 horas, atravessando a noite até o dia, sozinha, em um terreno muito íngreme.",
+        "moment": "Chegar ao topo do Shasta depois de 16 horas na montanha, a terceira vez sendo a definitiva.",
+        "lesson": "Alguns cumes exigem várias tentativas, e a tentativa solo é muitas vezes a que finalmente funciona."
+      },
+      "breithorn": {
+        "title": "Breithorn",
+        "location": "Suíça",
+        "why": "Um 4000 metros suíço escalado como aquecimento e etapa de aclimatação antes do Mont Blanc, dois dias depois.",
+        "challenge": "Trekking em glaciar com corda em uma equipe 2x3, com trechos íngremes exigindo um trabalho cuidadoso com os grampos.",
+        "moment": "Alcançar o cume do meu primeiro pico alpino de 4000 metros, com o maciço do Mont Blanc visível à distância.",
+        "lesson": "Uma escalada de aclimatação mais curta, feita pouco antes de um objetivo maior, torna o dia mais difícil que vem a seguir mais administrável."
+      },
+      "mont-blanc-via-trois-monts": {
+        "title": "Mont Blanc via Trois Monts",
+        "location": "França",
+        "why": "O pico mais alto dos Alpes, e a culminação de anos desenvolvendo habilidades de glaciar e corda no Rainier, no Baker e no Aconcagua.",
+        "challenge": "Um dia de cume de 16 horas, saltando fendas, escalando uma parede quase vertical de quatro e avançando com corda por terreno exposto o tempo todo.",
+        "moment": "Estar no topo da Europa Ocidental depois do dia de escalada mais tecnicamente exigente que eu já tinha feito até então.",
+        "lesson": "As escaladas mais difíceis são aquelas em que cada habilidade aprendida anteriormente, trabalho com cordas, travessia de fendas, resistência, é usada ao mesmo tempo."
+      },
+      "mount-kosciuszko": {
+        "title": "Mount Kosciuszko",
+        "location": "Austrália",
+        "why": "O pico mais alto do território continental australiano, e uma chance de adicionar o ponto mais alto do sétimo continente à lista.",
+        "challenge": "Vento frio e forte em uma trilha, do contrário não técnica, tornou a escalada mais estimulante do que difícil.",
+        "moment": "Alcançar o cume do Kosciuszko em meio a fortes rajadas de vento, um contraste marcante com os gigantes glaciados escalados antes dele.",
+        "lesson": "Nem todo cume precisa ser técnico para valer a pena, às vezes o vento e o frio são toda a história."
+      }
+    },
+    "continents": {
+      "South America": "América do Sul",
+      "North America": "América do Norte",
+      "Africa": "África",
+      "Asia": "Ásia",
+      "Europe": "Europa",
+      "Australia": "Austrália"
+    }
   }
 }
