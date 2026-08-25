@@ -42,10 +42,16 @@ export default function AdventureCategory() {
 
   return (
     <div className="space-y-10 py-10">
-      <info.Icon className="h-10 w-10 text-accent" />
+      <Link
+        to="/adventures"
+        className="group inline-flex items-center gap-3 text-accent transition-opacity hover:opacity-80"
+      >
+        <info.Icon className="h-10 w-10" />
+        <span className="text-xs font-semibold uppercase tracking-[0.2em] group-hover:underline">
+          {t('adventures.eyebrow')}
+        </span>
+      </Link>
       <SectionHeading
-        eyebrow={t('adventures.eyebrow')}
-        eyebrowTo="/adventures"
         title={t(`adventures.${info.labelKey}`)}
         subtitle={t(`adventureCategory.${info.subtitleKey}`)}
       />
