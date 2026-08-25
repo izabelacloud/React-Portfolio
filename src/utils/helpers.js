@@ -6,3 +6,9 @@ export function capitalizeFirstLetter(string) {
     var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
   }
+
+  export function parseFirstDate(dateStr) {
+    const first = dateStr?.split(' to ')[0]?.trim();
+    const parsed = first ? new Date(first) : null;
+    return parsed && !isNaN(parsed.getTime()) ? parsed : null;
+  }

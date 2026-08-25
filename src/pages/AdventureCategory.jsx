@@ -1,9 +1,10 @@
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
-import ExpeditionCard from '../components/ExpeditionCard';
+import AdventureTimeline from '../components/AdventureTimeline';
 import expeditions from '../data/expeditions';
 import divingCerts from '../data/divingCerts';
+import { parseFirstDate } from '../utils/helpers';
 import { MountainIcon, DivingIcon, SkiingIcon, CompassIcon } from '../components/AdventureIcons';
 
 const meta = {
@@ -13,11 +14,20 @@ const meta = {
   travel: { labelKey: 'travelLabel', subtitleKey: 'travelSubtitle', Icon: CompassIcon },
 };
 
+function isVerified(expedition) {
+  return !Object.values(expedition).some(
+    (value) => typeof value === 'string' && value.includes('[VERIFY')
+  );
+}
+
 export default function AdventureCategory() {
   const { t } = useTranslation();
   const { category } = useParams();
   const info = meta[category];
-  const items = expeditions.filter((e) => e.category === category);
+  const items = expeditions
+    .filter((e) => e.category === category && isVerified(e))
+    .map((e) => ({ ...e, achievement: e.moment }))
+    .sort((a, b) => (parseFirstDate(a.date) ?? 0) - (parseFirstDate(b.date) ?? 0));
 
   if (!info) {
     return (
@@ -54,11 +64,7 @@ export default function AdventureCategory() {
       )}
 
       {items.length > 0 ? (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {items.map((exp, index) => (
-            <ExpeditionCard key={exp.slug} expedition={exp} index={index} />
-          ))}
-        </div>
+        <AdventureTimeline items={items} />
       ) : (
         <p className="text-muted">{t('adventureCategory.empty')}</p>
       )}
