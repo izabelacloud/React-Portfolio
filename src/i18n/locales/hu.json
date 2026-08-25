@@ -92,7 +92,8 @@
     "eyebrow": "Kalandok",
     "title": "Ahol már voltam",
     "subtitleWithCount": "{{count}} meglátogatott ország eddig. Közelíts rá, kattints egy pinre, fedezd fel a történetet.",
-    "subtitleFallback": "Közelíts rá, kattints egy pinre, fedezd fel a történetet."
+    "subtitleFallback": "Közelíts rá, kattints egy pinre, fedezd fel a történetet.",
+    "visitedIn": "Meglátogatva: {{years}}"
   },
   "destinationDetail": {
     "eyebrow": "Úticél",

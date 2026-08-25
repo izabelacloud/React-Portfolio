@@ -92,7 +92,8 @@
     "eyebrow": "Dobrodružstvá",
     "title": "Kde som už bola",
     "subtitleWithCount": "{{count}} navštívených krajín doteraz. Priblíž, klikni na pin, objav príbeh.",
-    "subtitleFallback": "Priblíž, klikni na pin, objav príbeh."
+    "subtitleFallback": "Priblíž, klikni na pin, objav príbeh.",
+    "visitedIn": "Navštívené {{years}}"
   },
   "destinationDetail": {
     "eyebrow": "Destinácia",

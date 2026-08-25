@@ -92,7 +92,8 @@
     "eyebrow": "Aventuras",
     "title": "Donde he estado",
     "subtitleWithCount": "{{count}} países visitados hasta ahora. Acércate, haz clic en un pin, explora la historia.",
-    "subtitleFallback": "Acércate, haz clic en un pin, explora la historia."
+    "subtitleFallback": "Acércate, haz clic en un pin, explora la historia.",
+    "visitedIn": "Visitado en {{years}}"
   },
   "destinationDetail": {
     "eyebrow": "Destino",

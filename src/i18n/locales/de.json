@@ -92,7 +92,8 @@
     "eyebrow": "Abenteuer",
     "title": "Wo ich schon war",
     "subtitleWithCount": "{{count}} Länder bisher besucht. Zoome hinein, klicke auf einen Pin, entdecke die Geschichte.",
-    "subtitleFallback": "Zoome hinein, klicke auf einen Pin, entdecke die Geschichte."
+    "subtitleFallback": "Zoome hinein, klicke auf einen Pin, entdecke die Geschichte.",
+    "visitedIn": "Besucht {{years}}"
   },
   "destinationDetail": {
     "eyebrow": "Reiseziel",
