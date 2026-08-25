@@ -91,7 +91,12 @@ export default function Footer() {
               className="group flex items-center gap-1.5 rounded-full px-2.5 py-2 text-ink/60 transition-colors hover:bg-accent/10 hover:text-accent dark:text-stone dark:hover:text-warm"
             >
               {s.image ? (
-                <img src={s.image} alt="" aria-hidden className="h-6 w-6 rounded-full object-cover" />
+                <img
+                  src={s.image}
+                  alt=""
+                  aria-hidden
+                  className="h-6 w-6 rounded-full object-cover grayscale transition-[filter] group-hover:grayscale-0"
+                />
               ) : (
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
                   {s.icon}
