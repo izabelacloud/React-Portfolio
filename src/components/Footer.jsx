@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import social from '../data/social';
 import languages from '../i18n/languages';
-import trailblazerAstro from '../assets/social/trailblazer-astro.jpg';
+import trailblazerAstro from '../assets/social/trailblazer-astro-mask.png';
 
 const socials = [
   {
     name: 'Trailblazer',
     abbr: 'TB',
     href: social.trailblazer,
-    image: trailblazerAstro,
+    mask: trailblazerAstro,
   },
   {
     name: 'GitHub',
@@ -90,12 +90,20 @@ export default function Footer() {
               title={s.name}
               className="group flex items-center gap-1.5 rounded-full px-2.5 py-2 text-ink/60 transition-colors hover:bg-accent/10 hover:text-accent dark:text-stone dark:hover:text-warm"
             >
-              {s.image ? (
-                <img
-                  src={s.image}
-                  alt=""
+              {s.mask ? (
+                <span
                   aria-hidden
-                  className="h-6 w-6 rounded-full object-cover grayscale transition-[filter] group-hover:grayscale-0"
+                  className="h-6 w-6 bg-current"
+                  style={{
+                    maskImage: `url(${s.mask})`,
+                    maskSize: 'contain',
+                    maskRepeat: 'no-repeat',
+                    maskPosition: 'center',
+                    WebkitMaskImage: `url(${s.mask})`,
+                    WebkitMaskSize: 'contain',
+                    WebkitMaskRepeat: 'no-repeat',
+                    WebkitMaskPosition: 'center',
+                  }}
                 />
               ) : (
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
