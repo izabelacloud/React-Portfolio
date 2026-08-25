@@ -85,6 +85,7 @@
     "empty": "[VERIFY: add expeditions for this category]",
     "divingCertsHeading": "Сертификаты",
     "summitted": "Вершина достигнута",
+    "reached": "Достигнуто",
     "attempted": "Попытка"
   },
   "worldMapPage": {

@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import AdventureTimeline from '../components/AdventureTimeline';
+import MountainsMap from '../components/MountainsMap';
 import expeditions from '../data/expeditions';
 import divingCerts from '../data/divingCerts';
 import { parseFirstDate } from '../utils/helpers';
@@ -29,7 +30,7 @@ export default function AdventureCategory() {
   const items = expeditions
     .filter((e) => e.category === category && !isPlaceholderStub(e))
     .map((e) => ({ ...e, achievement: e.moment }))
-    .sort((a, b) => (parseFirstDate(a.date) ?? 0) - (parseFirstDate(b.date) ?? 0));
+    .sort((a, b) => (parseFirstDate(b.date) ?? 0) - (parseFirstDate(a.date) ?? 0));
 
   if (!info) {
     return (
@@ -66,7 +67,10 @@ export default function AdventureCategory() {
       )}
 
       {items.length > 0 ? (
-        <AdventureTimeline items={items} />
+        <>
+          {category === 'mountains' && <MountainsMap items={items} />}
+          <AdventureTimeline items={items} />
+        </>
       ) : (
         <p className="text-muted">{t('adventureCategory.empty')}</p>
       )}

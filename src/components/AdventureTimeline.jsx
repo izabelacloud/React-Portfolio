@@ -21,9 +21,17 @@ export default function AdventureTimeline({ items }) {
             }`}
           />
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">{item.date}</p>
-          <h3 className="mt-1 font-display text-lg font-medium">{item.title}</h3>
+          <h3 className="mt-1 font-display text-lg font-medium">
+            {item.title}
+            {item.subtitle && <span className="font-normal text-muted"> · {item.subtitle}</span>}
+          </h3>
           <div className="mt-0.5 flex flex-wrap items-center gap-2 text-sm">
             <span className="font-semibold text-accent">{item.location}</span>
+            {item.continent && (
+              <span className="rounded-full border border-stone/40 px-2 py-0.5 text-xs font-semibold text-muted dark:border-charcoal">
+                {item.continent}
+              </span>
+            )}
             {item.elevation && <span className="text-muted">{item.elevation}</span>}
             {typeof item.summitted === 'boolean' && (
               <span
@@ -33,7 +41,9 @@ export default function AdventureTimeline({ items }) {
                     : 'bg-stone/40 text-muted dark:bg-charcoal'
                 }`}
               >
-                {item.summitted ? t('adventureCategory.summitted') : t('adventureCategory.attempted')}
+                {item.summitted
+                  ? t(`adventureCategory.${item.statusLabel ?? 'summitted'}`)
+                  : t('adventureCategory.attempted')}
               </span>
             )}
           </div>

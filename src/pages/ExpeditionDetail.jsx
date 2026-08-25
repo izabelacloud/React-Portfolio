@@ -20,7 +20,11 @@ export default function ExpeditionDetail() {
 
   return (
     <div className="space-y-8 py-10">
-      <SectionHeading eyebrow={expedition.location} title={expedition.title} subtitle={expedition.date} />
+      <SectionHeading
+        eyebrow={expedition.location}
+        title={expedition.title}
+        subtitle={expedition.subtitle ? `${expedition.subtitle} · ${expedition.date}` : expedition.date}
+      />
 
       <div className="grid gap-8 sm:grid-cols-2">
         <div>
