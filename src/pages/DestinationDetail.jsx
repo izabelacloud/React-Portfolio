@@ -35,6 +35,12 @@ export default function DestinationDetail() {
         subtitle={t('destinationDetail.citiesVisited', { cities: destination.cities.join(', ') })}
       />
 
+      {Array.isArray(destination.yearsVisited) && destination.yearsVisited.length > 0 && (
+        <p className="text-sm font-semibold text-muted">
+          {t('worldMapPage.visitedIn', { years: destination.yearsVisited.join(', ') })}
+        </p>
+      )}
+
       <DestinationClock timezone={destination.timezone} />
 
       {relatedExpeditions.length > 0 ? (

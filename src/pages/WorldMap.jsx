@@ -37,12 +37,7 @@ export default function WorldMapPage() {
             to={`/destinations/${loc.slug}`}
             className="rounded-xl border border-stone/40 px-4 py-3 text-sm font-semibold text-ink/80 transition-colors hover:border-accent hover:text-accent dark:border-charcoal dark:text-stone dark:hover:text-warm"
           >
-            <div>{t(`locations.items.${loc.slug}`, { defaultValue: loc.country })}</div>
-            {Array.isArray(loc.yearsVisited) && loc.yearsVisited.length > 0 && (
-              <div className="mt-0.5 text-xs font-normal text-muted">
-                {t('worldMapPage.visitedIn', { years: loc.yearsVisited.join(', ') })}
-              </div>
-            )}
+            {t(`locations.items.${loc.slug}`, { defaultValue: loc.country })}
           </Link>
         ))}
       </div>
