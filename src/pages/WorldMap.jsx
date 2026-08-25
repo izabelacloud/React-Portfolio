@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import WorldMap from '../components/WorldMap';
+import { CompassIcon } from '../components/AdventureIcons';
 import locations from '../data/locations';
 import stats from '../data/stats';
 
@@ -18,9 +19,16 @@ export default function WorldMapPage() {
 
   return (
     <div className="space-y-10 py-10">
+      <Link
+        to="/adventures"
+        className="group inline-flex items-center gap-3 text-accent transition-opacity hover:opacity-80"
+      >
+        <CompassIcon className="h-10 w-10" />
+        <span className="text-xs font-semibold uppercase tracking-[0.2em] group-hover:underline">
+          {t('worldMapPage.eyebrow')}
+        </span>
+      </Link>
       <SectionHeading
-        eyebrow={t('worldMapPage.eyebrow')}
-        eyebrowTo="/adventures"
         title={t('worldMapPage.title')}
         subtitle={
           countriesStat
