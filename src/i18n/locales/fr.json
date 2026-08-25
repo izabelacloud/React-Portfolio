@@ -62,7 +62,8 @@
     "calloutSkierLabel": "Skieuse",
     "calloutSkierLine": "4 continents sur 7 skiés.",
     "calloutRunnerLabel": "Coureuse",
-    "calloutRunnerLine": "La constance avant l'intensité."
+    "calloutRunnerLine": "La constance avant l'intensité.",
+    "closingQuote": "Curieuse de l'inconnu, jamais satisfaite du possible. Ne jamais abandonner, toujours aller plus loin."
   },
   "about": {
     "greeting": "Bonjour, je suis",
