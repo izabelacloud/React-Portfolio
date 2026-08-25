@@ -95,15 +95,12 @@
     "skiingLabel": "Esquí",
     "skiingDesc": "Leer el terreno y las condiciones rápido, y adaptarse aún más rápido.",
     "travelLabel": "Viajes",
-    "travelDesc": "58 de 195 países. Sigo contando.",
-    "worldMapLabel": "Mapa mundial",
-    "worldMapDesc": "Acércate a cada país visitado hasta ahora, pin por pin."
+    "travelDesc": "58 de 195 países. Sigo contando."
   },
   "adventureCategory": {
     "mountainsSubtitle": "6 de 7 continentes escalados.",
     "divingSubtitle": "PADI Divemaster. 6 de 7 continentes buceados.",
     "skiingSubtitle": "4 de 7 continentes esquiados.",
-    "travelSubtitle": "58 de 195 países visitados.",
     "empty": "[VERIFY: add expeditions for this category]",
     "divingCertsHeading": "Certificaciones",
     "summitted": "Cumbre alcanzada",

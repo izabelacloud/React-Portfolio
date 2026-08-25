@@ -95,15 +95,12 @@
     "skiingLabel": "Lyžovanie",
     "skiingDesc": "Rýchle čítanie terénu a podmienok a ešte rýchlejšie prispôsobenie.",
     "travelLabel": "Cestovanie",
-    "travelDesc": "58 z 195 krajín. Stále pribúdajú.",
-    "worldMapLabel": "Mapa svet",
-    "worldMapDesc": "Priblíž si každú doteraz navštívenú krajinu, pin po pine."
+    "travelDesc": "58 z 195 krajín. Stále pribúdajú."
   },
   "adventureCategory": {
     "mountainsSubtitle": "6 zo 7 kontinentov zdolaných.",
     "divingSubtitle": "PADI Divemaster. 6 zo 7 kontinentov potápaných.",
     "skiingSubtitle": "4 zo 7 kontinentov lyžovaných.",
-    "travelSubtitle": "58 z 195 krajín navštívených.",
     "empty": "[VERIFY: add expeditions for this category]",
     "divingCertsHeading": "Certifikáty",
     "summitted": "Zdolaný vrchol",

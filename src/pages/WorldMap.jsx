@@ -20,6 +20,7 @@ export default function WorldMapPage() {
     <div className="space-y-10 py-10">
       <SectionHeading
         eyebrow={t('worldMapPage.eyebrow')}
+        eyebrowTo="/adventures"
         title={t('worldMapPage.title')}
         subtitle={
           countriesStat

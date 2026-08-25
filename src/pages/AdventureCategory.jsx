@@ -6,13 +6,12 @@ import MountainsMap from '../components/MountainsMap';
 import expeditions from '../data/expeditions';
 import divingCerts from '../data/divingCerts';
 import { parseFirstDate } from '../utils/helpers';
-import { MountainIcon, DivingIcon, SkiingIcon, CompassIcon } from '../components/AdventureIcons';
+import { MountainIcon, DivingIcon, SkiingIcon } from '../components/AdventureIcons';
 
 const meta = {
   mountains: { labelKey: 'mountainsLabel', subtitleKey: 'mountainsSubtitle', Icon: MountainIcon },
   diving: { labelKey: 'divingLabel', subtitleKey: 'divingSubtitle', Icon: DivingIcon },
   skiing: { labelKey: 'skiingLabel', subtitleKey: 'skiingSubtitle', Icon: SkiingIcon },
-  travel: { labelKey: 'travelLabel', subtitleKey: 'travelSubtitle', Icon: CompassIcon },
 };
 
 // Only the placeholder stub rows (one per unstarted category) have these fields

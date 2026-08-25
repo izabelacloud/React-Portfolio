@@ -95,15 +95,12 @@
     "skiingLabel": "Лыжи",
     "skiingDesc": "Быстро читать рельеф и условия, и адаптироваться ещё быстрее.",
     "travelLabel": "Путешествия",
-    "travelDesc": "58 из 195 стран. Счёт продолжается.",
-    "worldMapLabel": "Карта мира",
-    "worldMapDesc": "Приблизьте каждую посещённую страну, метка за меткой."
+    "travelDesc": "58 из 195 стран. Счёт продолжается."
   },
   "adventureCategory": {
     "mountainsSubtitle": "6 из 7 континентов покорено.",
     "divingSubtitle": "PADI Divemaster. 6 из 7 континентов с погружениями.",
     "skiingSubtitle": "4 из 7 континентов на лыжах.",
-    "travelSubtitle": "58 из 195 стран посещено.",
     "empty": "[VERIFY: add expeditions for this category]",
     "divingCertsHeading": "Сертификаты",
     "summitted": "Вершина достигнута",

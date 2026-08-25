@@ -95,15 +95,12 @@
     "skiingLabel": "Síelés",
     "skiingDesc": "Terep és körülmények gyors leolvasása, és még gyorsabb alkalmazkodás.",
     "travelLabel": "Utazás",
-    "travelDesc": "58 a 195 országból. Még mindig számolom.",
-    "worldMapLabel": "Világtérkép",
-    "worldMapDesc": "Közelíts rá minden eddig meglátogatott országra, pin után pin."
+    "travelDesc": "58 a 195 országból. Még mindig számolom."
   },
   "adventureCategory": {
     "mountainsSubtitle": "6 a 7 kontinensből megmászva.",
     "divingSubtitle": "PADI Divemaster. 6 a 7 kontinensből merülve.",
     "skiingSubtitle": "4 a 7 kontinensből síelve.",
-    "travelSubtitle": "58 a 195 országból meglátogatva.",
     "empty": "[VERIFY: add expeditions for this category]",
     "divingCertsHeading": "Minősítések",
     "summitted": "Megmászva",

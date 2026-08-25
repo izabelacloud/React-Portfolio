@@ -10,8 +10,7 @@ const categories = [
   { to: '/adventures/mountains', labelKey: 'mountainsLabel', descKey: 'mountainsDesc', Icon: MountainIcon },
   { to: '/adventures/diving', labelKey: 'divingLabel', descKey: 'divingDesc', Icon: DivingIcon },
   { to: '/adventures/skiing', labelKey: 'skiingLabel', descKey: 'skiingDesc', Icon: SkiingIcon },
-  { to: '/adventures/travel', labelKey: 'travelLabel', descKey: 'travelDesc', Icon: CompassIcon },
-  { to: '/destinations', labelKey: 'worldMapLabel', descKey: 'worldMapDesc', Icon: CompassIcon },
+  { to: '/destinations', labelKey: 'travelLabel', descKey: 'travelDesc', Icon: CompassIcon },
 ];
 
 export default function Adventures() {

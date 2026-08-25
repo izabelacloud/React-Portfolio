@@ -12,39 +12,37 @@ export default function Filmstrip({ items }) {
   if (!items?.length) return null;
 
   return (
-    <div className="-mx-6 overflow-x-auto px-6 pb-2">
-      <div className="flex w-max gap-4">
-        {items.map((item) => {
-          const Icon = item.Icon ?? CameraIcon;
-          const content = (
-            <>
-              <Icon className="h-8 w-8 text-accent" />
-              <span className="font-display text-sm font-medium text-ink dark:text-warm">{item.label}</span>
-            </>
-          );
+    <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
+      {items.map((item) => {
+        const Icon = item.Icon ?? CameraIcon;
+        const content = (
+          <>
+            <Icon className="h-8 w-8 text-accent" />
+            <span className="font-display text-sm font-medium text-ink dark:text-warm">{item.label}</span>
+          </>
+        );
 
-          if (item.to) {
-            return (
-              <Link
-                key={item.key}
-                to={item.to}
-                className="group flex h-32 w-32 flex-none flex-col items-center justify-center gap-3 rounded-2xl border border-stone/40 p-4 text-center transition-all hover:-translate-y-1 hover:border-accent dark:border-charcoal sm:h-36 sm:w-36"
-              >
-                {content}
-              </Link>
-            );
-          }
-
+        if (item.to) {
           return (
-            <div
+            <Link
               key={item.key}
-              className="flex h-32 w-32 flex-none flex-col items-center justify-center gap-3 rounded-2xl border border-stone/40 p-4 text-center dark:border-charcoal sm:h-36 sm:w-36"
+              to={item.to}
+              className="flex aspect-square flex-col items-center justify-center gap-3 rounded-2xl border border-stone/40 p-4 text-center transition-all hover:-translate-y-1 hover:border-accent dark:border-charcoal"
             >
               {content}
-            </div>
+            </Link>
           );
-        })}
-      </div>
+        }
+
+        return (
+          <div
+            key={item.key}
+            className="flex aspect-square flex-col items-center justify-center gap-3 rounded-2xl border border-stone/40 p-4 text-center dark:border-charcoal"
+          >
+            {content}
+          </div>
+        );
+      })}
     </div>
   );
 }
