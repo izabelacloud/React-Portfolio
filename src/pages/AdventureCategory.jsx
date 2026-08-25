@@ -46,6 +46,7 @@ export default function AdventureCategory() {
       <info.Icon className="h-10 w-10 text-accent" />
       <SectionHeading
         eyebrow={t('adventures.eyebrow')}
+        eyebrowTo="/adventures"
         title={t(`adventures.${info.labelKey}`)}
         subtitle={t(`adventureCategory.${info.subtitleKey}`)}
       />
