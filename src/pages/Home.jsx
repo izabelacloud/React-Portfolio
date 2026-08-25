@@ -6,9 +6,9 @@ import CTA from '../components/CTA';
 import StatDisplay from '../components/StatDisplay';
 import ContourDivider from '../components/ContourDivider';
 import Quote from '../components/Quote';
-import ProfilePhotoPlaceholder from '../components/ProfilePhotoPlaceholder';
 import { DivingIcon, MountainIcon, RunningIcon } from '../components/AdventureIcons';
 import stats from '../data/stats';
+import profilePhoto from '../assets/ip2.jpg';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -20,7 +20,13 @@ export default function Home() {
         title={t('common.fullName')}
         subtitle={t('home.heroTitle')}
         description={t('home.heroSubtitle')}
-        media={<ProfilePhotoPlaceholder />}
+        media={
+          <img
+            src={profilePhoto}
+            alt={t('common.fullName')}
+            className="h-40 w-40 flex-none rounded-full border-4 border-white object-cover shadow-lg sm:h-52 sm:w-52 dark:border-white/10"
+          />
+        }
       >
         <CTA to="/work">{t('common.seeWork')}</CTA>
         <CTA to="/adventures" variant="secondary">{t('common.seeAdventures')}</CTA>
