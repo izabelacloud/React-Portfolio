@@ -21,10 +21,7 @@ export default function AdventureTimeline({ items }) {
             }`}
           />
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">{item.date}</p>
-          <h3 className="mt-1 font-display text-lg font-medium">
-            {item.title}
-            {item.subtitle && <span className="font-normal text-muted"> · {item.subtitle}</span>}
-          </h3>
+          <h3 className="mt-1 font-display text-lg font-medium">{item.title}</h3>
           <div className="mt-0.5 flex flex-wrap items-center gap-2 text-sm">
             <span className="font-semibold text-accent">{item.location}</span>
             {item.continent && (
