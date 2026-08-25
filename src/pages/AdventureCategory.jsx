@@ -62,6 +62,10 @@ export default function AdventureCategory() {
       ) : (
         <p className="text-muted">{t('adventureCategory.empty')}</p>
       )}
+
+      <Link to="/adventures" className="inline-block text-sm font-semibold text-accent hover:underline">
+        {t('common.backToAdventures')}
+      </Link>
     </div>
   );
 }
