@@ -3,7 +3,7 @@ import SectionHeading from '../components/SectionHeading';
 import StatDisplay from '../components/StatDisplay';
 import CTA from '../components/CTA';
 import Filmstrip from '../components/Filmstrip';
-import { MountainIcon, DivingIcon, SkiingIcon, RunningIcon, CompassIcon } from '../components/AdventureIcons';
+import { MountainIcon, DivingIcon, SkiingIcon, CompassIcon } from '../components/AdventureIcons';
 import stats from '../data/stats';
 
 const categories = [
@@ -14,16 +14,15 @@ const categories = [
   { to: '/destinations', labelKey: 'worldMapLabel', descKey: 'worldMapDesc', Icon: CompassIcon },
 ];
 
-const filmstripItems = [
-  { key: 'mountains', label: 'Mountains', Icon: MountainIcon },
-  { key: 'diving', label: 'Diving', Icon: DivingIcon },
-  { key: 'skiing', label: 'Skiing', Icon: SkiingIcon },
-  { key: 'running', label: 'Running', Icon: RunningIcon },
-  { key: 'travel', label: 'Travel', Icon: CompassIcon },
-];
-
 export default function Adventures() {
   const { t } = useTranslation();
+
+  const filmstripItems = categories.map((cat) => ({
+    key: cat.to,
+    to: cat.to,
+    label: t(`adventures.${cat.labelKey}`),
+    Icon: cat.Icon,
+  }));
 
   return (
     <div className="space-y-16 py-10">

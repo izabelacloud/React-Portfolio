@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function CameraIcon(props) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -10,17 +12,39 @@ export default function Filmstrip({ items }) {
   if (!items?.length) return null;
 
   return (
-    <div className="overflow-x-auto rounded-2xl bg-ink py-3 dark:bg-black/60">
-      <div className="flex w-max gap-1 px-3">
+    <div className="-mx-6 overflow-x-auto px-6 pb-2">
+      <div className="flex w-max gap-4 rounded-2xl bg-ink p-4 dark:bg-black/60">
         {items.map((item) => {
           const Icon = item.Icon ?? CameraIcon;
+          const content = (
+            <>
+              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-accent/15 text-accent transition-colors group-hover:bg-accent group-hover:text-ink">
+                <Icon className="h-7 w-7" />
+              </span>
+              <span className="text-xs font-semibold uppercase tracking-wide text-warm/80 group-hover:text-warm">
+                {item.label}
+              </span>
+            </>
+          );
+
+          if (item.to) {
+            return (
+              <Link
+                key={item.key}
+                to={item.to}
+                className="group flex h-32 w-32 flex-none flex-col items-center justify-center gap-3 rounded-2xl border border-white/10 bg-white/5 transition-all hover:-translate-y-1 hover:border-accent/60 hover:bg-white/10 sm:h-40 sm:w-40"
+              >
+                {content}
+              </Link>
+            );
+          }
+
           return (
             <div
               key={item.key}
-              className="flex h-28 w-28 flex-none flex-col items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 text-warm/50 sm:h-36 sm:w-36"
+              className="group flex h-32 w-32 flex-none flex-col items-center justify-center gap-3 rounded-2xl border border-white/10 bg-white/5 text-warm/50 sm:h-40 sm:w-40"
             >
-              <Icon className="h-8 w-8" />
-              <span className="text-xs font-semibold uppercase tracking-wide">{item.label}</span>
+              {content}
             </div>
           );
         })}
