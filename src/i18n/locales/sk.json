@@ -47,7 +47,19 @@
     "professionalSubtitle": "Riaditeľka podnikovej technickej architektúry, zameriavam sa na end-to-end podnikovú architektúru pre globálne organizácie.",
     "personalEyebrow": "Osobné",
     "personalSubtitle": "PADI Divemaster, horolezkyňa, lyžiarka a cestovateľka, 58 z 195 krajín a stále pribúdajú.",
-    "quote": "Každý krok predtým ma priviedol až sem. Nikdy by som si nedokázala predstaviť, aké šťastie budem mať, že zažijem všetko toto a stretnem toľko zaujímavých ľudí na svojej ceste. Každý krok, každý dych, každá skúsenosť ma formovala a dovolila mi myslieť väčšmi než kedykoľvek predtým, vždy hľadajúc to, čo tento krásny svet môže ponúknuť."
+    "quote": "Každý krok predtým ma priviedol až sem. Nikdy by som si nedokázala predstaviť, aké šťastie budem mať, že zažijem všetko toto a stretnem toľko zaujímavých ľudí na svojej ceste. Každý krok, každý dych, každá skúsenosť ma formovala a dovolila mi myslieť väčšmi než kedykoľvek predtým, vždy hľadajúc to, čo tento krásny svet môže ponúknuť.",
+    "chipGlobal": "Globálna občianka",
+    "chipDiver": "PADI Divemaster",
+    "chipMountaineer": "Horolezkyňa",
+    "chipRunner": "Maratónska bežkyňa",
+    "chipCountries": "58 z 195 krajín",
+    "spotlightEyebrow": "Najnovšia expedícia",
+    "calloutDiverLabel": "Potápačka",
+    "calloutDiverLine": "Pokoj pod tlakom, v hlbinách.",
+    "calloutMountaineerLabel": "Horolezkyňa",
+    "calloutMountaineerLine": "Jeden vedomý krok za druhým.",
+    "calloutRunnerLabel": "Bežkyňa",
+    "calloutRunnerLine": "Konzistentnosť pred intenzitou."
   },
   "about": {
     "greeting": "Ahoj, som",

@@ -47,7 +47,19 @@
     "professionalSubtitle": "Vállalati technikai architektúra igazgatója, a végponttól végpontig tartó vállalati architektúrára fókuszálva globális szervezetek számára.",
     "personalEyebrow": "Személyes",
     "personalSubtitle": "PADI Divemaster, hegymászó, síelő és utazó, 58 a 195 országból, és folytatódik.",
-    "quote": "Minden korábbi lépésem idáig vezetett. Soha nem gondoltam volna, hogy ilyen szerencsés leszek, hogy mindezt megtapasztalhatom, és útközben ennyi érdekes emberrel találkozhatom. Minden lépés, minden lélegzet, minden tapasztalat formált engem, és lehetővé tette, hogy nagyobb léptékben gondolkodjam, mint korábban bármikor, mindig keresve azt, amit ez a gyönyörű világ nyújtani tud."
+    "quote": "Minden korábbi lépésem idáig vezetett. Soha nem gondoltam volna, hogy ilyen szerencsés leszek, hogy mindezt megtapasztalhatom, és útközben ennyi érdekes emberrel találkozhatom. Minden lépés, minden lélegzet, minden tapasztalat formált engem, és lehetővé tette, hogy nagyobb léptékben gondolkodjam, mint korábban bármikor, mindig keresve azt, amit ez a gyönyörű világ nyújtani tud.",
+    "chipGlobal": "Globális állampolgár",
+    "chipDiver": "PADI Divemaster",
+    "chipMountaineer": "Hegymászó",
+    "chipRunner": "Maratonfutó",
+    "chipCountries": "58 a 195 országból",
+    "spotlightEyebrow": "Legutóbbi expedíció",
+    "calloutDiverLabel": "Búvár",
+    "calloutDiverLine": "Nyugalom nyomás alatt, a mélyben.",
+    "calloutMountaineerLabel": "Hegymászó",
+    "calloutMountaineerLine": "Egy tudatos lépés egyszerre.",
+    "calloutRunnerLabel": "Futó",
+    "calloutRunnerLine": "Következetesség az intenzitás helyett."
   },
   "about": {
     "greeting": "Szia, én vagyok",

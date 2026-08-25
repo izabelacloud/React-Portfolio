@@ -47,7 +47,19 @@
     "professionalSubtitle": "Direktorin für technische Unternehmensarchitektur, mit Fokus auf End-to-End-Unternehmensarchitektur für globale Organisationen.",
     "personalEyebrow": "Persönlich",
     "personalSubtitle": "PADI Divemaster, Bergsteigerin, Skifahrerin und Reisende, 58 von 195 Ländern und es werden mehr.",
-    "quote": "Jeder Schritt davor hat mich hierher geführt. Ich hätte mir nie vorstellen können, wie viel Glück ich haben würde, all das zu erleben und so viele interessante Menschen auf dem Weg zu treffen. Jeder Schritt, jeder Atemzug, jede Erfahrung hat mich geprägt und mich größer denken lassen als je zuvor, immer auf der Suche nach dem, was diese wunderschöne Welt zu bieten hat."
+    "quote": "Jeder Schritt davor hat mich hierher geführt. Ich hätte mir nie vorstellen können, wie viel Glück ich haben würde, all das zu erleben und so viele interessante Menschen auf dem Weg zu treffen. Jeder Schritt, jeder Atemzug, jede Erfahrung hat mich geprägt und mich größer denken lassen als je zuvor, immer auf der Suche nach dem, was diese wunderschöne Welt zu bieten hat.",
+    "chipGlobal": "Weltbürgerin",
+    "chipDiver": "PADI Divemaster",
+    "chipMountaineer": "Bergsteigerin",
+    "chipRunner": "Marathonläuferin",
+    "chipCountries": "58 von 195 Ländern",
+    "spotlightEyebrow": "Neueste Expedition",
+    "calloutDiverLabel": "Taucherin",
+    "calloutDiverLine": "Ruhig bleiben unter Druck, in der Tiefe.",
+    "calloutMountaineerLabel": "Bergsteigerin",
+    "calloutMountaineerLine": "Ein bewusster Schritt nach dem anderen.",
+    "calloutRunnerLabel": "Läuferin",
+    "calloutRunnerLine": "Beständigkeit vor Intensität."
   },
   "about": {
     "greeting": "Hallo, ich bin",

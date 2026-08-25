@@ -47,7 +47,19 @@
     "professionalSubtitle": "Enterprise Technical Architecture Director, focused on end-to-end enterprise architecture for global organizations.",
     "personalEyebrow": "Personal",
     "personalSubtitle": "PADI Divemaster, mountaineer, skier and traveler, 58 of 195 countries and counting.",
-    "quote": "Every step before this one led me here. I could never have imagined how fortunate I would be to experience all of this and meet so many interesting people along the way. Every step, every breath, every experience has shaped me and let me think bigger than ever before, always seeking what this beautiful world has to give."
+    "quote": "Every step before this one led me here. I could never have imagined how fortunate I would be to experience all of this and meet so many interesting people along the way. Every step, every breath, every experience has shaped me and let me think bigger than ever before, always seeking what this beautiful world has to give.",
+    "chipGlobal": "Global citizen",
+    "chipDiver": "PADI Divemaster",
+    "chipMountaineer": "Mountaineer",
+    "chipRunner": "Marathon runner",
+    "chipCountries": "58 of 195 countries",
+    "spotlightEyebrow": "Latest expedition",
+    "calloutDiverLabel": "Diver",
+    "calloutDiverLine": "Calm under pressure, at depth.",
+    "calloutMountaineerLabel": "Mountaineer",
+    "calloutMountaineerLine": "One deliberate step at a time.",
+    "calloutRunnerLabel": "Runner",
+    "calloutRunnerLine": "Consistency over intensity."
   },
   "about": {
     "greeting": "Hi, I'm",

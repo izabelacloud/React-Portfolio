@@ -47,7 +47,19 @@
     "professionalSubtitle": "Directrice de l'architecture technique d'entreprise, spécialisée dans l'architecture d'entreprise de bout en bout pour des organisations mondiales.",
     "personalEyebrow": "Personnel",
     "personalSubtitle": "PADI Divemaster, alpiniste, skieuse et voyageuse, 58 pays sur 195, et ça continue.",
-    "quote": "Chaque étape avant celle-ci m'a menée ici. Je n'aurais jamais pu imaginer la chance que j'aurais de vivre tout cela et de rencontrer autant de personnes intéressantes en chemin. Chaque étape, chaque souffle, chaque expérience m'a façonnée et m'a permis de penser plus grand que jamais, toujours à la recherche de ce que ce monde magnifique a à offrir."
+    "quote": "Chaque étape avant celle-ci m'a menée ici. Je n'aurais jamais pu imaginer la chance que j'aurais de vivre tout cela et de rencontrer autant de personnes intéressantes en chemin. Chaque étape, chaque souffle, chaque expérience m'a façonnée et m'a permis de penser plus grand que jamais, toujours à la recherche de ce que ce monde magnifique a à offrir.",
+    "chipGlobal": "Citoyenne du monde",
+    "chipDiver": "PADI Divemaster",
+    "chipMountaineer": "Alpiniste",
+    "chipRunner": "Marathonienne",
+    "chipCountries": "58 pays sur 195",
+    "spotlightEyebrow": "Dernière expédition",
+    "calloutDiverLabel": "Plongeuse",
+    "calloutDiverLine": "Calme sous pression, en profondeur.",
+    "calloutMountaineerLabel": "Alpiniste",
+    "calloutMountaineerLine": "Un pas délibéré à la fois.",
+    "calloutRunnerLabel": "Coureuse",
+    "calloutRunnerLine": "La constance avant l'intensité."
   },
   "about": {
     "greeting": "Bonjour, je suis",
