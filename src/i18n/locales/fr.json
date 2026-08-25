@@ -51,6 +51,7 @@
     "chipGlobal": "Citoyenne du monde",
     "chipDiver": "PADI Divemaster",
     "chipMountaineer": "Alpiniste",
+    "chipSkier": "Skieuse",
     "chipRunner": "Marathonienne",
     "chipCountries": "58 pays sur 195",
     "spotlightEyebrow": "Dernière expédition",
@@ -58,6 +59,8 @@
     "calloutDiverLine": "Calme sous pression, en profondeur.",
     "calloutMountaineerLabel": "Alpiniste",
     "calloutMountaineerLine": "Un pas délibéré à la fois.",
+    "calloutSkierLabel": "Skieuse",
+    "calloutSkierLine": "4 continents sur 7 skiés.",
     "calloutRunnerLabel": "Coureuse",
     "calloutRunnerLine": "La constance avant l'intensité."
   },
@@ -74,7 +77,13 @@
     "mountaineer": "En tant qu'<1>alpiniste</1>, j'ai découvert que les réalisations significatives se construisent un pas délibéré à la fois. Le succès vient de la résilience, de la planification et de l'adaptation lorsque les conditions changent inévitablement, car tout est dans la tête : on affronte ses peurs et on n'abandonne jamais.",
     "marathon": "En tant que <1>marathonienne</1>, j'ai appris que la constance surpasse l'intensité. Les résultats à long terme viennent de la discipline, de la persévérance et de l'amélioration continue plutôt que des victoires rapides. C'est la preuve que tout est dans la tête : il faut surmonter la peur, et ne jamais abandonner.",
     "continents": "Ayant <1>vécu et travaillé sur trois continents</1>, j'ai développé une perspective mondiale qui me permet de collaborer efficacement avec des équipes diverses, de comprendre différentes cultures d'entreprise et de bâtir des relations solides entre organisations.",
-    "closing": "Car les meilleures solutions ne résolvent pas simplement les problèmes d'aujourd'hui. Elles créent des opportunités pour demain."
+    "closing": "Car les meilleures solutions ne résolvent pas simplement les problèmes d'aujourd'hui. Elles créent des opportunités pour demain.",
+    "hook": "J'ai toujours été attirée par la limite du familier.",
+    "professional": "Sur le plan professionnel, cela signifie résoudre des problèmes complexes, concevoir des architectures d'entreprise et guider des équipes dans l'incertitude. Après quinze ans, j'ai appris à transformer la complexité en clarté, les idées en solutions, et les défis en possibilités.",
+    "personal": "Au-delà de la technologie, je recherche un autre type de terrain : montagnes, océans, neige, lieux inconnus. En tant que PADI Divemaster, alpiniste, skieuse, grimpeuse et exploratrice, j'ai appris que la résilience se construit un pas difficile à la fois, que le courage ne signifie que rarement l'absence de peur, et que les plus belles vues se méritent.",
+    "sameInstinct": "Des mondes différents. Le même instinct.",
+    "explore": "Explorer. Comprendre. Aller au-delà de ce que je croyais possible.",
+    "horizon": "Et continuer d'avancer vers ce qui se trouve derrière l'horizon."
   },
   "adventures": {
     "eyebrow": "Aventures",

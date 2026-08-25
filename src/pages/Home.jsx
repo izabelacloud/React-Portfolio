@@ -5,16 +5,17 @@ import Hero from '../components/Hero';
 import CTA from '../components/CTA';
 import StatDisplay from '../components/StatDisplay';
 import ContourDivider from '../components/ContourDivider';
-import { DivingIcon, MountainIcon, RunningIcon } from '../components/AdventureIcons';
+import { DivingIcon, MountainIcon, SkiingIcon, RunningIcon } from '../components/AdventureIcons';
 import stats from '../data/stats';
 import expeditions from '../data/expeditions';
 import profilePhoto from '../assets/ip2.jpg';
 
-const chipKeys = ['chipGlobal', 'chipDiver', 'chipMountaineer', 'chipRunner', 'chipCountries'];
+const chipKeys = ['chipGlobal', 'chipDiver', 'chipMountaineer', 'chipSkier', 'chipRunner', 'chipCountries'];
 
 const callouts = [
   { Icon: DivingIcon, labelKey: 'calloutDiverLabel', lineKey: 'calloutDiverLine' },
   { Icon: MountainIcon, labelKey: 'calloutMountaineerLabel', lineKey: 'calloutMountaineerLine' },
+  { Icon: SkiingIcon, labelKey: 'calloutSkierLabel', lineKey: 'calloutSkierLine' },
   { Icon: RunningIcon, labelKey: 'calloutRunnerLabel', lineKey: 'calloutRunnerLine' },
 ];
 
@@ -60,6 +61,29 @@ export default function Home() {
           </span>
         ))}
       </div>
+
+      <ContourDivider className="text-accent" />
+
+      <motion.section
+        initial={{ opacity: 0, y: 16 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-40px' }}
+        transition={{ duration: 0.4 }}
+        className="mx-auto max-w-2xl py-14"
+      >
+        <p className="font-display text-2xl font-medium tracking-tight sm:text-3xl">
+          {t('about.hook')}
+        </p>
+        <div className="mt-6 space-y-4 text-base text-ink/70 dark:text-stone">
+          <p>{t('about.professional')}</p>
+          <p>{t('about.personal')}</p>
+        </div>
+        <p className="mt-6 font-display text-lg font-medium text-accent">
+          {t('about.sameInstinct')}
+        </p>
+        <p className="mt-2 text-base text-ink/70 dark:text-stone">{t('about.explore')}</p>
+        <p className="text-base text-ink/70 dark:text-stone">{t('about.horizon')}</p>
+      </motion.section>
 
       <ContourDivider className="text-accent" />
 

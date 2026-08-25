@@ -51,6 +51,7 @@
     "chipGlobal": "Globálna občianka",
     "chipDiver": "PADI Divemaster",
     "chipMountaineer": "Horolezkyňa",
+    "chipSkier": "Lyžiarka",
     "chipRunner": "Maratónska bežkyňa",
     "chipCountries": "58 z 195 krajín",
     "spotlightEyebrow": "Najnovšia expedícia",
@@ -58,6 +59,8 @@
     "calloutDiverLine": "Pokoj pod tlakom, v hlbinách.",
     "calloutMountaineerLabel": "Horolezkyňa",
     "calloutMountaineerLine": "Jeden vedomý krok za druhým.",
+    "calloutSkierLabel": "Lyžiarka",
+    "calloutSkierLine": "4 zo 7 kontinentov na lyžiach.",
     "calloutRunnerLabel": "Bežkyňa",
     "calloutRunnerLine": "Konzistentnosť pred intenzitou."
   },
@@ -74,7 +77,13 @@
     "mountaineer": "Ako <1>horolezkyňa</1> som zažila, že významné úspechy sa budujú jeden vedomý krok po druhom. Úspech pochádza z odolnosti, plánovania a schopnosti prispôsobiť sa, keď sa podmienky nevyhnutne zmenia, pretože všetko je v hlave: postavíš sa svojim strachom a nikdy sa nevzdáš.",
     "marathon": "Ako <1>maratónska bežkyňa</1> som sa naučila, že konzistentnosť prevyšuje intenzitu. Dlhodobé výsledky prichádzajú z disciplíny, vytrvalosti a neustáleho zlepšovania, nie z rýchlych výhier. Je to dôkaz, že všetko je v hlave: prekonaj strach a nikdy sa nevzdávaj.",
     "continents": "Keďže som <1>žila a pracovala na troch kontinentoch</1>, vytvorila som si globálnu perspektívu, ktorá mi umožňuje efektívne spolupracovať s rôznorodými tímami, chápať rozdielne obchodné kultúry a budovať silné vzťahy medzi organizáciami.",
-    "closing": "Pretože najlepšie riešenia jednoducho neriešia dnešné problémy. Vytvárajú príležitosti pre zajtrajšok."
+    "closing": "Pretože najlepšie riešenia jednoducho neriešia dnešné problémy. Vytvárajú príležitosti pre zajtrajšok.",
+    "hook": "Vždy ma to ťahalo na okraj známeho.",
+    "professional": "Profesionálne to znamená riešiť zložité problémy, navrhovať podnikové architektúry a viesť ľudí cez neistotu. Po pätnástich rokoch som sa naučila meniť zložitosť na jasnosť, nápady na riešenia a výzvy na príležitosti.",
+    "personal": "Mimo technológií hľadám iný druh terénu: hory, oceány, sneh, neznáme miesta. Ako PADI Divemaster, horolezkyňa, lyžiarka, lezkyňa a cestovateľka som sa naučila, že odolnosť sa buduje krok po kroku, že odvaha len málokedy znamená nemať strach, a že najkrajšie výhľady si zvyčajne treba zaslúžiť.",
+    "sameInstinct": "Rôzne svety. Ten istý instinkt.",
+    "explore": "Skúmať. Rozumieť. Posunúť sa za hranice toho, čo som považovala za možné.",
+    "horizon": "A neustále sa posúvať k tomu, čo je za horizontom."
   },
   "adventures": {
     "eyebrow": "Dobrodružstvá",

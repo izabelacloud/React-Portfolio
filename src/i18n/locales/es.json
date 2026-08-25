@@ -51,6 +51,7 @@
     "chipGlobal": "Ciudadana global",
     "chipDiver": "PADI Divemaster",
     "chipMountaineer": "Montañista",
+    "chipSkier": "Esquiadora",
     "chipRunner": "Corredora de maratón",
     "chipCountries": "58 de 195 países",
     "spotlightEyebrow": "Última expedición",
@@ -58,6 +59,8 @@
     "calloutDiverLine": "Calma bajo presión, en profundidad.",
     "calloutMountaineerLabel": "Montañista",
     "calloutMountaineerLine": "Un paso deliberado a la vez.",
+    "calloutSkierLabel": "Esquiadora",
+    "calloutSkierLine": "4 de 7 continentes esquiados.",
     "calloutRunnerLabel": "Corredora",
     "calloutRunnerLine": "Constancia por encima de intensidad."
   },
@@ -74,7 +77,13 @@
     "mountaineer": "Como <1>montañista</1>, he experimentado que los logros significativos se construyen un paso deliberado a la vez. El éxito proviene de la resiliencia, la planificación y la adaptación cuando las condiciones inevitablemente cambian, porque todo está en la cabeza: enfrentas tus miedos y nunca te rindes.",
     "marathon": "Como <1>corredora de maratón</1>, he aprendido que la constancia supera a la intensidad. Los resultados a largo plazo provienen de la disciplina, la persistencia y la mejora continua, no de victorias rápidas. Es prueba de que todo está en la cabeza: supera el miedo y nunca te rindes.",
     "continents": "Habiendo <1>vivido y trabajado en tres continentes</1>, he desarrollado una perspectiva global que me permite colaborar eficazmente con equipos diversos, entender diferentes culturas empresariales y construir relaciones sólidas entre organizaciones.",
-    "closing": "Porque las mejores soluciones no simplemente resuelven los problemas de hoy. Crean oportunidades para el futuro."
+    "closing": "Porque las mejores soluciones no simplemente resuelven los problemas de hoy. Crean oportunidades para el futuro.",
+    "hook": "Siempre me ha atraído el borde de lo conocido.",
+    "professional": "En lo profesional, eso significa resolver problemas complejos, diseñar arquitecturas empresariales y guiar a las personas a través de la incertidumbre. Después de quince años, he aprendido a convertir la complejidad en claridad, las ideas en soluciones y los desafíos en posibilidades.",
+    "personal": "Más allá de la tecnología, busco otro tipo de terreno: montañas, océanos, nieve, lugares desconocidos. Como PADI Divemaster, montañista, esquiadora, escaladora y exploradora, he aprendido que la resiliencia se construye un paso difícil a la vez, que el coraje rara vez significa no tener miedo, y que las mejores vistas suelen ganarse.",
+    "sameInstinct": "Mundos distintos. El mismo instinto.",
+    "explore": "Explorar. Comprender. Ir más allá de lo que creía posible.",
+    "horizon": "Y seguir avanzando hacia lo que hay más allá del horizonte."
   },
   "adventures": {
     "eyebrow": "Aventuras",

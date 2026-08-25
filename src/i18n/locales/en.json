@@ -51,6 +51,7 @@
     "chipGlobal": "Global citizen",
     "chipDiver": "PADI Divemaster",
     "chipMountaineer": "Mountaineer",
+    "chipSkier": "Skier",
     "chipRunner": "Marathon runner",
     "chipCountries": "58 of 195 countries",
     "spotlightEyebrow": "Latest expedition",
@@ -58,6 +59,8 @@
     "calloutDiverLine": "Calm under pressure, at depth.",
     "calloutMountaineerLabel": "Mountaineer",
     "calloutMountaineerLine": "One deliberate step at a time.",
+    "calloutSkierLabel": "Skier",
+    "calloutSkierLine": "4 of 7 continents skied.",
     "calloutRunnerLabel": "Runner",
     "calloutRunnerLine": "Consistency over intensity."
   },
@@ -74,7 +77,13 @@
     "mountaineer": "As a <1>mountaineer</1>, I've experienced that meaningful achievements are built one deliberate step at a time. Success comes from resilience, planning, and adapting when conditions inevitably change, because everything is in your head: you face your fears and never give up.",
     "marathon": "As a <1>marathon runner</1>, I've learned that consistency outperforms intensity. Long-term results come from discipline, persistence, and continuous improvement rather than quick wins. It's proof that everything is in your head: overcome the fear, and never give up.",
     "continents": "Having <1>lived and worked across three continents</1>, I've developed a global perspective that allows me to collaborate effectively with diverse teams, understand different business cultures, and build strong relationships across organisations.",
-    "closing": "Because the best solutions don't simply solve today's problems. They create opportunities for tomorrow."
+    "closing": "Because the best solutions don't simply solve today's problems. They create opportunities for tomorrow.",
+    "hook": "I have always been drawn to the edge of the familiar.",
+    "professional": "Professionally, that means solving complex problems, designing enterprise architectures, and leading people through ambiguity. Fifteen years in, I have learned to turn complexity into clarity, ideas into solutions, and challenges into possibilities.",
+    "personal": "Beyond technology, I seek a different kind of terrain: mountains, oceans, snow, unfamiliar places. As a PADI Divemaster, mountaineer, skier, climber and explorer, I have learned that resilience is built one difficult step at a time, that courage rarely means having no fear, and that the best views are usually earned.",
+    "sameInstinct": "Different worlds. The same instinct.",
+    "explore": "To explore. To understand. To push beyond what I thought was possible.",
+    "horizon": "And to keep moving toward whatever lies beyond the horizon."
   },
   "adventures": {
     "eyebrow": "Adventures",

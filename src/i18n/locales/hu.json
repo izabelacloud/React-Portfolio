@@ -51,6 +51,7 @@
     "chipGlobal": "Globális állampolgár",
     "chipDiver": "PADI Divemaster",
     "chipMountaineer": "Hegymászó",
+    "chipSkier": "Síelő",
     "chipRunner": "Maratonfutó",
     "chipCountries": "58 a 195 országból",
     "spotlightEyebrow": "Legutóbbi expedíció",
@@ -58,6 +59,8 @@
     "calloutDiverLine": "Nyugalom nyomás alatt, a mélyben.",
     "calloutMountaineerLabel": "Hegymászó",
     "calloutMountaineerLine": "Egy tudatos lépés egyszerre.",
+    "calloutSkierLabel": "Síelő",
+    "calloutSkierLine": "4 a 7 megsízott kontinensből.",
     "calloutRunnerLabel": "Futó",
     "calloutRunnerLine": "Következetesség az intenzitás helyett."
   },
@@ -74,7 +77,13 @@
     "mountaineer": "<1>Hegymászóként</1> megtapasztaltam, hogy a jelentős eredmények egy tudatos lépésről a másikra épülnek fel. A siker az ellenálló képességből, a tervezésből és az elkerülhetetlenül változó körülményekhez való alkalmazkodásból ered, mert minden a fejedben dől el: szembenézel a félelmeiddel, és sosem adod fel.",
     "marathon": "<1>Maratonfutóként</1> megtanultam, hogy a következetesség felülmúlja az intenzitást. A hosszú távú eredmények a fegyelemből, a kitartásból és a folyamatos fejlődésből származnak, nem a gyors győzelmekből. Ez bizonyítja, hogy minden a fejedben van: küzdd le a félelmet, és sosem add fel.",
     "continents": "Mivel <1>három kontinensen éltem és dolgoztam</1>, olyan globális perspektívát alakítottam ki, amely lehetővé teszi, hogy hatékonyan együttműködjek különböző csapatokkal, megértsem a különböző üzleti kultúrákat, és erős kapcsolatokat építsek szervezetek között.",
-    "closing": "Mert a legjobb megoldások nem egyszerűen a mai problémákat oldják meg. Lehetőségeket teremtenek a jövő számára."
+    "closing": "Mert a legjobb megoldások nem egyszerűen a mai problémákat oldják meg. Lehetőségeket teremtenek a jövő számára.",
+    "hook": "Mindig is az ismert világ szélét kerestem.",
+    "professional": "Szakmailag ez összetett problémák megoldását, vállalati architektúrák megtervezését és emberek vezetését jelenti a bizonytalanságban. Tizenöt év után megtanultam, hogyan alakítsam a komplexitást érthetőséggé, az ötleteket megoldássá, a kihívásokat lehetőséggé.",
+    "personal": "A technológián túl más terepet keresek: hegyeket, óceánokat, havat, ismeretlen helyeket. PADI Divemasterként, hegymászóként, síelőként, mászóként és felfedezőként megtanultam, hogy az ellenálló képesség egy nehéz lépésről a másikra épül, hogy a bátorság ritkán jelenti a félelem hiányát, és hogy a legszebb kilátásokat általában ki kell küzdeni.",
+    "sameInstinct": "Különböző világok. Ugyanaz az ösztön.",
+    "explore": "Felfedezni. Megérteni. Túllépni azon, amit lehetségesnek gondoltam.",
+    "horizon": "És tovább haladni afelé, ami a horizonton túl van."
   },
   "adventures": {
     "eyebrow": "Kalandok",

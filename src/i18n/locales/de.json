@@ -51,6 +51,7 @@
     "chipGlobal": "Weltbürgerin",
     "chipDiver": "PADI Divemaster",
     "chipMountaineer": "Bergsteigerin",
+    "chipSkier": "Skifahrerin",
     "chipRunner": "Marathonläuferin",
     "chipCountries": "58 von 195 Ländern",
     "spotlightEyebrow": "Neueste Expedition",
@@ -58,6 +59,8 @@
     "calloutDiverLine": "Ruhig bleiben unter Druck, in der Tiefe.",
     "calloutMountaineerLabel": "Bergsteigerin",
     "calloutMountaineerLine": "Ein bewusster Schritt nach dem anderen.",
+    "calloutSkierLabel": "Skifahrerin",
+    "calloutSkierLine": "4 von 7 Kontinenten beskifft.",
     "calloutRunnerLabel": "Läuferin",
     "calloutRunnerLine": "Beständigkeit vor Intensität."
   },
@@ -74,7 +77,13 @@
     "mountaineer": "Als <1>Bergsteigerin</1> habe ich erfahren, dass bedeutende Erfolge Schritt für Schritt entstehen. Erfolg kommt aus Widerstandsfähigkeit, Planung und der Fähigkeit, sich anzupassen, wenn sich die Bedingungen unweigerlich ändern, denn alles spielt sich im Kopf ab: Man stellt sich seinen Ängsten und gibt niemals auf.",
     "marathon": "Als <1>Marathonläuferin</1> habe ich gelernt, dass Beständigkeit Intensität übertrifft. Langfristige Ergebnisse entstehen durch Disziplin, Ausdauer und kontinuierliche Verbesserung statt schneller Erfolge. Es ist der Beweis, dass alles im Kopf ist: die Angst überwinden und niemals aufgeben.",
     "continents": "Da ich <1>auf drei Kontinenten gelebt und gearbeitet habe</1>, habe ich eine globale Perspektive entwickelt, die es mir ermöglicht, effektiv mit verschiedenen Teams zusammenzuarbeiten, unterschiedliche Geschäftskulturen zu verstehen und starke Beziehungen über Organisationen hinweg aufzubauen.",
-    "closing": "Denn die besten Lösungen lösen nicht einfach die Probleme von heute. Sie schaffen Chancen für morgen."
+    "closing": "Denn die besten Lösungen lösen nicht einfach die Probleme von heute. Sie schaffen Chancen für morgen.",
+    "hook": "Mich hat es schon immer an den Rand des Vertrauten gezogen.",
+    "professional": "Beruflich bedeutet das, komplexe Probleme zu lösen, Unternehmensarchitekturen zu entwerfen und Menschen durch Unsicherheit zu führen. Nach fünfzehn Jahren habe ich gelernt, Komplexität in Klarheit zu verwandeln, Ideen in Lösungen und Herausforderungen in Möglichkeiten.",
+    "personal": "Jenseits der Technik suche ich ein anderes Terrain: Berge, Ozeane, Schnee, unbekannte Orte. Als PADI Divemaster, Bergsteigerin, Skifahrerin, Kletterin und Entdeckerin habe ich gelernt, dass Widerstandsfähigkeit Schritt für Schritt entsteht, dass Mut selten bedeutet, keine Angst zu haben, und dass die schönsten Ausblicke meist hart erarbeitet sind.",
+    "sameInstinct": "Verschiedene Welten. Derselbe Instinkt.",
+    "explore": "Erforschen. Verstehen. Über das hinausgehen, was ich für möglich hielt.",
+    "horizon": "Und immer weiterziehen, dem Horizont entgegen."
   },
   "adventures": {
     "eyebrow": "Abenteuer",
