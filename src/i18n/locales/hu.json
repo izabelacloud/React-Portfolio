@@ -83,7 +83,9 @@
     "skiingSubtitle": "4 a 7 kontinensből síelve.",
     "travelSubtitle": "58 a 195 országból meglátogatva.",
     "empty": "[VERIFY: add expeditions for this category]",
-    "divingCertsHeading": "Minősítések"
+    "divingCertsHeading": "Minősítések",
+    "summitted": "Megmászva",
+    "attempted": "Megkísérelve"
   },
   "worldMapPage": {
     "eyebrow": "Kalandok",

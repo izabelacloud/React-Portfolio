@@ -83,7 +83,9 @@
     "skiingSubtitle": "4 von 7 Kontinenten Ski gefahren.",
     "travelSubtitle": "58 von 195 Ländern besucht.",
     "empty": "[VERIFY: add expeditions for this category]",
-    "divingCertsHeading": "Zertifizierungen"
+    "divingCertsHeading": "Zertifizierungen",
+    "summitted": "Bestiegen",
+    "attempted": "Versucht"
   },
   "worldMapPage": {
     "eyebrow": "Abenteuer",

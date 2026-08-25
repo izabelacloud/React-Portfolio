@@ -83,7 +83,9 @@
     "skiingSubtitle": "4 continents sur 7 skiés.",
     "travelSubtitle": "58 pays sur 195 visités.",
     "empty": "[VERIFY: add expeditions for this category]",
-    "divingCertsHeading": "Certifications"
+    "divingCertsHeading": "Certifications",
+    "summitted": "Sommet atteint",
+    "attempted": "Tenté"
   },
   "worldMapPage": {
     "eyebrow": "Aventures",

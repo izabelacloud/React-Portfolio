@@ -83,7 +83,9 @@
     "skiingSubtitle": "4 de 7 continentes esquiados.",
     "travelSubtitle": "58 de 195 países visitados.",
     "empty": "[VERIFY: add expeditions for this category]",
-    "divingCertsHeading": "Certificaciones"
+    "divingCertsHeading": "Certificaciones",
+    "summitted": "Cumbre alcanzada",
+    "attempted": "Intentado"
   },
   "worldMapPage": {
     "eyebrow": "Aventuras",

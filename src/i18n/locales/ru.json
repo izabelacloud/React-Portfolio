@@ -83,7 +83,9 @@
     "skiingSubtitle": "4 из 7 континентов на лыжах.",
     "travelSubtitle": "58 из 195 стран посещено.",
     "empty": "[VERIFY: add expeditions for this category]",
-    "divingCertsHeading": "Сертификаты"
+    "divingCertsHeading": "Сертификаты",
+    "summitted": "Вершина достигнута",
+    "attempted": "Попытка"
   },
   "worldMapPage": {
     "eyebrow": "Приключения",

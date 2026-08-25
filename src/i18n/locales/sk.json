@@ -83,7 +83,9 @@
     "skiingSubtitle": "4 zo 7 kontinentov lyžovaných.",
     "travelSubtitle": "58 z 195 krajín navštívených.",
     "empty": "[VERIFY: add expeditions for this category]",
-    "divingCertsHeading": "Certifikáty"
+    "divingCertsHeading": "Certifikáty",
+    "summitted": "Zdolaný vrchol",
+    "attempted": "Pokus"
   },
   "worldMapPage": {
     "eyebrow": "Dobrodružstvá",

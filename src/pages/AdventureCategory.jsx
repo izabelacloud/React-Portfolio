@@ -14,8 +14,10 @@ const meta = {
   travel: { labelKey: 'travelLabel', subtitleKey: 'travelSubtitle', Icon: CompassIcon },
 };
 
-function isVerified(expedition) {
-  return !Object.values(expedition).some(
+// Only the placeholder stub rows (one per unstarted category) have these fields
+// left as literal "[VERIFY ...]" markers; real entries always have a real title/date.
+function isPlaceholderStub(expedition) {
+  return [expedition.slug, expedition.title, expedition.date, expedition.moment].some(
     (value) => typeof value === 'string' && value.includes('[VERIFY')
   );
 }
@@ -25,7 +27,7 @@ export default function AdventureCategory() {
   const { category } = useParams();
   const info = meta[category];
   const items = expeditions
-    .filter((e) => e.category === category && isVerified(e))
+    .filter((e) => e.category === category && !isPlaceholderStub(e))
     .map((e) => ({ ...e, achievement: e.moment }))
     .sort((a, b) => (parseFirstDate(a.date) ?? 0) - (parseFirstDate(b.date) ?? 0));
 
