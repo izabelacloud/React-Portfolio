@@ -52,11 +52,11 @@
   "about": {
     "greeting": "Ahoj, som",
     "accentLine": "Architektka profesiou. Dobrodruh inštinktom.",
-    "locationLine": "Od augusta 2025 žijem v Melbourne v Austrálii. Pôvodne som zo Slovenska.",
+    "locationLine": "Globálna občianka, neustále na cestách medzi časovými pásmami.",
     "p1": "Viac ako desať rokov pomáham globálnym organizáciám riešiť zložité obchodné výzvy pomocou technológií. Moja kariéra sa formovala na priesečníku podnikovej architektúry, strategického poradenstva a praktického vývoja, pri premene ambicióznych obchodných cieľov na škálovateľné a praktické riešenia, ktoré prinášajú merateľnú hodnotu.",
     "p2": "Ako <1>riaditeľka podnikovej technickej architektúry</1> spolupracujem s vedením, obchodnými lídrami a dodávateľskými tímami na návrhu programov digitálnej transformácie v podnikovom rozsahu, so zameraním na end-to-end podnikovú architektúru. Moja expertíza zahŕňa architektúru Salesforce, Quote-to-Cash, Revenue Lifecycle Management, CRM strategiu, integráciu systémov, cloudové platformy a návrh podnikových riešení v odvetviach ako finančné služby, telekomunikácie, výroba, SaaS, analytika a profesionálne služby.",
     "p3": "Verím, že skvelá architektúra nie je len o technológii. Ide o pochopenie ľudí, zosúladenie zainteresovaných strán, zjednodušenie zložitosti a vytváranie systémov, ktoré zostanú adaptovateľné aj o roky.",
-    "journey": "Považujem sa za globálnu občianku. Vyrastala som na Slovensku a potom som žila a pracovala v Silicon Valley v Kalifornii, v Londýne v Spojenom kráľovstve, v Zürichu vo Švajčiarsku a v San Franciscu v Kalifornii, a žila som aj v Melbourne v Austrálii. Každý presun znamenal začať úplne nový život v novej krajine od nuly, čo zo mňa urobilo veľmi adaptabilného a odolného človeka a dalo mi prirodzenú schopnosť nadväzovať vzťahy s ľuďmi z akéhokoľvek prostredia.",
+    "journey": "Považujem sa za globálnu občianku. Žila som a pracovala v Silicon Valley v Kalifornii, v Londýne v Spojenom kráľovstve, v Zürichu vo Švajčiarsku a v San Franciscu v Kalifornii, pričom som si domov postupne vytvorila vo viacerých krajinách. Každý presun znamenal začať úplne nový život v novej krajine od nuly, čo zo mňa urobilo veľmi adaptabilného a odolného človeka a dalo mi prirodzenú schopnosť nadväzovať vzťahy s ľuďmi z akéhokoľvek prostredia.",
     "leadIntro": "Spôsob, akým vediem, formovalo rovnako to, čo sa deje mimo kancelárie, ako to, čo sa deje v nej.",
     "divemaster": "Ako <1>PADI Divemaster</1> som sa naučila, že príprava, pokojné rozhodovanie a dôvera sú nevyhnutné pri vedení ľudí v náročných prostrediach. Prekonanie strachu sa začína v hlave, a jednoducho sa nikdy nevzdávaš.",
     "mountaineer": "Ako <1>horolezkyňa</1> som zažila, že významné úspechy sa budujú jeden vedomý krok po druhom. Úspech pochádza z odolnosti, plánovania a schopnosti prispôsobiť sa, keď sa podmienky nevyhnutne zmenia, pretože všetko je v hlave: postavíš sa svojim strachom a nikdy sa nevzdáš.",
@@ -186,7 +186,7 @@
           "Mentorovala Solution a Technical Architects a dodávateľské tímy v rámci projektov"
         ],
         "achievements": [
-          "Rozšírila svoje vedenie technickej architektúry na austrálske projekty vrátane Telstra Health a Safe Transport Victoria po presťahovaní do Melbourne v roku 2025"
+          "Rozšírila svoje vedenie technickej architektúry na austrálske projekty vrátane Telstra Health a Safe Transport Victoria"
         ]
       },
       "salesforce-director-solution-consulting": {

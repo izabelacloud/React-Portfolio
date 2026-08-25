@@ -52,11 +52,11 @@
   "about": {
     "greeting": "Olá, eu sou",
     "accentLine": "Arquiteta por profissão. Aventureira por instinto.",
-    "locationLine": "Baseada em Melbourne, Austrália, desde agosto de 2025. Originalmente da Eslováquia.",
+    "locationLine": "Cidadã global, sempre em movimento entre fusos horários.",
     "p1": "Por mais de uma década, tenho ajudado organizações globais a resolver desafios empresariais complexos por meio da tecnologia. Minha carreira foi construída na intersecção da arquitetura empresarial, consultoria estratégica e engenharia prática, transformando objetivos empresariais ambiciosos em soluções escaláveis e práticas que geram valor mensurável.",
     "p2": "Como <1>Diretora de Arquitetura Técnica Empresarial</1>, colaboro com executivos, líderes empresariais e equipes de entrega para projetar programas de transformação digital em escala empresarial, com foco em arquitetura empresarial de ponta a ponta. Minha experiência abrange arquitetura Salesforce, Quote-to-Cash, Revenue Lifecycle Management, estratégia de CRM, integração de sistemas, plataformas em nuvem e design de soluções empresariais em setores como serviços financeiros, telecomunicações, manufatura, SaaS, análise e serviços profissionais.",
     "p3": "Acredito que uma ótima arquitetura nunca é apenas sobre tecnologia. É sobre entender pessoas, alinhar partes interessadas, simplificar a complexidade e criar sistemas que permaneçam adaptáveis por anos.",
-    "journey": "Eu me considero uma cidadã global. Cresci na Eslováquia e depois vivi e trabalhei no Vale do Silício, na Califórnia; em Londres, no Reino Unido; em Zurique, na Suíça; e em São Francisco, na Califórnia, e também já vivi em Melbourne, na Austrália. Cada mudança significou começar uma nova vida do zero em um novo país, o que me tornou altamente adaptável e resiliente, e me deu uma facilidade natural para me conectar com pessoas de qualquer origem.",
+    "journey": "Eu me considero uma cidadã global. Vivi e trabalhei no Vale do Silício, na Califórnia; em Londres, no Reino Unido; em Zurique, na Suíça; e em São Francisco, na Califórnia, fazendo de vários países o meu lar ao longo do caminho. Cada mudança significou começar uma nova vida do zero em um novo país, o que me tornou altamente adaptável e resiliente, e me deu uma facilidade natural para me conectar com pessoas de qualquer origem.",
     "leadIntro": "A forma como lidero foi moldada tanto fora do escritório quanto dentro dele.",
     "divemaster": "Como <1>PADI Divemaster</1>, aprendi que preparação, tomada de decisão calma e confiança são essenciais ao liderar pessoas em ambientes desafiadores. Superar o medo começa na cabeça, e você simplesmente nunca desiste.",
     "mountaineer": "Como <1>montanhista</1>, vivenciei que conquistas significativas são construídas um passo deliberado por vez. O sucesso vem da resiliência, do planejamento e da adaptação quando as condições inevitavelmente mudam, porque tudo está na cabeça: você enfrenta seus medos e nunca desiste.",
@@ -186,7 +186,7 @@
           "Orientar Arquitetos de Solução e Arquitetos Técnicos, bem como as equipas de entrega, ao longo dos projetos"
         ],
         "achievements": [
-          "Estendeu a liderança em arquitetura técnica a projetos na Austrália, incluindo a Telstra Health e a Safe Transport Victoria, após a sua mudança para Melbourne em 2025"
+          "Estendeu a liderança em arquitetura técnica a projetos na Austrália, incluindo a Telstra Health e a Safe Transport Victoria"
         ]
       },
       "salesforce-director-solution-consulting": {
