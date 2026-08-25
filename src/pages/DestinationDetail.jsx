@@ -32,8 +32,9 @@ export default function DestinationDetail() {
       <SectionHeading
         eyebrow={t('destinationDetail.eyebrow')}
         title={destinationName}
-        subtitle={t('destinationDetail.citiesVisited', { cities: destination.cities.join(', ') })}
       />
+
+      <DestinationClock timezone={destination.timezone} />
 
       {Array.isArray(destination.yearsVisited) && destination.yearsVisited.length > 0 && (
         <p className="text-sm font-semibold text-muted">
@@ -41,16 +42,16 @@ export default function DestinationDetail() {
         </p>
       )}
 
-      <DestinationClock timezone={destination.timezone} />
+      <p className="text-sm font-semibold text-muted">
+        {t('destinationDetail.citiesVisited', { cities: destination.cities.join(', ') })}
+      </p>
 
-      {relatedExpeditions.length > 0 ? (
+      {relatedExpeditions.length > 0 && (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {relatedExpeditions.map((exp, index) => (
             <ExpeditionCard key={exp.slug} expedition={exp} index={index} />
           ))}
         </div>
-      ) : (
-        <p className="text-muted">{t('destinationDetail.empty', { country: destinationName })}</p>
       )}
 
       <ImageGallery images={destination.gallery} />

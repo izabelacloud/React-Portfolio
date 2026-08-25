@@ -97,8 +97,7 @@
   },
   "destinationDetail": {
     "eyebrow": "Направление",
-    "citiesVisited": "Посещённые города: {{cities}}",
-    "empty": "[VERIFY: add photos and stories from {{country}}]"
+    "citiesVisited": "Посещённые города: {{cities}}"
   },
   "map": {
     "zoomIn": "Приблизить",

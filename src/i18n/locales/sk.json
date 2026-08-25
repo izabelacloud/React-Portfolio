@@ -97,8 +97,7 @@
   },
   "destinationDetail": {
     "eyebrow": "Destinácia",
-    "citiesVisited": "Navštívené mestá: {{cities}}",
-    "empty": "[VERIFY: add photos and stories from {{country}}]"
+    "citiesVisited": "Navštívené mestá: {{cities}}"
   },
   "map": {
     "zoomIn": "Priblížiť",

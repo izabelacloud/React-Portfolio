@@ -97,8 +97,7 @@
   },
   "destinationDetail": {
     "eyebrow": "Úticél",
-    "citiesVisited": "Meglátogatott városok: {{cities}}",
-    "empty": "[VERIFY: add photos and stories from {{country}}]"
+    "citiesVisited": "Meglátogatott városok: {{cities}}"
   },
   "map": {
     "zoomIn": "Nagyítás",

@@ -97,8 +97,7 @@
   },
   "destinationDetail": {
     "eyebrow": "Destination",
-    "citiesVisited": "Cities visited: {{cities}}",
-    "empty": "[VERIFY: add photos and stories from {{country}}]"
+    "citiesVisited": "Cities visited: {{cities}}"
   },
   "map": {
     "zoomIn": "Zoom in",
