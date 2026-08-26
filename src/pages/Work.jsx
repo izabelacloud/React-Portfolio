@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SectionHeading from '../components/SectionHeading';
 import ExperienceTimeline from '../components/ExperienceTimeline';
 import CareerTimeline from '../components/CareerTimeline';
 import CompanyLogoBadge from '../components/CompanyLogoBadge';
 import Quote from '../components/Quote';
+import { BriefcaseIcon } from '../components/AdventureIcons';
 import certifications from '../data/certifications';
 import experience from '../data/experience';
 import clients from '../data/clients';
@@ -14,8 +16,16 @@ export default function Work() {
 
   return (
     <div className="space-y-20 py-10">
+      <Link
+        to="/"
+        className="group inline-flex items-center gap-3 text-accent transition-opacity hover:opacity-80"
+      >
+        <BriefcaseIcon className="h-10 w-10" />
+        <span className="text-xs font-semibold uppercase tracking-[0.2em] group-hover:underline">
+          {t('work.eyebrow')}
+        </span>
+      </Link>
       <SectionHeading
-        eyebrow={t('work.eyebrow')}
         title={t('work.title')}
         subtitle={t('work.subtitle')}
       />
