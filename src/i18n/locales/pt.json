@@ -14,7 +14,7 @@
     "exploreArrow": "Explorar →",
     "readMoreArrow": "Leia mais →",
     "readStoryArrow": "Ler a história →",
-    "seeWork": "Ver o trabalho",
+    "seeExperience": "Ver a experiência",
     "seeAdventures": "Ver as aventuras",
     "seeAdventuresArrow": "Explorar as aventuras →",
     "exploreWorkArrow": "Explorar o trabalho →",
@@ -183,7 +183,9 @@
     "emailRequired": "O e-mail é obrigatório.",
     "emailInvalid": "Digite um endereço de e-mail válido.",
     "subjectRequired": "O assunto é obrigatório.",
-    "messageRequired": "A mensagem é obrigatória."
+    "messageRequired": "A mensagem é obrigatória.",
+    "scheduleHeading": "Prefere marcar direto?",
+    "scheduleSubtitle": "Pule o formulário e reserve um horário diretamente na minha agenda."
   },
   "notFound": {
     "heading": "Página não encontrada",

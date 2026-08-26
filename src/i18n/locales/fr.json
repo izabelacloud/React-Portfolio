@@ -14,7 +14,7 @@
     "exploreArrow": "Explorer →",
     "readMoreArrow": "Lire la suite →",
     "readStoryArrow": "Lire l'histoire →",
-    "seeWork": "Voir le travail",
+    "seeExperience": "Voir l'expérience",
     "seeAdventures": "Voir les aventures",
     "seeAdventuresArrow": "Explorer les aventures →",
     "exploreWorkArrow": "Explorer le travail →",
@@ -183,7 +183,9 @@
     "emailRequired": "L'e-mail est requis.",
     "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
     "subjectRequired": "Le sujet est requis.",
-    "messageRequired": "Le message est requis."
+    "messageRequired": "Le message est requis.",
+    "scheduleHeading": "Vous préférez réserver un créneau ?",
+    "scheduleSubtitle": "Passez le formulaire et réservez directement un créneau dans mon agenda."
   },
   "notFound": {
     "heading": "Page non trouvée",

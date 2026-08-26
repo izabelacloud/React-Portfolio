@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         }
       >
-        <CTA to="/work">{t('common.seeWork')}</CTA>
+        <CTA to="/work">{t('common.seeExperience')}</CTA>
         <CTA to="/adventures" variant="secondary">{t('common.seeAdventures')}</CTA>
       </Hero>
 

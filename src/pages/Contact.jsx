@@ -2,11 +2,14 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import PageHeading from '../components/PageHeading';
+import ContourDivider from '../components/ContourDivider';
+import CalendlyEmbed from '../components/CalendlyEmbed';
 import { validateEmail } from '../utils/helpers';
 
 const initialState = { name: '', email: '', subject: '', message: '' };
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 const SHOW_ATTACHMENTS = false;
+const CALENDLY_URL = 'https://calendly.com/izabelapetrovicova';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -223,6 +226,16 @@ export default function Contact() {
           )}
         </AnimatePresence>
       </form>
+
+      <ContourDivider className="my-14 text-accent" />
+
+      <div>
+        <h2 className="font-display text-2xl font-medium">{t('contact.scheduleHeading')}</h2>
+        <p className="mt-2 max-w-lg text-ink/60 dark:text-stone">{t('contact.scheduleSubtitle')}</p>
+        <div className="mt-6">
+          <CalendlyEmbed url={CALENDLY_URL} />
+        </div>
+      </div>
     </section>
   );
 }

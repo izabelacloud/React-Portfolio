@@ -14,7 +14,7 @@
     "exploreArrow": "Preskúmať →",
     "readMoreArrow": "Čítať viac →",
     "readStoryArrow": "Prečítať príbeh →",
-    "seeWork": "Zobraziť prácu",
+    "seeExperience": "Zobraziť skúsenosti",
     "seeAdventures": "Zobraziť dobrodružstvá",
     "seeAdventuresArrow": "Preskúmať dobrodružstvá →",
     "exploreWorkArrow": "Preskúmať prácu →",
@@ -183,7 +183,9 @@
     "emailRequired": "E-mail je povinný.",
     "emailInvalid": "Zadajte platnú e-mailovú adresu.",
     "subjectRequired": "Predmet je povinný.",
-    "messageRequired": "Správa je povinná."
+    "messageRequired": "Správa je povinná.",
+    "scheduleHeading": "Chcete si rovno rezervovať termín?",
+    "scheduleSubtitle": "Preskočte formulár a rezervujte si termín priamo v mojom kalendári."
   },
   "notFound": {
     "heading": "Stránka nenájdená",

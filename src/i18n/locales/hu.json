@@ -14,7 +14,7 @@
     "exploreArrow": "Felfedezés →",
     "readMoreArrow": "Tovább olvasom →",
     "readStoryArrow": "A történet elolvasása →",
-    "seeWork": "Munkáim megtekintése",
+    "seeExperience": "Tapasztalat megtekintése",
     "seeAdventures": "Kalandok megtekintése",
     "seeAdventuresArrow": "Kalandok felfedezése →",
     "exploreWorkArrow": "Munka felfedezése →",
@@ -183,7 +183,9 @@
     "emailRequired": "Az e-mail megadása kötelező.",
     "emailInvalid": "Adj meg egy érvényes e-mail címet.",
     "subjectRequired": "A tárgy megadása kötelező.",
-    "messageRequired": "Az üzenet megadása kötelező."
+    "messageRequired": "Az üzenet megadása kötelező.",
+    "scheduleHeading": "Inkább foglalnál időpontot?",
+    "scheduleSubtitle": "Hagyd ki az űrlapot, és foglalj közvetlenül időpontot a naptáramban."
   },
   "notFound": {
     "heading": "Az oldal nem található",

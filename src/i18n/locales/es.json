@@ -14,7 +14,7 @@
     "exploreArrow": "Explorar →",
     "readMoreArrow": "Leer más →",
     "readStoryArrow": "Leer la historia →",
-    "seeWork": "Ver el trabajo",
+    "seeExperience": "Ver la experiencia",
     "seeAdventures": "Ver las aventuras",
     "seeAdventuresArrow": "Explorar las aventuras →",
     "exploreWorkArrow": "Explorar el trabajo →",
@@ -183,7 +183,9 @@
     "emailRequired": "El correo electrónico es obligatorio.",
     "emailInvalid": "Introduce una dirección de correo electrónico válida.",
     "subjectRequired": "El asunto es obligatorio.",
-    "messageRequired": "El mensaje es obligatorio."
+    "messageRequired": "El mensaje es obligatorio.",
+    "scheduleHeading": "¿Prefieres reservar directamente?",
+    "scheduleSubtitle": "Olvídate del formulario y reserva un horario directamente en mi calendario."
   },
   "notFound": {
     "heading": "Página no encontrada",

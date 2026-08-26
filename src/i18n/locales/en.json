@@ -14,7 +14,7 @@
     "exploreArrow": "Explore →",
     "readMoreArrow": "Read more →",
     "readStoryArrow": "Read the story →",
-    "seeWork": "See the work",
+    "seeExperience": "See the experience",
     "seeAdventures": "See the adventures",
     "seeAdventuresArrow": "See the adventures →",
     "exploreWorkArrow": "Explore the work →",
@@ -183,7 +183,9 @@
     "emailRequired": "Email is required.",
     "emailInvalid": "Please enter a valid email address.",
     "subjectRequired": "Subject is required.",
-    "messageRequired": "Message is required."
+    "messageRequired": "Message is required.",
+    "scheduleHeading": "Prefer to just grab time?",
+    "scheduleSubtitle": "Skip the form and book a slot directly on my calendar."
   },
   "notFound": {
     "heading": "Page not found",
